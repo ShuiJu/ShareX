@@ -1103,7 +1103,4 @@
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>未命名預設</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>上傳圖片</value>
-  </data>
 </root>

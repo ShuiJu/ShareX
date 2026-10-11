@@ -319,33 +319,6 @@ public partial class ActionsToolbarWindow : Window
         ApplicationState.Settings.ActionsToolbarPosition = new DrawingPoint(adjusted.X, adjusted.Y);
     }
 
-    private void OnDragEnter(object? sender, DragEventArgs e) => UpdateDragState(e);
-
-    private void OnDragOver(object? sender, DragEventArgs e) => UpdateDragState(e);
-
-    private void UpdateDragState(DragEventArgs e)
-    {
-        bool supported = e.DataTransfer.TryGetFiles()?.Any() == true ||
-            !string.IsNullOrEmpty(e.DataTransfer.TryGetText());
-        e.DragEffects = supported ? DragDropEffects.Copy : DragDropEffects.None;
-        DropOverlay.IsVisible = supported;
-        e.Handled = true;
-    }
-
-    private void OnDragLeave(object? sender, DragEventArgs e)
-    {
-        DropOverlay.IsVisible = false;
-        e.Handled = true;
-    }
-
-    private void OnDrop(object? sender, DragEventArgs e)
-    {
-        DropOverlay.IsVisible = false;
-
-        UploadManager.DragDropUpload(e.DataTransfer);
-        e.DragEffects = DragDropEffects.Copy;
-        e.Handled = true;
-    }
 
     private static void SaveSettings() => SettingManager.SaveApplicationConfigAsync();
 }

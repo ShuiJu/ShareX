@@ -52,7 +52,7 @@ public partial class AutoCaptureWindow : Window
     private bool _isLoaded;
     private int _delay;
     private int _count;
-    private bool _waitUploads;
+    private bool _waitTasks;
     private Rectangle _customRegion;
 
     public bool IsRunning { get; private set; }
@@ -80,7 +80,7 @@ public partial class AutoCaptureWindow : Window
         _customRegion = ApplicationState.Settings.AutoCaptureRegion;
         RepeatTimeInput.Value = ApplicationState.Settings.AutoCaptureRepeatTime;
         AutoMinimizeInput.IsChecked = ApplicationState.Settings.AutoCaptureMinimizeToTray;
-        WaitUploadsInput.IsChecked = ApplicationState.Settings.AutoCaptureWaitUpload;
+        WaitTasksInput.IsChecked = ApplicationState.Settings.AutoCaptureWaitTasks;
         UpdateRegion();
 
         PropertyChanged += OnWindowPropertyChanged;
@@ -119,7 +119,7 @@ public partial class AutoCaptureWindow : Window
         StatusIcon.Text = LucideIcons.timer;
         _screenshotTimer.Interval = TimeSpan.FromSeconds(1);
         _delay = (int)(ApplicationState.Settings.AutoCaptureRepeatTime * 1000);
-        _waitUploads = ApplicationState.Settings.AutoCaptureWaitUpload;
+        _waitTasks = ApplicationState.Settings.AutoCaptureWaitTasks;
 
         _screenshotTimer.Start();
         _statusTimer.Start();
@@ -151,7 +151,7 @@ public partial class AutoCaptureWindow : Window
             return;
         }
 
-        if (_waitUploads && TaskManager.IsBusy)
+        if (_waitTasks && TaskManager.IsBusy)
         {
             _screenshotTimer.Interval = TimeSpan.FromSeconds(1);
             return;
@@ -180,10 +180,10 @@ public partial class AutoCaptureWindow : Window
         }
 
         TaskSettings.AfterCaptureJob = TaskSettings.AfterCaptureJob.Remove(AfterCaptureTasks.AnnotateImage);
-        TaskSettings.GeneralSettings.PlaySoundAfterUpload = false;
+        TaskSettings.GeneralSettings.PlaySoundAfterTaskCompleted = false;
         TaskSettings.GeneralSettings.PlaySoundAfterAction = false;
         TaskSettings.GeneralSettings.ShowToastNotificationAfterTaskCompleted = false;
-        UploadManager.RunImageTask(bitmap, TaskSettings, true, true);
+        LocalTaskManager.RunImageTask(bitmap, TaskSettings, true, true);
     }
 
     private void UpdateStatus()
@@ -283,11 +283,11 @@ public partial class AutoCaptureWindow : Window
         }
     }
 
-    private void OnWaitUploadsChanged(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    private void OnWaitTasksChanged(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         if (_isLoaded)
         {
-            ApplicationState.Settings.AutoCaptureWaitUpload = WaitUploadsInput.IsChecked == true;
+            ApplicationState.Settings.AutoCaptureWaitTasks = WaitTasksInput.IsChecked == true;
         }
     }
 

@@ -58,162 +58,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AIOptions_What_is_in_this_image" xml:space="preserve">
-    <value>Что изображено на этой картинке?</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Loading_models" xml:space="preserve">
-    <value>Загрузка моделей...</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Models_loaded" xml:space="preserve">
-    <value>Загружено моделей: {0}.</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_No_models_found" xml:space="preserve">
-    <value>Модели не найдены.</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Testing" xml:space="preserve">
-    <value>Проверка...</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_API_key" xml:space="preserve">
-    <value>Ключ API</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_API_key_page" xml:space="preserve">
-    <value>Страница ключа API...</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Analyze_automatically_when_opened" xml:space="preserve">
-    <value>Автоматически анализировать при открытии</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Behavior" xml:space="preserve">
-    <value>Поведение</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Cancel" xml:space="preserve">
-    <value>Отмена</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Capture_a_region_when_opened_without_an_image" xml:space="preserve">
-    <value>Захватывать область при открытии без изображения</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Copy_result_automatically" xml:space="preserve">
-    <value>Автоматически копировать результат</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Custom_base_URL" xml:space="preserve">
-    <value>Пользовательский базовый URL</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Get_API_key" xml:space="preserve">
-    <value>Получить ключ API</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Google_Gemini" xml:space="preserve">
-    <value>Google Gemini</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Load_models" xml:space="preserve">
-    <value>Загрузить модели</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Model" xml:space="preserve">
-    <value>Модель</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_OpenAI" xml:space="preserve">
-    <value>OpenAI</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_OpenRouter" xml:space="preserve">
-    <value>OpenRouter</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Provider" xml:space="preserve">
-    <value>Поставщик</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Reasoning" xml:space="preserve">
-    <value>Рассуждение</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Save" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX — параметры анализа изображения</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
-    <value>Проверить подключение</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Verbosity" xml:space="preserve">
-    <value>Подробность</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_https_api_openai_com" xml:space="preserve">
-    <value>https://api.openai.com</value>
-  </data>
-  <data name="AnalyzeImageService_Connection_OK" xml:space="preserve">
-    <value>Подключение установлено.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_Gemini_API_key" xml:space="preserve">
-    <value>Отсутствует ключ API Gemini.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_OpenAI_API_key" xml:space="preserve">
-    <value>Отсутствует ключ API OpenAI.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_OpenRouter_API_key" xml:space="preserve">
-    <value>Отсутствует ключ API OpenRouter.</value>
-  </data>
-  <data name="AnalyzeImageService_Select_provider_first" xml:space="preserve">
-    <value>Сначала выберите поставщика.</value>
-  </data>
-  <data name="AnalyzeImageService_Unable_to_create_request" xml:space="preserve">
-    <value>Не удалось создать запрос.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Captured_region" xml:space="preserve">
-    <value>Захваченная область</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Configure_API_key" xml:space="preserve">
-    <value>Перед анализом настройте ключ API в параметрах.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Thinking" xml:space="preserve">
-    <value>Обработка...</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Thoroughly_describe_this_image" xml:space="preserve">
-    <value>Подробно опишите это изображение.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Time_ms" xml:space="preserve">
-    <value>Время: {0:N0} мс</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Transcribe_image_text" xml:space="preserve">
-    <value>Распознайте текст на изображении. Больше ничего не пишите.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Translate_text_into_English" xml:space="preserve">
-    <value>Переведите этот текст на английский язык. Больше ничего не пишите.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_What_is_in_this_image" xml:space="preserve">
-    <value>Что изображено на этой картинке?</value>
-  </data>
-  <data name="AnalyzeImageWindow_Analyze_image" xml:space="preserve">
-    <value>Анализ изображения</value>
-  </data>
-  <data name="AnalyzeImageWindow_Choose_a_preset_prompt" xml:space="preserve">
-    <value>Выберите готовый запрос</value>
-  </data>
-  <data name="AnalyzeImageWindow_Copy_all" xml:space="preserve">
-    <value>Копировать всё</value>
-  </data>
-  <data name="AnalyzeImageWindow_Image" xml:space="preserve">
-    <value>Изображение</value>
-  </data>
-  <data name="AnalyzeImageWindow_Options" xml:space="preserve">
-    <value>Параметры...</value>
-  </data>
-  <data name="AnalyzeImageWindow_Prompt" xml:space="preserve">
-    <value>Запрос</value>
-  </data>
-  <data name="AnalyzeImageWindow_Result" xml:space="preserve">
-    <value>Результат</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_image" xml:space="preserve">
-    <value>Выбрать изображение...</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_image_dialog" xml:space="preserve">
-    <value>Выбрать изображение</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_or_drop_an_image" xml:space="preserve">
-    <value>Выберите или перетащите изображение</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_region" xml:space="preserve">
-    <value>Выбрать область...</value>
-  </data>
-  <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX — анализ изображения</value>
-  </data>
   <data name="AnimatedGifMakerViewModel_Create_failed" xml:space="preserve">
     <value>Не удалось создать GIF: {0}</value>
   </data>
@@ -496,8 +340,8 @@
   <data name="DirectoryIndexerWindow_CSS_files" xml:space="preserve">
     <value>Файлы CSS</value>
   </data>
-  <data name="DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as_or_Upload" xml:space="preserve">
-    <value>Выберите папку и создайте результат. Ничего не будет сохранено, пока вы не выберете «Сохранить как» или «Загрузить».</value>
+  <data name="DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as" xml:space="preserve">
+    <value>Выберите папку и создайте результат. Ничего не будет сохранено, пока вы не выберете «Сохранить как».</value>
   </data>
   <data name="DirectoryIndexerWindow_Create_parseable_structured_JSON" xml:space="preserve">
     <value>Создать структурированный JSON для разбора</value>
@@ -544,8 +388,8 @@
   <data name="DirectoryIndexerWindow_Output_format" xml:space="preserve">
     <value>Формат вывода</value>
   </data>
-  <data name="DirectoryIndexerWindow_Ready_to_save_or_upload" xml:space="preserve">
-    <value>Готово к сохранению или загрузке</value>
+  <data name="DirectoryIndexerWindow_Ready_to_save" xml:space="preserve">
+    <value>Готово к сохранению</value>
   </data>
   <data name="DirectoryIndexerWindow_Save_as" xml:space="preserve">
     <value>Сохранить как...</value>
@@ -577,11 +421,8 @@
   <data name="DirectoryIndexerWindow_Text_output" xml:space="preserve">
     <value>Текстовый вывод</value>
   </data>
-  <data name="DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save_or_upload" xml:space="preserve">
-    <value>Индекс HTML успешно создан. Предварительный просмотр HTML недоступен, но результат готов к сохранению или загрузке.</value>
-  </data>
-  <data name="DirectoryIndexerWindow_Upload" xml:space="preserve">
-    <value>Загрузить</value>
+  <data name="DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save" xml:space="preserve">
+    <value>Индекс HTML успешно создан. Предварительный просмотр HTML недоступен, но результат готов к сохранению.</value>
   </data>
   <data name="DirectoryIndexerWindow_Use_custom_CSS_file" xml:space="preserve">
     <value>Использовать пользовательский файл CSS</value>
@@ -591,9 +432,6 @@
   </data>
   <data name="DirectoryIndexerWindow_XML_output" xml:space="preserve">
     <value>Вывод XML</value>
-  </data>
-  <data name="GeminiProvider_API_error" xml:space="preserve">
-    <value>Ошибка API Gemini: {0}</value>
   </data>
   <data name="HashCheckerViewModel_Calculating_hash" xml:space="preserve">
     <value>Вычисление хеша...</value>
@@ -1252,9 +1090,6 @@
   <data name="LocalizedDisplayConverter_GPU" xml:space="preserve">
     <value>ГП</value>
   </data>
-  <data name="LocalizedDisplayConverter_Gemini" xml:space="preserve">
-    <value>Gemini</value>
-  </data>
   <data name="LocalizedDisplayConverter_High" xml:space="preserve">
     <value>Высокая</value>
   </data>
@@ -1275,15 +1110,6 @@
   </data>
   <data name="LocalizedDisplayConverter_Minimal" xml:space="preserve">
     <value>Минимальная</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenAI" xml:space="preserve">
-    <value>OpenAI</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenAI_legacy" xml:space="preserve">
-    <value>OpenAI (устаревший)</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenRouter" xml:space="preserve">
-    <value>OpenRouter</value>
   </data>
   <data name="LocalizedDisplayConverter_Vertical" xml:space="preserve">
     <value>Вертикальный</value>
@@ -1699,9 +1525,6 @@
   <data name="OCRWindow_Use_0_where_the_recognized_text_belongs" xml:space="preserve">
     <value>Используйте {0} в месте вставки распознанного текста</value>
   </data>
-  <data name="OpenRouterProvider_API_error" xml:space="preserve">
-    <value>Ошибка API OpenRouter: {0}</value>
-  </data>
   <data name="PinToScreenOptionsViewModel_Bottom_center" xml:space="preserve">
     <value>Снизу по центру</value>
   </data>
@@ -1915,119 +1738,8 @@
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
     <value>ShareX — QR-код</value>
   </data>
-  <data name="QRCodeWindow_Upload" xml:space="preserve">
-    <value>Загрузить</value>
-  </data>
   <data name="QRCodeWindow_px" xml:space="preserve">
     <value>пкс</value>
-  </data>
-  <data name="RemoteStorageBrowser_Cancel" xml:space="preserve">
-    <value>Отмена</value>
-  </data>
-  <data name="RemoteStorageBrowser_CopyUrl" xml:space="preserve">
-    <value>Копировать URL</value>
-  </data>
-  <data name="RemoteStorageBrowser_CreateFolder" xml:space="preserve">
-    <value>Создать папку...</value>
-  </data>
-  <data name="RemoteStorageBrowser_CreatedFolder" xml:space="preserve">
-    <value>Папка «{0}» создана.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Delete" xml:space="preserve">
-    <value>Удалить...</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteFileConfirmation" xml:space="preserve">
-    <value>Удалить файл «{0}»?</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteFolderConfirmation" xml:space="preserve">
-    <value>Удалить папку «{0}»?</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteNonEmptyFolderConfirmation" xml:space="preserve">
-    <value>Папка «{0}» не пуста. Удалить её вместе со всем содержимым? Это действие нельзя отменить.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Deleted" xml:space="preserve">
-    <value>«{0}» удалён.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Download" xml:space="preserve">
-    <value>Скачать...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Downloaded" xml:space="preserve">
-    <value>Файл «{0}» скачан.</value>
-  </data>
-  <data name="RemoteStorageBrowser_DropFilesToUpload" xml:space="preserve">
-    <value>Перетащите файлы, чтобы загрузить их в эту папку</value>
-  </data>
-  <data name="RemoteStorageBrowser_EmptyFolder" xml:space="preserve">
-    <value>Эта папка пуста.</value>
-  </data>
-  <data name="RemoteStorageBrowser_ItemCount" xml:space="preserve">
-    <value>{0} файл(ов), {1} папок • всего {2}</value>
-  </data>
-  <data name="RemoteStorageBrowser_Loading" xml:space="preserve">
-    <value>Загрузка...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Location" xml:space="preserve">
-    <value>Расположение:</value>
-  </data>
-  <data name="RemoteStorageBrowser_Modified" xml:space="preserve">
-    <value>Изменён</value>
-  </data>
-  <data name="RemoteStorageBrowser_Name" xml:space="preserve">
-    <value>Имя</value>
-  </data>
-  <data name="RemoteStorageBrowser_NameAlreadyExists" xml:space="preserve">
-    <value>Элемент с именем «{0}» уже существует.</value>
-  </data>
-  <data name="RemoteStorageBrowser_NewFolder" xml:space="preserve">
-    <value>Новая папка</value>
-  </data>
-  <data name="RemoteStorageBrowser_NoMatchingItems" xml:space="preserve">
-    <value>Нет подходящих элементов.</value>
-  </data>
-  <data name="RemoteStorageBrowser_OpenUrl" xml:space="preserve">
-    <value>Открыть ссылку</value>
-  </data>
-  <data name="RemoteStorageBrowser_OperationFailed" xml:space="preserve">
-    <value>Не удалось выполнить операцию с удалённым хранилищем.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Provider" xml:space="preserve">
-    <value>Провайдер:</value>
-  </data>
-  <data name="RemoteStorageBrowser_Refresh" xml:space="preserve">
-    <value>Обновить</value>
-  </data>
-  <data name="RemoteStorageBrowser_Rename" xml:space="preserve">
-    <value>Переименовать...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Renamed" xml:space="preserve">
-    <value>«{0}» переименован в «{1}».</value>
-  </data>
-  <data name="RemoteStorageBrowser_SaveDownloadedFile" xml:space="preserve">
-    <value>Сохранить скачанный файл</value>
-  </data>
-  <data name="RemoteStorageBrowser_SearchCurrentFolder" xml:space="preserve">
-    <value>Поиск в текущей папке...</value>
-  </data>
-  <data name="RemoteStorageBrowser_SelectFilesToUpload" xml:space="preserve">
-    <value>Выберите файлы для загрузки</value>
-  </data>
-  <data name="RemoteStorageBrowser_Size" xml:space="preserve">
-    <value>Размер</value>
-  </data>
-  <data name="RemoteStorageBrowser_Title" xml:space="preserve">
-    <value>Браузер удалённого хранилища</value>
-  </data>
-  <data name="RemoteStorageBrowser_Up" xml:space="preserve">
-    <value>Вверх</value>
-  </data>
-  <data name="RemoteStorageBrowser_Upload" xml:space="preserve">
-    <value>Загрузить...</value>
-  </data>
-  <data name="RemoteStorageBrowser_UploadedFiles" xml:space="preserve">
-    <value>Загружено файлов: {0}.</value>
-  </data>
-  <data name="RemoteStorageBrowser_View" xml:space="preserve">
-    <value>Просмотреть</value>
   </data>
   <data name="RulerOverlayControl_Tolerance" xml:space="preserve">
     <value>Допуск: {0}%</value>
@@ -2253,9 +1965,6 @@
   </data>
   <data name="VideoThumbnailerWindow_Thumbnails" xml:space="preserve">
     <value>Миниатюры</value>
-  </data>
-  <data name="VideoThumbnailerWindow_Upload_created_thumbnails" xml:space="preserve">
-    <value>Загрузить созданные миниатюры</value>
   </data>
   <data name="VideoThumbnailerWindow_Video" xml:space="preserve">
     <value>Видео</value>

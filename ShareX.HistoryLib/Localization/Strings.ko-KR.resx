@@ -114,9 +114,6 @@
   <data name="HistoryWindows_All_types" xml:space="preserve">
     <value>모든 유형</value>
   </data>
-  <data name="HistoryWindows_Analyze_image" xml:space="preserve">
-    <value>이미지 분석</value>
-  </data>
   <data name="HistoryWindows_Bottom" xml:space="preserve">
     <value>아래쪽</value>
   </data>
@@ -186,33 +183,6 @@
   <data name="HistoryWindows_Folder_path" xml:space="preserve">
     <value>폴더 경로</value>
   </data>
-  <data name="HistoryWindows_Forum_BBCode_image" xml:space="preserve">
-    <value>포럼 이미지(BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_BBCode_link" xml:space="preserve">
-    <value>포럼 링크(BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_BBCode_linked_image" xml:space="preserve">
-    <value>포럼 링크 이미지(BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_image" xml:space="preserve">
-    <value>포럼 이미지</value>
-  </data>
-  <data name="HistoryWindows_Forum_link" xml:space="preserve">
-    <value>포럼 링크</value>
-  </data>
-  <data name="HistoryWindows_Forum_linked_image" xml:space="preserve">
-    <value>포럼 링크 이미지</value>
-  </data>
-  <data name="HistoryWindows_HTML_image" xml:space="preserve">
-    <value>HTML 이미지</value>
-  </data>
-  <data name="HistoryWindows_HTML_link" xml:space="preserve">
-    <value>HTML 링크</value>
-  </data>
-  <data name="HistoryWindows_HTML_linked_image" xml:space="preserve">
-    <value>HTML 링크 이미지</value>
-  </data>
   <data name="HistoryWindows_Hide_missing_files" xml:space="preserve">
     <value>누락된 파일 숨기기</value>
   </data>
@@ -245,15 +215,6 @@
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>불러오는 중...</value>
-  </data>
-  <data name="HistoryWindows_Markdown_image" xml:space="preserve">
-    <value>Markdown 이미지</value>
-  </data>
-  <data name="HistoryWindows_Markdown_link" xml:space="preserve">
-    <value>Markdown 링크</value>
-  </data>
-  <data name="HistoryWindows_Markdown_linked_image" xml:space="preserve">
-    <value>Markdown 링크 이미지</value>
   </data>
   <data name="HistoryWindows_No_history_items" xml:space="preserve">
     <value>기록 항목 없음</value>
@@ -365,9 +326,6 @@
   </data>
   <data name="HistoryWindows_URL" xml:space="preserve">
     <value>URL</value>
-  </data>
-  <data name="HistoryWindows_Upload_file" xml:space="preserve">
-    <value>파일 업로드</value>
   </data>
   <data name="ImageHistoryWindow_CalculatingStatistics" xml:space="preserve">
     <value>통계를 계산하는 중...</value>

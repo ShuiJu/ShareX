@@ -114,9 +114,6 @@
   <data name="HistoryWindows_All_types" xml:space="preserve">
     <value>所有类型</value>
   </data>
-  <data name="HistoryWindows_Analyze_image" xml:space="preserve">
-    <value>分析图片</value>
-  </data>
   <data name="HistoryWindows_Bottom" xml:space="preserve">
     <value>底部</value>
   </data>
@@ -186,33 +183,6 @@
   <data name="HistoryWindows_Folder_path" xml:space="preserve">
     <value>文件夹路径</value>
   </data>
-  <data name="HistoryWindows_Forum_BBCode_image" xml:space="preserve">
-    <value>论坛图像 (BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_BBCode_link" xml:space="preserve">
-    <value>论坛链接 (BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_BBCode_linked_image" xml:space="preserve">
-    <value>论坛链接图像 (BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_image" xml:space="preserve">
-    <value>论坛图像</value>
-  </data>
-  <data name="HistoryWindows_Forum_link" xml:space="preserve">
-    <value>论坛链接</value>
-  </data>
-  <data name="HistoryWindows_Forum_linked_image" xml:space="preserve">
-    <value>论坛链接图像</value>
-  </data>
-  <data name="HistoryWindows_HTML_image" xml:space="preserve">
-    <value>HTML 图像</value>
-  </data>
-  <data name="HistoryWindows_HTML_link" xml:space="preserve">
-    <value>HTML 链接</value>
-  </data>
-  <data name="HistoryWindows_HTML_linked_image" xml:space="preserve">
-    <value>HTML 链接图像</value>
-  </data>
   <data name="HistoryWindows_Hide_missing_files" xml:space="preserve">
     <value>隐藏缺失的文件</value>
   </data>
@@ -245,15 +215,6 @@
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>正在加载...</value>
-  </data>
-  <data name="HistoryWindows_Markdown_image" xml:space="preserve">
-    <value>Markdown 图像</value>
-  </data>
-  <data name="HistoryWindows_Markdown_link" xml:space="preserve">
-    <value>Markdown 链接</value>
-  </data>
-  <data name="HistoryWindows_Markdown_linked_image" xml:space="preserve">
-    <value>Markdown 链接图像</value>
   </data>
   <data name="HistoryWindows_No_history_items" xml:space="preserve">
     <value>没有历史记录项目</value>
@@ -365,9 +326,6 @@
   </data>
   <data name="HistoryWindows_URL" xml:space="preserve">
     <value>网址</value>
-  </data>
-  <data name="HistoryWindows_Upload_file" xml:space="preserve">
-    <value>上传文件</value>
   </data>
   <data name="ImageHistoryWindow_CalculatingStatistics" xml:space="preserve">
     <value>正在计算统计信息...</value>

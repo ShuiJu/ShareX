@@ -67,9 +67,6 @@
   <data name="AfterCaptureTasks_AddImageEffects" xml:space="preserve">
     <value>Lägg till bildeffekter</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>Analysera bild</value>
-  </data>
   <data name="AfterCaptureTasks_AnnotateImage" xml:space="preserve">
     <value>Öppna i bildredigeraren</value>
   </data>
@@ -118,35 +115,11 @@
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>Visa fönstret "Efter bildtagning"</value>
   </data>
-  <data name="AfterCaptureTasks_ShowBeforeUploadWindow" xml:space="preserve">
-    <value>Visa fönstret "Före uppladdning"</value>
-  </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>Visa filen i Utforskaren</value>
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Visa snabbuppgiftsmenyn</value>
-  </data>
-  <data name="AfterCaptureTasks_UploadImageToHost" xml:space="preserve">
-    <value>Ladda upp bild till värd</value>
-  </data>
-  <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
-    <value>Kopiera URL till urklipp</value>
-  </data>
-  <data name="AfterUploadTasks_OpenURL" xml:space="preserve">
-    <value>Öppna URL</value>
-  </data>
-  <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
-    <value>Dela URL</value>
-  </data>
-  <data name="AfterUploadTasks_ShowAfterUploadWindow" xml:space="preserve">
-    <value>Visa fönstret "Efter uppladdning"</value>
-  </data>
-  <data name="AfterUploadTasks_ShowQRCode" xml:space="preserve">
-    <value>Visa QR-kodsfönstret</value>
-  </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Förkorta URL</value>
   </data>
   <data name="AppVeyorUpdateChecker_Deployment_file_not_found" xml:space="preserve">
     <value>Det gick inte att hitta filen ”{0}”.</value>
@@ -367,21 +340,6 @@
   <data name="ColorPickerWindow_Yellow_percent" xml:space="preserve">
     <value>Gul %</value>
   </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Filuppladdare</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Bilduppladdare</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Textuppladdare</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>URL-delningstjänst</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>URL-förkortare</value>
-  </data>
   <data name="CutOutEffectType_None" xml:space="preserve">
     <value>Ingen effekt</value>
   </data>
@@ -510,15 +468,6 @@ Vill du ändå köra det?</value>
   <data name="FFmpegCLIManager_Error_title" xml:space="preserve">
     <value>FFmpeg-fel</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Anpassad filuppladdare</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>E-post</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Delad mapp</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Fråga vad som ska göras</value>
   </data>
@@ -609,9 +558,6 @@ Vill du ändå köra det?</value>
   <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
     <value>Placera det aktiva fönstret överst</value>
   </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>Analysera bild</value>
-  </data>
   <data name="HotkeyType_AnimatedGifTrimmer" xml:space="preserve">
     <value>Trimning av animerade GIF-filer</value>
   </data>
@@ -636,15 +582,6 @@ Vill du ändå köra det?</value>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Verktyg</value>
   </data>
-  <data name="HotkeyType_Category_Upload" xml:space="preserve">
-    <value>Uppladdning</value>
-  </data>
-  <data name="HotkeyType_ClipboardUpload" xml:space="preserve">
-    <value>Ladda upp från urklipp</value>
-  </data>
-  <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
-    <value>Ladda upp från urklipp med innehållsvisare</value>
-  </data>
   <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
     <value>Urklippsvisare</value>
   </data>
@@ -660,17 +597,8 @@ Vill du ändå köra det?</value>
   <data name="HotkeyType_DisableHotkeys" xml:space="preserve">
     <value>Inaktivera/aktivera snabbtangenter</value>
   </data>
-  <data name="HotkeyType_DragDropUpload" xml:space="preserve">
-    <value>Dra-och-släpp-uppladdning</value>
-  </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
     <value>Avsluta ShareX</value>
-  </data>
-  <data name="HotkeyType_FileUpload" xml:space="preserve">
-    <value>Ladda upp fil</value>
-  </data>
-  <data name="HotkeyType_FolderUpload" xml:space="preserve">
-    <value>Uppladdningsmapp</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Kontrollsummeverktyg</value>
@@ -810,9 +738,6 @@ Vill du ändå köra det?</value>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>Starta/stoppa rullande bildtagning</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>Förkorta URL</value>
-  </data>
   <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
     <value>Starta automatisk bildtagning med det senast använda området</value>
   </data>
@@ -828,9 +753,6 @@ Vill du ändå köra det?</value>
   <data name="HotkeyType_StopScreenRecording" xml:space="preserve">
     <value>Stoppa skärminspelning</value>
   </data>
-  <data name="HotkeyType_StopUploads" xml:space="preserve">
-    <value>Stoppa alla aktiva uppladdningar</value>
-  </data>
   <data name="HotkeyType_StripMetadata" xml:space="preserve">
     <value>Ta bort metadata</value>
   </data>
@@ -840,12 +762,6 @@ Vill du ändå köra det?</value>
   <data name="HotkeyType_ToggleTrayMenu" xml:space="preserve">
     <value>Visa/dölj meddelandefältsmenyn</value>
   </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Ladda upp text</value>
-  </data>
-  <data name="HotkeyType_UploadURL" xml:space="preserve">
-    <value>Ladda upp från URL</value>
-  </data>
   <data name="HotkeyType_VideoConverter" xml:space="preserve">
     <value>Videokonverterare</value>
   </data>
@@ -854,12 +770,6 @@ Vill du ändå köra det?</value>
   </data>
   <data name="HotkeyType_VideoTrimmer" xml:space="preserve">
     <value>Video trimmer</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Anpassad bilduppladdare</value>
-  </data>
-  <data name="ImageDestination_FileUploader" xml:space="preserve">
-    <value>Filuppladdare</value>
   </data>
   <data name="ImageHelpers_Image_files" xml:space="preserve">
     <value>Bildfiler</value>
@@ -1218,12 +1128,6 @@ Vill du ändå köra det?</value>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Automatiskt</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Anpassad textuppladdare</value>
-  </data>
-  <data name="TextDestination_FileUploader" xml:space="preserve">
-    <value>Filuppladdare</value>
-  </data>
   <data name="ThumbnailTitleLocation_Bottom" xml:space="preserve">
     <value>Nederkant</value>
   </data>
@@ -1284,9 +1188,6 @@ Vill du ändå köra det?</value>
   <data name="ToastClickAction_PinToScreen" xml:space="preserve">
     <value>Fäst på skärmen</value>
   </data>
-  <data name="ToastClickAction_Upload" xml:space="preserve">
-    <value>Ladda upp fil</value>
-  </data>
   <data name="Translator_ASCII" xml:space="preserve">
     <value>ASCII</value>
   </data>
@@ -1304,18 +1205,6 @@ Vill du ändå köra det?</value>
   </data>
   <data name="URLHelpers_Invalid_URL" xml:space="preserve">
     <value>Ogiltig URL.</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Bing visuell sökning</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Anpassad URL-delningstjänst</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>E-post</value>
-  </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google Lens</value>
   </data>
   <data name="UpdateChannel_Dev" xml:space="preserve">
     <value>Utveckling</value>
@@ -1346,9 +1235,6 @@ Vill du ändå köra det?</value>
   </data>
   <data name="UpdateMessageWindow_View_changelog" xml:space="preserve">
     <value>Visa ändringslogg</value>
-  </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Anpassad URL-förkortare</value>
   </data>
   <data name="VideoInfo_Audio_details" xml:space="preserve">
     <value>, ljudkodek: {0}</value>

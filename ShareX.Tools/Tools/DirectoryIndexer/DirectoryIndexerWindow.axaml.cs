@@ -41,7 +41,7 @@ public partial class DirectoryIndexerWindow : Window
     {
     }
 
-    public DirectoryIndexerWindow(IndexerSettings settings, Func<string, IndexerOutput, Task>? uploadRequested = null)
+    public DirectoryIndexerWindow(IndexerSettings settings)
     {
         _viewModel = new DirectoryIndexerViewModel(settings);
         DataContext = _viewModel;
@@ -51,7 +51,6 @@ public partial class DirectoryIndexerWindow : Window
         _viewModel.SelectFolderRequested = SelectFolderAsync;
         _viewModel.SelectCSSFileRequested = SelectCSSFileAsync;
         _viewModel.SaveRequested = SaveAsync;
-        _viewModel.UploadRequested = uploadRequested;
         _viewModel.CloseRequested = Close;
 
         DragDrop.SetAllowDrop(this, true);

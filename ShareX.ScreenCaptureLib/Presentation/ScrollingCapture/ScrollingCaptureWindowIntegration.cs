@@ -39,7 +39,7 @@ public static class ScrollingCaptureWindowIntegration
 
     public static Task StartStopAsync(
         ScrollingCaptureOptions options,
-        Action<Bitmap>? uploadRequested = null,
+        Action<Bitmap>? saveRequested = null,
         Action? playNotificationSound = null)
     {
         AvaloniaBootstrapper.EnsureInitialized();
@@ -51,7 +51,7 @@ public static class ScrollingCaptureWindowIntegration
             {
                 if (_window == null)
                 {
-                    _window = new ScrollingCaptureWindow(options, uploadRequested, playNotificationSound);
+                    _window = new ScrollingCaptureWindow(options, saveRequested, playNotificationSound);
                     _window.Closed += (_, _) => _window = null;
                     _window.Show();
                 }

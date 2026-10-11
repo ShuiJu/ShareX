@@ -1103,7 +1103,4 @@ Der Wert muss zwischen 1 und 100 liegen.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Unbenannte Voreinstellung</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Hochladen Bild</value>
-  </data>
 </root>

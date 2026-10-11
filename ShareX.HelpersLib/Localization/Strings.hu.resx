@@ -67,9 +67,6 @@
   <data name="AfterCaptureTasks_AddImageEffects" xml:space="preserve">
     <value>Képeffekt / vízjel hozzáadása</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>Analyze kép</value>
-  </data>
   <data name="AfterCaptureTasks_AnnotateImage" xml:space="preserve">
     <value>Megnyitás képszerkesztőben</value>
   </data>
@@ -118,35 +115,11 @@
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>"Rögzítés után" ablak megjelenítése</value>
   </data>
-  <data name="AfterCaptureTasks_ShowBeforeUploadWindow" xml:space="preserve">
-    <value>"Feltöltés előtt" ablak megjelenítése</value>
-  </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>Fájl megjelenítése az Intézőben</value>
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Gyors feladat menü megjelenítése</value>
-  </data>
-  <data name="AfterCaptureTasks_UploadImageToHost" xml:space="preserve">
-    <value>Kép feltöltése hosztra</value>
-  </data>
-  <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
-    <value>URL másolása a vágólapra</value>
-  </data>
-  <data name="AfterUploadTasks_OpenURL" xml:space="preserve">
-    <value>URL megnyitása</value>
-  </data>
-  <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
-    <value>URL megosztása</value>
-  </data>
-  <data name="AfterUploadTasks_ShowAfterUploadWindow" xml:space="preserve">
-    <value>"Feltöltés után" ablak megjelenítése</value>
-  </data>
-  <data name="AfterUploadTasks_ShowQRCode" xml:space="preserve">
-    <value>QR kód ablak mutatása</value>
-  </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>URL rövidítése</value>
   </data>
   <data name="AppVeyorUpdateChecker_Deployment_file_not_found" xml:space="preserve">
     <value>A(z) «{0}» fájl nem található.</value>
@@ -367,21 +340,6 @@
   <data name="ColorPickerWindow_Yellow_percent" xml:space="preserve">
     <value>Sárga %</value>
   </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Fájl feltöltéser</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Kép feltöltéser</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Szöveg feltöltéser</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>URL-megosztási szolgáltatás</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>URL-rövidítő</value>
-  </data>
   <data name="CutOutEffectType_None" xml:space="preserve">
     <value>Nincs effektus</value>
   </data>
@@ -510,15 +468,6 @@ Ennek ellenére szeretné futtatni?</value>
   <data name="FFmpegCLIManager_Error_title" xml:space="preserve">
     <value>FFmpeg-hiba</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Egyéni fájl feltöltő</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Megosztott mappa</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Kérdezze meg mit tegyen</value>
   </data>
@@ -609,9 +558,6 @@ Ennek ellenére szeretné futtatni?</value>
   <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
     <value>Make active ablak felső most</value>
   </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>Analyze kép</value>
-  </data>
   <data name="HotkeyType_AnimatedGifTrimmer" xml:space="preserve">
     <value>Animált GIF-vágó</value>
   </data>
@@ -636,15 +582,6 @@ Ennek ellenére szeretné futtatni?</value>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Eszközök</value>
   </data>
-  <data name="HotkeyType_Category_Upload" xml:space="preserve">
-    <value>Feltöltés</value>
-  </data>
-  <data name="HotkeyType_ClipboardUpload" xml:space="preserve">
-    <value>Feltöltés vágólapról</value>
-  </data>
-  <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
-    <value>Feltöltés vágólapról tartalom nézőkével</value>
-  </data>
   <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
     <value>Vágólap viewer</value>
   </data>
@@ -660,17 +597,8 @@ Ennek ellenére szeretné futtatni?</value>
   <data name="HotkeyType_DisableHotkeys" xml:space="preserve">
     <value>Disable/Enable gyorsbillentyűk</value>
   </data>
-  <data name="HotkeyType_DragDropUpload" xml:space="preserve">
-    <value>Húzd és vond feltöltés</value>
-  </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
     <value>Kilépés a ShareX-ből</value>
-  </data>
-  <data name="HotkeyType_FileUpload" xml:space="preserve">
-    <value>Fájl feltöltése</value>
-  </data>
-  <data name="HotkeyType_FolderUpload" xml:space="preserve">
-    <value>Mappa feltöltése</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Hash ellenőrzés</value>
@@ -810,9 +738,6 @@ Ennek ellenére szeretné futtatni?</value>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>Indítás/Leállítás scrolling rögzítés</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>URL rövidítése</value>
-  </data>
   <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
     <value>Auto képlopás a legutóbbi régióval</value>
   </data>
@@ -828,9 +753,6 @@ Ennek ellenére szeretné futtatni?</value>
   <data name="HotkeyType_StopScreenRecording" xml:space="preserve">
     <value>Leállítás képernyőfelvétel</value>
   </data>
-  <data name="HotkeyType_StopUploads" xml:space="preserve">
-    <value>Az összes aktív feltöltés leállítása</value>
-  </data>
   <data name="HotkeyType_StripMetadata" xml:space="preserve">
     <value>Metaadatok eltávolítása</value>
   </data>
@@ -840,12 +762,6 @@ Ennek ellenére szeretné futtatni?</value>
   <data name="HotkeyType_ToggleTrayMenu" xml:space="preserve">
     <value>Tálcamenü váltása</value>
   </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Feltöltés szöveg</value>
-  </data>
-  <data name="HotkeyType_UploadURL" xml:space="preserve">
-    <value>Feltöltés URL-ből</value>
-  </data>
   <data name="HotkeyType_VideoConverter" xml:space="preserve">
     <value>Videókonvertáló</value>
   </data>
@@ -854,12 +770,6 @@ Ennek ellenére szeretné futtatni?</value>
   </data>
   <data name="HotkeyType_VideoTrimmer" xml:space="preserve">
     <value>Videóvágó</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Egyéni kép feltöltő</value>
-  </data>
-  <data name="ImageDestination_FileUploader" xml:space="preserve">
-    <value>Fájl feltöltő</value>
   </data>
   <data name="ImageHelpers_Image_files" xml:space="preserve">
     <value>Képfájlok</value>
@@ -1218,12 +1128,6 @@ Ennek ellenére szeretné futtatni?</value>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Automatikus</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Egyedi szöveg feltöltő</value>
-  </data>
-  <data name="TextDestination_FileUploader" xml:space="preserve">
-    <value>Fájl feltöltő</value>
-  </data>
   <data name="ThumbnailTitleLocation_Bottom" xml:space="preserve">
     <value>Alsó</value>
   </data>
@@ -1284,9 +1188,6 @@ Ennek ellenére szeretné futtatni?</value>
   <data name="ToastClickAction_PinToScreen" xml:space="preserve">
     <value>Pin to képernyő</value>
   </data>
-  <data name="ToastClickAction_Upload" xml:space="preserve">
-    <value>Feltöltés fájl</value>
-  </data>
   <data name="Translator_ASCII" xml:space="preserve">
     <value>ASCII</value>
   </data>
@@ -1304,18 +1205,6 @@ Ennek ellenére szeretné futtatni?</value>
   </data>
   <data name="URLHelpers_Invalid_URL" xml:space="preserve">
     <value>Érvénytelen URL.</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Bing vizuális keresés</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Egyéni URL sharing szolgáltatás</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google Lens</value>
   </data>
   <data name="UpdateChannel_Dev" xml:space="preserve">
     <value>Fejlesztői</value>
@@ -1346,9 +1235,6 @@ Ennek ellenére szeretné futtatni?</value>
   </data>
   <data name="UpdateMessageWindow_View_changelog" xml:space="preserve">
     <value>Változásnapló megtekintése</value>
-  </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Egyedi URL rövidítő</value>
   </data>
   <data name="VideoInfo_Audio_details" xml:space="preserve">
     <value>, Audiokodek: {0}</value>

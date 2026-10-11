@@ -478,11 +478,11 @@
   <data name="ScrollingCaptureWindow_Auto_ignore_bottom_edge" xml:space="preserve">
     <value>התעלמות אוטומטית מהקצה התחתון</value>
   </data>
+  <data name="ScrollingCaptureWindow_Automatically_save" xml:space="preserve">
+    <value>שמירה אוטומטית</value>
+  </data>
   <data name="ScrollingCaptureWindow_Automatically_scroll_to_top" xml:space="preserve">
     <value>גלילה אוטומטית לראש הדף</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Automatically_upload_save" xml:space="preserve">
-    <value>העלאה / שמירה אוטומטית</value>
   </data>
   <data name="ScrollingCaptureWindow_Cancel" xml:space="preserve">
     <value>ביטול</value>
@@ -523,6 +523,9 @@
   <data name="ScrollingCaptureWindow_Ready" xml:space="preserve">
     <value>מוכן</value>
   </data>
+  <data name="ScrollingCaptureWindow_Save" xml:space="preserve">
+    <value>שמירה</value>
+  </data>
   <data name="ScrollingCaptureWindow_Scroll_amount" xml:space="preserve">
     <value>מספר גלילות:</value>
   </data>
@@ -552,8 +555,5 @@
   </data>
   <data name="ScrollingCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - לכידה בגלילה</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Upload_Save" xml:space="preserve">
-    <value>העלאה / שמירה</value>
   </data>
 </root>

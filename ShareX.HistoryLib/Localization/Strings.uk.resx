@@ -114,9 +114,6 @@
   <data name="HistoryWindows_All_types" xml:space="preserve">
     <value>Усі типи</value>
   </data>
-  <data name="HistoryWindows_Analyze_image" xml:space="preserve">
-    <value>Аналізувати зображення</value>
-  </data>
   <data name="HistoryWindows_Bottom" xml:space="preserve">
     <value>Внизу</value>
   </data>
@@ -186,33 +183,6 @@
   <data name="HistoryWindows_Folder_path" xml:space="preserve">
     <value>Шлях до папки</value>
   </data>
-  <data name="HistoryWindows_Forum_BBCode_image" xml:space="preserve">
-    <value>Зображення для форуму (BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_BBCode_link" xml:space="preserve">
-    <value>Посилання для форуму (BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_BBCode_linked_image" xml:space="preserve">
-    <value>Зображення-посилання для форуму (BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_image" xml:space="preserve">
-    <value>Зображення для форуму</value>
-  </data>
-  <data name="HistoryWindows_Forum_link" xml:space="preserve">
-    <value>Посилання для форуму</value>
-  </data>
-  <data name="HistoryWindows_Forum_linked_image" xml:space="preserve">
-    <value>Пов’язане зображення для форуму</value>
-  </data>
-  <data name="HistoryWindows_HTML_image" xml:space="preserve">
-    <value>HTML-зображення</value>
-  </data>
-  <data name="HistoryWindows_HTML_link" xml:space="preserve">
-    <value>HTML-посилання</value>
-  </data>
-  <data name="HistoryWindows_HTML_linked_image" xml:space="preserve">
-    <value>Пов’язане HTML-зображення</value>
-  </data>
   <data name="HistoryWindows_Hide_missing_files" xml:space="preserve">
     <value>Приховувати відсутні файли</value>
   </data>
@@ -245,15 +215,6 @@
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>Завантаження...</value>
-  </data>
-  <data name="HistoryWindows_Markdown_image" xml:space="preserve">
-    <value>Зображення Markdown</value>
-  </data>
-  <data name="HistoryWindows_Markdown_link" xml:space="preserve">
-    <value>Посилання Markdown</value>
-  </data>
-  <data name="HistoryWindows_Markdown_linked_image" xml:space="preserve">
-    <value>Пов’язане зображення Markdown</value>
   </data>
   <data name="HistoryWindows_No_history_items" xml:space="preserve">
     <value>Немає елементів історії</value>
@@ -365,9 +326,6 @@
   </data>
   <data name="HistoryWindows_URL" xml:space="preserve">
     <value>Посилання</value>
-  </data>
-  <data name="HistoryWindows_Upload_file" xml:space="preserve">
-    <value>Вивантажити файл</value>
   </data>
   <data name="ImageHistoryWindow_CalculatingStatistics" xml:space="preserve">
     <value>Обчислення статистики...</value>

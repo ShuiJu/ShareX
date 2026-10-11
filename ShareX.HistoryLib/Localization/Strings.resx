@@ -114,9 +114,6 @@
   <data name="HistoryWindows_All_types" xml:space="preserve">
     <value>All types</value>
   </data>
-  <data name="HistoryWindows_Analyze_image" xml:space="preserve">
-    <value>Analyze image...</value>
-  </data>
   <data name="HistoryWindows_Bottom" xml:space="preserve">
     <value>Bottom</value>
   </data>
@@ -186,33 +183,6 @@
   <data name="HistoryWindows_Folder_path" xml:space="preserve">
     <value>Folder path</value>
   </data>
-  <data name="HistoryWindows_Forum_BBCode_image" xml:space="preserve">
-    <value>Forum (BBCode) image</value>
-  </data>
-  <data name="HistoryWindows_Forum_BBCode_link" xml:space="preserve">
-    <value>Forum (BBCode) link</value>
-  </data>
-  <data name="HistoryWindows_Forum_BBCode_linked_image" xml:space="preserve">
-    <value>Forum (BBCode) linked image</value>
-  </data>
-  <data name="HistoryWindows_Forum_image" xml:space="preserve">
-    <value>Forum image</value>
-  </data>
-  <data name="HistoryWindows_Forum_link" xml:space="preserve">
-    <value>Forum link</value>
-  </data>
-  <data name="HistoryWindows_Forum_linked_image" xml:space="preserve">
-    <value>Forum linked image</value>
-  </data>
-  <data name="HistoryWindows_HTML_image" xml:space="preserve">
-    <value>HTML image</value>
-  </data>
-  <data name="HistoryWindows_HTML_link" xml:space="preserve">
-    <value>HTML link</value>
-  </data>
-  <data name="HistoryWindows_HTML_linked_image" xml:space="preserve">
-    <value>HTML linked image</value>
-  </data>
   <data name="HistoryWindows_Hide_missing_files" xml:space="preserve">
     <value>Hide missing files</value>
   </data>
@@ -245,15 +215,6 @@
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>Loading...</value>
-  </data>
-  <data name="HistoryWindows_Markdown_image" xml:space="preserve">
-    <value>Markdown image</value>
-  </data>
-  <data name="HistoryWindows_Markdown_link" xml:space="preserve">
-    <value>Markdown link</value>
-  </data>
-  <data name="HistoryWindows_Markdown_linked_image" xml:space="preserve">
-    <value>Markdown linked image</value>
   </data>
   <data name="HistoryWindows_No_history_items" xml:space="preserve">
     <value>No history items</value>
@@ -365,9 +326,6 @@
   </data>
   <data name="HistoryWindows_URL" xml:space="preserve">
     <value>URL</value>
-  </data>
-  <data name="HistoryWindows_Upload_file" xml:space="preserve">
-    <value>Upload file</value>
   </data>
   <data name="ImageHistoryWindow_CalculatingStatistics" xml:space="preserve">
     <value>Calculating statistics...</value>

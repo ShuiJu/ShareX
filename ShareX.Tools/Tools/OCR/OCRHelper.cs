@@ -60,15 +60,19 @@ public static class OCRHelper
     }
 
     public static async Task<string> OCR(Bitmap bitmap, string languageTag = "en", float scaleFactor = 1f,
-        bool singleLine = false)
+        bool singleLine = false, CancellationToken cancellationToken = default)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         ThrowIfNotSupported();
         scaleFactor = Math.Max(scaleFactor, 1f);
 
         return await Task.Run(async () =>
         {
+            cancellationToken.ThrowIfCancellationRequested();
             using Bitmap scaledBitmap = SkiaImageHelpers.ScaleImageFast(bitmap, scaleFactor);
-            return await OCRInternal(scaledBitmap, languageTag, singleLine);
+            string text = await OCRInternal(scaledBitmap, languageTag, singleLine);
+            cancellationToken.ThrowIfCancellationRequested();
+            return text;
         });
     }
 

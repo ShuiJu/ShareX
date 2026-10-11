@@ -94,10 +94,6 @@
                                     <Button Grid.Column="1" Content="{x:Static localization:Strings.VideoThumbnailerWindow_Browse}" Command="{Binding SelectOutputFolderCommand}" IsEnabled="{Binding IsIdle}"/>
                                 </Grid>
                                 <Grid Grid.Row="3" RowDefinitions="Auto,Auto" RowSpacing="8" Margin="0,10,0,0">
-                                    <Grid ColumnDefinitions="*,Auto" MinHeight="30">
-                                        <TextBlock Text="{x:Static localization:Strings.VideoThumbnailerWindow_Upload_created_thumbnails}" FontWeight="Normal" VerticalAlignment="Center"/>
-                                        <ToggleSwitch Grid.Column="1" IsChecked="{Binding UploadThumbnails}" OnContent="" OffContent=""/>
-                                    </Grid>
                                     <Grid Grid.Row="1" ColumnDefinitions="*,Auto" MinHeight="30">
                                         <TextBlock Text="{x:Static localization:Strings.VideoThumbnailerWindow_Open_output_folder_when_finished}" FontWeight="Normal" VerticalAlignment="Center"/>
                                         <ToggleSwitch Grid.Column="1" IsChecked="{Binding OpenDirectory}" OnContent="" OffContent=""/>

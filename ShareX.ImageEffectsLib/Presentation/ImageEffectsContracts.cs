@@ -41,7 +41,6 @@ public sealed class ImageEffectsCallbacks
     public Func<ImageEffectsSource?>? LoadImageFromFile { get; init; }
     public Func<ImageEffectsSource?>? LoadImageFromClipboard { get; init; }
     public Func<SKBitmap, string?, string?>? SaveImage { get; init; }
-    public Action<SKBitmap>? UploadImage { get; init; }
     public Action? OpenImageEffectsPage { get; init; }
 }
 

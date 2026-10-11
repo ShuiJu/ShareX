@@ -278,13 +278,6 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
         }
         public bool CanPinToScreen() => _pinRequested != null && HasPreviewImage;
 
-        private Action? _uploadRequested;
-        public event Action? UploadRequested
-        {
-            add { _uploadRequested += value; UploadCommand.NotifyCanExecuteChanged(); }
-            remove { _uploadRequested -= value; UploadCommand.NotifyCanExecuteChanged(); }
-        }
-        public bool CanUpload() => _uploadRequested != null && HasPreviewImage;
 
         private Bitmap? _previewImage;
         public Bitmap? PreviewImage
@@ -319,12 +312,12 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
                 if (SetProperty(ref _hasPreviewImage, value))
                 {
                     ToggleEffectsPanelCommand.NotifyCanExecuteChanged();
+                    RecognizeTextCommand.NotifyCanExecuteChanged();
                     CopyCommand.NotifyCanExecuteChanged();
                     SaveCommand.NotifyCanExecuteChanged();
                     SaveAsCommand.NotifyCanExecuteChanged();
                     PrintCommand.NotifyCanExecuteChanged();
                     PinToScreenCommand.NotifyCanExecuteChanged();
-                    UploadCommand.NotifyCanExecuteChanged();
                     ZoomInCommand.NotifyCanExecuteChanged();
                     ZoomOutCommand.NotifyCanExecuteChanged();
                     ResetZoomCommand.NotifyCanExecuteChanged();
@@ -1312,13 +1305,6 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
             CloseAfterTaskActionIfEnabled();
         }
 
-        [RelayCommand(CanExecute = nameof(CanUpload))]
-        private async Task Upload()
-        {
-            _uploadRequested?.Invoke();
-            ShowTaskActionNotification(Strings.MainViewModel_ImageIsUploading, EditorIcons.ActionUpload);
-            CloseAfterTaskActionIfEnabled();
-        }
 
         [RelayCommand]
         private void NewImage()

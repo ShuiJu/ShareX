@@ -50,6 +50,7 @@ namespace ShareX.ImageEditor.Presentation.Theming
         public const string ToolCutOut = LucideIcons.scissors;
         public const string ToolImage = LucideIcons.image;
         public const string ToolEmoji = LucideIcons.smile;
+        public const string ActionOcr = LucideIcons.scan_text;
 
         public const string ActionUndo = LucideIcons.undo_2;
         public const string ActionRedo = LucideIcons.redo_2;
@@ -67,7 +68,6 @@ namespace ShareX.ImageEditor.Presentation.Theming
         public const string ActionPrint = LucideIcons.printer;
         public const string ActionDownload = LucideIcons.download;
         public const string ActionPinToScreen = LucideIcons.pin;
-        public const string ActionUpload = LucideIcons.cloud_upload;
         public const string ActionCancel = LucideIcons.x;
         public const string ActionContinue = LucideIcons.play;
         public const string ActionReset = LucideIcons.refresh_cw;

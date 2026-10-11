@@ -67,9 +67,6 @@
   <data name="AfterCaptureTasks_AddImageEffects" xml:space="preserve">
     <value>Tambahkan efek / cap air gambar</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>Analisis gambar</value>
-  </data>
   <data name="AfterCaptureTasks_AnnotateImage" xml:space="preserve">
     <value>Buka di editor gambar</value>
   </data>
@@ -118,35 +115,11 @@
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>Tampilkan jendela "Setelah mengambil"</value>
   </data>
-  <data name="AfterCaptureTasks_ShowBeforeUploadWindow" xml:space="preserve">
-    <value>Tampilkan jendela "Sebelum mengunggah"</value>
-  </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>Tampilkan file di explorer</value>
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Tampilkan menu tugas cepat</value>
-  </data>
-  <data name="AfterCaptureTasks_UploadImageToHost" xml:space="preserve">
-    <value>Unggah gambar ke host</value>
-  </data>
-  <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
-    <value>Salin URL ke papan klip</value>
-  </data>
-  <data name="AfterUploadTasks_OpenURL" xml:space="preserve">
-    <value>Buka URL</value>
-  </data>
-  <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
-    <value>Bagikan URL</value>
-  </data>
-  <data name="AfterUploadTasks_ShowAfterUploadWindow" xml:space="preserve">
-    <value>Tampilkan jendela "Setelah mengunggah"</value>
-  </data>
-  <data name="AfterUploadTasks_ShowQRCode" xml:space="preserve">
-    <value>Tampilkan jendela kode QR</value>
-  </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Persingkat URL</value>
   </data>
   <data name="AppVeyorUpdateChecker_Deployment_file_not_found" xml:space="preserve">
     <value>Berkas «{0}» tidak ditemukan.</value>
@@ -367,21 +340,6 @@
   <data name="ColorPickerWindow_Yellow_percent" xml:space="preserve">
     <value>Kuning %</value>
   </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Pengunggah file</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Pengunggah gambar</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Pengunggah teks</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>Layanan berbagi URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>Penyingkat URL</value>
-  </data>
   <data name="CutOutEffectType_None" xml:space="preserve">
     <value>Tanpa efek</value>
   </data>
@@ -510,15 +468,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   <data name="FFmpegCLIManager_Error_title" xml:space="preserve">
     <value>Kesalahan FFmpeg</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Pengunggah file khusus</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Folder bersama</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Tanyakan apa yang harus dilakukan</value>
   </data>
@@ -609,9 +558,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
     <value>Jadikan jendela aktif selalu di atas</value>
   </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>Analisis gambar</value>
-  </data>
   <data name="HotkeyType_AnimatedGifTrimmer" xml:space="preserve">
     <value>Pemangkas GIF animasi</value>
   </data>
@@ -636,15 +582,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Alat</value>
   </data>
-  <data name="HotkeyType_Category_Upload" xml:space="preserve">
-    <value>Unggah</value>
-  </data>
-  <data name="HotkeyType_ClipboardUpload" xml:space="preserve">
-    <value>Unggah dari papan klip</value>
-  </data>
-  <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
-    <value>Unggah dari papan klip dengan penampil konten</value>
-  </data>
   <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
     <value>Penampil clipboard</value>
   </data>
@@ -660,17 +597,8 @@ Apakah Anda tetap ingin menjalankannya?</value>
   <data name="HotkeyType_DisableHotkeys" xml:space="preserve">
     <value>Nonaktif/Aktifkan tombol cepat</value>
   </data>
-  <data name="HotkeyType_DragDropUpload" xml:space="preserve">
-    <value>Unggah seret dan jatuhkan</value>
-  </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
     <value>Keluar ShareX</value>
-  </data>
-  <data name="HotkeyType_FileUpload" xml:space="preserve">
-    <value>Unggah file</value>
-  </data>
-  <data name="HotkeyType_FolderUpload" xml:space="preserve">
-    <value>Unggah folder</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Periksa hash</value>
@@ -810,9 +738,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>Ambil bergulir</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>Persingkat URL</value>
-  </data>
   <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
     <value>Mulai pengambilan otomatis menggunakan area terakhir</value>
   </data>
@@ -828,9 +753,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   <data name="HotkeyType_StopScreenRecording" xml:space="preserve">
     <value>Hentikan perekaman layar</value>
   </data>
-  <data name="HotkeyType_StopUploads" xml:space="preserve">
-    <value>Hentikan semua unggahan aktif</value>
-  </data>
   <data name="HotkeyType_StripMetadata" xml:space="preserve">
     <value>Hapus metadata</value>
   </data>
@@ -840,12 +762,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   <data name="HotkeyType_ToggleTrayMenu" xml:space="preserve">
     <value>Alihkan menu baki</value>
   </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Unggah teks</value>
-  </data>
-  <data name="HotkeyType_UploadURL" xml:space="preserve">
-    <value>Unggah dari URL</value>
-  </data>
   <data name="HotkeyType_VideoConverter" xml:space="preserve">
     <value>Pengonversi video</value>
   </data>
@@ -854,12 +770,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   </data>
   <data name="HotkeyType_VideoTrimmer" xml:space="preserve">
     <value>Pemangkas video</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Pengunggah gambar khusus</value>
-  </data>
-  <data name="ImageDestination_FileUploader" xml:space="preserve">
-    <value>Pengunggah file</value>
   </data>
   <data name="ImageHelpers_Image_files" xml:space="preserve">
     <value>Berkas gambar</value>
@@ -1218,12 +1128,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Otomatis</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Pengunggah teks khusus</value>
-  </data>
-  <data name="TextDestination_FileUploader" xml:space="preserve">
-    <value>Pengunggah file</value>
-  </data>
   <data name="ThumbnailTitleLocation_Bottom" xml:space="preserve">
     <value>Bawah</value>
   </data>
@@ -1284,9 +1188,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   <data name="ToastClickAction_PinToScreen" xml:space="preserve">
     <value>Sematkan ke layar</value>
   </data>
-  <data name="ToastClickAction_Upload" xml:space="preserve">
-    <value>Unggah file</value>
-  </data>
   <data name="Translator_ASCII" xml:space="preserve">
     <value>ASCII</value>
   </data>
@@ -1304,18 +1205,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   </data>
   <data name="URLHelpers_Invalid_URL" xml:space="preserve">
     <value>URL tidak valid.</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Pencarian visual Bing</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Layanan berbagi URL khusus</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Pencarian Gambar Google</value>
   </data>
   <data name="UpdateChannel_Dev" xml:space="preserve">
     <value>Dev</value>
@@ -1346,9 +1235,6 @@ Apakah Anda tetap ingin menjalankannya?</value>
   </data>
   <data name="UpdateMessageWindow_View_changelog" xml:space="preserve">
     <value>Lihat catatan perubahan</value>
-  </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Penyingkat URL khusus</value>
   </data>
   <data name="VideoInfo_Audio_details" xml:space="preserve">
     <value>, Kodek audio: {0}</value>

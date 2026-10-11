@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <ApplicationIcon>ShareX_Icon.ico</ApplicationIcon>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <Description>Screen capture, file sharing and productivity tool</Description>
+    <Description>Screen capture, local image editing and productivity tool</Description>
     <SupportedOSPlatformVersion>10.0.22621.0</SupportedOSPlatformVersion>
     <CETCompat>false</CETCompat>
   </PropertyGroup>
@@ -34,22 +34,11 @@
     <ProjectReference Include="..\ShareX.HistoryLib\ShareX.HistoryLib.csproj" />
     <ProjectReference Include="..\ShareX.ImageEditor\ShareX.ImageEditor.csproj" />
     <ProjectReference Include="..\ShareX.ImageEffectsLib\ShareX.ImageEffectsLib.csproj" />
-    <ProjectReference Include="..\ShareX.NativeMessagingHost\ShareX.NativeMessagingHost.csproj">
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <SkipGetTargetFrameworkProperties>true</SkipGetTargetFrameworkProperties>
-    </ProjectReference>
     <ProjectReference Include="..\ShareX.ScreenCaptureLib\ShareX.ScreenCaptureLib.csproj" />
     <ProjectReference Include="..\ShareX.ScreenRecordingLib\ShareX.ScreenRecordingLib.csproj" />
     <ProjectReference Include="..\ShareX.HelpersLib\ShareX.HelpersLib.csproj" />
-    <ProjectReference Include="..\ShareX.UploadersLib\ShareX.UploadersLib.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Update="host-manifest-chrome.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="host-manifest-firefox.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="ShareX_File_Icon.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

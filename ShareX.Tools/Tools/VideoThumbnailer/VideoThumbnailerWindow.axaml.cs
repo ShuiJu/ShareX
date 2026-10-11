@@ -40,10 +40,9 @@ public partial class VideoThumbnailerWindow : Window
     {
     }
 
-    public VideoThumbnailerWindow(string ffmpegPath, VideoThumbnailOptions options,
-        Action<IReadOnlyList<VideoThumbnailInfo>>? thumbnailsTaken = null)
+    public VideoThumbnailerWindow(string ffmpegPath, VideoThumbnailOptions options)
     {
-        _viewModel = new VideoThumbnailerViewModel(ffmpegPath, options, thumbnailsTaken);
+        _viewModel = new VideoThumbnailerViewModel(ffmpegPath, options);
         DataContext = _viewModel;
         InitializeComponent();
         RequestedThemeVariant = ThemeManager.GetCurrentTheme();

@@ -114,9 +114,6 @@
   <data name="HistoryWindows_All_types" xml:space="preserve">
     <value>Wszystkie typy</value>
   </data>
-  <data name="HistoryWindows_Analyze_image" xml:space="preserve">
-    <value>Analizuj obraz</value>
-  </data>
   <data name="HistoryWindows_Bottom" xml:space="preserve">
     <value>Dół</value>
   </data>
@@ -186,33 +183,6 @@
   <data name="HistoryWindows_Folder_path" xml:space="preserve">
     <value>Ścieżka folderu</value>
   </data>
-  <data name="HistoryWindows_Forum_BBCode_image" xml:space="preserve">
-    <value>Obraz forum (BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_BBCode_link" xml:space="preserve">
-    <value>Łącze forum (BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_BBCode_linked_image" xml:space="preserve">
-    <value>Połączony obraz forum (BBCode)</value>
-  </data>
-  <data name="HistoryWindows_Forum_image" xml:space="preserve">
-    <value>Obraz forum</value>
-  </data>
-  <data name="HistoryWindows_Forum_link" xml:space="preserve">
-    <value>Łącze forum</value>
-  </data>
-  <data name="HistoryWindows_Forum_linked_image" xml:space="preserve">
-    <value>Połączony obraz forum</value>
-  </data>
-  <data name="HistoryWindows_HTML_image" xml:space="preserve">
-    <value>Obraz HTML</value>
-  </data>
-  <data name="HistoryWindows_HTML_link" xml:space="preserve">
-    <value>Łącze HTML</value>
-  </data>
-  <data name="HistoryWindows_HTML_linked_image" xml:space="preserve">
-    <value>Połączony obraz HTML</value>
-  </data>
   <data name="HistoryWindows_Hide_missing_files" xml:space="preserve">
     <value>Ukryj brakujące pliki</value>
   </data>
@@ -245,15 +215,6 @@
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>Wczytywanie...</value>
-  </data>
-  <data name="HistoryWindows_Markdown_image" xml:space="preserve">
-    <value>Obraz Markdown</value>
-  </data>
-  <data name="HistoryWindows_Markdown_link" xml:space="preserve">
-    <value>Łącze Markdown</value>
-  </data>
-  <data name="HistoryWindows_Markdown_linked_image" xml:space="preserve">
-    <value>Połączony obraz Markdown</value>
   </data>
   <data name="HistoryWindows_No_history_items" xml:space="preserve">
     <value>Brak elementów historii</value>
@@ -365,9 +326,6 @@
   </data>
   <data name="HistoryWindows_URL" xml:space="preserve">
     <value>Link</value>
-  </data>
-  <data name="HistoryWindows_Upload_file" xml:space="preserve">
-    <value>Prześlij plik</value>
   </data>
   <data name="ImageHistoryWindow_CalculatingStatistics" xml:space="preserve">
     <value>Obliczanie statystyk...</value>

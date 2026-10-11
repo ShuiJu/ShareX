@@ -169,14 +169,6 @@ public sealed partial class QRCodeViewModel : ViewModelBase, IDisposable
         }
     }
 
-    [RelayCommand]
-    private void UploadImage()
-    {
-        if (HasValidContent)
-        {
-            _services.UploadImage(Text, EffectiveSize);
-        }
-    }
 
     [RelayCommand]
     private Task ScanScreenAsync() => ScanCaptureAsync(QRCodeScanMode.Screen);

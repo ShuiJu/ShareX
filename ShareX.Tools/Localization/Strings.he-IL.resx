@@ -58,162 +58,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AIOptions_What_is_in_this_image" xml:space="preserve">
-    <value>מה יש בתמונה הזאת?</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Loading_models" xml:space="preserve">
-    <value>טוען מודלים...</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Models_loaded" xml:space="preserve">
-    <value>נטענו {0} מודלים.</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_No_models_found" xml:space="preserve">
-    <value>לא נמצאו מודלים.</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Testing" xml:space="preserve">
-    <value>בודק...</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_API_key" xml:space="preserve">
-    <value>מפתח API</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_API_key_page" xml:space="preserve">
-    <value>דף מפתח API...</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Analyze_automatically_when_opened" xml:space="preserve">
-    <value>נתח אוטומטית בעת הפתיחה</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Behavior" xml:space="preserve">
-    <value>אופן פעולה</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Cancel" xml:space="preserve">
-    <value>ביטול</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Capture_a_region_when_opened_without_an_image" xml:space="preserve">
-    <value>לכוד אזור בעת פתיחה ללא תמונה</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Copy_result_automatically" xml:space="preserve">
-    <value>העתק את התוצאה אוטומטית</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Custom_base_URL" xml:space="preserve">
-    <value>כתובת URL בסיסית מותאמת אישית</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Get_API_key" xml:space="preserve">
-    <value>קבל מפתח API</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Google_Gemini" xml:space="preserve">
-    <value>Google Gemini</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Load_models" xml:space="preserve">
-    <value>טען מודלים</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Model" xml:space="preserve">
-    <value>מודל</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_OpenAI" xml:space="preserve">
-    <value>OpenAI</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_OpenRouter" xml:space="preserve">
-    <value>OpenRouter</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Provider" xml:space="preserve">
-    <value>ספק</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Reasoning" xml:space="preserve">
-    <value>הנמקה</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Save" xml:space="preserve">
-    <value>שמירה</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - אפשרויות ניתוח תמונה</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
-    <value>בדוק חיבור</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Verbosity" xml:space="preserve">
-    <value>רמת פירוט</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_https_api_openai_com" xml:space="preserve">
-    <value>https://api.openai.com</value>
-  </data>
-  <data name="AnalyzeImageService_Connection_OK" xml:space="preserve">
-    <value>החיבור תקין.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_Gemini_API_key" xml:space="preserve">
-    <value>חסר מפתח API של Gemini.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_OpenAI_API_key" xml:space="preserve">
-    <value>חסר מפתח API של OpenAI.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_OpenRouter_API_key" xml:space="preserve">
-    <value>חסר מפתח API של OpenRouter.</value>
-  </data>
-  <data name="AnalyzeImageService_Select_provider_first" xml:space="preserve">
-    <value>בחר תחילה ספק.</value>
-  </data>
-  <data name="AnalyzeImageService_Unable_to_create_request" xml:space="preserve">
-    <value>לא ניתן ליצור בקשה.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Captured_region" xml:space="preserve">
-    <value>האזור שנלכד</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Configure_API_key" xml:space="preserve">
-    <value>הגדר מפתח API באפשרויות לפני הניתוח.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Thinking" xml:space="preserve">
-    <value>חושב...</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Thoroughly_describe_this_image" xml:space="preserve">
-    <value>תאר את התמונה הזאת בפירוט.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Time_ms" xml:space="preserve">
-    <value>זמן: {0:N0} אלפיות שנייה</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Transcribe_image_text" xml:space="preserve">
-    <value>תמלל את הטקסט שבתמונה. אל תכתוב דבר נוסף.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Translate_text_into_English" xml:space="preserve">
-    <value>תרגם את הטקסט הזה לאנגלית. אל תכתוב דבר נוסף.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_What_is_in_this_image" xml:space="preserve">
-    <value>מה יש בתמונה הזאת?</value>
-  </data>
-  <data name="AnalyzeImageWindow_Analyze_image" xml:space="preserve">
-    <value>נתח תמונה</value>
-  </data>
-  <data name="AnalyzeImageWindow_Choose_a_preset_prompt" xml:space="preserve">
-    <value>בחר הנחיה מוגדרת מראש</value>
-  </data>
-  <data name="AnalyzeImageWindow_Copy_all" xml:space="preserve">
-    <value>העתק הכול</value>
-  </data>
-  <data name="AnalyzeImageWindow_Image" xml:space="preserve">
-    <value>תמונה</value>
-  </data>
-  <data name="AnalyzeImageWindow_Options" xml:space="preserve">
-    <value>אפשרויות...</value>
-  </data>
-  <data name="AnalyzeImageWindow_Prompt" xml:space="preserve">
-    <value>הנחיה</value>
-  </data>
-  <data name="AnalyzeImageWindow_Result" xml:space="preserve">
-    <value>תוצאה</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_image" xml:space="preserve">
-    <value>בחר תמונה...</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_image_dialog" xml:space="preserve">
-    <value>בחירת תמונה</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_or_drop_an_image" xml:space="preserve">
-    <value>בחר תמונה או גרור אותה לכאן</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_region" xml:space="preserve">
-    <value>בחר אזור...</value>
-  </data>
-  <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - ניתוח תמונה</value>
-  </data>
   <data name="AnimatedGifMakerViewModel_Create_failed" xml:space="preserve">
     <value>יצירת ה-GIF נכשלה: {0}</value>
   </data>
@@ -496,8 +340,8 @@
   <data name="DirectoryIndexerWindow_CSS_files" xml:space="preserve">
     <value>קובצי CSS</value>
   </data>
-  <data name="DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as_or_Upload" xml:space="preserve">
-    <value>בחר תיקייה וצור פלט. דבר לא נשמר עד לשימוש ב'שמור בשם' או 'העלה'.</value>
+  <data name="DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as" xml:space="preserve">
+    <value>בחר תיקייה וצור פלט. דבר לא נשמר עד לשימוש ב'שמור בשם'.</value>
   </data>
   <data name="DirectoryIndexerWindow_Create_parseable_structured_JSON" xml:space="preserve">
     <value>צור JSON מובנה שניתן לניתוח</value>
@@ -544,8 +388,8 @@
   <data name="DirectoryIndexerWindow_Output_format" xml:space="preserve">
     <value>תבנית פלט</value>
   </data>
-  <data name="DirectoryIndexerWindow_Ready_to_save_or_upload" xml:space="preserve">
-    <value>מוכן לשמירה או להעלאה</value>
+  <data name="DirectoryIndexerWindow_Ready_to_save" xml:space="preserve">
+    <value>מוכן לשמירה</value>
   </data>
   <data name="DirectoryIndexerWindow_Save_as" xml:space="preserve">
     <value>שמירה בשם...</value>
@@ -577,11 +421,8 @@
   <data name="DirectoryIndexerWindow_Text_output" xml:space="preserve">
     <value>פלט טקסט</value>
   </data>
-  <data name="DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save_or_upload" xml:space="preserve">
-    <value>אינדקס ה-HTML נוצר בהצלחה. תצוגה מקדימה של HTML אינה זמינה, אך הפלט מוכן לשמירה או להעלאה.</value>
-  </data>
-  <data name="DirectoryIndexerWindow_Upload" xml:space="preserve">
-    <value>העלאה</value>
+  <data name="DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save" xml:space="preserve">
+    <value>אינדקס ה-HTML נוצר בהצלחה. תצוגה מקדימה של HTML אינה זמינה, אך הפלט מוכן לשמירה.</value>
   </data>
   <data name="DirectoryIndexerWindow_Use_custom_CSS_file" xml:space="preserve">
     <value>השתמש בקובץ CSS מותאם אישית</value>
@@ -591,9 +432,6 @@
   </data>
   <data name="DirectoryIndexerWindow_XML_output" xml:space="preserve">
     <value>פלט XML</value>
-  </data>
-  <data name="GeminiProvider_API_error" xml:space="preserve">
-    <value>שגיאה מ-API של Gemini: {0}</value>
   </data>
   <data name="HashCheckerViewModel_Calculating_hash" xml:space="preserve">
     <value>מחשב גיבוב...</value>
@@ -1252,9 +1090,6 @@
   <data name="LocalizedDisplayConverter_GPU" xml:space="preserve">
     <value>GPU</value>
   </data>
-  <data name="LocalizedDisplayConverter_Gemini" xml:space="preserve">
-    <value>Gemini</value>
-  </data>
   <data name="LocalizedDisplayConverter_High" xml:space="preserve">
     <value>גבוה</value>
   </data>
@@ -1275,15 +1110,6 @@
   </data>
   <data name="LocalizedDisplayConverter_Minimal" xml:space="preserve">
     <value>מזערי</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenAI" xml:space="preserve">
-    <value>OpenAI</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenAI_legacy" xml:space="preserve">
-    <value>OpenAI (מדור קודם)</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenRouter" xml:space="preserve">
-    <value>OpenRouter</value>
   </data>
   <data name="LocalizedDisplayConverter_Vertical" xml:space="preserve">
     <value>אנכי</value>
@@ -1699,9 +1525,6 @@
   <data name="OCRWindow_Use_0_where_the_recognized_text_belongs" xml:space="preserve">
     <value>השתמש ב-{0} במקום שבו אמור להופיע הטקסט המזוהה</value>
   </data>
-  <data name="OpenRouterProvider_API_error" xml:space="preserve">
-    <value>שגיאה מ-API של OpenRouter: {0}</value>
-  </data>
   <data name="PinToScreenOptionsViewModel_Bottom_center" xml:space="preserve">
     <value>מרכז למטה</value>
   </data>
@@ -1915,119 +1738,8 @@
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
     <value>ShareX - קוד QR</value>
   </data>
-  <data name="QRCodeWindow_Upload" xml:space="preserve">
-    <value>העלאה</value>
-  </data>
   <data name="QRCodeWindow_px" xml:space="preserve">
     <value>פיקסלים</value>
-  </data>
-  <data name="RemoteStorageBrowser_Cancel" xml:space="preserve">
-    <value>ביטול</value>
-  </data>
-  <data name="RemoteStorageBrowser_CopyUrl" xml:space="preserve">
-    <value>העתקת כתובת</value>
-  </data>
-  <data name="RemoteStorageBrowser_CreateFolder" xml:space="preserve">
-    <value>צור תיקייה...</value>
-  </data>
-  <data name="RemoteStorageBrowser_CreatedFolder" xml:space="preserve">
-    <value>התיקייה „{0}” נוצרה.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Delete" xml:space="preserve">
-    <value>מחק...</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteFileConfirmation" xml:space="preserve">
-    <value>למחוק את הקובץ „{0}”?</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteFolderConfirmation" xml:space="preserve">
-    <value>למחוק את התיקייה „{0}”?</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteNonEmptyFolderConfirmation" xml:space="preserve">
-    <value>התיקייה „{0}” אינה ריקה. למחוק אותה ואת כל התוכן שלה? לא ניתן לבטל פעולה זו.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Deleted" xml:space="preserve">
-    <value>„{0}” נמחק.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Download" xml:space="preserve">
-    <value>הורד...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Downloaded" xml:space="preserve">
-    <value>„{0}” הורד.</value>
-  </data>
-  <data name="RemoteStorageBrowser_DropFilesToUpload" xml:space="preserve">
-    <value>שחרר קבצים כדי להעלות אותם לתיקייה זו</value>
-  </data>
-  <data name="RemoteStorageBrowser_EmptyFolder" xml:space="preserve">
-    <value>התיקייה הזו ריקה.</value>
-  </data>
-  <data name="RemoteStorageBrowser_ItemCount" xml:space="preserve">
-    <value>{0} קבצים, {1} תיקיות • סה״כ {2}</value>
-  </data>
-  <data name="RemoteStorageBrowser_Loading" xml:space="preserve">
-    <value>טוען...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Location" xml:space="preserve">
-    <value>מיקום:</value>
-  </data>
-  <data name="RemoteStorageBrowser_Modified" xml:space="preserve">
-    <value>תאריך שינוי</value>
-  </data>
-  <data name="RemoteStorageBrowser_Name" xml:space="preserve">
-    <value>שם</value>
-  </data>
-  <data name="RemoteStorageBrowser_NameAlreadyExists" xml:space="preserve">
-    <value>כבר קיים פריט בשם „{0}”.</value>
-  </data>
-  <data name="RemoteStorageBrowser_NewFolder" xml:space="preserve">
-    <value>תיקייה חדשה</value>
-  </data>
-  <data name="RemoteStorageBrowser_NoMatchingItems" xml:space="preserve">
-    <value>לא נמצאו פריטים תואמים.</value>
-  </data>
-  <data name="RemoteStorageBrowser_OpenUrl" xml:space="preserve">
-    <value>פתח קישור</value>
-  </data>
-  <data name="RemoteStorageBrowser_OperationFailed" xml:space="preserve">
-    <value>פעולת האחסון המרוחק נכשלה.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Provider" xml:space="preserve">
-    <value>ספק:</value>
-  </data>
-  <data name="RemoteStorageBrowser_Refresh" xml:space="preserve">
-    <value>רענן</value>
-  </data>
-  <data name="RemoteStorageBrowser_Rename" xml:space="preserve">
-    <value>שנה שם...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Renamed" xml:space="preserve">
-    <value>השם „{0}” שונה ל-„{1}”.</value>
-  </data>
-  <data name="RemoteStorageBrowser_SaveDownloadedFile" xml:space="preserve">
-    <value>שמור קובץ שהורד</value>
-  </data>
-  <data name="RemoteStorageBrowser_SearchCurrentFolder" xml:space="preserve">
-    <value>חיפוש בתיקייה הנוכחית...</value>
-  </data>
-  <data name="RemoteStorageBrowser_SelectFilesToUpload" xml:space="preserve">
-    <value>בחר קבצים להעלאה</value>
-  </data>
-  <data name="RemoteStorageBrowser_Size" xml:space="preserve">
-    <value>גודל</value>
-  </data>
-  <data name="RemoteStorageBrowser_Title" xml:space="preserve">
-    <value>דפדפן אחסון מרוחק</value>
-  </data>
-  <data name="RemoteStorageBrowser_Up" xml:space="preserve">
-    <value>למעלה</value>
-  </data>
-  <data name="RemoteStorageBrowser_Upload" xml:space="preserve">
-    <value>העלה...</value>
-  </data>
-  <data name="RemoteStorageBrowser_UploadedFiles" xml:space="preserve">
-    <value>הועלו {0} קבצים.</value>
-  </data>
-  <data name="RemoteStorageBrowser_View" xml:space="preserve">
-    <value>הצג</value>
   </data>
   <data name="RulerOverlayControl_Tolerance" xml:space="preserve">
     <value>סבילות: {0}%</value>
@@ -2253,9 +1965,6 @@
   </data>
   <data name="VideoThumbnailerWindow_Thumbnails" xml:space="preserve">
     <value>תמונות ממוזערות</value>
-  </data>
-  <data name="VideoThumbnailerWindow_Upload_created_thumbnails" xml:space="preserve">
-    <value>העלה את התמונות הממוזערות שנוצרו</value>
   </data>
   <data name="VideoThumbnailerWindow_Video" xml:space="preserve">
     <value>וידאו</value>

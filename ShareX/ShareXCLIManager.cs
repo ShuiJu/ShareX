@@ -27,7 +27,6 @@ using ShareX.HelpersLib;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace ShareX
@@ -47,68 +46,16 @@ namespace ShareX
         {
             if (commands != null && commands.Count > 0)
             {
-                TaskSettings taskSettings = FindCLITask(commands);
-
                 foreach (CLICommand command in commands)
                 {
                     DebugHelper.WriteLine("CommandLine: " + command);
 
                     if (command.IsCommand)
                     {
-                        if (CheckCustomUploader(command) || CheckImageEffect(command) || await CheckCLIHotkey(command) || await CheckCLIWorkflow(command) ||
-                            await CheckNativeMessagingInput(command))
-                        {
-                        }
-
-                        continue;
-                    }
-
-                    if (URLHelpers.IsValidURL(command.Command))
-                    {
-                        UploadManager.DownloadAndUploadFile(command.Command, taskSettings);
-                    }
-                    else
-                    {
-                        UploadManager.UploadFile(command.Command, taskSettings);
+                        _ = CheckImageEffect(command) || await CheckCLIHotkey(command) || await CheckCLIWorkflow(command);
                     }
                 }
             }
-        }
-
-        private TaskSettings FindCLITask(List<CLICommand> commands)
-        {
-            if (ApplicationState.HotkeysConfigOrNull is { } hotkeysConfig)
-            {
-                CLICommand command = commands.FirstOrDefault(x => x.CheckCommand("task") && !string.IsNullOrEmpty(x.Parameter));
-
-                if (command != null)
-                {
-                    foreach (HotkeySettings hotkeySetting in hotkeysConfig.Hotkeys)
-                    {
-                        if (command.Parameter == hotkeySetting.TaskSettings.ToString())
-                        {
-                            return TaskSettings.GetSafeTaskSettings(hotkeySetting.TaskSettings);
-                        }
-                    }
-                }
-            }
-
-            return null;
-        }
-
-        private bool CheckCustomUploader(CLICommand command)
-        {
-            if (command.Command.Equals("CustomUploader", StringComparison.OrdinalIgnoreCase))
-            {
-                if (!string.IsNullOrEmpty(command.Parameter) && command.Parameter.EndsWith(".sxcu", StringComparison.OrdinalIgnoreCase))
-                {
-                    TaskHelpers.ImportCustomUploader(command.Parameter);
-                }
-
-                return true;
-            }
-
-            return false;
         }
 
         private bool CheckImageEffect(CLICommand command)
@@ -192,19 +139,5 @@ namespace ShareX
             return false;
         }
 
-        private async Task<bool> CheckNativeMessagingInput(CLICommand command)
-        {
-            if (command.Command.Equals("NativeMessagingInput", StringComparison.OrdinalIgnoreCase))
-            {
-                if (!string.IsNullOrEmpty(command.Parameter) && command.Parameter.EndsWith(".json", StringComparison.OrdinalIgnoreCase))
-                {
-                    await TaskHelpers.HandleNativeMessagingInput(command.Parameter);
-                }
-
-                return true;
-            }
-
-            return false;
-        }
     }
 }

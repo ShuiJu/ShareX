@@ -26,6 +26,7 @@
 using Avalonia.Media;
 using Newtonsoft.Json;
 using ShareX.ImageEditor.Core.Annotations;
+using ShareX.ImageEditor.Core.OCR;
 
 namespace ShareX.ImageEditor.Integration
 {
@@ -64,6 +65,8 @@ namespace ShareX.ImageEditor.Integration
         public bool AutoCopyImageToClipboard { get; set; } = false;
         public bool ShowInsertImageDialog { get; set; } = true;
         public bool ShowNotifications { get; set; } = true;
+        public bool OcrUseGpu { get; set; } = true;
+        public OcrEngineKind OcrEngine { get; set; } = OcrEngineKind.ShareX;
         public List<ImageEditorToolbarItemOptions> ToolbarItems { get; set; } = new List<ImageEditorToolbarItemOptions>();
 
         // Shared

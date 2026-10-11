@@ -47,7 +47,7 @@ public sealed class TaskSettingsViewModel : INotifyPropertyChanged
         get => _selectedNavigationItem;
         set
         {
-            if (_isDefault && value is { Children.Count: > 0 } && value.Id is "general" or "upload")
+            if (_isDefault && value is { Children.Count: > 0 } && value.Id == "general")
             {
                 value = value.Children[0];
             }
@@ -79,20 +79,16 @@ public sealed class TaskSettingsViewModel : INotifyPropertyChanged
             Child("general-notifications", Strings.TaskSettingsWindow_Notifications, LucideIcons.bell)));
         NavigationItems.Add(Parent("image", Strings.TaskSettingsWindow_Image, LucideIcons.image,
             Child("image-effects", Strings.TaskSettingsWindow_Effects, LucideIcons.wand_sparkles),
-            Child("image-thumbnail", Strings.TaskSettingsWindow_Thumbnail, LucideIcons.images)));
+            Child("image-thumbnail", Strings.TaskSettingsWindow_Thumbnail, LucideIcons.images),
+            Child("image-file-naming", Strings.TaskSettingsWindow_FileNaming, LucideIcons.file_pen)));
         NavigationItems.Add(Parent("capture", Strings.TaskSettingsWindow_Capture, LucideIcons.camera,
             Child("capture-region", Strings.TaskSettingsWindow_RegionCapture, LucideIcons.crop),
             Child("capture-screen-recorder", Strings.TaskSettingsWindow_ScreenRecorder, LucideIcons.video),
             Child("capture-ocr", Strings.TaskSettingsWindow_OCR, LucideIcons.scan_text)));
-        NavigationItems.Add(Parent("upload", Strings.TaskSettingsWindow_Upload, LucideIcons.upload,
-            Child("upload-file-naming", Strings.TaskSettingsWindow_FileNaming, LucideIcons.file_pen),
-            Child("upload-clipboard", Strings.TaskSettingsWindow_ClipboardUpload, LucideIcons.clipboard),
-            Child("upload-filters", Strings.TaskSettingsWindow_UploaderFilters, LucideIcons.filter)));
         NavigationItems.Add(Parent("tools", Strings.TaskSettingsWindow_Tools, LucideIcons.wrench,
             Child("tools-image-editor", Strings.TaskSettingsWindow_ImageEditor, LucideIcons.image),
             Child("tools-mouse-highlighter", Strings.MouseHighlighter, LucideIcons.mouse_pointer_click)));
         NavigationItems.Add(Parent("actions", Strings.TaskSettingsWindow_Actions, LucideIcons.zap));
-        NavigationItems.Add(Parent("watch-folders", Strings.TaskSettingsWindow_WatchFolders, LucideIcons.folder_search));
         NavigationItems.Add(Parent("advanced", Strings.TaskSettingsWindow_Advanced, LucideIcons.sliders_horizontal));
 
         SelectedNavigationItem = isDefault

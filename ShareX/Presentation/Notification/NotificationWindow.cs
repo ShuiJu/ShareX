@@ -612,9 +612,6 @@ public partial class NotificationWindow : Window
                         FileHelpers.OpenFile(config.FilePath);
                     }
                     break;
-                case ToastClickAction.Upload:
-                    UploadManager.UploadFile(config.FilePath);
-                    break;
                 case ToastClickAction.PinToScreen:
                     TaskHelpers.PinToScreen(config.FilePath);
                     break;
@@ -649,7 +646,7 @@ public partial class NotificationWindow : Window
         {
             ToastClickAction.AnnotateImage or ToastClickAction.CopyImageToClipboard or ToastClickAction.PinToScreen => hasImageFile,
             ToastClickAction.CopyFile or ToastClickAction.CopyFilePath or ToastClickAction.OpenFile or
-                ToastClickAction.OpenFolder or ToastClickAction.Upload or ToastClickAction.DeleteFile => hasFile,
+                ToastClickAction.OpenFolder or ToastClickAction.DeleteFile => hasFile,
             ToastClickAction.CopyUrl or ToastClickAction.OpenUrl => hasTarget,
             ToastClickAction.CloseNotification => true,
             _ => false

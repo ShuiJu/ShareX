@@ -227,8 +227,8 @@ namespace ShareX.ScreenCaptureLib.Localization {
         public static string ScrollingCaptureWindow_Capture {
             get { return ResourceManager.GetString("ScrollingCaptureWindow_Capture", resourceCulture); }
         }
-        public static string ScrollingCaptureWindow_Upload_Save {
-            get { return ResourceManager.GetString("ScrollingCaptureWindow_Upload_Save", resourceCulture); }
+        public static string ScrollingCaptureWindow_Save {
+            get { return ResourceManager.GetString("ScrollingCaptureWindow_Save", resourceCulture); }
         }
         public static string ScrollingCaptureWindow_Copy {
             get { return ResourceManager.GetString("ScrollingCaptureWindow_Copy", resourceCulture); }
@@ -275,8 +275,8 @@ namespace ShareX.ScreenCaptureLib.Localization {
         public static string ScrollingCaptureWindow_Show_capture_region {
             get { return ResourceManager.GetString("ScrollingCaptureWindow_Show_capture_region", resourceCulture); }
         }
-        public static string ScrollingCaptureWindow_Automatically_upload_save {
-            get { return ResourceManager.GetString("ScrollingCaptureWindow_Automatically_upload_save", resourceCulture); }
+        public static string ScrollingCaptureWindow_Automatically_save {
+            get { return ResourceManager.GetString("ScrollingCaptureWindow_Automatically_save", resourceCulture); }
         }
         public static string ScrollingCaptureWindow_Cancel {
             get { return ResourceManager.GetString("ScrollingCaptureWindow_Cancel", resourceCulture); }

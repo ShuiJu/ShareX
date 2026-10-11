@@ -58,162 +58,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AIOptions_What_is_in_this_image" xml:space="preserve">
-    <value>¿Qué hay en esta imagen?</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Loading_models" xml:space="preserve">
-    <value>Cargando modelos...</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Models_loaded" xml:space="preserve">
-    <value>Se cargaron {0} modelos.</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_No_models_found" xml:space="preserve">
-    <value>No se encontraron modelos.</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Testing" xml:space="preserve">
-    <value>Probando...</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_API_key" xml:space="preserve">
-    <value>Clave de API</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_API_key_page" xml:space="preserve">
-    <value>Página de clave de API...</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Analyze_automatically_when_opened" xml:space="preserve">
-    <value>Analizar automáticamente al abrir</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Behavior" xml:space="preserve">
-    <value>Comportamiento</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Cancel" xml:space="preserve">
-    <value>Cancelar</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Capture_a_region_when_opened_without_an_image" xml:space="preserve">
-    <value>Capturar una región al abrir sin una imagen</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Copy_result_automatically" xml:space="preserve">
-    <value>Copiar el resultado automáticamente</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Custom_base_URL" xml:space="preserve">
-    <value>URL base personalizada</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Get_API_key" xml:space="preserve">
-    <value>Obtener clave de API</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Google_Gemini" xml:space="preserve">
-    <value>Google Gemini</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Load_models" xml:space="preserve">
-    <value>Cargar modelos</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Model" xml:space="preserve">
-    <value>Modelo</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_OpenAI" xml:space="preserve">
-    <value>OpenAI</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_OpenRouter" xml:space="preserve">
-    <value>OpenRouter</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Provider" xml:space="preserve">
-    <value>Proveedor</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Reasoning" xml:space="preserve">
-    <value>Razonamiento</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Save" xml:space="preserve">
-    <value>Guardar</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - Opciones de análisis de imagen</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
-    <value>Probar conexión</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Verbosity" xml:space="preserve">
-    <value>Nivel de detalle</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_https_api_openai_com" xml:space="preserve">
-    <value>https://api.openai.com</value>
-  </data>
-  <data name="AnalyzeImageService_Connection_OK" xml:space="preserve">
-    <value>Conexión correcta.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_Gemini_API_key" xml:space="preserve">
-    <value>Falta la clave de API de Gemini.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_OpenAI_API_key" xml:space="preserve">
-    <value>Falta la clave de API de OpenAI.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_OpenRouter_API_key" xml:space="preserve">
-    <value>Falta la clave de API de OpenRouter.</value>
-  </data>
-  <data name="AnalyzeImageService_Select_provider_first" xml:space="preserve">
-    <value>Seleccione primero un proveedor.</value>
-  </data>
-  <data name="AnalyzeImageService_Unable_to_create_request" xml:space="preserve">
-    <value>No se pudo crear la solicitud.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Captured_region" xml:space="preserve">
-    <value>Región capturada</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Configure_API_key" xml:space="preserve">
-    <value>Configure una clave de API en Opciones antes de analizar.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Thinking" xml:space="preserve">
-    <value>Pensando...</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Thoroughly_describe_this_image" xml:space="preserve">
-    <value>Describa exhaustivamente esta imagen.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Time_ms" xml:space="preserve">
-    <value>Tiempo: {0:N0} ms</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Transcribe_image_text" xml:space="preserve">
-    <value>Transcriba el texto de la imagen. No escriba nada más.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Translate_text_into_English" xml:space="preserve">
-    <value>Traduzca este texto al inglés. No escriba nada más.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_What_is_in_this_image" xml:space="preserve">
-    <value>¿Qué hay en esta imagen?</value>
-  </data>
-  <data name="AnalyzeImageWindow_Analyze_image" xml:space="preserve">
-    <value>Analizar imagen</value>
-  </data>
-  <data name="AnalyzeImageWindow_Choose_a_preset_prompt" xml:space="preserve">
-    <value>Elija una instrucción predefinida</value>
-  </data>
-  <data name="AnalyzeImageWindow_Copy_all" xml:space="preserve">
-    <value>Copiar todo</value>
-  </data>
-  <data name="AnalyzeImageWindow_Image" xml:space="preserve">
-    <value>Imagen</value>
-  </data>
-  <data name="AnalyzeImageWindow_Options" xml:space="preserve">
-    <value>Opciones...</value>
-  </data>
-  <data name="AnalyzeImageWindow_Prompt" xml:space="preserve">
-    <value>Instrucción</value>
-  </data>
-  <data name="AnalyzeImageWindow_Result" xml:space="preserve">
-    <value>Resultado</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_image" xml:space="preserve">
-    <value>Seleccionar imagen...</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_image_dialog" xml:space="preserve">
-    <value>Seleccionar imagen</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_or_drop_an_image" xml:space="preserve">
-    <value>Seleccione o arrastre una imagen</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_region" xml:space="preserve">
-    <value>Seleccionar región...</value>
-  </data>
-  <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - Analizar imagen</value>
-  </data>
   <data name="AnimatedGifMakerViewModel_Create_failed" xml:space="preserve">
     <value>No se pudo crear el GIF: {0}</value>
   </data>
@@ -500,8 +344,8 @@ Ruta del archivo: {0}</value>
   <data name="DirectoryIndexerWindow_CSS_files" xml:space="preserve">
     <value>Archivos CSS</value>
   </data>
-  <data name="DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as_or_Upload" xml:space="preserve">
-    <value>Elija una carpeta y genere la salida. No se guarda nada hasta que use Guardar como o Subir.</value>
+  <data name="DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as" xml:space="preserve">
+    <value>Elija una carpeta y genere la salida. No se guarda nada hasta que use Guardar como.</value>
   </data>
   <data name="DirectoryIndexerWindow_Create_parseable_structured_JSON" xml:space="preserve">
     <value>Crear JSON estructurado analizable</value>
@@ -548,8 +392,8 @@ Ruta del archivo: {0}</value>
   <data name="DirectoryIndexerWindow_Output_format" xml:space="preserve">
     <value>Formato de salida</value>
   </data>
-  <data name="DirectoryIndexerWindow_Ready_to_save_or_upload" xml:space="preserve">
-    <value>Listo para guardar o subir</value>
+  <data name="DirectoryIndexerWindow_Ready_to_save" xml:space="preserve">
+    <value>Listo para guardar</value>
   </data>
   <data name="DirectoryIndexerWindow_Save_as" xml:space="preserve">
     <value>Guardar como...</value>
@@ -581,11 +425,8 @@ Ruta del archivo: {0}</value>
   <data name="DirectoryIndexerWindow_Text_output" xml:space="preserve">
     <value>Salida de texto</value>
   </data>
-  <data name="DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save_or_upload" xml:space="preserve">
-    <value>El índice HTML se generó correctamente. La vista previa HTML no está disponible, pero la salida está lista para guardar o subir.</value>
-  </data>
-  <data name="DirectoryIndexerWindow_Upload" xml:space="preserve">
-    <value>Cargar</value>
+  <data name="DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save" xml:space="preserve">
+    <value>El índice HTML se generó correctamente. La vista previa HTML no está disponible, pero la salida está lista para guardar.</value>
   </data>
   <data name="DirectoryIndexerWindow_Use_custom_CSS_file" xml:space="preserve">
     <value>Usar archivo CSS personalizado</value>
@@ -595,9 +436,6 @@ Ruta del archivo: {0}</value>
   </data>
   <data name="DirectoryIndexerWindow_XML_output" xml:space="preserve">
     <value>Salida XML</value>
-  </data>
-  <data name="GeminiProvider_API_error" xml:space="preserve">
-    <value>Error de la API de Gemini: {0}</value>
   </data>
   <data name="HashCheckerViewModel_Calculating_hash" xml:space="preserve">
     <value>Calculando hash...</value>
@@ -1256,9 +1094,6 @@ Ruta del archivo: {0}</value>
   <data name="LocalizedDisplayConverter_GPU" xml:space="preserve">
     <value>GPU</value>
   </data>
-  <data name="LocalizedDisplayConverter_Gemini" xml:space="preserve">
-    <value>Gemini</value>
-  </data>
   <data name="LocalizedDisplayConverter_High" xml:space="preserve">
     <value>Alto</value>
   </data>
@@ -1279,15 +1114,6 @@ Ruta del archivo: {0}</value>
   </data>
   <data name="LocalizedDisplayConverter_Minimal" xml:space="preserve">
     <value>Mínimo</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenAI" xml:space="preserve">
-    <value>OpenAI</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenAI_legacy" xml:space="preserve">
-    <value>OpenAI (heredado)</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenRouter" xml:space="preserve">
-    <value>OpenRouter</value>
   </data>
   <data name="LocalizedDisplayConverter_Vertical" xml:space="preserve">
     <value>Vertical</value>
@@ -1705,9 +1531,6 @@ Ruta del archivo: {0}</value>
   <data name="OCRWindow_Use_0_where_the_recognized_text_belongs" xml:space="preserve">
     <value>Use {0} donde corresponda el texto reconocido</value>
   </data>
-  <data name="OpenRouterProvider_API_error" xml:space="preserve">
-    <value>Error de la API de OpenRouter: {0}</value>
-  </data>
   <data name="PinToScreenOptionsViewModel_Bottom_center" xml:space="preserve">
     <value>Inferior centro</value>
   </data>
@@ -1921,119 +1744,8 @@ Ruta del archivo: {0}</value>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
     <value>ShareX - Código QR</value>
   </data>
-  <data name="QRCodeWindow_Upload" xml:space="preserve">
-    <value>Cargar</value>
-  </data>
   <data name="QRCodeWindow_px" xml:space="preserve">
     <value>px</value>
-  </data>
-  <data name="RemoteStorageBrowser_Cancel" xml:space="preserve">
-    <value>Cancelar</value>
-  </data>
-  <data name="RemoteStorageBrowser_CopyUrl" xml:space="preserve">
-    <value>Copiar URL</value>
-  </data>
-  <data name="RemoteStorageBrowser_CreateFolder" xml:space="preserve">
-    <value>Crear carpeta...</value>
-  </data>
-  <data name="RemoteStorageBrowser_CreatedFolder" xml:space="preserve">
-    <value>Se creó la carpeta “{0}”.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Delete" xml:space="preserve">
-    <value>Eliminar...</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteFileConfirmation" xml:space="preserve">
-    <value>¿Eliminar el archivo “{0}”?</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteFolderConfirmation" xml:space="preserve">
-    <value>¿Eliminar la carpeta “{0}”?</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteNonEmptyFolderConfirmation" xml:space="preserve">
-    <value>La carpeta “{0}” no está vacía. ¿Quieres eliminarla junto con todo su contenido? Esta acción no se puede deshacer.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Deleted" xml:space="preserve">
-    <value>Se eliminó “{0}”.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Download" xml:space="preserve">
-    <value>Descargar...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Downloaded" xml:space="preserve">
-    <value>Se descargó “{0}”.</value>
-  </data>
-  <data name="RemoteStorageBrowser_DropFilesToUpload" xml:space="preserve">
-    <value>Suelta archivos para subirlos a esta carpeta</value>
-  </data>
-  <data name="RemoteStorageBrowser_EmptyFolder" xml:space="preserve">
-    <value>Esta carpeta está vacía.</value>
-  </data>
-  <data name="RemoteStorageBrowser_ItemCount" xml:space="preserve">
-    <value>{0} archivo(s), {1} carpeta(s) • {2} en total</value>
-  </data>
-  <data name="RemoteStorageBrowser_Loading" xml:space="preserve">
-    <value>Cargando...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Location" xml:space="preserve">
-    <value>Ubicación:</value>
-  </data>
-  <data name="RemoteStorageBrowser_Modified" xml:space="preserve">
-    <value>Modificado</value>
-  </data>
-  <data name="RemoteStorageBrowser_Name" xml:space="preserve">
-    <value>Nombre</value>
-  </data>
-  <data name="RemoteStorageBrowser_NameAlreadyExists" xml:space="preserve">
-    <value>Ya existe un elemento llamado “{0}”.</value>
-  </data>
-  <data name="RemoteStorageBrowser_NewFolder" xml:space="preserve">
-    <value>Nueva carpeta</value>
-  </data>
-  <data name="RemoteStorageBrowser_NoMatchingItems" xml:space="preserve">
-    <value>No hay elementos coincidentes.</value>
-  </data>
-  <data name="RemoteStorageBrowser_OpenUrl" xml:space="preserve">
-    <value>Abrir enlace</value>
-  </data>
-  <data name="RemoteStorageBrowser_OperationFailed" xml:space="preserve">
-    <value>Error en la operación de almacenamiento remoto.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Provider" xml:space="preserve">
-    <value>Proveedor:</value>
-  </data>
-  <data name="RemoteStorageBrowser_Refresh" xml:space="preserve">
-    <value>Actualizar</value>
-  </data>
-  <data name="RemoteStorageBrowser_Rename" xml:space="preserve">
-    <value>Cambiar nombre...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Renamed" xml:space="preserve">
-    <value>Se cambió el nombre de “{0}” a “{1}”.</value>
-  </data>
-  <data name="RemoteStorageBrowser_SaveDownloadedFile" xml:space="preserve">
-    <value>Guardar archivo descargado</value>
-  </data>
-  <data name="RemoteStorageBrowser_SearchCurrentFolder" xml:space="preserve">
-    <value>Buscar en la carpeta actual...</value>
-  </data>
-  <data name="RemoteStorageBrowser_SelectFilesToUpload" xml:space="preserve">
-    <value>Seleccionar archivos para subir</value>
-  </data>
-  <data name="RemoteStorageBrowser_Size" xml:space="preserve">
-    <value>Tamaño</value>
-  </data>
-  <data name="RemoteStorageBrowser_Title" xml:space="preserve">
-    <value>Explorador de almacenamiento remoto</value>
-  </data>
-  <data name="RemoteStorageBrowser_Up" xml:space="preserve">
-    <value>Subir</value>
-  </data>
-  <data name="RemoteStorageBrowser_Upload" xml:space="preserve">
-    <value>Subir archivos...</value>
-  </data>
-  <data name="RemoteStorageBrowser_UploadedFiles" xml:space="preserve">
-    <value>Se subieron {0} archivo(s).</value>
-  </data>
-  <data name="RemoteStorageBrowser_View" xml:space="preserve">
-    <value>Ver</value>
   </data>
   <data name="RulerOverlayControl_Tolerance" xml:space="preserve">
     <value>Tolerancia: {0}%</value>
@@ -2259,9 +1971,6 @@ Ruta del archivo: {0}</value>
   </data>
   <data name="VideoThumbnailerWindow_Thumbnails" xml:space="preserve">
     <value>Miniaturas</value>
-  </data>
-  <data name="VideoThumbnailerWindow_Upload_created_thumbnails" xml:space="preserve">
-    <value>Subir las miniaturas creadas</value>
   </data>
   <data name="VideoThumbnailerWindow_Video" xml:space="preserve">
     <value>Video</value>

@@ -390,9 +390,6 @@ Panoda görüntü yok.</value>
   <data name="EditorView_Undo" xml:space="preserve">
     <value>Geri al</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>Resmi yükle (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>URL geçerli bir görüntüyü işaret etmiyor.</value>
   </data>
@@ -1227,9 +1224,6 @@ Panoda görüntü yok.</value>
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>Resim eklendi.</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>Resim yükleniyor.</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>Resim açıldı.</value>
   </data>
@@ -1262,6 +1256,9 @@ Panoda görüntü yok.</value>
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>Resim yok</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>OCR için grafik hızlandırmayı kullan</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Yakalama sonrası görevlerini çalıştır (Enter)</value>
@@ -1301,6 +1298,54 @@ Panoda görüntü yok.</value>
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>Genişlik:</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>OCR motoru</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>ShareX OCR bu platformda kullanılamıyor. Düzenleyici ayarlarında Xiaomi OCR seçin.</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>İşlem tamamlanamadı.</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>Metin tanıma iptal edildi.</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>Panoya kopyala</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>OCR dosyaları indiriliyor…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>Metin tanıma başarısız oldu.</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>OCR modeli yükleniyor…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>OCR dosyaları daha hızlı yükleme için hazırlanıyor…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>Metin tanınıyor…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>Dosyaya kaydet</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>Metin dosyası</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>Metin tanıma</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>Uygula</value>

@@ -133,9 +133,6 @@
   <data name="ActionsToolbarWindow_Close" xml:space="preserve">
     <value>بستن</value>
   </data>
-  <data name="ActionsToolbarWindow_DropToUpload" xml:space="preserve">
-    <value>برای بارگذاری رها کنید</value>
-  </data>
   <data name="ActionsToolbarWindow_Edit" xml:space="preserve">
     <value>ویرایش...</value>
   </data>
@@ -154,9 +151,6 @@
   <data name="ActionsToolbarWindow_Title" xml:space="preserve">
     <value>ShareX - نوار ابزار کنش‌ها</value>
   </data>
-  <data name="AfterCaptureWindow_AfterUpload" xml:space="preserve">
-    <value>پس از بارگذاری</value>
-  </data>
   <data name="AfterCaptureWindow_Cancel" xml:space="preserve">
     <value>انصراف</value>
   </data>
@@ -168,12 +162,6 @@
   </data>
   <data name="AfterCaptureWindow_CopyPreviewImage" xml:space="preserve">
     <value>کپی تصویر پیش‌نمایش</value>
-  </data>
-  <data name="AfterCaptureWindow_CustomUploader" xml:space="preserve">
-    <value>سفارشی [{0}]</value>
-  </data>
-  <data name="AfterCaptureWindow_Destinations" xml:space="preserve">
-    <value>مقصدها</value>
   </data>
   <data name="AfterCaptureWindow_FileName" xml:space="preserve">
     <value>نام فایل</value>
@@ -189,51 +177,6 @@
   </data>
   <data name="AfterCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - پس از تصویربرداری</value>
-  </data>
-  <data name="AfterUploadWindow_ClipboardFormats" xml:space="preserve">
-    <value>قالب‌های کلیپ‌بورد</value>
-  </data>
-  <data name="AfterUploadWindow_Close" xml:space="preserve">
-    <value>بستن</value>
-  </data>
-  <data name="AfterUploadWindow_CopyImage" xml:space="preserve">
-    <value>کپی تصویر</value>
-  </data>
-  <data name="AfterUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>کپی تصویر پیش‌نمایش</value>
-  </data>
-  <data name="AfterUploadWindow_CopySelectedFormat" xml:space="preserve">
-    <value>کپی قالب انتخاب‌شده</value>
-  </data>
-  <data name="AfterUploadWindow_GroupCustom" xml:space="preserve">
-    <value>سفارشی</value>
-  </data>
-  <data name="AfterUploadWindow_GroupForums" xml:space="preserve">
-    <value>انجمن‌ها</value>
-  </data>
-  <data name="AfterUploadWindow_GroupLinks" xml:space="preserve">
-    <value>پیوندها</value>
-  </data>
-  <data name="AfterUploadWindow_GroupLocal" xml:space="preserve">
-    <value>محلی</value>
-  </data>
-  <data name="AfterUploadWindow_NoPreview" xml:space="preserve">
-    <value>پیش‌نمایش تصویر موجود نیست</value>
-  </data>
-  <data name="AfterUploadWindow_OpenContainingFolder" xml:space="preserve">
-    <value>باز کردن پوشه حاوی فایل</value>
-  </data>
-  <data name="AfterUploadWindow_OpenFile" xml:space="preserve">
-    <value>باز کردن فایل</value>
-  </data>
-  <data name="AfterUploadWindow_OpenLink" xml:space="preserve">
-    <value>باز کردن پیوند</value>
-  </data>
-  <data name="AfterUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - پس از بارگذاری</value>
-  </data>
-  <data name="AfterUploadWindow_UploadComplete" xml:space="preserve">
-    <value>بارگذاری کامل شد</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>آیا می خواهید تنظیمات ShareX را به حالت اولیه برگردانید؟</value>
@@ -259,12 +202,6 @@
   <data name="ApplicationSettingsWindow_AccentColorLabel" xml:space="preserve">
     <value>رنگ تأکیدی:</value>
   </data>
-  <data name="ApplicationSettingsWindow_Add" xml:space="preserve">
-    <value>اضافه کردن</value>
-  </data>
-  <data name="ApplicationSettingsWindow_AddClipboardFormat" xml:space="preserve">
-    <value>افزودن قالب کلیپ‌بورد</value>
-  </data>
   <data name="ApplicationSettingsWindow_Advanced" xml:space="preserve">
     <value>پیشرفته</value>
   </data>
@@ -274,9 +211,6 @@
   <data name="ApplicationSettingsWindow_AdvancedClipboard" xml:space="preserve">
     <value>کلیپ‌بورد</value>
   </data>
-  <data name="ApplicationSettingsWindow_AdvancedDragAndDropWindow" xml:space="preserve">
-    <value>پنجره کشیدن و رها کردن</value>
-  </data>
   <data name="ApplicationSettingsWindow_AdvancedHotkeys" xml:space="preserve">
     <value>کلیدهای میانبر</value>
   </data>
@@ -285,9 +219,6 @@
   </data>
   <data name="ApplicationSettingsWindow_AdvancedPaths" xml:space="preserve">
     <value>مسیرها</value>
-  </data>
-  <data name="ApplicationSettingsWindow_AdvancedUpload" xml:space="preserve">
-    <value>بارگذاری</value>
   </data>
   <data name="ApplicationSettingsWindow_Application" xml:space="preserve">
     <value>برنامه</value>
@@ -319,11 +250,11 @@
   <data name="ApplicationSettingsWindow_BackupImportedFrom" xml:space="preserve">
     <value>نسخهٔ پشتیبان از {0} وارد شد</value>
   </data>
+  <data name="ApplicationSettingsWindow_BackupPrivacyWarning" xml:space="preserve">
+    <value>نسخهٔ پشتیبان صادرشده را به اشتراک نگذارید. ممکن است حاوی تنظیمات خصوصی باشد.</value>
+  </data>
   <data name="ApplicationSettingsWindow_BinaryUnits" xml:space="preserve">
     <value>استفاده از واحدهای دودویی</value>
-  </data>
-  <data name="ApplicationSettingsWindow_BottomCenter" xml:space="preserve">
-    <value>پایین وسط</value>
   </data>
   <data name="ApplicationSettingsWindow_BottomLeft" xml:space="preserve">
     <value>پایین چپ</value>
@@ -337,12 +268,6 @@
   <data name="ApplicationSettingsWindow_BrowserPath" xml:space="preserve">
     <value>مسیر مرورگر</value>
   </data>
-  <data name="ApplicationSettingsWindow_BufferSizeLabel" xml:space="preserve">
-    <value>سایز بافر:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Cancel" xml:space="preserve">
-    <value>لغو</value>
-  </data>
   <data name="ApplicationSettingsWindow_ChangesToThePersonalFolderAreStoredImmediatelyAndTakeEffectAfterRestart" xml:space="preserve">
     <value>تغییرات پوشهٔ شخصی بلافاصله ذخیره می‌شوند و پس از راه‌اندازی مجدد اعمال می‌شوند.</value>
   </data>
@@ -352,23 +277,11 @@
   <data name="ApplicationSettingsWindow_ChooseShareXPersonalFolderPath" xml:space="preserve">
     <value>انتخاب مسیر پوشهٔ شخصی ShareX</value>
   </data>
-  <data name="ApplicationSettingsWindow_ChromeExtension" xml:space="preserve">
-    <value>افزونه کروم</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ClipboardFormats" xml:space="preserve">
-    <value>قالب‌های کلیپ‌بورد</value>
-  </data>
   <data name="ApplicationSettingsWindow_CustomHotkeysConfigPath" xml:space="preserve">
     <value>مسیر سفارشی پیکربندی کلیدهای میانبر</value>
   </data>
   <data name="ApplicationSettingsWindow_CustomScreenshotsPath2" xml:space="preserve">
     <value>مسیر ثانویه نماگرفت‌ها</value>
-  </data>
-  <data name="ApplicationSettingsWindow_CustomUploadersConfigPath" xml:space="preserve">
-    <value>مسیر سفارشی پیکربندی سرویس‌های بارگذاری</value>
-  </data>
-  <data name="ApplicationSettingsWindow_CustomizeTheTextCopiedFromCompletedUploads" xml:space="preserve">
-    <value>متن کپی‌شده از بارگذاری‌های تکمیل‌شده را سفارشی کنید.</value>
   </data>
   <data name="ApplicationSettingsWindow_Dark" xml:space="preserve">
     <value>تیره</value>
@@ -379,9 +292,6 @@
   <data name="ApplicationSettingsWindow_DefaultPrinterOverrideLabel" xml:space="preserve">
     <value>جایگزینی چاپگر پیش‌فرض:</value>
   </data>
-  <data name="ApplicationSettingsWindow_Description" xml:space="preserve">
-    <value>شرح</value>
-  </data>
   <data name="ApplicationSettingsWindow_DevMode" xml:space="preserve">
     <value>حالت توسعه‌دهنده</value>
   </data>
@@ -391,47 +301,14 @@
   <data name="ApplicationSettingsWindow_DisableHotkeysOnFullscreen" xml:space="preserve">
     <value>غیرفعال کردن کلیدهای میانبر در برنامه‌های تمام‌صفحه</value>
   </data>
-  <data name="ApplicationSettingsWindow_DisableUpload" xml:space="preserve">
-    <value>غیرفعال کردن بارگذاری‌ها</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DoNotShareAnExportedBackupItCanContainPrivateInformationSuchAsAccountDetailsAndUploadHistory" xml:space="preserve">
-    <value>نسخهٔ پشتیبان صادرشده را به اشتراک نگذارید. ممکن است حاوی اطلاعات خصوصی مانند جزئیات حساب و تاریخچهٔ بارگذاری باشد.</value>
-  </data>
   <data name="ApplicationSettingsWindow_DontShowImagePrintSettingsDialog" xml:space="preserve">
     <value>پنجره تنظیمات چاپ عکس را نشان نده</value>
   </data>
   <data name="ApplicationSettingsWindow_DontShowWindowsPrintDialog" xml:space="preserve">
     <value>پنجره چاپ ویندوز را نشان نده</value>
   </data>
-  <data name="ApplicationSettingsWindow_DropAlignment" xml:space="preserve">
-    <value>موقعیت پنجره رها کردن</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropHoverOpacity" xml:space="preserve">
-    <value>تیرگی پنجره هنگام کشیدن فایل روی آن</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropOffset" xml:space="preserve">
-    <value>فاصله پنجره رها کردن</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropOpacity" xml:space="preserve">
-    <value>تیرگی پنجره رها کردن</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropSize" xml:space="preserve">
-    <value>اندازه پنجره رها کردن</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Edit" xml:space="preserve">
-    <value>ویرایش...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EditClipboardFormat" xml:space="preserve">
-    <value>ویرایش قالب کلیپ‌بورد</value>
-  </data>
   <data name="ApplicationSettingsWindow_EditQuickTaskMenu" xml:space="preserve">
     <value>ویرایش منوی اعمال سریع:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EnableChromeExtensionSupport" xml:space="preserve">
-    <value>افزونه کروم را فعال کن</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EnableFirefoxAddonSupport" xml:space="preserve">
-    <value>افزونه فایرفاکس را فعال کن</value>
   </data>
   <data name="ApplicationSettingsWindow_ErrorPrefix" xml:space="preserve">
     <value>خطا:</value>
@@ -448,17 +325,11 @@
   <data name="ApplicationSettingsWindow_ExportingBackup" xml:space="preserve">
     <value>در حال صدور نسخهٔ پشتیبان...</value>
   </data>
-  <data name="ApplicationSettingsWindow_FirefoxAddon" xml:space="preserve">
-    <value>افزونه فایرفاکس</value>
-  </data>
   <data name="ApplicationSettingsWindow_FollowSystemAccentColor" xml:space="preserve">
     <value>استفاده از رنگ تأکیدی سیستم</value>
   </data>
   <data name="ApplicationSettingsWindow_FollowSystemTheme" xml:space="preserve">
     <value>استفاده از پوستهٔ سیستم</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Format" xml:space="preserve">
-    <value>فرمت</value>
   </data>
   <data name="ApplicationSettingsWindow_General" xml:space="preserve">
     <value>عمومی</value>
@@ -490,12 +361,6 @@
   <data name="ApplicationSettingsWindow_InstallDevBuild" xml:space="preserve">
     <value>نصب نسخه برنامه نویس ...</value>
   </data>
-  <data name="ApplicationSettingsWindow_InstallShareXChromeExtension" xml:space="preserve">
-    <value>نصب افزونه کروم شیرایکس ...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_InstallShareXFirefoxAddon" xml:space="preserve">
-    <value>نصب افزونه ShareX فایرفاکس ...</value>
-  </data>
   <data name="ApplicationSettingsWindow_Integration" xml:space="preserve">
     <value>تعامل</value>
   </data>
@@ -511,23 +376,11 @@
   <data name="ApplicationSettingsWindow_MaximumNumberOfTasksToSaveLabel" xml:space="preserve">
     <value>حداکثر تعداد وظایفی که میتواند ذخیره شود:</value>
   </data>
-  <data name="ApplicationSettingsWindow_MiddleCenter" xml:space="preserve">
-    <value>مرکز</value>
-  </data>
-  <data name="ApplicationSettingsWindow_MiddleLeft" xml:space="preserve">
-    <value>وسط چپ</value>
-  </data>
-  <data name="ApplicationSettingsWindow_MiddleRight" xml:space="preserve">
-    <value>وسط راست</value>
-  </data>
   <data name="ApplicationSettingsWindow_MinimizeToTrayOnStart" xml:space="preserve">
     <value>در هنگام شروع ضبط نرم افزار را کوچک کن</value>
   </data>
   <data name="ApplicationSettingsWindow_NumberOfFilesToKeepLabel" xml:space="preserve">
     <value>تعداد فایل‌ها برای نگه‌داری:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_NumberOfTimesToRetryIfUploadFailsLabel" xml:space="preserve">
-    <value>تعداد سعی ها در صورتی که آپلود با مشکل مواجه شود.</value>
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconDoubleLeftClickLabel" xml:space="preserve">
     <value>دابل کلیک روی آیکن در نواروظیفه:</value>
@@ -537,9 +390,6 @@
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconMiddleClickLabel" xml:space="preserve">
     <value>کلیک وسط روی آیکن در نواروظیفه:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_OnlySaveIfUrlIsNotEmpty" xml:space="preserve">
-    <value>فقط در صورتی آدرس را ذخیره کن که خالی نباشد</value>
   </data>
   <data name="ApplicationSettingsWindow_Open" xml:space="preserve">
     <value>بازکردن...</value>
@@ -574,9 +424,6 @@
   <data name="ApplicationSettingsWindow_RememberMainWindowSize" xml:space="preserve">
     <value>اندازه پنجره اصلی را به یاد داشته باش</value>
   </data>
-  <data name="ApplicationSettingsWindow_Remove" xml:space="preserve">
-    <value>حذف</value>
-  </data>
   <data name="ApplicationSettingsWindow_Reset" xml:space="preserve">
     <value>بازنشانی</value>
   </data>
@@ -589,14 +436,8 @@
   <data name="ApplicationSettingsWindow_RestartShareXToApplyThisChange" xml:space="preserve">
     <value>برای اعمال این تغییر، ShareX را مجدداً راه‌اندازی کنید.</value>
   </data>
-  <data name="ApplicationSettingsWindow_RightClickToInsertAVariable" xml:space="preserve">
-    <value>برای درج متغیر راست‌کلیک کنید.</value>
-  </data>
   <data name="ApplicationSettingsWindow_RotateImageByExifOrientationData" xml:space="preserve">
     <value>چرخاندن تصاویر بر اساس جهت EXIF</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Save" xml:space="preserve">
-    <value>ذخیره</value>
   </data>
   <data name="ApplicationSettingsWindow_SaveRecentTasks" xml:space="preserve">
     <value>وظایف اخیر را ذخیره کن</value>
@@ -622,20 +463,11 @@
   <data name="ApplicationSettingsWindow_ShareXPersonalFolder" xml:space="preserve">
     <value>پوشهٔ شخصی ShareX</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowClipboardContentViewer" xml:space="preserve">
-    <value>نمایش مشاهده‌گر محتوای کلیپ‌بورد</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowEditWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
     <value>شیرایکس را در راست کلیک منوی ویرایش با ویندوز اکسپلورر اضافه کن</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowLargeFileSizeWarning" xml:space="preserve">
-    <value>آستانه هشدار فایل بزرگ (مگابایت)</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowMostRecentTaskFirst" xml:space="preserve">
     <value>نمایش جدیدترین وظیفه در ابتدا</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ShowMultiUploadWarning" xml:space="preserve">
-    <value>هشدار پیش از بارگذاری بیش از ۱۰ فایل</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowProgressInTaskbarButton" xml:space="preserve">
     <value>پیشرفت را در نوار وظیفه نشان بده</value>
@@ -649,20 +481,11 @@
   <data name="ApplicationSettingsWindow_ShowRecentTasksInTrayMenu" xml:space="preserve">
     <value>در Tray Menu وظایف اخیر را نشان بده</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowShareXInSendToMenu" xml:space="preserve">
-    <value>شیر ایکس را در منوی ارسال به ویندوز اضافه کن</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowTitle" xml:space="preserve">
     <value>نمایش عنوان</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowTrayIcon" xml:space="preserve">
     <value>نشان دادن آیکن در نوار وظیفه:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ShowUploadWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
-    <value>شیرایکس را در راست کلیک پنجره ویندوز اکسپلورر اضافه کن</value>
-  </data>
-  <data name="ApplicationSettingsWindow_SimultaneousUploadLimitLabel" xml:space="preserve">
-    <value>محدودیت آپلود همزمان:</value>
   </data>
   <data name="ApplicationSettingsWindow_Steam" xml:space="preserve">
     <value>Steam</value>
@@ -679,9 +502,6 @@
   <data name="ApplicationSettingsWindow_ThemeLabel" xml:space="preserve">
     <value>پوسته:</value>
   </data>
-  <data name="ApplicationSettingsWindow_TheseFormatsAppearUnderTheCopySubmenuInTheMainWindowContextMenu" xml:space="preserve">
-    <value>این قالب‌ها در زیرمنوی «کپی» از منوی زمینه‌ای پنجرهٔ اصلی نمایش داده می‌شوند.</value>
-  </data>
   <data name="ApplicationSettingsWindow_ThumbnailClickActionLabel" xml:space="preserve">
     <value>عمل کلیک روی بندانگشتی:</value>
   </data>
@@ -693,9 +513,6 @@
   </data>
   <data name="ApplicationSettingsWindow_TitleLocationLabel" xml:space="preserve">
     <value>محل عنوان:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_TopCenter" xml:space="preserve">
-    <value>بالا وسط</value>
   </data>
   <data name="ApplicationSettingsWindow_TopLeft" xml:space="preserve">
     <value>بالا چپ</value>
@@ -709,20 +526,11 @@
   <data name="ApplicationSettingsWindow_TrayAutoExpandCaptureMenu" xml:space="preserve">
     <value>باز کردن خودکار منوی تصویربرداری</value>
   </data>
-  <data name="ApplicationSettingsWindow_URLEncodeIgnoreEmoji" xml:space="preserve">
-    <value>نادیده گرفتن ایموجی‌ها هنگام کدگذاری URL</value>
-  </data>
   <data name="ApplicationSettingsWindow_UpdateChannelLabel" xml:space="preserve">
     <value>کانال به‌روزرسانی:</value>
   </data>
   <data name="ApplicationSettingsWindow_Updates" xml:space="preserve">
     <value>به‌روزرسانی‌ها</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Upload" xml:space="preserve">
-    <value>آپلود</value>
-  </data>
-  <data name="ApplicationSettingsWindow_UploadResult" xml:space="preserve">
-    <value>نتیجهٔ بارگذاری</value>
   </data>
   <data name="ApplicationSettingsWindow_UseAlternativeClipboardCopyImage" xml:space="preserve">
     <value>استفاده از روش جایگزین کپی تصویر</value>
@@ -732,9 +540,6 @@
   </data>
   <data name="ApplicationSettingsWindow_UseCustomScreenshotsFolder" xml:space="preserve">
     <value>استفاده از پوشهٔ سفارشی اسکرین‌شات‌ها</value>
-  </data>
-  <data name="ApplicationSettingsWindow_UseMachineSpecificUploadersConfig" xml:space="preserve">
-    <value>استفاده از پیکربندی سرویس‌های بارگذاری ویژه این رایانه</value>
   </data>
   <data name="ApplicationSettingsWindow_UseWhiteShareXIcon" xml:space="preserve">
     <value>از آیکن سفید نرم افزار استفاده کن</value>
@@ -753,9 +558,6 @@
   </data>
   <data name="ApplicationSettingsWindow_WorkflowsOnlyShowEdited" xml:space="preserve">
     <value>نمایش فقط گردش‌های کاری سفارشی</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ZeroDisablesTheLimit" xml:space="preserve">
-    <value>0 حد را غیرفعال می‌کند</value>
   </data>
   <data name="AutoCaptureWindow_AutoMinimize" xml:space="preserve">
     <value>کوچک‌سازی خودکار در سینی سیستم</value>
@@ -799,368 +601,11 @@
   <data name="AutoCaptureWindow_WaitTasks" xml:space="preserve">
     <value>انتظار تا تکمیل وظایف</value>
   </data>
-  <data name="BeforeUploadWindow_Cancel" xml:space="preserve">
-    <value>انصراف</value>
-  </data>
-  <data name="BeforeUploadWindow_ChooseDestination" xml:space="preserve">
-    <value>لطفاً یک مقصد انتخاب کنید.</value>
-  </data>
-  <data name="BeforeUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>کپی تصویر پیش‌نمایش</value>
-  </data>
-  <data name="BeforeUploadWindow_CustomUploader" xml:space="preserve">
-    <value>سفارشی [{0}]</value>
-  </data>
-  <data name="BeforeUploadWindow_Destination" xml:space="preserve">
-    <value>مقصد</value>
-  </data>
-  <data name="BeforeUploadWindow_Heading" xml:space="preserve">
-    <value>پیش از بارگذاری</value>
-  </data>
-  <data name="BeforeUploadWindow_NoPreview" xml:space="preserve">
-    <value>پیش‌نمایشی موجود نیست</value>
-  </data>
-  <data name="BeforeUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - پیش از بارگذاری</value>
-  </data>
-  <data name="BeforeUploadWindow_Upload" xml:space="preserve">
-    <value>بارگذاری</value>
-  </data>
-  <data name="BeforeUploadWindow_UploadPrompt" xml:space="preserve">
-    <value>{0} در آستانه بارگذاری در {1} است. می‌توانید مقصد دیگری انتخاب کنید.</value>
-  </data>
   <data name="ClipboardDoesNotContainAnImage" xml:space="preserve">
     <value>کلیپ‌بورد does not contain an تصویر.</value>
   </data>
-  <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
-    <value>متغیرهای پشتیبانی‌شده: {0} و متغیرهای دیگر مانند {1} و غیره.</value>
-  </data>
-  <data name="ClipboardUpload" xml:space="preserve">
-    <value>کلیپ‌بورد بارگذاری</value>
-  </data>
-  <data name="ClipboardUploadWindow_Cancel" xml:space="preserve">
-    <value>انصراف</value>
-  </data>
-  <data name="ClipboardUploadWindow_ClipboardUpload" xml:space="preserve">
-    <value>بارگذاری از کلیپ‌بورد</value>
-  </data>
-  <data name="ClipboardUploadWindow_DontShowAgain" xml:space="preserve">
-    <value>این پنجره را دوباره نشان نده</value>
-  </data>
-  <data name="ClipboardUploadWindow_Empty" xml:space="preserve">
-    <value>کلیپ‌بورد خالی است یا حاوی داده‌های پشتیبانی‌نشده است.</value>
-  </data>
-  <data name="ClipboardUploadWindow_FileSummary" xml:space="preserve">
-    <value>محتوای کلیپ‌بورد: فایل‌ها، تعداد: {0}</value>
-  </data>
-  <data name="ClipboardUploadWindow_ImageSummary" xml:space="preserve">
-    <value>محتوای کلیپ‌بورد: تصویر، اندازه: {0} × {1}</value>
-  </data>
-  <data name="ClipboardUploadWindow_TextSummary" xml:space="preserve">
-    <value>محتوای کلیپ‌بورد: متن، طول: {0}</value>
-  </data>
-  <data name="ClipboardUploadWindow_Upload" xml:space="preserve">
-    <value>بارگذاری</value>
-  </data>
   <data name="Confirmation" xml:space="preserve">
     <value>تأیید</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Add" xml:space="preserve">
-    <value>افزودن</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Name" xml:space="preserve">
-    <value>نام</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Remove" xml:space="preserve">
-    <value>حذف</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Value" xml:space="preserve">
-    <value>مقدار</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_AllRemoved" xml:space="preserve">
-    <value>همه بارگذارهای سفارشی حذف شدند.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Arguments" xml:space="preserve">
-    <value>آرگومان‌ها</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Base64Encoding" xml:space="preserve">
-    <value>رمزگذاری Base64</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Beautify" xml:space="preserve">
-    <value>زیباسازی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Body" xml:space="preserve">
-    <value>بدنه</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_BodyType" xml:space="preserve">
-    <value>نوع بدنه</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Capabilities" xml:space="preserve">
-    <value>قابلیت‌ها</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ChangesApplied" xml:space="preserve">
-    <value>تغییرات بلافاصله اعمال می‌شوند.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ClearAll" xml:space="preserve">
-    <value>پاک کردن همه...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ClearConfirmation" xml:space="preserve">
-    <value>همه بارگذارهای سفارشی حذف شوند؟</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Close" xml:space="preserve">
-    <value>بستن</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ConfirmationTitle" xml:space="preserve">
-    <value>ShareX - تأیید</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_CreateOrImport" xml:space="preserve">
-    <value>یک بارگذار سفارشی بسازید یا فایل .sxcu را درون‌ریزی کنید.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_CustomUploaderFileType" xml:space="preserve">
-    <value>بارگذار سفارشی ShareX</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DeletionURL" xml:space="preserve">
-    <value>نشانی حذف</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DestinationRequired" xml:space="preserve">
-    <value>پیش از برون‌بری باید حداقل یک نوع مقصد انتخاب شود.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DisplayOutputText" xml:space="preserve">
-    <value>نمایش متن خروجی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Duplicate" xml:space="preserve">
-    <value>تکثیر بارگذار انتخاب‌شده</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DuplicateNamesNotAllowed" xml:space="preserve">
-    <value>نام تکراری مجاز نیست.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Duplicated" xml:space="preserve">
-    <value>بارگذار سفارشی تکثیر شد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Endpoint" xml:space="preserve">
-    <value>نقطه پایانی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Error" xml:space="preserve">
-    <value>خطا</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ErrorMessage" xml:space="preserve">
-    <value>پیام خطا</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Export" xml:space="preserve">
-    <value>برون‌ریزی بارگذار انتخاب‌شده...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportAll" xml:space="preserve">
-    <value>برون‌ریزی همه...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportAllDialogTitle" xml:space="preserve">
-    <value>برون‌بری همه بارگذارهای سفارشی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportDialogTitle" xml:space="preserve">
-    <value>برون‌بری بارگذار سفارشی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportedCount" xml:space="preserve">
-    <value>{0} بارگذار سفارشی برون‌بری شد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportedOne" xml:space="preserve">
-    <value>{0} برون‌بری شد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileFormName" xml:space="preserve">
-    <value>نام فرم پرونده</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileFormNameDescription" xml:space="preserve">
-    <value>نام فیلد multipart برای ارسال پرونده بارگذاری‌شده.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileUploader" xml:space="preserve">
-    <value>بارگذار فایل</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FilteredUploaderCount" xml:space="preserve">
-    <value>{0} از {1}</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Guide" xml:space="preserve">
-    <value>راهنمای بارگذار سفارشی...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Headers" xml:space="preserve">
-    <value>سرآیندها</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Identity" xml:space="preserve">
-    <value>هویت</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImageUploader" xml:space="preserve">
-    <value>بارگذار تصویر</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Import" xml:space="preserve">
-    <value>درون‌ریزی...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImportDialogTitle" xml:space="preserve">
-    <value>درون‌ریزی بارگذارهای سفارشی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImportedCount" xml:space="preserve">
-    <value>{0} بارگذار سفارشی درون‌ریزی شد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_JSONPathResponseValue" xml:space="preserve">
-    <value>مقدار پاسخ JSONPath</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Method" xml:space="preserve">
-    <value>روش</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Minify" xml:space="preserve">
-    <value>کوچک‌سازی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Name" xml:space="preserve">
-    <value>نام</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NamePlaceholder" xml:space="preserve">
-    <value>اگر خالی باشد از میزبان درخواست استفاده می‌کند</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_New" xml:space="preserve">
-    <value>جدید</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NewCreated" xml:space="preserve">
-    <value>بارگذار سفارشی جدید ساخته شد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NoAdditionalBodyFields" xml:space="preserve">
-    <value>این نوع بدنه فیلد اضافی ندارد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NoSearchMatches" xml:space="preserve">
-    <value>هیچ بارگذاری با این جستجو مطابقت ندارد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Overview" xml:space="preserve">
-    <value>نمای کلی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Parameters" xml:space="preserve">
-    <value>پارامترها</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RandomSelection" xml:space="preserve">
-    <value>انتخاب تصادفی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RegularExpressionResult" xml:space="preserve">
-    <value>نتیجه عبارت منظم</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Remove" xml:space="preserve">
-    <value>حذف بارگذار انتخاب‌شده</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Removed" xml:space="preserve">
-    <value>بارگذار سفارشی حذف شد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Request" xml:space="preserve">
-    <value>درخواست</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestData" xml:space="preserve">
-    <value>داده‌های درخواست</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestURL" xml:space="preserve">
-    <value>نشانی درخواست</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestURLRequired" xml:space="preserve">
-    <value>نشانی درخواست باید پیش از برون‌بری تنظیم شود.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Response" xml:space="preserve">
-    <value>پاسخ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseHeader" xml:space="preserve">
-    <value>سرآیند پاسخ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseOrRedirectionURL" xml:space="preserve">
-    <value>نشانی پاسخ یا تغییر مسیر</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseText" xml:space="preserve">
-    <value>متن پاسخ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Result" xml:space="preserve">
-    <value>نتیجه</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResultURL" xml:space="preserve">
-    <value>نشانی نتیجه</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SearchUploaders" xml:space="preserve">
-    <value>جستجوی بارگذارها</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SelectToExport" xml:space="preserve">
-    <value>یک بارگذار سفارشی برای برون‌بری انتخاب کنید.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SelectUploaderToEdit" xml:space="preserve">
-    <value>بارگذاری را برای ویرایش انتخاب کنید</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Test" xml:space="preserve">
-    <value>آزمایش</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestCancelled" xml:space="preserve">
-    <value>آزمایش لغو شد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestCompleted" xml:space="preserve">
-    <value>آزمایش کامل شد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestFailed" xml:space="preserve">
-    <value>آزمایش ناموفق بود.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestURLSyntax" xml:space="preserve">
-    <value>آزمایش نگارش نشانی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestURLSyntaxButton" xml:space="preserve">
-    <value>آزمایش نگارش نشانی...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Testing" xml:space="preserve">
-    <value>در حال آزمایش {0}...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextOrURLInput" xml:space="preserve">
-    <value>ورودی متن یا نشانی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextUploadSample" xml:space="preserve">
-    <value>آزمایش بارگذاری متن ShareX</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextUploader" xml:space="preserve">
-    <value>بارگذار متن</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ThumbnailURL" xml:space="preserve">
-    <value>نشانی تصویر بندانگشتی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Title" xml:space="preserve">
-    <value>ShareX - تنظیمات بارگذار سفارشی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLSharingService" xml:space="preserve">
-    <value>سرویس اشتراک‌گذاری نشانی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLShortener" xml:space="preserve">
-    <value>کوتاه‌کننده نشانی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLSyntax" xml:space="preserve">
-    <value>نگارش نشانی</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdateFolder" xml:space="preserve">
-    <value>به‌روزرسانی پوشه...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdateFolderDialogTitle" xml:space="preserve">
-    <value>به‌روزرسانی پوشه بارگذارها</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdatedCount" xml:space="preserve">
-    <value>{0} پرونده بارگذار سفارشی به‌روزرسانی شد.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploadedFile" xml:space="preserve">
-    <value>پرونده بارگذاری‌شده</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploadedFileName" xml:space="preserve">
-    <value>نام پرونده بارگذاری‌شده</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderCount" xml:space="preserve">
-    <value>{0} بارگذار</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderCountPlural" xml:space="preserve">
-    <value>{0} بارگذار</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderLibrary" xml:space="preserve">
-    <value>کتابخانه بارگذارها</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UserSelection" xml:space="preserve">
-    <value>انتخاب کاربر</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UserTextInput" xml:space="preserve">
-    <value>ورودی متن کاربر</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_XPathResponseValue" xml:space="preserve">
-    <value>مقدار پاسخ XPath</value>
-  </data>
-  <data name="DebugLogWindow_Cancel" xml:space="preserve">
-    <value>انصراف</value>
   </data>
   <data name="DebugLogWindow_CopyAll" xml:space="preserve">
     <value>کپی همه</value>
@@ -1176,21 +621,6 @@
   </data>
   <data name="DebugLogWindow_Title" xml:space="preserve">
     <value>ShareX - گزارش اشکال‌زدایی</value>
-  </data>
-  <data name="DebugLogWindow_Upload" xml:space="preserve">
-    <value>بارگذاری</value>
-  </data>
-  <data name="DebugLogWindow_UploadLog" xml:space="preserve">
-    <value>بارگذاری گزارش...</value>
-  </data>
-  <data name="DebugLogWindow_UploadPrompt" xml:space="preserve">
-    <value>گزارش اشکال‌زدایی بارگذاری شود؟</value>
-  </data>
-  <data name="DragDropUploadWindow_DropHere" xml:space="preserve">
-    <value>اینجا رها کنید</value>
-  </data>
-  <data name="DragDropUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - بارگذاری با کشیدن و رها کردن</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>خطا</value>
@@ -1328,35 +758,26 @@ Please select a different hotkey or quit the conflicting application and reبا�
   <data name="IntegrationHelpers_EditWithShareX" xml:space="preserve">
     <value>ویرایش با ShareX ...</value>
   </data>
-  <data name="IntegrationHelpers_UploadWithShareX" xml:space="preserve">
-    <value>آپلود با ShareX</value>
+  <data name="LocalTask_Choose_a_folder_to_save" xml:space="preserve">
+    <value>یک فولدر برای ذخیره کردن انتخاب کنید</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Cancel" xml:space="preserve">
-    <value>انصراف</value>
+  <data name="LocalTask_Done" xml:space="preserve">
+    <value>انجام شد</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Continue" xml:space="preserve">
-    <value>ادامه</value>
+  <data name="LocalTask_Prepare_Preparing" xml:space="preserve">
+    <value>در حال آماده سازی</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_DontShowAgain" xml:space="preserve">
-    <value>این پیام را دوباره نشان نده.</value>
+  <data name="LocalTask_Stop_Stopping" xml:space="preserve">
+    <value>در حال توقف</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Message" xml:space="preserve">
-    <value>در حال تلاش برای بارگذاری یک فایل بزرگ هستید.</value>
-  </data>
-  <data name="LargeFileUploadWarningWindow_Title" xml:space="preserve">
-    <value>ShareX - بارگذاری فایل بزرگ</value>
-  </data>
-  <data name="MainForm_UploadDebugLogWarning" xml:space="preserve">
-    <value>گزارش اشکال‌زدایی می‌تواند شامل اطلاعات حساس باشد. آیا مطمئنید می‌خواهید ادامه دهید؟</value>
+  <data name="LocalTask_Stopped" xml:space="preserve">
+    <value>متوقف شد</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_Do_you_really_want_to_delete_this_file_" xml:space="preserve">
     <value>آیا مایل به حذف این فایل هستید؟</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>تاییدیه حذف فایل</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>تست آپلود متن</value>
   </data>
   <data name="MainMenuBuilder_About" xml:space="preserve">
     <value>درباره...</value>
@@ -1369,12 +790,6 @@ Please select a different hotkey or quit the conflicting application and reبا�
   </data>
   <data name="MainMenuBuilder_AfterCaptureTasks" xml:space="preserve">
     <value>وظایف پس از ضبط</value>
-  </data>
-  <data name="MainMenuBuilder_AfterUploadTasks" xml:space="preserve">
-    <value>وظایف پس از بارگذاری</value>
-  </data>
-  <data name="MainMenuBuilder_AnalyzeImage" xml:space="preserve">
-    <value>تحلیل تصویر</value>
   </data>
   <data name="MainMenuBuilder_AnimatedGifMaker" xml:space="preserve">
     <value>سازنده GIF متحرک...</value>
@@ -1406,17 +821,8 @@ Please select a different hotkey or quit the conflicting application and reبا�
   <data name="MainMenuBuilder_Copy" xml:space="preserve">
     <value>کپی</value>
   </data>
-  <data name="MainMenuBuilder_CustomUploaderSettings" xml:space="preserve">
-    <value>تنظیمات بارگذار سفارشی...</value>
-  </data>
   <data name="MainMenuBuilder_Debug" xml:space="preserve">
     <value>اشکال‌زدایی</value>
-  </data>
-  <data name="MainMenuBuilder_DestinationSettings" xml:space="preserve">
-    <value>تنظیمات مقصد...</value>
-  </data>
-  <data name="MainMenuBuilder_Destinations" xml:space="preserve">
-    <value>مقصدها</value>
   </data>
   <data name="MainMenuBuilder_DisableHotkeys" xml:space="preserve">
     <value>غیرفعال کردن کلیدهای سریع</value>
@@ -1426,9 +832,6 @@ Please select a different hotkey or quit the conflicting application and reبا�
   </data>
   <data name="MainMenuBuilder_Donate" xml:space="preserve">
     <value>کمک مالی</value>
-  </data>
-  <data name="MainMenuBuilder_DragAndDropUpload" xml:space="preserve">
-    <value>آپلود با کشیدن و رهاکردن</value>
   </data>
   <data name="MainMenuBuilder_EditTools" xml:space="preserve">
     <value>ویرایش</value>
@@ -1544,9 +947,6 @@ Please select a different hotkey or quit the conflicting application and reبا�
   <data name="MainMenuBuilder_Region" xml:space="preserve">
     <value>ناحیه...</value>
   </data>
-  <data name="MainMenuBuilder_RemoteStorageBrowser" xml:space="preserve">
-    <value>مرورگر ذخیره سازی از راه دور...</value>
-  </data>
   <data name="MainMenuBuilder_RestartAsAdministrator" xml:space="preserve">
     <value>راه‌اندازی مجدد به‌عنوان مدیر</value>
   </data>
@@ -1568,9 +968,6 @@ Please select a different hotkey or quit the conflicting application and reبا�
   <data name="MainMenuBuilder_ScrollingCapture" xml:space="preserve">
     <value>ضبط پیمایشی...</value>
   </data>
-  <data name="MainMenuBuilder_ShortenUrl" xml:space="preserve">
-    <value>کوتاه کردن آدرس</value>
-  </data>
   <data name="MainMenuBuilder_ShowCursor" xml:space="preserve">
     <value>نمایش نشانگر</value>
   </data>
@@ -1582,21 +979,6 @@ Please select a different hotkey or quit the conflicting application and reبا�
   </data>
   <data name="MainMenuBuilder_TaskSettings" xml:space="preserve">
     <value>تنظیمات وظیفه</value>
-  </data>
-  <data name="MainMenuBuilder_TestFileUpload" xml:space="preserve">
-    <value>آزمایش بارگذاری فایل</value>
-  </data>
-  <data name="MainMenuBuilder_TestImageUpload" xml:space="preserve">
-    <value>آزمایش بارگذاری تصویر</value>
-  </data>
-  <data name="MainMenuBuilder_TestTextUpload" xml:space="preserve">
-    <value>آزمایش بارگذاری متن</value>
-  </data>
-  <data name="MainMenuBuilder_TestUrlSharing" xml:space="preserve">
-    <value>آزمایش اشتراک‌گذاری URL</value>
-  </data>
-  <data name="MainMenuBuilder_TestUrlShortener" xml:space="preserve">
-    <value>آزمایش کوتاه‌کننده URL</value>
   </data>
   <data name="MainMenuBuilder_ToolCategoryData" xml:space="preserve">
     <value>داده و متن</value>
@@ -1615,24 +997,6 @@ Please select a different hotkey or quit the conflicting application and reبا�
   </data>
   <data name="MainMenuBuilder_Tools" xml:space="preserve">
     <value>ابزار</value>
-  </data>
-  <data name="MainMenuBuilder_Upload" xml:space="preserve">
-    <value>آپلود</value>
-  </data>
-  <data name="MainMenuBuilder_UploadClipboard" xml:space="preserve">
-    <value>بارگذاری کلیپ‌بورد...</value>
-  </data>
-  <data name="MainMenuBuilder_UploadFile" xml:space="preserve">
-    <value>بارگذاری فایل</value>
-  </data>
-  <data name="MainMenuBuilder_UploadFolder" xml:space="preserve">
-    <value>آپلود پوشه</value>
-  </data>
-  <data name="MainMenuBuilder_UploadText" xml:space="preserve">
-    <value>آپلود متن</value>
-  </data>
-  <data name="MainMenuBuilder_UploadUrl" xml:space="preserve">
-    <value>بارگذاری URL...</value>
   </data>
   <data name="MainMenuBuilder_VideoConverter" xml:space="preserve">
     <value>مبدل ویدئو</value>
@@ -1658,9 +1022,6 @@ Please select a different hotkey or quit the conflicting application and reبا�
   <data name="MainWindow_AlwaysOnTop" xml:space="preserve">
     <value>همیشه در بالا</value>
   </data>
-  <data name="MainWindow_AnalyzeImage" xml:space="preserve">
-    <value>تحلیل تصویر</value>
-  </data>
   <data name="MainWindow_BeautifyImage" xml:space="preserve">
     <value>زیباسازی تصویر</value>
   </data>
@@ -1676,23 +1037,11 @@ Please select a different hotkey or quit the conflicting application and reبا�
   <data name="MainWindow_Copy" xml:space="preserve">
     <value>کپی</value>
   </data>
-  <data name="MainWindow_DeleteItemRemotely" xml:space="preserve">
-    <value>حذف مورد از راه دور...</value>
-  </data>
-  <data name="MainWindow_DeleteItemRemotelyConfirmation" xml:space="preserve">
-    <value>آیا واقعاً می‌خواهید این مورد را از راه دور حذف کنید؟</value>
-  </data>
   <data name="MainWindow_DeleteSelectedFile" xml:space="preserve">
     <value>حذف فایل انتخاب‌شده...</value>
   </data>
   <data name="MainWindow_DeleteSelectedItem" xml:space="preserve">
     <value>حذف مورد انتخاب‌شده</value>
-  </data>
-  <data name="MainWindow_DeletionUrl" xml:space="preserve">
-    <value>URL حذف</value>
-  </data>
-  <data name="MainWindow_DownloadSelectedUrl" xml:space="preserve">
-    <value>دانلود URL انتخاب‌شده</value>
   </data>
   <data name="MainWindow_EditImage" xml:space="preserve">
     <value>ویرایش تصویر</value>
@@ -1709,20 +1058,8 @@ Please select a different hotkey or quit the conflicting application and reبا�
   <data name="MainWindow_FilePath" xml:space="preserve">
     <value>مسیر فایل</value>
   </data>
-  <data name="MainWindow_FilesDroppedUploadDescription" xml:space="preserve">
-    <value>فایل‌های رهاشده در اینجا توسط ShareX بارگذاری می‌شوند.</value>
-  </data>
   <data name="MainWindow_Folder" xml:space="preserve">
     <value>پوشه</value>
-  </data>
-  <data name="MainWindow_ForumImage" xml:space="preserve">
-    <value>تصویر انجمن</value>
-  </data>
-  <data name="MainWindow_ForumLink" xml:space="preserve">
-    <value>پیوند انجمن</value>
-  </data>
-  <data name="MainWindow_ForumLinkedImage" xml:space="preserve">
-    <value>تصویر پیوندشده انجمن</value>
   </data>
   <data name="MainWindow_Horizontal" xml:space="preserve">
     <value>افقی</value>
@@ -1731,31 +1068,13 @@ Please select a different hotkey or quit the conflicting application and reبا�
     <value>افقی</value>
   </data>
   <data name="MainWindow_HotkeyHint" xml:space="preserve">
-    <value>برای ضبط یا بارگذاری از کلید میانبر استفاده کنید. نتایج به‌صورت تصویر بندانگشتی در اینجا نمایش داده می‌شوند.</value>
-  </data>
-  <data name="MainWindow_HtmlImage" xml:space="preserve">
-    <value>تصویر HTML</value>
-  </data>
-  <data name="MainWindow_HtmlLink" xml:space="preserve">
-    <value>پیوند HTML</value>
-  </data>
-  <data name="MainWindow_HtmlLinkedImage" xml:space="preserve">
-    <value>تصویر پیوندشده HTML</value>
+    <value>برای ثبت از کلید میانبر استفاده کنید. نتایج شما اینجا به صورت تصاویر بندانگشتی نمایش داده می‌شوند.</value>
   </data>
   <data name="MainWindow_Image" xml:space="preserve">
     <value>عکس</value>
   </data>
   <data name="MainWindow_ImageDimensions" xml:space="preserve">
     <value>ابعاد تصویر</value>
-  </data>
-  <data name="MainWindow_MarkdownImage" xml:space="preserve">
-    <value>تصویر Markdown</value>
-  </data>
-  <data name="MainWindow_MarkdownLink" xml:space="preserve">
-    <value>پیوند Markdown</value>
-  </data>
-  <data name="MainWindow_MarkdownLinkedImage" xml:space="preserve">
-    <value>تصویر پیوندشده Markdown</value>
   </data>
   <data name="MainWindow_MaximizeOrRestore" xml:space="preserve">
     <value>به حداکثر رساندن یا بازیابی</value>
@@ -1772,62 +1091,20 @@ Please select a different hotkey or quit the conflicting application and reبا�
   <data name="MainWindow_PinToScreen" xml:space="preserve">
     <value>سنجاق به صفحه</value>
   </data>
-  <data name="MainWindow_ReleaseToUploadFiles" xml:space="preserve">
-    <value>برای بارگذاری فایل‌ها رها کنید</value>
-  </data>
-  <data name="MainWindow_ReleaseToUploadText" xml:space="preserve">
-    <value>برای بارگذاری متن رها کنید</value>
-  </data>
-  <data name="MainWindow_RemoteDeleteFailed" xml:space="preserve">
-    <value>حذف مورد از راه دور ناموفق بود.</value>
-  </data>
-  <data name="MainWindow_RemoteDeleteSucceeded" xml:space="preserve">
-    <value>مورد از راه دور حذف شد.</value>
-  </data>
-  <data name="MainWindow_RemoteDeletion" xml:space="preserve">
-    <value>حذف از راه دور</value>
-  </data>
   <data name="MainWindow_ResizeImage" xml:space="preserve">
     <value>تغییر اندازه تصویر...</value>
   </data>
   <data name="MainWindow_RunAction" xml:space="preserve">
     <value>اجرای عملیات</value>
   </data>
-  <data name="MainWindow_SearchWithBingVisualSearch" xml:space="preserve">
-    <value>جستجو با جستجوی تصویری Bing...</value>
-  </data>
-  <data name="MainWindow_SearchWithGoogleLens" xml:space="preserve">
-    <value>جستجو با Google Lens...</value>
-  </data>
-  <data name="MainWindow_ShareSelectedUrl" xml:space="preserve">
-    <value>اشتراک‌گذاری URL انتخاب‌شده</value>
-  </data>
   <data name="MainWindow_ShareXHotkeys" xml:space="preserve">
     <value>کلیدهای میانبر ShareX</value>
-  </data>
-  <data name="MainWindow_ShortenSelectedUrl" xml:space="preserve">
-    <value>کوتاه کردن URL انتخاب‌شده</value>
-  </data>
-  <data name="MainWindow_ShortenedUrl" xml:space="preserve">
-    <value>URL کوتاه‌شده</value>
   </data>
   <data name="MainWindow_ShowErrors" xml:space="preserve">
     <value>نمایش خطاها...</value>
   </data>
-  <data name="MainWindow_ShowQRCode" xml:space="preserve">
-    <value>نمایش کد QR...</value>
-  </data>
-  <data name="MainWindow_ShowResponse" xml:space="preserve">
-    <value>نمایش پاسخ...</value>
-  </data>
-  <data name="MainWindow_StopUpload" xml:space="preserve">
-    <value>توقف بارگذاری</value>
-  </data>
   <data name="MainWindow_Text" xml:space="preserve">
     <value>متن</value>
-  </data>
-  <data name="MainWindow_TextDroppedUploadDescription" xml:space="preserve">
-    <value>متن رهاشده در اینجا توسط ShareX بارگذاری می‌شود.</value>
   </data>
   <data name="MainWindow_ThumbnailFile" xml:space="preserve">
     <value>فایل تصویر بندانگشتی</value>
@@ -1835,20 +1112,11 @@ Please select a different hotkey or quit the conflicting application and reبا�
   <data name="MainWindow_ThumbnailImage" xml:space="preserve">
     <value>تصویر بندانگشتی</value>
   </data>
-  <data name="MainWindow_ThumbnailUrl" xml:space="preserve">
-    <value>بندانگشتی URL</value>
-  </data>
   <data name="MainWindow_TrimAnimatedGif" xml:space="preserve">
     <value>برش GIF متحرک...</value>
   </data>
   <data name="MainWindow_TrimVideo" xml:space="preserve">
     <value>برش ویدئو...</value>
-  </data>
-  <data name="MainWindow_UploadSelectedFile" xml:space="preserve">
-    <value>بارگذاری فایل انتخاب‌شده</value>
-  </data>
-  <data name="MainWindow_Url" xml:space="preserve">
-    <value>URL</value>
   </data>
   <data name="MainWindow_Vertical" xml:space="preserve">
     <value>عمودی</value>
@@ -1859,20 +1127,14 @@ Please select a different hotkey or quit the conflicting application and reبا�
   <data name="MouseHighlighter" xml:space="preserve">
     <value>هایلایتر موس</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_Cancel" xml:space="preserve">
-    <value>انصراف</value>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>موتور OCR</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_DontShowAgain" xml:space="preserve">
-    <value>این پیام را دوباره نشان نده.</value>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_Message" xml:space="preserve">
-    <value>آیا مطمئن هستید که می‌خواهید {0} فایل را بارگذاری کنید؟</value>
-  </data>
-  <data name="MultiUploadConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - بارگذاری فایل‌ها</value>
-  </data>
-  <data name="MultiUploadConfirmationWindow_Upload" xml:space="preserve">
-    <value>بارگذاری</value>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
   </data>
   <data name="PinToScreen" xml:space="preserve">
     <value>سنجاق به صفحه</value>
@@ -1892,12 +1154,6 @@ Please select a different hotkey or quit the conflicting application and reبا�
   </data>
   <data name="QuickTaskMenuEditorWindow_AfterCaptureTasks" xml:space="preserve">
     <value>وظایف پس از تصویربرداری</value>
-  </data>
-  <data name="QuickTaskMenuEditorWindow_AfterUploadSummary" xml:space="preserve">
-    <value>{0}  •  پس از بارگذاری: {1}</value>
-  </data>
-  <data name="QuickTaskMenuEditorWindow_AfterUploadTasks" xml:space="preserve">
-    <value>وظایف پس از بارگذاری</value>
   </data>
   <data name="QuickTaskMenuEditorWindow_Cancel" xml:space="preserve">
     <value>انصراف</value>
@@ -2059,24 +1315,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="ShareXIsUpToDate" xml:space="preserve">
     <value>ShareX به‌روز است!</value>
   </data>
-  <data name="ShortenURLWindow_Cancel" xml:space="preserve">
-    <value>انصراف</value>
-  </data>
-  <data name="ShortenURLWindow_Heading" xml:space="preserve">
-    <value>کوتاه کردن نشانی</value>
-  </data>
-  <data name="ShortenURLWindow_Shorten" xml:space="preserve">
-    <value>کوتاه کردن</value>
-  </data>
-  <data name="ShortenURLWindow_Title" xml:space="preserve">
-    <value>ShareX - کوتاه کردن نشانی</value>
-  </data>
-  <data name="ShortenURLWindow_URL" xml:space="preserve">
-    <value>نشانی</value>
-  </data>
-  <data name="ShortenURLWindow_Validation" xml:space="preserve">
-    <value>یک نشانی معتبر HTTP،‏ HTTPS یا FTP وارد کنید.</value>
-  </data>
   <data name="StartScreen_GetStarted" xml:space="preserve">
     <value>شروع کنید</value>
   </data>
@@ -2098,12 +1336,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="StartScreen_WelcomeSubtitle" xml:space="preserve">
     <value>هر چیزی را به روش خود ثبت، ویرایش و به‌اشتراک بگذارید.</value>
   </data>
-  <data name="TaskHelpers_AddCustomUploaderConfirmation" xml:space="preserve">
-    <value>آیا می‌خواهید بارگذار سفارشی «{0}» را اضافه کنید؟</value>
-  </data>
-  <data name="TaskHelpers_CustomUploaderConfirmationTitle" xml:space="preserve">
-    <value>ShareX - تأیید بارگذار سفارشی</value>
-  </data>
   <data name="TaskHelpers_FileDoesNotExist" xml:space="preserve">
     <value>پرونده وجود ندارد:
 {0}</value>
@@ -2111,53 +1343,23 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskHelpers_OpenQuickScreenColorPicker_Copied_to_clipboard___0_" xml:space="preserve">
     <value>به کلیپ بورد کپی شد: {0}</value>
   </data>
-  <data name="TaskHelpers_RemoteStorageNotConfigured" xml:space="preserve">
-    <value>قبل از باز کردن مرورگر ذخیره‌سازی راه دور، آپلودکننده Amazon S3، FTP، FTPS یا SFTP را در تنظیمات مقصد پیکربندی کنید.</value>
-  </data>
-  <data name="TaskHelpers_SetActiveCustomUploaderConfirmation" xml:space="preserve">
-    <value>آیا می‌خواهید «{0}» را بارگذار سفارشی فعال برای {1} قرار دهید؟</value>
-  </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_disabled_" xml:space="preserve">
     <value>کلیدهای میانبر غیرفعال شدند.</value>
   </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_enabled_" xml:space="preserve">
     <value>کلیدهای میانبر غیرفعال شدند.</value>
   </data>
-  <data name="TaskManager_UploadCompletedURL" xml:space="preserve">
-    <value>بارگذاری کامل شد. نشانی: {0}</value>
-  </data>
-  <data name="TaskManager_task_UploadCompleted_Error" xml:space="preserve">
+  <data name="TaskManager_TaskCompleted_Error" xml:space="preserve">
     <value>خطا</value>
   </data>
-  <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
+  <data name="TaskManager_TaskCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>وظیفه انجام شد.</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_File_uploader___0_" xml:space="preserve">
-    <value>آپلودکننده فایل: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_Image_uploader___0_" xml:space="preserve">
-    <value>آپلود کننده عکس: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
-    <value>آپلود کننده های متن: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
-    <value>سرویس اشتراک گذاری لینک: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>کوتاه کننده لینک : {0}</value>
   </data>
   <data name="TaskSettingsWindow_Actions" xml:space="preserve">
     <value>کنش‌ها</value>
   </data>
-  <data name="TaskSettingsWindow_Add" xml:space="preserve">
-    <value>افزودن</value>
-  </data>
   <data name="TaskSettingsWindow_AddAction" xml:space="preserve">
     <value>افزودن کنش</value>
-  </data>
-  <data name="TaskSettingsWindow_AddWatchFolder" xml:space="preserve">
-    <value>افزودن پوشه پایش</value>
   </data>
   <data name="TaskSettingsWindow_AddWithEllipsis" xml:space="preserve">
     <value>افزودن...</value>
@@ -2171,12 +1373,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_AfterCaptureTasks" xml:space="preserve">
     <value>وظایف پس از ثبت</value>
   </data>
-  <data name="TaskSettingsWindow_AfterUpload" xml:space="preserve">
-    <value>پس از بارگذاری</value>
-  </data>
-  <data name="TaskSettingsWindow_AfterUploadTasks" xml:space="preserve">
-    <value>وظایف پس از بارگذاری</value>
-  </data>
   <data name="TaskSettingsWindow_AlsoDetectControlsInsideWindows" xml:space="preserve">
     <value>شناسایی کنترل‌های داخل پنجره‌ها نیز</value>
   </data>
@@ -2186,12 +1382,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_AskForConfirmationWhenAborting" xml:space="preserve">
     <value>درخواست تأیید هنگام لغو</value>
   </data>
-  <data name="TaskSettingsWindow_AutoClearClipboard" xml:space="preserve">
-    <value>پاک کردن خودکار کلیپ‌بورد</value>
-  </data>
-  <data name="TaskSettingsWindow_AutoCloseAfterUploadForm" xml:space="preserve">
-    <value>بستن خودکار پنجره پس از بارگذاری</value>
-  </data>
   <data name="TaskSettingsWindow_AutoCloseEditorOnTask" xml:space="preserve">
     <value>بستن خودکار ویرایشگر پس از کار</value>
   </data>
@@ -2200,9 +1390,6 @@ Do you want to abort the active ضبط صفحه?</value>
   </data>
   <data name="TaskSettingsWindow_AutoIncrementNumber" xml:space="preserve">
     <value>شماره افزایشی خودکار:</value>
-  </data>
-  <data name="TaskSettingsWindow_AutoShortenURLLength" xml:space="preserve">
-    <value>طول کوتاه‌سازی خودکار URL</value>
   </data>
   <data name="TaskSettingsWindow_AutomaticJPEG" xml:space="preserve">
     <value>JPEG خودکار</value>
@@ -2222,9 +1409,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_BackgroundDimStrengthPercent" xml:space="preserve">
     <value>شدت تیرگی پس‌زمینه (%):</value>
   </data>
-  <data name="TaskSettingsWindow_BalloonTipContentFormat" xml:space="preserve">
-    <value>قالب محتوای اعلان</value>
-  </data>
   <data name="TaskSettingsWindow_BrowseWithEllipsis" xml:space="preserve">
     <value>مرور...</value>
   </data>
@@ -2237,8 +1421,8 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_CaptureClientAreaForWindowCaptures" xml:space="preserve">
     <value>ثبت ناحیه کارخواه در ثبت پنجره</value>
   </data>
-  <data name="TaskSettingsWindow_CaptureOrClipboardUpload" xml:space="preserve">
-    <value>بارگذاری ثبت یا کلیپ‌بورد:</value>
+  <data name="TaskSettingsWindow_CaptureTasks" xml:space="preserve">
+    <value>وظایف ثبت:</value>
   </data>
   <data name="TaskSettingsWindow_CaptureWindowWithShadow" xml:space="preserve">
     <value>ثبت پنجره همراه با سایه</value>
@@ -2258,18 +1442,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_ChooseTheActionsShownAtTheBottomOfAfterCaptureNotifications" xml:space="preserve">
     <value>کنش‌های نمایش‌داده‌شده در پایین اعلان‌های پس از ثبت را انتخاب کنید.</value>
   </data>
-  <data name="TaskSettingsWindow_ChooseWatchFolder" xml:space="preserve">
-    <value>انتخاب پوشه پایش</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardContent" xml:space="preserve">
-    <value>محتوای کلیپ‌بورد</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardContentFormat" xml:space="preserve">
-    <value>قالب محتوای کلیپ‌بورد</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardUpload" xml:space="preserve">
-    <value>بارگذاری کلیپ‌بورد</value>
-  </data>
   <data name="TaskSettingsWindow_Close" xml:space="preserve">
     <value>بستن</value>
   </data>
@@ -2285,9 +1457,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_CustomSounds" xml:space="preserve">
     <value>صداهای سفارشی</value>
   </data>
-  <data name="TaskSettingsWindow_CustomUploader" xml:space="preserve">
-    <value>بارگذار سفارشی:</value>
-  </data>
   <data name="TaskSettingsWindow_CustomizeToolbarWithEllipsis" xml:space="preserve">
     <value>سفارشی‌سازی نوار ابزار...</value>
   </data>
@@ -2299,9 +1468,6 @@ Do you want to abort the active ضبط صفحه?</value>
   </data>
   <data name="TaskSettingsWindow_Description" xml:space="preserve">
     <value>توضیحات:</value>
-  </data>
-  <data name="TaskSettingsWindow_Destinations" xml:space="preserve">
-    <value>مقصدها</value>
   </data>
   <data name="TaskSettingsWindow_DetectWindowRegions" xml:space="preserve">
     <value>شناسایی ناحیه‌های پنجره</value>
@@ -2315,14 +1481,8 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_DurationSeconds" xml:space="preserve">
     <value>مدت‌زمان (ثانیه):</value>
   </data>
-  <data name="TaskSettingsWindow_EarlyCopyURL" xml:space="preserve">
-    <value>کپی URL پیش از بارگذاری</value>
-  </data>
   <data name="TaskSettingsWindow_EditAction" xml:space="preserve">
     <value>ویرایش کنش</value>
-  </data>
-  <data name="TaskSettingsWindow_EditWatchFolder" xml:space="preserve">
-    <value>ویرایش پوشه پایش</value>
   </data>
   <data name="TaskSettingsWindow_EditWithEllipsis" xml:space="preserve">
     <value>ویرایش...</value>
@@ -2336,17 +1496,8 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_EncodingAndCapture" xml:space="preserve">
     <value>کدگذاری و ثبت</value>
   </data>
-  <data name="TaskSettingsWindow_ExamplePng" xml:space="preserve">
-    <value>مثال: *.png</value>
-  </data>
   <data name="TaskSettingsWindow_ExtensionFilterExampleJpgPngMp4" xml:space="preserve">
     <value>فیلتر پسوند (مثال: jpg png mp4)</value>
-  </data>
-  <data name="TaskSettingsWindow_Extensions" xml:space="preserve">
-    <value>پسوندها:</value>
-  </data>
-  <data name="TaskSettingsWindow_FTPAccount" xml:space="preserve">
-    <value>حساب FTP:</value>
   </data>
   <data name="TaskSettingsWindow_FadeDurationSeconds" xml:space="preserve">
     <value>مدت محوشدن (ثانیه):</value>
@@ -2356,15 +1507,6 @@ Do you want to abort the active ضبط صفحه?</value>
   </data>
   <data name="TaskSettingsWindow_FilePath" xml:space="preserve">
     <value>مسیر فایل</value>
-  </data>
-  <data name="TaskSettingsWindow_Filter" xml:space="preserve">
-    <value>فیلتر</value>
-  </data>
-  <data name="TaskSettingsWindow_Filters" xml:space="preserve">
-    <value>فیلترها</value>
-  </data>
-  <data name="TaskSettingsWindow_FolderPath" xml:space="preserve">
-    <value>مسیر پوشه</value>
   </data>
   <data name="TaskSettingsWindow_Format" xml:space="preserve">
     <value>قالب:</value>
@@ -2396,18 +1538,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_HighlightMouseWhileRecording" xml:space="preserve">
     <value>هایلایت ماوس را به صورت خودکار شروع کنید</value>
   </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAFileURLDownloadAndUploadIt" xml:space="preserve">
-    <value>اگر کلیپ‌بورد دارای URL فایل است، آن را بارگیری و بارگذاری کن</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAFolderPathIndexAndUploadIt" xml:space="preserve">
-    <value>اگر کلیپ‌بورد دارای مسیر پوشه است، آن را نمایه‌سازی و بارگذاری کن</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAURLShareItUsingURLSharingService" xml:space="preserve">
-    <value>اگر کلیپ‌بورد دارای URL است، آن را با سرویس اشتراک‌گذاری URL به اشتراک بگذار</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAURLUseURLShortener" xml:space="preserve">
-    <value>اگر کلیپ‌بورد دارای URL است، از کوتاه‌کننده URL استفاده کن</value>
-  </data>
   <data name="TaskSettingsWindow_IfFileExists" xml:space="preserve">
     <value>اگر فایل وجود دارد:</value>
   </data>
@@ -2434,9 +1564,6 @@ Do you want to abort the active ضبط صفحه?</value>
   </data>
   <data name="TaskSettingsWindow_ImageQuality" xml:space="preserve">
     <value>کیفیت تصویر</value>
-  </data>
-  <data name="TaskSettingsWindow_IncludeSubdirectories" xml:space="preserve">
-    <value>شامل زیرپوشه‌ها</value>
   </data>
   <data name="TaskSettingsWindow_InfoText" xml:space="preserve">
     <value>متن اطلاعات:</value>
@@ -2491,9 +1618,6 @@ Do you want to abort the active ضبط صفحه?</value>
   </data>
   <data name="TaskSettingsWindow_MoveDown" xml:space="preserve">
     <value>انتقال به پایین</value>
-  </data>
-  <data name="TaskSettingsWindow_MoveFileToScreenshotsFolder" xml:space="preserve">
-    <value>انتقال فایل به پوشه تصاویر صفحه</value>
   </data>
   <data name="TaskSettingsWindow_MoveUp" xml:space="preserve">
     <value>انتقال به بالا</value>
@@ -2588,9 +1712,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_NativeRecorderUnavailableSystemAudioDevice" xml:space="preserve">
     <value>دستگاه خروجی در دسترس نیست</value>
   </data>
-  <data name="TaskSettingsWindow_No" xml:space="preserve">
-    <value>خیر</value>
-  </data>
   <data name="TaskSettingsWindow_NoButtonsConfiguredTheNotificationToolbarWillBeHidden" xml:space="preserve">
     <value>هیچ دکمه‌ای پیکربندی نشده است. نوار ابزار اعلان پنهان خواهد شد.</value>
   </data>
@@ -2615,11 +1736,11 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_OCRLanguagesAreUnavailable" xml:space="preserve">
     <value>زبان‌های OCR در دسترس نیستند</value>
   </data>
+  <data name="TaskSettingsWindow_OcrGpuAcceleration" xml:space="preserve">
+    <value>استفاده از شتاب‌دهی گرافیکی برای OCR</value>
+  </data>
   <data name="TaskSettingsWindow_OnlyApplyEffectsToRegionCapture" xml:space="preserve">
     <value>اعمال جلوه‌ها فقط روی ثبت ناحیه</value>
-  </data>
-  <data name="TaskSettingsWindow_OpenURLFormat" xml:space="preserve">
-    <value>قالب باز کردن URL</value>
   </data>
   <data name="TaskSettingsWindow_OpticalCharacterRecognition" xml:space="preserve">
     <value>تشخیص نوری نویسه‌ها</value>
@@ -2636,20 +1757,8 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_OverrideAfterCaptureTasks" xml:space="preserve">
     <value>نادیده گرفتن وظایف پس از ثبت</value>
   </data>
-  <data name="TaskSettingsWindow_OverrideAfterUploadTasks" xml:space="preserve">
-    <value>نادیده گرفتن وظایف پس از بارگذاری</value>
-  </data>
   <data name="TaskSettingsWindow_OverrideCaptureSettings" xml:space="preserve">
     <value>نادیده گرفتن تنظیمات ثبت</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDefaultCustomUploader" xml:space="preserve">
-    <value>نادیده گرفتن بارگذار سفارشی پیش‌فرض</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDefaultFTPAccount" xml:space="preserve">
-    <value>نادیده گرفتن حساب FTP پیش‌فرض</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDestinations" xml:space="preserve">
-    <value>نادیده گرفتن مقصدها</value>
   </data>
   <data name="TaskSettingsWindow_OverrideGeneralSettings" xml:space="preserve">
     <value>نادیده گرفتن تنظیمات عمومی</value>
@@ -2662,9 +1771,6 @@ Do you want to abort the active ضبط صفحه?</value>
   </data>
   <data name="TaskSettingsWindow_OverrideToolsSettings" xml:space="preserve">
     <value>نادیده گرفتن تنظیمات ابزارها</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideUploadSettings" xml:space="preserve">
-    <value>نادیده گرفتن تنظیمات بارگذاری</value>
   </data>
   <data name="TaskSettingsWindow_PNGBitDepth" xml:space="preserve">
     <value>عمق بیت PNG:</value>
@@ -2696,9 +1802,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_PNGFilterUp" xml:space="preserve">
     <value>Up (پیکسل بالا)</value>
   </data>
-  <data name="TaskSettingsWindow_Pattern" xml:space="preserve">
-    <value>الگو:</value>
-  </data>
   <data name="TaskSettingsWindow_Placement" xml:space="preserve">
     <value>جای‌گذاری:</value>
   </data>
@@ -2719,15 +1822,6 @@ Do you want to abort the active ضبط صفحه?</value>
   </data>
   <data name="TaskSettingsWindow_Preview" xml:space="preserve">
     <value>پیش‌نمایش:</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringClipboardUpload" xml:space="preserve">
-    <value>پردازش تصاویر هنگام بارگذاری از کلیپ‌بورد</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringExtensionUpload" xml:space="preserve">
-    <value>پردازش تصاویر هنگام بارگذاری از افزونه</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringFileUpload" xml:space="preserve">
-    <value>پردازش تصاویر هنگام بارگذاری فایل</value>
   </data>
   <data name="TaskSettingsWindow_ProcessOCRSilently" xml:space="preserve">
     <value>پردازش بی‌صدای OCR</value>
@@ -2756,20 +1850,8 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_Remove" xml:space="preserve">
     <value>حذف</value>
   </data>
-  <data name="TaskSettingsWindow_ReplaceResultURLUsingARegularExpression" xml:space="preserve">
-    <value>جایگزینی URL نتیجه با عبارت منظم</value>
-  </data>
-  <data name="TaskSettingsWindow_ReplaceURLProblematicCharactersWithUnderscores" xml:space="preserve">
-    <value>جایگزینی نویسه‌های مشکل‌ساز URL با زیرخط</value>
-  </data>
-  <data name="TaskSettingsWindow_Replacement" xml:space="preserve">
-    <value>جایگزین:</value>
-  </data>
   <data name="TaskSettingsWindow_RestrictCaptureAndCursorToTheActiveMonitor" xml:space="preserve">
     <value>محدود کردن ثبت و مکان‌نما به نمایشگر فعال</value>
-  </data>
-  <data name="TaskSettingsWindow_ResultForceHTTPS" xml:space="preserve">
-    <value>اجباری کردن HTTPS برای URLهای نتیجه</value>
   </data>
   <data name="TaskSettingsWindow_RightClick" xml:space="preserve">
     <value>کلیک راست:</value>
@@ -2812,9 +1894,6 @@ Do you want to abort the active ضبط صفحه?</value>
   </data>
   <data name="TaskSettingsWindow_Selection" xml:space="preserve">
     <value>انتخاب</value>
-  </data>
-  <data name="TaskSettingsWindow_SeparateExtensionsWithCommasForExamplePngJpgJpeg" xml:space="preserve">
-    <value>پسوندها را با ویرگول جدا کنید، برای نمونه: png, jpg, jpeg</value>
   </data>
   <data name="TaskSettingsWindow_ShadowOffset" xml:space="preserve">
     <value>فاصله سایه:</value>
@@ -2918,33 +1997,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_Tools" xml:space="preserve">
     <value>ابزارها</value>
   </data>
-  <data name="TaskSettingsWindow_URLReplacement" xml:space="preserve">
-    <value>جایگزینی URL</value>
-  </data>
-  <data name="TaskSettingsWindow_Update" xml:space="preserve">
-    <value>به‌روزرسانی</value>
-  </data>
-  <data name="TaskSettingsWindow_Upload" xml:space="preserve">
-    <value>بارگذاری</value>
-  </data>
-  <data name="TaskSettingsWindow_UploadFilesWhenTheyAreCreatedInThisFolder" xml:space="preserve">
-    <value>فایل‌ها هنگام ایجاد شدن در این پوشه بارگذاری شوند.</value>
-  </data>
-  <data name="TaskSettingsWindow_UploadText" xml:space="preserve">
-    <value>بارگذاری متن</value>
-  </data>
-  <data name="TaskSettingsWindow_Uploader" xml:space="preserve">
-    <value>بارگذار:</value>
-  </data>
-  <data name="TaskSettingsWindow_UploaderAccounts" xml:space="preserve">
-    <value>حساب‌های بارگذار</value>
-  </data>
-  <data name="TaskSettingsWindow_UploaderFilters" xml:space="preserve">
-    <value>فیلترهای بارگذار</value>
-  </data>
-  <data name="TaskSettingsWindow_UseAfterCaptureTasksDuringFileUpload" xml:space="preserve">
-    <value>استفاده از وظایف پس از ثبت هنگام بارگذاری فایل</value>
-  </data>
   <data name="TaskSettingsWindow_UseCustomActionCompletedSound" xml:space="preserve">
     <value>استفاده از صدای سفارشی تکمیل کنش</value>
   </data>
@@ -2969,9 +2021,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_UseJPEGIfImageSizeIsBiggerThanTheSpecifiedSize" xml:space="preserve">
     <value>استفاده از JPEG اگر تصویر بزرگ‌تر از اندازه تعیین‌شده باشد</value>
   </data>
-  <data name="TaskSettingsWindow_UseNamePatternForFileUploads" xml:space="preserve">
-    <value>استفاده از الگوی نام برای بارگذاری فایل‌ها</value>
-  </data>
   <data name="TaskSettingsWindow_UseRandomImageEffect" xml:space="preserve">
     <value>استفاده از جلوه تصویر تصادفی</value>
   </data>
@@ -2980,15 +2029,6 @@ Do you want to abort the active ضبط صفحه?</value>
   </data>
   <data name="TaskSettingsWindow_UseStartDelay" xml:space="preserve">
     <value>استفاده از تأخیر شروع</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFolderSummary" xml:space="preserve">
-    <value>{0} — {1} — شامل زیرپوشه‌ها: {2}</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFolders" xml:space="preserve">
-    <value>پوشه‌های پایش‌شده</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFoldersAndUploadNewlyCreatedFiles" xml:space="preserve">
-    <value>پایش پوشه‌ها و بارگذاری فایل‌های تازه ایجادشده</value>
   </data>
   <data name="TaskSettingsWindow_WaveAudio" xml:space="preserve">
     <value>صدای Wave</value>
@@ -3008,9 +2048,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_Y" xml:space="preserve">
     <value>Y:</value>
   </data>
-  <data name="TaskSettingsWindow_Yes" xml:space="preserve">
-    <value>بله</value>
-  </data>
   <data name="TaskSettingsWindow_YouCanEnableOrDisableActionsFromAfterCaptureTasksPerformActions" xml:space="preserve">
     <value>می‌توانید کنش‌ها را از وظایف پس از ثبت ← انجام کنش‌ها فعال یا غیرفعال کنید.</value>
   </data>
@@ -3020,103 +2057,21 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="TaskSettingsWindow_ZoomToFitOnOpen" xml:space="preserve">
     <value>جا دادن در پنجره هنگام باز کردن</value>
   </data>
-  <data name="ThisFeatureWillNotWorkWhenDisableUploadOptionIsEnabled" xml:space="preserve">
-    <value>This feature will not work when "Disableبارگذاری" option is enabled!</value>
-  </data>
   <data name="ThumbnailItemViewModel_UntitledTask" xml:space="preserve">
     <value>وظیفه بدون عنوان</value>
-  </data>
-  <data name="URLUploadWindow_Cancel" xml:space="preserve">
-    <value>انصراف</value>
-  </data>
-  <data name="URLUploadWindow_Heading" xml:space="preserve">
-    <value>بارگذاری نشانی</value>
-  </data>
-  <data name="URLUploadWindow_Prompt" xml:space="preserve">
-    <value>نشانی برای دانلود و بارگذاری</value>
-  </data>
-  <data name="URLUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - بارگذاری نشانی</value>
-  </data>
-  <data name="URLUploadWindow_URL" xml:space="preserve">
-    <value>نشانی</value>
-  </data>
-  <data name="URLUploadWindow_Upload" xml:space="preserve">
-    <value>بارگذاری</value>
-  </data>
-  <data name="URLUploadWindow_Validation" xml:space="preserve">
-    <value>یک نشانی معتبر HTTP،‏ HTTPS یا FTP وارد کنید.</value>
   </data>
   <data name="UnableToFindAWindowWithSpecifiedWindowTitle" xml:space="preserve">
     <value>Unable to find a پنجره with specified پنجره title.</value>
   </data>
-  <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
-    <value>آپلود خطاها</value>
-  </data>
-  <data name="UploadManager_DownloadAndUploadFile_Download_failed" xml:space="preserve">
-    <value>دانلود با مشکل مواجه شد:
-{0}</value>
-  </data>
-  <data name="UploadManager_UploadFile_File_upload" xml:space="preserve">
-    <value>آپلود فایل</value>
-  </data>
-  <data name="UploadManager_UploadFolder_Folder_upload" xml:space="preserve">
-    <value>آپلود فولدر</value>
-  </data>
-  <data name="UploadTask_CreateShareURLTask_Share_URL___0__" xml:space="preserve">
-    <value>اشتراک گذاری آدرس ({0})</value>
-  </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>کوتاه کردن آدرس ({0})</value>
-  </data>
-  <data name="UploadTask_DoAfterCaptureJobs_Choose_a_folder_to_save" xml:space="preserve">
-    <value>یک فولدر برای ذخیره کردن انتخاب کنید</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
-    <value>در حال آپلود کردن</value>
-  </data>
-  <data name="UploadTask_DownloadAndUpload_Downloading" xml:space="preserve">
-    <value>در حال دانلود</value>
-  </data>
-  <data name="UploadTask_OnUploadCompleted_Done" xml:space="preserve">
-    <value>انجام شد</value>
-  </data>
-  <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
-    <value>متوقف شد</value>
-  </data>
-  <data name="UploadTask_Prepare_Preparing" xml:space="preserve">
-    <value>در حال آماده سازی</value>
-  </data>
-  <data name="UploadTask_Prepare_Starting" xml:space="preserve">
-    <value>در حال شروع</value>
-  </data>
-  <data name="UploadTask_Stop_Stopping" xml:space="preserve">
-    <value>در حال توقف</value>
-  </data>
-  <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
-    <value>آدرس خالی است.</value>
-  </data>
   <data name="WorkerTask_AllFilesFilter" xml:space="preserve">
     <value>همه پرونده‌ها (*.*)</value>
-  </data>
-  <data name="WorkerTask_ErrorTitle" xml:space="preserve">
-    <value>خطای {0}</value>
-  </data>
-  <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
-    <value>{0} configuration is invalid or missing. Please check "Destination تنظیمات" پنجره to configure it.</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Would you like to enable تصویر effects?
 
 You can later disable it from "After ضبط tasks" منو.</value>
   </data>
-  <data name="WouldYouLikeToRetryClipboardUpload" xml:space="preserve">
-    <value>Would you like to retry کلیپ‌بورد بارگذاری?</value>
-  </data>
   <data name="YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX" xml:space="preserve">
     <value>Your anti-virus software or the controlled پوشه access feature in پنجرهs could be blocking ShareX.</value>
-  </data>
-  <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
-    <value>Your system admin disabled the بارگذاری feature.</value>
   </data>
 </root>

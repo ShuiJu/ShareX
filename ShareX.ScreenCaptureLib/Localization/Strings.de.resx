@@ -478,11 +478,11 @@
   <data name="ScrollingCaptureWindow_Auto_ignore_bottom_edge" xml:space="preserve">
     <value>Unteren Rand automatisch ignorieren</value>
   </data>
+  <data name="ScrollingCaptureWindow_Automatically_save" xml:space="preserve">
+    <value>Automatisch speichern</value>
+  </data>
   <data name="ScrollingCaptureWindow_Automatically_scroll_to_top" xml:space="preserve">
     <value>Automatisch nach oben scrollen</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Automatically_upload_save" xml:space="preserve">
-    <value>Automatisch hochladen / speichern</value>
   </data>
   <data name="ScrollingCaptureWindow_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
@@ -523,6 +523,9 @@
   <data name="ScrollingCaptureWindow_Ready" xml:space="preserve">
     <value>Bereit</value>
   </data>
+  <data name="ScrollingCaptureWindow_Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
   <data name="ScrollingCaptureWindow_Scroll_amount" xml:space="preserve">
     <value>Scrollanzahl:</value>
   </data>
@@ -552,8 +555,5 @@
   </data>
   <data name="ScrollingCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - Scrollaufnahme</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Upload_Save" xml:space="preserve">
-    <value>Hochladen / Speichern</value>
   </data>
 </root>

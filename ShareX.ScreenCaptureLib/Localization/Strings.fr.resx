@@ -478,11 +478,11 @@
   <data name="ScrollingCaptureWindow_Auto_ignore_bottom_edge" xml:space="preserve">
     <value>Ignorer automatiquement le bord inférieur</value>
   </data>
+  <data name="ScrollingCaptureWindow_Automatically_save" xml:space="preserve">
+    <value>Enregistrer automatiquement</value>
+  </data>
   <data name="ScrollingCaptureWindow_Automatically_scroll_to_top" xml:space="preserve">
     <value>Faire défiler automatiquement vers le haut</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Automatically_upload_save" xml:space="preserve">
-    <value>Téléverser / enregistrer automatiquement</value>
   </data>
   <data name="ScrollingCaptureWindow_Cancel" xml:space="preserve">
     <value>Annuler</value>
@@ -523,6 +523,9 @@
   <data name="ScrollingCaptureWindow_Ready" xml:space="preserve">
     <value>Prêt</value>
   </data>
+  <data name="ScrollingCaptureWindow_Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
   <data name="ScrollingCaptureWindow_Scroll_amount" xml:space="preserve">
     <value>Nombre de défilements :</value>
   </data>
@@ -552,8 +555,5 @@
   </data>
   <data name="ScrollingCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - Capture avec défilement</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Upload_Save" xml:space="preserve">
-    <value>Téléverser / Enregistrer</value>
   </data>
 </root>

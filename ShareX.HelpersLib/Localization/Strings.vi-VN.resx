@@ -67,9 +67,6 @@
   <data name="AfterCaptureTasks_AddImageEffects" xml:space="preserve">
     <value>Thêm hiệu ứng ảnh / hình đóng dấu (effects/watermark)</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>Phân tích ảnh</value>
-  </data>
   <data name="AfterCaptureTasks_AnnotateImage" xml:space="preserve">
     <value>Mở trong trình sửa ảnh</value>
   </data>
@@ -118,35 +115,11 @@
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>Hiện cửa sổ "Sau khi chụp"</value>
   </data>
-  <data name="AfterCaptureTasks_ShowBeforeUploadWindow" xml:space="preserve">
-    <value>Hiện cửa sổ "Trước khi tải lên"</value>
-  </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>Hiện tệp trong trình duyệt tệp/explorer</value>
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Hiện menu tác vụ nhanh</value>
-  </data>
-  <data name="AfterCaptureTasks_UploadImageToHost" xml:space="preserve">
-    <value>Tải ảnh lên nơi lưu trữ</value>
-  </data>
-  <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
-    <value>Chép URL vào vùng nhớ tạm</value>
-  </data>
-  <data name="AfterUploadTasks_OpenURL" xml:space="preserve">
-    <value>Mở URL</value>
-  </data>
-  <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
-    <value>Chia sẻ URL</value>
-  </data>
-  <data name="AfterUploadTasks_ShowAfterUploadWindow" xml:space="preserve">
-    <value>Hiện cửa sổ "Sau khi tải lên"</value>
-  </data>
-  <data name="AfterUploadTasks_ShowQRCode" xml:space="preserve">
-    <value>Hiện cửa sổ mã QR</value>
-  </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Rút gọn URL</value>
   </data>
   <data name="AppVeyorUpdateChecker_Deployment_file_not_found" xml:space="preserve">
     <value>Không tìm thấy tệp «{0}».</value>
@@ -367,21 +340,6 @@
   <data name="ColorPickerWindow_Yellow_percent" xml:space="preserve">
     <value>Vàng %</value>
   </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Dịch vụ tải lên tệp</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Dịch vụ tải lên ảnh</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Dịch vụ tải lên văn bản</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>Dịch vụ chia sẻ URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>Dịch vụ rút gọn URL</value>
-  </data>
   <data name="CutOutEffectType_None" xml:space="preserve">
     <value>Không hiệu ứng</value>
   </data>
@@ -510,15 +468,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   <data name="FFmpegCLIManager_Error_title" xml:space="preserve">
     <value>Lỗi FFmpeg</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Dịch vụ tải lên tệp tin tùy chọn</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Thư mục được chia sẻ</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Hỏi sẽ làm gì</value>
   </data>
@@ -609,9 +558,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
     <value>Make active cửa sổ top most</value>
   </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>Phân tích ảnh</value>
-  </data>
   <data name="HotkeyType_AnimatedGifTrimmer" xml:space="preserve">
     <value>Công cụ cắt GIF động</value>
   </data>
@@ -636,15 +582,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Công cụ</value>
   </data>
-  <data name="HotkeyType_Category_Upload" xml:space="preserve">
-    <value>Tải lên</value>
-  </data>
-  <data name="HotkeyType_ClipboardUpload" xml:space="preserve">
-    <value>Tải lên từ vùng nhớ tạm</value>
-  </data>
-  <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
-    <value>Tải lên từ vùng nhớ tạm với trình xem nội dung</value>
-  </data>
   <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
     <value>Trình xem khay nhớ tạm</value>
   </data>
@@ -660,17 +597,8 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   <data name="HotkeyType_DisableHotkeys" xml:space="preserve">
     <value>Tắt/Bật phím tắt</value>
   </data>
-  <data name="HotkeyType_DragDropUpload" xml:space="preserve">
-    <value>Kéo và thả để tải lên</value>
-  </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
     <value>Thoát ShareX</value>
-  </data>
-  <data name="HotkeyType_FileUpload" xml:space="preserve">
-    <value>Tải lên tệp tin</value>
-  </data>
-  <data name="HotkeyType_FolderUpload" xml:space="preserve">
-    <value>Tải lên thư mục</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Kiểm tra Hash</value>
@@ -810,9 +738,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>Chụp khi cuộn trang</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>Rút gọn URL</value>
-  </data>
   <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
     <value>Bắt đầu chụp tự động dùng vùng lần trước</value>
   </data>
@@ -828,9 +753,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   <data name="HotkeyType_StopScreenRecording" xml:space="preserve">
     <value>Dừng ghi màn hình</value>
   </data>
-  <data name="HotkeyType_StopUploads" xml:space="preserve">
-    <value>Dừng mọi tác vụ tải lên đang chạy</value>
-  </data>
   <data name="HotkeyType_StripMetadata" xml:space="preserve">
     <value>Xóa siêu dữ liệu</value>
   </data>
@@ -840,12 +762,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   <data name="HotkeyType_ToggleTrayMenu" xml:space="preserve">
     <value>Chuyển đổi menu</value>
   </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Tải lên văn bản</value>
-  </data>
-  <data name="HotkeyType_UploadURL" xml:space="preserve">
-    <value>Tải lên từ URL</value>
-  </data>
   <data name="HotkeyType_VideoConverter" xml:space="preserve">
     <value>Chuyển đổi video</value>
   </data>
@@ -854,12 +770,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   </data>
   <data name="HotkeyType_VideoTrimmer" xml:space="preserve">
     <value>Tông đơ video</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Dịch vụ tải lên ảnh tùy chọn</value>
-  </data>
-  <data name="ImageDestination_FileUploader" xml:space="preserve">
-    <value>Dịch vụ tải lên tệp</value>
   </data>
   <data name="ImageHelpers_Image_files" xml:space="preserve">
     <value>Tệp hình ảnh</value>
@@ -1218,12 +1128,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Tự động</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Dịch vụ tải lên văn bản tùy chọn</value>
-  </data>
-  <data name="TextDestination_FileUploader" xml:space="preserve">
-    <value>Dịch vụ tải lên tệp</value>
-  </data>
   <data name="ThumbnailTitleLocation_Bottom" xml:space="preserve">
     <value>Dưới</value>
   </data>
@@ -1284,9 +1188,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   <data name="ToastClickAction_PinToScreen" xml:space="preserve">
     <value>Ghim vào màn hình</value>
   </data>
-  <data name="ToastClickAction_Upload" xml:space="preserve">
-    <value>Tải file lên</value>
-  </data>
   <data name="Translator_ASCII" xml:space="preserve">
     <value>ASCII</value>
   </data>
@@ -1304,18 +1205,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   </data>
   <data name="URLHelpers_Invalid_URL" xml:space="preserve">
     <value>URL không hợp lệ.</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Tìm kiếm trực quan trên Bing</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Dịch vụ chia sẻ URL tùy chọn</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Tìm kiếm hình ảnh trên Google</value>
   </data>
   <data name="UpdateChannel_Dev" xml:space="preserve">
     <value>Phát triển</value>
@@ -1346,9 +1235,6 @@ Bạn vẫn muốn chạy tệp này chứ?</value>
   </data>
   <data name="UpdateMessageWindow_View_changelog" xml:space="preserve">
     <value>Xem nhật ký thay đổi</value>
-  </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Dịch vụ rút gọn URL tùy chọn</value>
   </data>
   <data name="VideoInfo_Audio_details" xml:space="preserve">
     <value>, Bộ mã hóa âm thanh: {0}</value>

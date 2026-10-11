@@ -133,9 +133,6 @@
   <data name="ActionsToolbarWindow_Close" xml:space="preserve">
     <value>關閉</value>
   </data>
-  <data name="ActionsToolbarWindow_DropToUpload" xml:space="preserve">
-    <value>拖放以上傳</value>
-  </data>
   <data name="ActionsToolbarWindow_Edit" xml:space="preserve">
     <value>編輯...</value>
   </data>
@@ -154,9 +151,6 @@
   <data name="ActionsToolbarWindow_Title" xml:space="preserve">
     <value>ShareX - 動作工具列</value>
   </data>
-  <data name="AfterCaptureWindow_AfterUpload" xml:space="preserve">
-    <value>上傳後</value>
-  </data>
   <data name="AfterCaptureWindow_Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
@@ -168,12 +162,6 @@
   </data>
   <data name="AfterCaptureWindow_CopyPreviewImage" xml:space="preserve">
     <value>複製預覽影像</value>
-  </data>
-  <data name="AfterCaptureWindow_CustomUploader" xml:space="preserve">
-    <value>自訂 [{0}]</value>
-  </data>
-  <data name="AfterCaptureWindow_Destinations" xml:space="preserve">
-    <value>目的地</value>
   </data>
   <data name="AfterCaptureWindow_FileName" xml:space="preserve">
     <value>檔案名稱</value>
@@ -189,51 +177,6 @@
   </data>
   <data name="AfterCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - 擷取後</value>
-  </data>
-  <data name="AfterUploadWindow_ClipboardFormats" xml:space="preserve">
-    <value>剪貼簿格式</value>
-  </data>
-  <data name="AfterUploadWindow_Close" xml:space="preserve">
-    <value>關閉</value>
-  </data>
-  <data name="AfterUploadWindow_CopyImage" xml:space="preserve">
-    <value>複製影像</value>
-  </data>
-  <data name="AfterUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>複製預覽影像</value>
-  </data>
-  <data name="AfterUploadWindow_CopySelectedFormat" xml:space="preserve">
-    <value>複製所選格式</value>
-  </data>
-  <data name="AfterUploadWindow_GroupCustom" xml:space="preserve">
-    <value>自訂</value>
-  </data>
-  <data name="AfterUploadWindow_GroupForums" xml:space="preserve">
-    <value>論壇</value>
-  </data>
-  <data name="AfterUploadWindow_GroupLinks" xml:space="preserve">
-    <value>連結</value>
-  </data>
-  <data name="AfterUploadWindow_GroupLocal" xml:space="preserve">
-    <value>本機</value>
-  </data>
-  <data name="AfterUploadWindow_NoPreview" xml:space="preserve">
-    <value>沒有可用的影像預覽</value>
-  </data>
-  <data name="AfterUploadWindow_OpenContainingFolder" xml:space="preserve">
-    <value>開啟所在資料夾</value>
-  </data>
-  <data name="AfterUploadWindow_OpenFile" xml:space="preserve">
-    <value>開啟檔案</value>
-  </data>
-  <data name="AfterUploadWindow_OpenLink" xml:space="preserve">
-    <value>開啟連結</value>
-  </data>
-  <data name="AfterUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - 上傳後</value>
-  </data>
-  <data name="AfterUploadWindow_UploadComplete" xml:space="preserve">
-    <value>上傳完成</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>是否要重設 ShareX 設定？</value>
@@ -259,12 +202,6 @@
   <data name="ApplicationSettingsWindow_AccentColorLabel" xml:space="preserve">
     <value>強調色：</value>
   </data>
-  <data name="ApplicationSettingsWindow_Add" xml:space="preserve">
-    <value>新增...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_AddClipboardFormat" xml:space="preserve">
-    <value>新增剪貼簿格式</value>
-  </data>
   <data name="ApplicationSettingsWindow_Advanced" xml:space="preserve">
     <value>進階</value>
   </data>
@@ -274,9 +211,6 @@
   <data name="ApplicationSettingsWindow_AdvancedClipboard" xml:space="preserve">
     <value>剪貼簿</value>
   </data>
-  <data name="ApplicationSettingsWindow_AdvancedDragAndDropWindow" xml:space="preserve">
-    <value>拖放視窗</value>
-  </data>
   <data name="ApplicationSettingsWindow_AdvancedHotkeys" xml:space="preserve">
     <value>快速鍵</value>
   </data>
@@ -285,9 +219,6 @@
   </data>
   <data name="ApplicationSettingsWindow_AdvancedPaths" xml:space="preserve">
     <value>路徑</value>
-  </data>
-  <data name="ApplicationSettingsWindow_AdvancedUpload" xml:space="preserve">
-    <value>上傳</value>
   </data>
   <data name="ApplicationSettingsWindow_Application" xml:space="preserve">
     <value>應用程式</value>
@@ -319,11 +250,11 @@
   <data name="ApplicationSettingsWindow_BackupImportedFrom" xml:space="preserve">
     <value>備份已從 {0} 匯入</value>
   </data>
+  <data name="ApplicationSettingsWindow_BackupPrivacyWarning" xml:space="preserve">
+    <value>請勿分享匯出的備份。備份可能包含私人設定。</value>
+  </data>
   <data name="ApplicationSettingsWindow_BinaryUnits" xml:space="preserve">
     <value>使用二進位單位</value>
-  </data>
-  <data name="ApplicationSettingsWindow_BottomCenter" xml:space="preserve">
-    <value>下中</value>
   </data>
   <data name="ApplicationSettingsWindow_BottomLeft" xml:space="preserve">
     <value>左下</value>
@@ -337,12 +268,6 @@
   <data name="ApplicationSettingsWindow_BrowserPath" xml:space="preserve">
     <value>瀏覽器路徑</value>
   </data>
-  <data name="ApplicationSettingsWindow_BufferSizeLabel" xml:space="preserve">
-    <value>緩衝區大小：</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Cancel" xml:space="preserve">
-    <value>取消</value>
-  </data>
   <data name="ApplicationSettingsWindow_ChangesToThePersonalFolderAreStoredImmediatelyAndTakeEffectAfterRestart" xml:space="preserve">
     <value>個人資料夾的變更會立即儲存，並於重新啟動後生效。</value>
   </data>
@@ -352,23 +277,11 @@
   <data name="ApplicationSettingsWindow_ChooseShareXPersonalFolderPath" xml:space="preserve">
     <value>選擇 ShareX 個人資料夾路徑</value>
   </data>
-  <data name="ApplicationSettingsWindow_ChromeExtension" xml:space="preserve">
-    <value>Chrome 擴充功能</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ClipboardFormats" xml:space="preserve">
-    <value>剪貼簿格式</value>
-  </data>
   <data name="ApplicationSettingsWindow_CustomHotkeysConfigPath" xml:space="preserve">
     <value>自訂快速鍵設定路徑</value>
   </data>
   <data name="ApplicationSettingsWindow_CustomScreenshotsPath2" xml:space="preserve">
     <value>備用螢幕擷取畫面路徑</value>
-  </data>
-  <data name="ApplicationSettingsWindow_CustomUploadersConfigPath" xml:space="preserve">
-    <value>自訂上傳器設定路徑</value>
-  </data>
-  <data name="ApplicationSettingsWindow_CustomizeTheTextCopiedFromCompletedUploads" xml:space="preserve">
-    <value>自訂上傳完成後複製的文字。</value>
   </data>
   <data name="ApplicationSettingsWindow_Dark" xml:space="preserve">
     <value>深色</value>
@@ -379,9 +292,6 @@
   <data name="ApplicationSettingsWindow_DefaultPrinterOverrideLabel" xml:space="preserve">
     <value>預設印表機覆寫：</value>
   </data>
-  <data name="ApplicationSettingsWindow_Description" xml:space="preserve">
-    <value>描述</value>
-  </data>
   <data name="ApplicationSettingsWindow_DevMode" xml:space="preserve">
     <value>開發人員模式</value>
   </data>
@@ -391,47 +301,14 @@
   <data name="ApplicationSettingsWindow_DisableHotkeysOnFullscreen" xml:space="preserve">
     <value>在全螢幕應用程式中停用快速鍵</value>
   </data>
-  <data name="ApplicationSettingsWindow_DisableUpload" xml:space="preserve">
-    <value>停用上傳</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DoNotShareAnExportedBackupItCanContainPrivateInformationSuchAsAccountDetailsAndUploadHistory" xml:space="preserve">
-    <value>請勿分享匯出的備份。備份可能包含帳戶詳細資料和上傳歷史記錄等私人資訊。</value>
-  </data>
   <data name="ApplicationSettingsWindow_DontShowImagePrintSettingsDialog" xml:space="preserve">
     <value>不顯示圖片列印設定對話框</value>
   </data>
   <data name="ApplicationSettingsWindow_DontShowWindowsPrintDialog" xml:space="preserve">
     <value>不顯示 Windows 列印對話框</value>
   </data>
-  <data name="ApplicationSettingsWindow_DropAlignment" xml:space="preserve">
-    <value>拖放視窗位置</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropHoverOpacity" xml:space="preserve">
-    <value>檔案拖曳至視窗上方時的不透明度</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropOffset" xml:space="preserve">
-    <value>拖放視窗偏移量</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropOpacity" xml:space="preserve">
-    <value>拖放視窗不透明度</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropSize" xml:space="preserve">
-    <value>拖放視窗大小</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Edit" xml:space="preserve">
-    <value>編輯...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EditClipboardFormat" xml:space="preserve">
-    <value>編輯剪貼簿格式</value>
-  </data>
   <data name="ApplicationSettingsWindow_EditQuickTaskMenu" xml:space="preserve">
     <value>編輯快速排程選單...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EnableChromeExtensionSupport" xml:space="preserve">
-    <value>啟用 Chrome 擴充功能支援</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EnableFirefoxAddonSupport" xml:space="preserve">
-    <value>啟用 Firefox 附加元件支援</value>
   </data>
   <data name="ApplicationSettingsWindow_ErrorPrefix" xml:space="preserve">
     <value>錯誤：</value>
@@ -448,17 +325,11 @@
   <data name="ApplicationSettingsWindow_ExportingBackup" xml:space="preserve">
     <value>正在匯出備份...</value>
   </data>
-  <data name="ApplicationSettingsWindow_FirefoxAddon" xml:space="preserve">
-    <value>Firefox 附加元件</value>
-  </data>
   <data name="ApplicationSettingsWindow_FollowSystemAccentColor" xml:space="preserve">
     <value>跟隨系統強調色</value>
   </data>
   <data name="ApplicationSettingsWindow_FollowSystemTheme" xml:space="preserve">
     <value>跟隨系統佈景主題</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Format" xml:space="preserve">
-    <value>格式</value>
   </data>
   <data name="ApplicationSettingsWindow_General" xml:space="preserve">
     <value>一般</value>
@@ -490,12 +361,6 @@
   <data name="ApplicationSettingsWindow_InstallDevBuild" xml:space="preserve">
     <value>安裝開發版...</value>
   </data>
-  <data name="ApplicationSettingsWindow_InstallShareXChromeExtension" xml:space="preserve">
-    <value>安裝 ShareX Chrome 擴充功能...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_InstallShareXFirefoxAddon" xml:space="preserve">
-    <value>安裝 ShareX Firefox 附加元件...</value>
-  </data>
   <data name="ApplicationSettingsWindow_Integration" xml:space="preserve">
     <value>整合</value>
   </data>
@@ -511,23 +376,11 @@
   <data name="ApplicationSettingsWindow_MaximumNumberOfTasksToSaveLabel" xml:space="preserve">
     <value>儲存的最大排程數量：</value>
   </data>
-  <data name="ApplicationSettingsWindow_MiddleCenter" xml:space="preserve">
-    <value>置中</value>
-  </data>
-  <data name="ApplicationSettingsWindow_MiddleLeft" xml:space="preserve">
-    <value>左中</value>
-  </data>
-  <data name="ApplicationSettingsWindow_MiddleRight" xml:space="preserve">
-    <value>右中</value>
-  </data>
   <data name="ApplicationSettingsWindow_MinimizeToTrayOnStart" xml:space="preserve">
     <value>啟動時最小化到系統匣</value>
   </data>
   <data name="ApplicationSettingsWindow_NumberOfFilesToKeepLabel" xml:space="preserve">
     <value>保留檔案數量：</value>
-  </data>
-  <data name="ApplicationSettingsWindow_NumberOfTimesToRetryIfUploadFailsLabel" xml:space="preserve">
-    <value>上傳失敗重試次數：</value>
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconDoubleLeftClickLabel" xml:space="preserve">
     <value>滑鼠左鍵雙擊系統匣圖示：</value>
@@ -537,9 +390,6 @@
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconMiddleClickLabel" xml:space="preserve">
     <value>滑鼠中鍵單擊系統匣圖示：</value>
-  </data>
-  <data name="ApplicationSettingsWindow_OnlySaveIfUrlIsNotEmpty" xml:space="preserve">
-    <value>僅在有網址時儲存</value>
   </data>
   <data name="ApplicationSettingsWindow_Open" xml:space="preserve">
     <value>開啟...</value>
@@ -574,9 +424,6 @@
   <data name="ApplicationSettingsWindow_RememberMainWindowSize" xml:space="preserve">
     <value>記住主視窗尺寸</value>
   </data>
-  <data name="ApplicationSettingsWindow_Remove" xml:space="preserve">
-    <value>移除</value>
-  </data>
   <data name="ApplicationSettingsWindow_Reset" xml:space="preserve">
     <value>重設</value>
   </data>
@@ -589,14 +436,8 @@
   <data name="ApplicationSettingsWindow_RestartShareXToApplyThisChange" xml:space="preserve">
     <value>重新啟動 ShareX 以套用此變更。</value>
   </data>
-  <data name="ApplicationSettingsWindow_RightClickToInsertAVariable" xml:space="preserve">
-    <value>按一下滑鼠右鍵以插入變數。</value>
-  </data>
   <data name="ApplicationSettingsWindow_RotateImageByExifOrientationData" xml:space="preserve">
     <value>依 EXIF 方向旋轉影像</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Save" xml:space="preserve">
-    <value>儲存</value>
   </data>
   <data name="ApplicationSettingsWindow_SaveRecentTasks" xml:space="preserve">
     <value>儲存最近的排程</value>
@@ -622,20 +463,11 @@
   <data name="ApplicationSettingsWindow_ShareXPersonalFolder" xml:space="preserve">
     <value>ShareX 個人資料夾</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowClipboardContentViewer" xml:space="preserve">
-    <value>顯示剪貼簿內容檢視器</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowEditWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
     <value>在檔案總管的右鍵選單中顯示「使用 ShareX 編輯」按鈕</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowLargeFileSizeWarning" xml:space="preserve">
-    <value>大型檔案警告閾值（MB）</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowMostRecentTaskFirst" xml:space="preserve">
     <value>優先顯示最近的工作</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ShowMultiUploadWarning" xml:space="preserve">
-    <value>上傳超過 10 個檔案前發出警告</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowProgressInTaskbarButton" xml:space="preserve">
     <value>在工作列顯示進度</value>
@@ -649,20 +481,11 @@
   <data name="ApplicationSettingsWindow_ShowRecentTasksInTrayMenu" xml:space="preserve">
     <value>在系統匣選單顯示最近的排程</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowShareXInSendToMenu" xml:space="preserve">
-    <value>在「傳送到」選單中顯示 ShareX</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowTitle" xml:space="preserve">
     <value>顯示標題</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowTrayIcon" xml:space="preserve">
     <value>顯示系統匣圖示</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ShowUploadWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
-    <value>在檔案總管的右鍵選單中顯示「使用 ShareX 上傳」按鈕</value>
-  </data>
-  <data name="ApplicationSettingsWindow_SimultaneousUploadLimitLabel" xml:space="preserve">
-    <value>同時上傳限制：</value>
   </data>
   <data name="ApplicationSettingsWindow_Steam" xml:space="preserve">
     <value>Steam</value>
@@ -679,9 +502,6 @@
   <data name="ApplicationSettingsWindow_ThemeLabel" xml:space="preserve">
     <value>佈景主題：</value>
   </data>
-  <data name="ApplicationSettingsWindow_TheseFormatsAppearUnderTheCopySubmenuInTheMainWindowContextMenu" xml:space="preserve">
-    <value>這些格式會顯示在主視窗內容功能表的「複製」子功能表中。</value>
-  </data>
   <data name="ApplicationSettingsWindow_ThumbnailClickActionLabel" xml:space="preserve">
     <value>點擊縮圖的操作：</value>
   </data>
@@ -693,9 +513,6 @@
   </data>
   <data name="ApplicationSettingsWindow_TitleLocationLabel" xml:space="preserve">
     <value>標題位置：</value>
-  </data>
-  <data name="ApplicationSettingsWindow_TopCenter" xml:space="preserve">
-    <value>上中</value>
   </data>
   <data name="ApplicationSettingsWindow_TopLeft" xml:space="preserve">
     <value>左上</value>
@@ -709,20 +526,11 @@
   <data name="ApplicationSettingsWindow_TrayAutoExpandCaptureMenu" xml:space="preserve">
     <value>自動展開擷取選單</value>
   </data>
-  <data name="ApplicationSettingsWindow_URLEncodeIgnoreEmoji" xml:space="preserve">
-    <value>URL 編碼時忽略表情符號</value>
-  </data>
   <data name="ApplicationSettingsWindow_UpdateChannelLabel" xml:space="preserve">
     <value>更新通道：</value>
   </data>
   <data name="ApplicationSettingsWindow_Updates" xml:space="preserve">
     <value>更新</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Upload" xml:space="preserve">
-    <value>上傳</value>
-  </data>
-  <data name="ApplicationSettingsWindow_UploadResult" xml:space="preserve">
-    <value>上傳結果</value>
   </data>
   <data name="ApplicationSettingsWindow_UseAlternativeClipboardCopyImage" xml:space="preserve">
     <value>使用替代影像複製方式</value>
@@ -732,9 +540,6 @@
   </data>
   <data name="ApplicationSettingsWindow_UseCustomScreenshotsFolder" xml:space="preserve">
     <value>使用自訂螢幕擷取畫面資料夾</value>
-  </data>
-  <data name="ApplicationSettingsWindow_UseMachineSpecificUploadersConfig" xml:space="preserve">
-    <value>使用此電腦專用的上傳器設定</value>
   </data>
   <data name="ApplicationSettingsWindow_UseWhiteShareXIcon" xml:space="preserve">
     <value>使用白色 ShareX 圖示</value>
@@ -753,9 +558,6 @@
   </data>
   <data name="ApplicationSettingsWindow_WorkflowsOnlyShowEdited" xml:space="preserve">
     <value>僅顯示自訂工作流程</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ZeroDisablesTheLimit" xml:space="preserve">
-    <value>0 表示停用限制</value>
   </data>
   <data name="AutoCaptureWindow_AutoMinimize" xml:space="preserve">
     <value>自動最小化至通知區域</value>
@@ -799,368 +601,11 @@
   <data name="AutoCaptureWindow_WaitTasks" xml:space="preserve">
     <value>等待工作完成</value>
   </data>
-  <data name="BeforeUploadWindow_Cancel" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="BeforeUploadWindow_ChooseDestination" xml:space="preserve">
-    <value>請選擇目的地。</value>
-  </data>
-  <data name="BeforeUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>複製預覽影像</value>
-  </data>
-  <data name="BeforeUploadWindow_CustomUploader" xml:space="preserve">
-    <value>自訂 [{0}]</value>
-  </data>
-  <data name="BeforeUploadWindow_Destination" xml:space="preserve">
-    <value>目的地</value>
-  </data>
-  <data name="BeforeUploadWindow_Heading" xml:space="preserve">
-    <value>上傳前</value>
-  </data>
-  <data name="BeforeUploadWindow_NoPreview" xml:space="preserve">
-    <value>沒有可用的預覽</value>
-  </data>
-  <data name="BeforeUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - 上傳前</value>
-  </data>
-  <data name="BeforeUploadWindow_Upload" xml:space="preserve">
-    <value>上傳</value>
-  </data>
-  <data name="BeforeUploadWindow_UploadPrompt" xml:space="preserve">
-    <value>即將把 {0} 上傳至 {1}。您可以選擇其他目的地。</value>
-  </data>
   <data name="ClipboardDoesNotContainAnImage" xml:space="preserve">
     <value>剪貼簿無圖片。</value>
   </data>
-  <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
-    <value>支援的變數：{0} 和其他如 {1} 的變數等</value>
-  </data>
-  <data name="ClipboardUpload" xml:space="preserve">
-    <value>剪貼簿上傳</value>
-  </data>
-  <data name="ClipboardUploadWindow_Cancel" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="ClipboardUploadWindow_ClipboardUpload" xml:space="preserve">
-    <value>剪貼簿上傳</value>
-  </data>
-  <data name="ClipboardUploadWindow_DontShowAgain" xml:space="preserve">
-    <value>不再顯示此視窗</value>
-  </data>
-  <data name="ClipboardUploadWindow_Empty" xml:space="preserve">
-    <value>剪貼簿是空的或包含不支援的資料。</value>
-  </data>
-  <data name="ClipboardUploadWindow_FileSummary" xml:space="preserve">
-    <value>剪貼簿內容：檔案，數量：{0}</value>
-  </data>
-  <data name="ClipboardUploadWindow_ImageSummary" xml:space="preserve">
-    <value>剪貼簿內容：影像，尺寸：{0} × {1}</value>
-  </data>
-  <data name="ClipboardUploadWindow_TextSummary" xml:space="preserve">
-    <value>剪貼簿內容：文字，長度：{0}</value>
-  </data>
-  <data name="ClipboardUploadWindow_Upload" xml:space="preserve">
-    <value>上傳</value>
-  </data>
   <data name="Confirmation" xml:space="preserve">
     <value>確認</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Add" xml:space="preserve">
-    <value>新增</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Name" xml:space="preserve">
-    <value>名稱</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Remove" xml:space="preserve">
-    <value>移除</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Value" xml:space="preserve">
-    <value>值</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_AllRemoved" xml:space="preserve">
-    <value>已移除所有自訂上傳器。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Arguments" xml:space="preserve">
-    <value>引數</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Base64Encoding" xml:space="preserve">
-    <value>Base64 編碼</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Beautify" xml:space="preserve">
-    <value>美化</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Body" xml:space="preserve">
-    <value>本文</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_BodyType" xml:space="preserve">
-    <value>本文類型</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Capabilities" xml:space="preserve">
-    <value>功能</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ChangesApplied" xml:space="preserve">
-    <value>變更會立即套用。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ClearAll" xml:space="preserve">
-    <value>全部清除...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ClearConfirmation" xml:space="preserve">
-    <value>要移除所有自訂上傳器嗎？</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Close" xml:space="preserve">
-    <value>關閉</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ConfirmationTitle" xml:space="preserve">
-    <value>ShareX - 確認</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_CreateOrImport" xml:space="preserve">
-    <value>建立自訂上傳器或匯入 .sxcu 檔案。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_CustomUploaderFileType" xml:space="preserve">
-    <value>ShareX 自訂上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DeletionURL" xml:space="preserve">
-    <value>刪除 URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DestinationRequired" xml:space="preserve">
-    <value>匯出前必須至少選取一種目的地類型。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DisplayOutputText" xml:space="preserve">
-    <value>顯示輸出文字</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Duplicate" xml:space="preserve">
-    <value>複製所選上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DuplicateNamesNotAllowed" xml:space="preserve">
-    <value>不允許使用重複名稱。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Duplicated" xml:space="preserve">
-    <value>已複製自訂上傳器。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Endpoint" xml:space="preserve">
-    <value>端點</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Error" xml:space="preserve">
-    <value>錯誤</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ErrorMessage" xml:space="preserve">
-    <value>錯誤訊息</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Export" xml:space="preserve">
-    <value>匯出所選上傳器...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportAll" xml:space="preserve">
-    <value>全部匯出...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportAllDialogTitle" xml:space="preserve">
-    <value>匯出所有自訂上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportDialogTitle" xml:space="preserve">
-    <value>匯出自訂上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportedCount" xml:space="preserve">
-    <value>已匯出 {0} 個自訂上傳器。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportedOne" xml:space="preserve">
-    <value>已匯出 {0}。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileFormName" xml:space="preserve">
-    <value>檔案表單名稱</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileFormNameDescription" xml:space="preserve">
-    <value>用於傳送上傳檔案的 multipart 欄位名稱。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileUploader" xml:space="preserve">
-    <value>檔案上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FilteredUploaderCount" xml:space="preserve">
-    <value>{1} 個中的 {0} 個</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Guide" xml:space="preserve">
-    <value>自訂上傳器指南...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Headers" xml:space="preserve">
-    <value>標頭</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Identity" xml:space="preserve">
-    <value>識別</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImageUploader" xml:space="preserve">
-    <value>影像上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Import" xml:space="preserve">
-    <value>匯入...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImportDialogTitle" xml:space="preserve">
-    <value>匯入自訂上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImportedCount" xml:space="preserve">
-    <value>已匯入 {0} 個自訂上傳器。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_JSONPathResponseValue" xml:space="preserve">
-    <value>JSONPath 回應值</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Method" xml:space="preserve">
-    <value>方法</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Minify" xml:space="preserve">
-    <value>最小化</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Name" xml:space="preserve">
-    <value>名稱</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NamePlaceholder" xml:space="preserve">
-    <value>留空時使用要求主機</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_New" xml:space="preserve">
-    <value>新增</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NewCreated" xml:space="preserve">
-    <value>已建立新的自訂上傳器。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NoAdditionalBodyFields" xml:space="preserve">
-    <value>此本文類型沒有其他欄位。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NoSearchMatches" xml:space="preserve">
-    <value>沒有與此搜尋相符的上傳器。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Overview" xml:space="preserve">
-    <value>概觀</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Parameters" xml:space="preserve">
-    <value>參數</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RandomSelection" xml:space="preserve">
-    <value>隨機選取</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RegularExpressionResult" xml:space="preserve">
-    <value>規則運算式結果</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Remove" xml:space="preserve">
-    <value>移除所選上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Removed" xml:space="preserve">
-    <value>已移除自訂上傳器。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Request" xml:space="preserve">
-    <value>要求</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestData" xml:space="preserve">
-    <value>要求資料</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestURL" xml:space="preserve">
-    <value>要求 URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestURLRequired" xml:space="preserve">
-    <value>匯出前必須設定要求 URL。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Response" xml:space="preserve">
-    <value>回應</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseHeader" xml:space="preserve">
-    <value>回應標頭</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseOrRedirectionURL" xml:space="preserve">
-    <value>回應或重新導向 URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseText" xml:space="preserve">
-    <value>回應文字</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Result" xml:space="preserve">
-    <value>結果</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResultURL" xml:space="preserve">
-    <value>結果 URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SearchUploaders" xml:space="preserve">
-    <value>搜尋上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SelectToExport" xml:space="preserve">
-    <value>請選取要匯出的自訂上傳器。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SelectUploaderToEdit" xml:space="preserve">
-    <value>選取要編輯的上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Test" xml:space="preserve">
-    <value>測試</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestCancelled" xml:space="preserve">
-    <value>測試已取消。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestCompleted" xml:space="preserve">
-    <value>測試已完成。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestFailed" xml:space="preserve">
-    <value>測試失敗。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestURLSyntax" xml:space="preserve">
-    <value>測試 URL 語法</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestURLSyntaxButton" xml:space="preserve">
-    <value>測試 URL 語法...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Testing" xml:space="preserve">
-    <value>正在測試 {0}...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextOrURLInput" xml:space="preserve">
-    <value>文字或 URL 輸入</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextUploadSample" xml:space="preserve">
-    <value>ShareX 文字上傳測試</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextUploader" xml:space="preserve">
-    <value>文字上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ThumbnailURL" xml:space="preserve">
-    <value>縮圖 URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Title" xml:space="preserve">
-    <value>ShareX - 自訂上傳器設定</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLSharingService" xml:space="preserve">
-    <value>URL 分享服務</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLShortener" xml:space="preserve">
-    <value>URL 縮短器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLSyntax" xml:space="preserve">
-    <value>URL 語法</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdateFolder" xml:space="preserve">
-    <value>更新資料夾...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdateFolderDialogTitle" xml:space="preserve">
-    <value>更新自訂上傳器資料夾</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdatedCount" xml:space="preserve">
-    <value>已更新 {0} 個自訂上傳器檔案。</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploadedFile" xml:space="preserve">
-    <value>已上傳檔案</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploadedFileName" xml:space="preserve">
-    <value>已上傳檔案名稱</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderCount" xml:space="preserve">
-    <value>{0} 個上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderCountPlural" xml:space="preserve">
-    <value>{0} 個上傳器</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderLibrary" xml:space="preserve">
-    <value>上傳器庫</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UserSelection" xml:space="preserve">
-    <value>使用者選取</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UserTextInput" xml:space="preserve">
-    <value>使用者文字輸入</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_XPathResponseValue" xml:space="preserve">
-    <value>XPath 回應值</value>
-  </data>
-  <data name="DebugLogWindow_Cancel" xml:space="preserve">
-    <value>取消</value>
   </data>
   <data name="DebugLogWindow_CopyAll" xml:space="preserve">
     <value>全部複製</value>
@@ -1176,21 +621,6 @@
   </data>
   <data name="DebugLogWindow_Title" xml:space="preserve">
     <value>ShareX - 偵錯記錄</value>
-  </data>
-  <data name="DebugLogWindow_Upload" xml:space="preserve">
-    <value>上傳</value>
-  </data>
-  <data name="DebugLogWindow_UploadLog" xml:space="preserve">
-    <value>上傳記錄...</value>
-  </data>
-  <data name="DebugLogWindow_UploadPrompt" xml:space="preserve">
-    <value>上傳偵錯記錄？</value>
-  </data>
-  <data name="DragDropUploadWindow_DropHere" xml:space="preserve">
-    <value>拖放到此處</value>
-  </data>
-  <data name="DragDropUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - 拖放上傳</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>錯誤</value>
@@ -1328,35 +758,26 @@
   <data name="IntegrationHelpers_EditWithShareX" xml:space="preserve">
     <value>使用 ShareX 編輯</value>
   </data>
-  <data name="IntegrationHelpers_UploadWithShareX" xml:space="preserve">
-    <value>使用 ShareX 上傳</value>
+  <data name="LocalTask_Choose_a_folder_to_save" xml:space="preserve">
+    <value>選擇資料夾以儲存</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Cancel" xml:space="preserve">
-    <value>取消</value>
+  <data name="LocalTask_Done" xml:space="preserve">
+    <value>完成</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Continue" xml:space="preserve">
-    <value>繼續</value>
+  <data name="LocalTask_Prepare_Preparing" xml:space="preserve">
+    <value>準備中</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_DontShowAgain" xml:space="preserve">
-    <value>不再顯示此訊息。</value>
+  <data name="LocalTask_Stop_Stopping" xml:space="preserve">
+    <value>停止中</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Message" xml:space="preserve">
-    <value>您正嘗試上傳大型檔案。</value>
-  </data>
-  <data name="LargeFileUploadWarningWindow_Title" xml:space="preserve">
-    <value>ShareX - 上傳大型檔案</value>
-  </data>
-  <data name="MainForm_UploadDebugLogWarning" xml:space="preserve">
-    <value>偵錯日誌可能包含敏感資訊。確定要繼續嗎？</value>
+  <data name="LocalTask_Stopped" xml:space="preserve">
+    <value>已停止</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_Do_you_really_want_to_delete_this_file_" xml:space="preserve">
     <value>確定要刪除此檔案嗎？</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>檔案刪除確認</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>文字上傳測試</value>
   </data>
   <data name="MainMenuBuilder_About" xml:space="preserve">
     <value>關於...</value>
@@ -1369,12 +790,6 @@
   </data>
   <data name="MainMenuBuilder_AfterCaptureTasks" xml:space="preserve">
     <value>擷取後工作</value>
-  </data>
-  <data name="MainMenuBuilder_AfterUploadTasks" xml:space="preserve">
-    <value>上傳後工作</value>
-  </data>
-  <data name="MainMenuBuilder_AnalyzeImage" xml:space="preserve">
-    <value>分析圖片</value>
   </data>
   <data name="MainMenuBuilder_AnimatedGifMaker" xml:space="preserve">
     <value>動畫 GIF 製作器...</value>
@@ -1406,17 +821,8 @@
   <data name="MainMenuBuilder_Copy" xml:space="preserve">
     <value>複製</value>
   </data>
-  <data name="MainMenuBuilder_CustomUploaderSettings" xml:space="preserve">
-    <value>自訂上傳器設定...</value>
-  </data>
   <data name="MainMenuBuilder_Debug" xml:space="preserve">
     <value>偵錯</value>
-  </data>
-  <data name="MainMenuBuilder_DestinationSettings" xml:space="preserve">
-    <value>目的地設定...</value>
-  </data>
-  <data name="MainMenuBuilder_Destinations" xml:space="preserve">
-    <value>目的地</value>
   </data>
   <data name="MainMenuBuilder_DisableHotkeys" xml:space="preserve">
     <value>停用快捷鍵</value>
@@ -1426,9 +832,6 @@
   </data>
   <data name="MainMenuBuilder_Donate" xml:space="preserve">
     <value>捐贈</value>
-  </data>
-  <data name="MainMenuBuilder_DragAndDropUpload" xml:space="preserve">
-    <value>拖放上傳</value>
   </data>
   <data name="MainMenuBuilder_EditTools" xml:space="preserve">
     <value>編輯</value>
@@ -1544,9 +947,6 @@
   <data name="MainMenuBuilder_Region" xml:space="preserve">
     <value>區域...</value>
   </data>
-  <data name="MainMenuBuilder_RemoteStorageBrowser" xml:space="preserve">
-    <value>遠端存儲瀏覽器...</value>
-  </data>
   <data name="MainMenuBuilder_RestartAsAdministrator" xml:space="preserve">
     <value>以系統管理員身分重新啟動</value>
   </data>
@@ -1568,9 +968,6 @@
   <data name="MainMenuBuilder_ScrollingCapture" xml:space="preserve">
     <value>捲動擷取...</value>
   </data>
-  <data name="MainMenuBuilder_ShortenUrl" xml:space="preserve">
-    <value>縮網址</value>
-  </data>
   <data name="MainMenuBuilder_ShowCursor" xml:space="preserve">
     <value>顯示游標</value>
   </data>
@@ -1582,21 +979,6 @@
   </data>
   <data name="MainMenuBuilder_TaskSettings" xml:space="preserve">
     <value>任務設定</value>
-  </data>
-  <data name="MainMenuBuilder_TestFileUpload" xml:space="preserve">
-    <value>測試檔案上傳</value>
-  </data>
-  <data name="MainMenuBuilder_TestImageUpload" xml:space="preserve">
-    <value>測試影像上傳</value>
-  </data>
-  <data name="MainMenuBuilder_TestTextUpload" xml:space="preserve">
-    <value>測試文字上傳</value>
-  </data>
-  <data name="MainMenuBuilder_TestUrlSharing" xml:space="preserve">
-    <value>測試 URL 分享</value>
-  </data>
-  <data name="MainMenuBuilder_TestUrlShortener" xml:space="preserve">
-    <value>測試 URL 縮短器</value>
   </data>
   <data name="MainMenuBuilder_ToolCategoryData" xml:space="preserve">
     <value>資料與文字</value>
@@ -1615,24 +997,6 @@
   </data>
   <data name="MainMenuBuilder_Tools" xml:space="preserve">
     <value>工具</value>
-  </data>
-  <data name="MainMenuBuilder_Upload" xml:space="preserve">
-    <value>上傳</value>
-  </data>
-  <data name="MainMenuBuilder_UploadClipboard" xml:space="preserve">
-    <value>上傳剪貼簿...</value>
-  </data>
-  <data name="MainMenuBuilder_UploadFile" xml:space="preserve">
-    <value>上傳檔案</value>
-  </data>
-  <data name="MainMenuBuilder_UploadFolder" xml:space="preserve">
-    <value>上傳資料夾</value>
-  </data>
-  <data name="MainMenuBuilder_UploadText" xml:space="preserve">
-    <value>上傳文字</value>
-  </data>
-  <data name="MainMenuBuilder_UploadUrl" xml:space="preserve">
-    <value>上傳 URL...</value>
   </data>
   <data name="MainMenuBuilder_VideoConverter" xml:space="preserve">
     <value>影片轉檔工具</value>
@@ -1658,9 +1022,6 @@
   <data name="MainWindow_AlwaysOnTop" xml:space="preserve">
     <value>总在最前</value>
   </data>
-  <data name="MainWindow_AnalyzeImage" xml:space="preserve">
-    <value>分析圖片</value>
-  </data>
   <data name="MainWindow_BeautifyImage" xml:space="preserve">
     <value>美化圖片</value>
   </data>
@@ -1676,23 +1037,11 @@
   <data name="MainWindow_Copy" xml:space="preserve">
     <value>複製</value>
   </data>
-  <data name="MainWindow_DeleteItemRemotely" xml:space="preserve">
-    <value>從遠端刪除項目...</value>
-  </data>
-  <data name="MainWindow_DeleteItemRemotelyConfirmation" xml:space="preserve">
-    <value>您確定要從遠端刪除此項目嗎？</value>
-  </data>
   <data name="MainWindow_DeleteSelectedFile" xml:space="preserve">
     <value>刪除選取的檔案...</value>
   </data>
   <data name="MainWindow_DeleteSelectedItem" xml:space="preserve">
     <value>刪除選取的項目</value>
-  </data>
-  <data name="MainWindow_DeletionUrl" xml:space="preserve">
-    <value>刪除網址</value>
-  </data>
-  <data name="MainWindow_DownloadSelectedUrl" xml:space="preserve">
-    <value>下載選取的 URL</value>
   </data>
   <data name="MainWindow_EditImage" xml:space="preserve">
     <value>編輯圖片</value>
@@ -1709,20 +1058,8 @@
   <data name="MainWindow_FilePath" xml:space="preserve">
     <value>檔案路徑</value>
   </data>
-  <data name="MainWindow_FilesDroppedUploadDescription" xml:space="preserve">
-    <value>拖放到此處的檔案將由 ShareX 上傳。</value>
-  </data>
   <data name="MainWindow_Folder" xml:space="preserve">
     <value>資料夾</value>
-  </data>
-  <data name="MainWindow_ForumImage" xml:space="preserve">
-    <value>論壇影像</value>
-  </data>
-  <data name="MainWindow_ForumLink" xml:space="preserve">
-    <value>論壇連結</value>
-  </data>
-  <data name="MainWindow_ForumLinkedImage" xml:space="preserve">
-    <value>論壇連結影像</value>
   </data>
   <data name="MainWindow_Horizontal" xml:space="preserve">
     <value>水平</value>
@@ -1731,31 +1068,13 @@
     <value>水平</value>
   </data>
   <data name="MainWindow_HotkeyHint" xml:space="preserve">
-    <value>使用快速鍵擷取或上傳。結果將在此處顯示為縮圖。</value>
-  </data>
-  <data name="MainWindow_HtmlImage" xml:space="preserve">
-    <value>HTML 影像</value>
-  </data>
-  <data name="MainWindow_HtmlLink" xml:space="preserve">
-    <value>HTML 連結</value>
-  </data>
-  <data name="MainWindow_HtmlLinkedImage" xml:space="preserve">
-    <value>HTML 連結影像</value>
+    <value>使用快捷鍵擷取。結果將以縮圖形式顯示在這裡。</value>
   </data>
   <data name="MainWindow_Image" xml:space="preserve">
     <value>圖片</value>
   </data>
   <data name="MainWindow_ImageDimensions" xml:space="preserve">
     <value>影像尺寸</value>
-  </data>
-  <data name="MainWindow_MarkdownImage" xml:space="preserve">
-    <value>Markdown 影像</value>
-  </data>
-  <data name="MainWindow_MarkdownLink" xml:space="preserve">
-    <value>Markdown 連結</value>
-  </data>
-  <data name="MainWindow_MarkdownLinkedImage" xml:space="preserve">
-    <value>Markdown 連結影像</value>
   </data>
   <data name="MainWindow_MaximizeOrRestore" xml:space="preserve">
     <value>最大化或恢復</value>
@@ -1772,62 +1091,20 @@
   <data name="MainWindow_PinToScreen" xml:space="preserve">
     <value>釘選至螢幕</value>
   </data>
-  <data name="MainWindow_ReleaseToUploadFiles" xml:space="preserve">
-    <value>放開以上傳檔案</value>
-  </data>
-  <data name="MainWindow_ReleaseToUploadText" xml:space="preserve">
-    <value>放開以上傳文字</value>
-  </data>
-  <data name="MainWindow_RemoteDeleteFailed" xml:space="preserve">
-    <value>無法從遠端刪除該項目。</value>
-  </data>
-  <data name="MainWindow_RemoteDeleteSucceeded" xml:space="preserve">
-    <value>已從遠端刪除該項目。</value>
-  </data>
-  <data name="MainWindow_RemoteDeletion" xml:space="preserve">
-    <value>遠端刪除</value>
-  </data>
   <data name="MainWindow_ResizeImage" xml:space="preserve">
     <value>調整圖片大小...</value>
   </data>
   <data name="MainWindow_RunAction" xml:space="preserve">
     <value>執行動作</value>
   </data>
-  <data name="MainWindow_SearchWithBingVisualSearch" xml:space="preserve">
-    <value>使用 Bing 視覺搜尋進行搜尋...</value>
-  </data>
-  <data name="MainWindow_SearchWithGoogleLens" xml:space="preserve">
-    <value>使用 Google Lens 搜尋...</value>
-  </data>
-  <data name="MainWindow_ShareSelectedUrl" xml:space="preserve">
-    <value>分享選取的 URL</value>
-  </data>
   <data name="MainWindow_ShareXHotkeys" xml:space="preserve">
     <value>ShareX 快速鍵</value>
-  </data>
-  <data name="MainWindow_ShortenSelectedUrl" xml:space="preserve">
-    <value>縮短選取的 URL</value>
-  </data>
-  <data name="MainWindow_ShortenedUrl" xml:space="preserve">
-    <value>縮網址</value>
   </data>
   <data name="MainWindow_ShowErrors" xml:space="preserve">
     <value>顯示錯誤...</value>
   </data>
-  <data name="MainWindow_ShowQRCode" xml:space="preserve">
-    <value>顯示 QR 碼...</value>
-  </data>
-  <data name="MainWindow_ShowResponse" xml:space="preserve">
-    <value>顯示回應...</value>
-  </data>
-  <data name="MainWindow_StopUpload" xml:space="preserve">
-    <value>停止上傳</value>
-  </data>
   <data name="MainWindow_Text" xml:space="preserve">
     <value>文字</value>
-  </data>
-  <data name="MainWindow_TextDroppedUploadDescription" xml:space="preserve">
-    <value>拖放到此處的文字將由 ShareX 上傳。</value>
   </data>
   <data name="MainWindow_ThumbnailFile" xml:space="preserve">
     <value>縮圖檔案</value>
@@ -1835,20 +1112,11 @@
   <data name="MainWindow_ThumbnailImage" xml:space="preserve">
     <value>縮圖影像</value>
   </data>
-  <data name="MainWindow_ThumbnailUrl" xml:space="preserve">
-    <value>縮圖網址</value>
-  </data>
   <data name="MainWindow_TrimAnimatedGif" xml:space="preserve">
     <value>裁剪動畫 GIF...</value>
   </data>
   <data name="MainWindow_TrimVideo" xml:space="preserve">
     <value>剪輯影片...</value>
-  </data>
-  <data name="MainWindow_UploadSelectedFile" xml:space="preserve">
-    <value>上傳選取的檔案</value>
-  </data>
-  <data name="MainWindow_Url" xml:space="preserve">
-    <value>網址</value>
   </data>
   <data name="MainWindow_Vertical" xml:space="preserve">
     <value>垂直</value>
@@ -1859,20 +1127,14 @@
   <data name="MouseHighlighter" xml:space="preserve">
     <value>滑鼠螢光筆</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_Cancel" xml:space="preserve">
-    <value>取消</value>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>OCR 引擎</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_DontShowAgain" xml:space="preserve">
-    <value>不再顯示此訊息。</value>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_Message" xml:space="preserve">
-    <value>確定要上傳 {0} 個檔案嗎？</value>
-  </data>
-  <data name="MultiUploadConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - 上傳檔案</value>
-  </data>
-  <data name="MultiUploadConfirmationWindow_Upload" xml:space="preserve">
-    <value>上傳</value>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
   </data>
   <data name="PinToScreen" xml:space="preserve">
     <value>釘選至螢幕</value>
@@ -1892,12 +1154,6 @@
   </data>
   <data name="QuickTaskMenuEditorWindow_AfterCaptureTasks" xml:space="preserve">
     <value>擷取後工作</value>
-  </data>
-  <data name="QuickTaskMenuEditorWindow_AfterUploadSummary" xml:space="preserve">
-    <value>{0}  •  上傳後: {1}</value>
-  </data>
-  <data name="QuickTaskMenuEditorWindow_AfterUploadTasks" xml:space="preserve">
-    <value>上傳後工作</value>
   </data>
   <data name="QuickTaskMenuEditorWindow_Cancel" xml:space="preserve">
     <value>取消</value>
@@ -2059,24 +1315,6 @@
   <data name="ShareXIsUpToDate" xml:space="preserve">
     <value>ShareX 已為最新版！</value>
   </data>
-  <data name="ShortenURLWindow_Cancel" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="ShortenURLWindow_Heading" xml:space="preserve">
-    <value>縮短 URL</value>
-  </data>
-  <data name="ShortenURLWindow_Shorten" xml:space="preserve">
-    <value>縮短</value>
-  </data>
-  <data name="ShortenURLWindow_Title" xml:space="preserve">
-    <value>ShareX - 縮短 URL</value>
-  </data>
-  <data name="ShortenURLWindow_URL" xml:space="preserve">
-    <value>URL</value>
-  </data>
-  <data name="ShortenURLWindow_Validation" xml:space="preserve">
-    <value>請輸入有效的 HTTP、HTTPS 或 FTP URL。</value>
-  </data>
   <data name="StartScreen_GetStarted" xml:space="preserve">
     <value>開始使用</value>
   </data>
@@ -2098,12 +1336,6 @@
   <data name="StartScreen_WelcomeSubtitle" xml:space="preserve">
     <value>以你的方式擷取、編輯及分享任何內容。</value>
   </data>
-  <data name="TaskHelpers_AddCustomUploaderConfirmation" xml:space="preserve">
-    <value>要新增自訂上傳器「{0}」嗎？</value>
-  </data>
-  <data name="TaskHelpers_CustomUploaderConfirmationTitle" xml:space="preserve">
-    <value>ShareX - 自訂上傳器確認</value>
-  </data>
   <data name="TaskHelpers_FileDoesNotExist" xml:space="preserve">
     <value>檔案不存在：
 {0}</value>
@@ -2111,53 +1343,23 @@
   <data name="TaskHelpers_OpenQuickScreenColorPicker_Copied_to_clipboard___0_" xml:space="preserve">
     <value>已複製到剪貼簿：{0}</value>
   </data>
-  <data name="TaskHelpers_RemoteStorageNotConfigured" xml:space="preserve">
-    <value>在開啟遠端儲存瀏覽器之前，請在目標設定中設定 Amazon S3、FTP、FTPS 或 SFTP 上傳程式。</value>
-  </data>
-  <data name="TaskHelpers_SetActiveCustomUploaderConfirmation" xml:space="preserve">
-    <value>要將「{0}」設為 {1} 的使用中自訂上傳器嗎？</value>
-  </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_disabled_" xml:space="preserve">
     <value>快捷鍵已停用。</value>
   </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_enabled_" xml:space="preserve">
     <value>快捷鍵已啟用。</value>
   </data>
-  <data name="TaskManager_UploadCompletedURL" xml:space="preserve">
-    <value>上傳完成。URL：{0}</value>
-  </data>
-  <data name="TaskManager_task_UploadCompleted_Error" xml:space="preserve">
+  <data name="TaskManager_TaskCompleted_Error" xml:space="preserve">
     <value>錯誤</value>
   </data>
-  <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
+  <data name="TaskManager_TaskCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>任務完成</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_File_uploader___0_" xml:space="preserve">
-    <value>檔案上傳工具：{0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_Image_uploader___0_" xml:space="preserve">
-    <value>圖片上傳工具：{0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
-    <value>文字上傳工具：{0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
-    <value>網址分享服務：{0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>縮網址服務：{0}</value>
   </data>
   <data name="TaskSettingsWindow_Actions" xml:space="preserve">
     <value>動作</value>
   </data>
-  <data name="TaskSettingsWindow_Add" xml:space="preserve">
-    <value>新增</value>
-  </data>
   <data name="TaskSettingsWindow_AddAction" xml:space="preserve">
     <value>新增動作</value>
-  </data>
-  <data name="TaskSettingsWindow_AddWatchFolder" xml:space="preserve">
-    <value>新增監視資料夾</value>
   </data>
   <data name="TaskSettingsWindow_AddWithEllipsis" xml:space="preserve">
     <value>新增...</value>
@@ -2171,12 +1373,6 @@
   <data name="TaskSettingsWindow_AfterCaptureTasks" xml:space="preserve">
     <value>擷取後工作</value>
   </data>
-  <data name="TaskSettingsWindow_AfterUpload" xml:space="preserve">
-    <value>上傳後</value>
-  </data>
-  <data name="TaskSettingsWindow_AfterUploadTasks" xml:space="preserve">
-    <value>上傳後工作</value>
-  </data>
   <data name="TaskSettingsWindow_AlsoDetectControlsInsideWindows" xml:space="preserve">
     <value>同時偵測視窗內的控制項</value>
   </data>
@@ -2186,12 +1382,6 @@
   <data name="TaskSettingsWindow_AskForConfirmationWhenAborting" xml:space="preserve">
     <value>中止時要求確認</value>
   </data>
-  <data name="TaskSettingsWindow_AutoClearClipboard" xml:space="preserve">
-    <value>自動清除剪貼簿</value>
-  </data>
-  <data name="TaskSettingsWindow_AutoCloseAfterUploadForm" xml:space="preserve">
-    <value>自動關閉上傳後視窗</value>
-  </data>
   <data name="TaskSettingsWindow_AutoCloseEditorOnTask" xml:space="preserve">
     <value>工作完成後自動關閉編輯器</value>
   </data>
@@ -2200,9 +1390,6 @@
   </data>
   <data name="TaskSettingsWindow_AutoIncrementNumber" xml:space="preserve">
     <value>自動遞增編號：</value>
-  </data>
-  <data name="TaskSettingsWindow_AutoShortenURLLength" xml:space="preserve">
-    <value>自動 URL 縮短長度</value>
   </data>
   <data name="TaskSettingsWindow_AutomaticJPEG" xml:space="preserve">
     <value>自動 JPEG</value>
@@ -2222,9 +1409,6 @@
   <data name="TaskSettingsWindow_BackgroundDimStrengthPercent" xml:space="preserve">
     <value>背景變暗強度（%）：</value>
   </data>
-  <data name="TaskSettingsWindow_BalloonTipContentFormat" xml:space="preserve">
-    <value>通知內容格式</value>
-  </data>
   <data name="TaskSettingsWindow_BrowseWithEllipsis" xml:space="preserve">
     <value>瀏覽...</value>
   </data>
@@ -2237,8 +1421,8 @@
   <data name="TaskSettingsWindow_CaptureClientAreaForWindowCaptures" xml:space="preserve">
     <value>視窗擷取時擷取工作區</value>
   </data>
-  <data name="TaskSettingsWindow_CaptureOrClipboardUpload" xml:space="preserve">
-    <value>擷取或剪貼簿上傳：</value>
+  <data name="TaskSettingsWindow_CaptureTasks" xml:space="preserve">
+    <value>擷取工作：</value>
   </data>
   <data name="TaskSettingsWindow_CaptureWindowWithShadow" xml:space="preserve">
     <value>擷取含陰影的視窗</value>
@@ -2258,18 +1442,6 @@
   <data name="TaskSettingsWindow_ChooseTheActionsShownAtTheBottomOfAfterCaptureNotifications" xml:space="preserve">
     <value>選擇擷取後通知底部顯示的動作。</value>
   </data>
-  <data name="TaskSettingsWindow_ChooseWatchFolder" xml:space="preserve">
-    <value>選擇監視資料夾</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardContent" xml:space="preserve">
-    <value>剪貼簿內容</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardContentFormat" xml:space="preserve">
-    <value>剪貼簿內容格式</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardUpload" xml:space="preserve">
-    <value>剪貼簿上傳</value>
-  </data>
   <data name="TaskSettingsWindow_Close" xml:space="preserve">
     <value>關閉</value>
   </data>
@@ -2285,9 +1457,6 @@
   <data name="TaskSettingsWindow_CustomSounds" xml:space="preserve">
     <value>自訂音效</value>
   </data>
-  <data name="TaskSettingsWindow_CustomUploader" xml:space="preserve">
-    <value>自訂上傳器：</value>
-  </data>
   <data name="TaskSettingsWindow_CustomizeToolbarWithEllipsis" xml:space="preserve">
     <value>自訂工具列...</value>
   </data>
@@ -2299,9 +1468,6 @@
   </data>
   <data name="TaskSettingsWindow_Description" xml:space="preserve">
     <value>描述：</value>
-  </data>
-  <data name="TaskSettingsWindow_Destinations" xml:space="preserve">
-    <value>目的地</value>
   </data>
   <data name="TaskSettingsWindow_DetectWindowRegions" xml:space="preserve">
     <value>偵測視窗區域</value>
@@ -2315,14 +1481,8 @@
   <data name="TaskSettingsWindow_DurationSeconds" xml:space="preserve">
     <value>持續時間（秒）：</value>
   </data>
-  <data name="TaskSettingsWindow_EarlyCopyURL" xml:space="preserve">
-    <value>上傳前複製 URL</value>
-  </data>
   <data name="TaskSettingsWindow_EditAction" xml:space="preserve">
     <value>編輯動作</value>
-  </data>
-  <data name="TaskSettingsWindow_EditWatchFolder" xml:space="preserve">
-    <value>編輯監視資料夾</value>
   </data>
   <data name="TaskSettingsWindow_EditWithEllipsis" xml:space="preserve">
     <value>編輯...</value>
@@ -2336,17 +1496,8 @@
   <data name="TaskSettingsWindow_EncodingAndCapture" xml:space="preserve">
     <value>編碼和擷取</value>
   </data>
-  <data name="TaskSettingsWindow_ExamplePng" xml:space="preserve">
-    <value>範例：*.png</value>
-  </data>
   <data name="TaskSettingsWindow_ExtensionFilterExampleJpgPngMp4" xml:space="preserve">
     <value>副檔名篩選器（例如：jpg png mp4）</value>
-  </data>
-  <data name="TaskSettingsWindow_Extensions" xml:space="preserve">
-    <value>副檔名：</value>
-  </data>
-  <data name="TaskSettingsWindow_FTPAccount" xml:space="preserve">
-    <value>FTP 帳戶：</value>
   </data>
   <data name="TaskSettingsWindow_FadeDurationSeconds" xml:space="preserve">
     <value>淡出時間（秒）：</value>
@@ -2356,15 +1507,6 @@
   </data>
   <data name="TaskSettingsWindow_FilePath" xml:space="preserve">
     <value>檔案路徑</value>
-  </data>
-  <data name="TaskSettingsWindow_Filter" xml:space="preserve">
-    <value>篩選器</value>
-  </data>
-  <data name="TaskSettingsWindow_Filters" xml:space="preserve">
-    <value>篩選器</value>
-  </data>
-  <data name="TaskSettingsWindow_FolderPath" xml:space="preserve">
-    <value>資料夾路徑</value>
   </data>
   <data name="TaskSettingsWindow_Format" xml:space="preserve">
     <value>格式：</value>
@@ -2396,18 +1538,6 @@
   <data name="TaskSettingsWindow_HighlightMouseWhileRecording" xml:space="preserve">
     <value>自動啟動滑鼠螢光筆</value>
   </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAFileURLDownloadAndUploadIt" xml:space="preserve">
-    <value>剪貼簿包含檔案 URL 時，下載並上傳該檔案</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAFolderPathIndexAndUploadIt" xml:space="preserve">
-    <value>剪貼簿包含資料夾路徑時，建立索引並上傳</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAURLShareItUsingURLSharingService" xml:space="preserve">
-    <value>剪貼簿包含 URL 時，使用 URL 分享服務進行分享</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAURLUseURLShortener" xml:space="preserve">
-    <value>剪貼簿包含 URL 時，使用 URL 縮短器</value>
-  </data>
   <data name="TaskSettingsWindow_IfFileExists" xml:space="preserve">
     <value>檔案已存在時：</value>
   </data>
@@ -2434,9 +1564,6 @@
   </data>
   <data name="TaskSettingsWindow_ImageQuality" xml:space="preserve">
     <value>圖片品質</value>
-  </data>
-  <data name="TaskSettingsWindow_IncludeSubdirectories" xml:space="preserve">
-    <value>包含子資料夾</value>
   </data>
   <data name="TaskSettingsWindow_InfoText" xml:space="preserve">
     <value>資訊文字：</value>
@@ -2491,9 +1618,6 @@
   </data>
   <data name="TaskSettingsWindow_MoveDown" xml:space="preserve">
     <value>下移</value>
-  </data>
-  <data name="TaskSettingsWindow_MoveFileToScreenshotsFolder" xml:space="preserve">
-    <value>將檔案移至螢幕擷取畫面資料夾</value>
   </data>
   <data name="TaskSettingsWindow_MoveUp" xml:space="preserve">
     <value>上移</value>
@@ -2588,9 +1712,6 @@
   <data name="TaskSettingsWindow_NativeRecorderUnavailableSystemAudioDevice" xml:space="preserve">
     <value>無法使用的輸出裝置</value>
   </data>
-  <data name="TaskSettingsWindow_No" xml:space="preserve">
-    <value>否</value>
-  </data>
   <data name="TaskSettingsWindow_NoButtonsConfiguredTheNotificationToolbarWillBeHidden" xml:space="preserve">
     <value>未設定按鈕。通知工具列將會隱藏。</value>
   </data>
@@ -2615,11 +1736,11 @@
   <data name="TaskSettingsWindow_OCRLanguagesAreUnavailable" xml:space="preserve">
     <value>OCR 語言無法使用</value>
   </data>
+  <data name="TaskSettingsWindow_OcrGpuAcceleration" xml:space="preserve">
+    <value>使用圖形加速進行 OCR</value>
+  </data>
   <data name="TaskSettingsWindow_OnlyApplyEffectsToRegionCapture" xml:space="preserve">
     <value>僅將效果套用至區域擷取</value>
-  </data>
-  <data name="TaskSettingsWindow_OpenURLFormat" xml:space="preserve">
-    <value>開啟 URL 格式</value>
   </data>
   <data name="TaskSettingsWindow_OpticalCharacterRecognition" xml:space="preserve">
     <value>光學字元辨識</value>
@@ -2636,20 +1757,8 @@
   <data name="TaskSettingsWindow_OverrideAfterCaptureTasks" xml:space="preserve">
     <value>覆寫擷取後工作</value>
   </data>
-  <data name="TaskSettingsWindow_OverrideAfterUploadTasks" xml:space="preserve">
-    <value>覆寫上傳後工作</value>
-  </data>
   <data name="TaskSettingsWindow_OverrideCaptureSettings" xml:space="preserve">
     <value>覆寫擷取設定</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDefaultCustomUploader" xml:space="preserve">
-    <value>覆寫預設自訂上傳器</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDefaultFTPAccount" xml:space="preserve">
-    <value>覆寫預設 FTP 帳戶</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDestinations" xml:space="preserve">
-    <value>覆寫目的地</value>
   </data>
   <data name="TaskSettingsWindow_OverrideGeneralSettings" xml:space="preserve">
     <value>覆寫一般設定</value>
@@ -2662,9 +1771,6 @@
   </data>
   <data name="TaskSettingsWindow_OverrideToolsSettings" xml:space="preserve">
     <value>覆寫工具設定</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideUploadSettings" xml:space="preserve">
-    <value>覆寫上傳設定</value>
   </data>
   <data name="TaskSettingsWindow_PNGBitDepth" xml:space="preserve">
     <value>PNG 位元深度：</value>
@@ -2696,9 +1802,6 @@
   <data name="TaskSettingsWindow_PNGFilterUp" xml:space="preserve">
     <value>Up（上方像素）</value>
   </data>
-  <data name="TaskSettingsWindow_Pattern" xml:space="preserve">
-    <value>模式：</value>
-  </data>
   <data name="TaskSettingsWindow_Placement" xml:space="preserve">
     <value>位置：</value>
   </data>
@@ -2719,15 +1822,6 @@
   </data>
   <data name="TaskSettingsWindow_Preview" xml:space="preserve">
     <value>預覽：</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringClipboardUpload" xml:space="preserve">
-    <value>剪貼簿上傳期間處理圖片</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringExtensionUpload" xml:space="preserve">
-    <value>擴充功能上傳期間處理圖片</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringFileUpload" xml:space="preserve">
-    <value>檔案上傳期間處理圖片</value>
   </data>
   <data name="TaskSettingsWindow_ProcessOCRSilently" xml:space="preserve">
     <value>以靜默方式處理 OCR</value>
@@ -2756,20 +1850,8 @@
   <data name="TaskSettingsWindow_Remove" xml:space="preserve">
     <value>移除</value>
   </data>
-  <data name="TaskSettingsWindow_ReplaceResultURLUsingARegularExpression" xml:space="preserve">
-    <value>使用規則運算式取代結果 URL</value>
-  </data>
-  <data name="TaskSettingsWindow_ReplaceURLProblematicCharactersWithUnderscores" xml:space="preserve">
-    <value>將 URL 中有問題的字元取代為底線</value>
-  </data>
-  <data name="TaskSettingsWindow_Replacement" xml:space="preserve">
-    <value>取代內容：</value>
-  </data>
   <data name="TaskSettingsWindow_RestrictCaptureAndCursorToTheActiveMonitor" xml:space="preserve">
     <value>將擷取和游標限制於作用中的顯示器</value>
-  </data>
-  <data name="TaskSettingsWindow_ResultForceHTTPS" xml:space="preserve">
-    <value>強制結果 URL 使用 HTTPS</value>
   </data>
   <data name="TaskSettingsWindow_RightClick" xml:space="preserve">
     <value>按一下滑鼠右鍵：</value>
@@ -2812,9 +1894,6 @@
   </data>
   <data name="TaskSettingsWindow_Selection" xml:space="preserve">
     <value>選取</value>
-  </data>
-  <data name="TaskSettingsWindow_SeparateExtensionsWithCommasForExamplePngJpgJpeg" xml:space="preserve">
-    <value>使用逗號分隔副檔名，例如：png, jpg, jpeg</value>
   </data>
   <data name="TaskSettingsWindow_ShadowOffset" xml:space="preserve">
     <value>陰影位移：</value>
@@ -2918,33 +1997,6 @@
   <data name="TaskSettingsWindow_Tools" xml:space="preserve">
     <value>工具</value>
   </data>
-  <data name="TaskSettingsWindow_URLReplacement" xml:space="preserve">
-    <value>URL 取代</value>
-  </data>
-  <data name="TaskSettingsWindow_Update" xml:space="preserve">
-    <value>更新</value>
-  </data>
-  <data name="TaskSettingsWindow_Upload" xml:space="preserve">
-    <value>上傳</value>
-  </data>
-  <data name="TaskSettingsWindow_UploadFilesWhenTheyAreCreatedInThisFolder" xml:space="preserve">
-    <value>檔案在此資料夾中建立時將其上傳。</value>
-  </data>
-  <data name="TaskSettingsWindow_UploadText" xml:space="preserve">
-    <value>文字上傳</value>
-  </data>
-  <data name="TaskSettingsWindow_Uploader" xml:space="preserve">
-    <value>上傳器：</value>
-  </data>
-  <data name="TaskSettingsWindow_UploaderAccounts" xml:space="preserve">
-    <value>上傳器帳戶</value>
-  </data>
-  <data name="TaskSettingsWindow_UploaderFilters" xml:space="preserve">
-    <value>上傳器篩選器</value>
-  </data>
-  <data name="TaskSettingsWindow_UseAfterCaptureTasksDuringFileUpload" xml:space="preserve">
-    <value>檔案上傳期間使用擷取後工作</value>
-  </data>
   <data name="TaskSettingsWindow_UseCustomActionCompletedSound" xml:space="preserve">
     <value>使用自訂動作完成音效</value>
   </data>
@@ -2969,9 +2021,6 @@
   <data name="TaskSettingsWindow_UseJPEGIfImageSizeIsBiggerThanTheSpecifiedSize" xml:space="preserve">
     <value>圖片大於指定大小時使用 JPEG</value>
   </data>
-  <data name="TaskSettingsWindow_UseNamePatternForFileUploads" xml:space="preserve">
-    <value>檔案上傳使用名稱模式</value>
-  </data>
   <data name="TaskSettingsWindow_UseRandomImageEffect" xml:space="preserve">
     <value>使用隨機圖片效果</value>
   </data>
@@ -2980,15 +2029,6 @@
   </data>
   <data name="TaskSettingsWindow_UseStartDelay" xml:space="preserve">
     <value>使用開始延遲</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFolderSummary" xml:space="preserve">
-    <value>{0} — {1} — 包含子資料夾：{2}</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFolders" xml:space="preserve">
-    <value>監視資料夾</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFoldersAndUploadNewlyCreatedFiles" xml:space="preserve">
-    <value>監視資料夾並上傳新建立的檔案</value>
   </data>
   <data name="TaskSettingsWindow_WaveAudio" xml:space="preserve">
     <value>Wave 音訊</value>
@@ -3008,9 +2048,6 @@
   <data name="TaskSettingsWindow_Y" xml:space="preserve">
     <value>Y：</value>
   </data>
-  <data name="TaskSettingsWindow_Yes" xml:space="preserve">
-    <value>是</value>
-  </data>
   <data name="TaskSettingsWindow_YouCanEnableOrDisableActionsFromAfterCaptureTasksPerformActions" xml:space="preserve">
     <value>您可以在「擷取後工作 → 執行動作」中啟用或停用動作。</value>
   </data>
@@ -3020,103 +2057,21 @@
   <data name="TaskSettingsWindow_ZoomToFitOnOpen" xml:space="preserve">
     <value>開啟時符合視窗</value>
   </data>
-  <data name="ThisFeatureWillNotWorkWhenDisableUploadOptionIsEnabled" xml:space="preserve">
-    <value>啟用「停用上傳」時此功能將無法運作！</value>
-  </data>
   <data name="ThumbnailItemViewModel_UntitledTask" xml:space="preserve">
     <value>未命名工作</value>
-  </data>
-  <data name="URLUploadWindow_Cancel" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="URLUploadWindow_Heading" xml:space="preserve">
-    <value>URL 上傳</value>
-  </data>
-  <data name="URLUploadWindow_Prompt" xml:space="preserve">
-    <value>要下載並上傳的 URL</value>
-  </data>
-  <data name="URLUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - URL 上傳</value>
-  </data>
-  <data name="URLUploadWindow_URL" xml:space="preserve">
-    <value>URL</value>
-  </data>
-  <data name="URLUploadWindow_Upload" xml:space="preserve">
-    <value>上傳</value>
-  </data>
-  <data name="URLUploadWindow_Validation" xml:space="preserve">
-    <value>請輸入有效的 HTTP、HTTPS 或 FTP URL。</value>
   </data>
   <data name="UnableToFindAWindowWithSpecifiedWindowTitle" xml:space="preserve">
     <value>無法找到符合指定的視窗標題的視窗。</value>
   </data>
-  <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
-    <value>上傳錯誤</value>
-  </data>
-  <data name="UploadManager_DownloadAndUploadFile_Download_failed" xml:space="preserve">
-    <value>下載失敗：
-{0}</value>
-  </data>
-  <data name="UploadManager_UploadFile_File_upload" xml:space="preserve">
-    <value>檔案上傳</value>
-  </data>
-  <data name="UploadManager_UploadFolder_Folder_upload" xml:space="preserve">
-    <value>資料夾上傳</value>
-  </data>
-  <data name="UploadTask_CreateShareURLTask_Share_URL___0__" xml:space="preserve">
-    <value>分享網址 ({0})</value>
-  </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>縮網址 ({0})</value>
-  </data>
-  <data name="UploadTask_DoAfterCaptureJobs_Choose_a_folder_to_save" xml:space="preserve">
-    <value>選擇資料夾以儲存</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
-    <value>上傳中</value>
-  </data>
-  <data name="UploadTask_DownloadAndUpload_Downloading" xml:space="preserve">
-    <value>下載中</value>
-  </data>
-  <data name="UploadTask_OnUploadCompleted_Done" xml:space="preserve">
-    <value>完成</value>
-  </data>
-  <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
-    <value>已停止</value>
-  </data>
-  <data name="UploadTask_Prepare_Preparing" xml:space="preserve">
-    <value>準備中</value>
-  </data>
-  <data name="UploadTask_Prepare_Starting" xml:space="preserve">
-    <value>開始中</value>
-  </data>
-  <data name="UploadTask_Stop_Stopping" xml:space="preserve">
-    <value>停止中</value>
-  </data>
-  <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
-    <value>網址為空。</value>
-  </data>
   <data name="WorkerTask_AllFilesFilter" xml:space="preserve">
     <value>所有檔案 (*.*)</value>
-  </data>
-  <data name="WorkerTask_ErrorTitle" xml:space="preserve">
-    <value>{0} 錯誤</value>
-  </data>
-  <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
-    <value>{0} 設定無效或不存在。請前往「目的地設定」視窗進行設定。</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>是否要啟用圖片效果？
 
 之後可以從「擷取後任務」選單中停用。</value>
   </data>
-  <data name="WouldYouLikeToRetryClipboardUpload" xml:space="preserve">
-    <value>是否要重試剪貼簿上傳？</value>
-  </data>
   <data name="YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX" xml:space="preserve">
     <value>你的防毒軟體或 Windows 的受控資料夾存取權功能可能阻擋了 ShareX。</value>
-  </data>
-  <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
-    <value>你的系統管理員已停用上傳功能。</value>
   </data>
 </root>

@@ -67,9 +67,6 @@
   <data name="AfterCaptureTasks_AddImageEffects" xml:space="preserve">
     <value>Tilføj billedeffekter</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>Analysér billede</value>
-  </data>
   <data name="AfterCaptureTasks_AnnotateImage" xml:space="preserve">
     <value>Åbn i billededitoren</value>
   </data>
@@ -118,35 +115,11 @@
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>Vis vinduet "Efter optagelse"</value>
   </data>
-  <data name="AfterCaptureTasks_ShowBeforeUploadWindow" xml:space="preserve">
-    <value>Vis vinduet "Før upload"</value>
-  </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>Vis filen i Stifinder</value>
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Vis menuen Hurtige opgaver</value>
-  </data>
-  <data name="AfterCaptureTasks_UploadImageToHost" xml:space="preserve">
-    <value>Upload billede til vært</value>
-  </data>
-  <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
-    <value>Kopiér URL til udklipsholder</value>
-  </data>
-  <data name="AfterUploadTasks_OpenURL" xml:space="preserve">
-    <value>Åbn URL</value>
-  </data>
-  <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
-    <value>Del URL</value>
-  </data>
-  <data name="AfterUploadTasks_ShowAfterUploadWindow" xml:space="preserve">
-    <value>Vis vinduet "Efter upload"</value>
-  </data>
-  <data name="AfterUploadTasks_ShowQRCode" xml:space="preserve">
-    <value>Vis QR-kodevinduet</value>
-  </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Forkort URL</value>
   </data>
   <data name="AppVeyorUpdateChecker_Deployment_file_not_found" xml:space="preserve">
     <value>Det var ikke muligt at finde filen ”{0}”.</value>
@@ -367,21 +340,6 @@
   <data name="ColorPickerWindow_Yellow_percent" xml:space="preserve">
     <value>Gul %</value>
   </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Filuploadere</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Billeduploadere</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Tekstuploadere</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>URL-delingstjeneste</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>URL-forkortere</value>
-  </data>
   <data name="CutOutEffectType_None" xml:space="preserve">
     <value>Ingen effekt</value>
   </data>
@@ -510,15 +468,6 @@ Vil du stadig køre den?</value>
   <data name="FFmpegCLIManager_Error_title" xml:space="preserve">
     <value>FFmpeg-fejl</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Brugerdefineret filuploadere</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>E-post</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Delad mappe</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Spørgsmål hvad som skal udføres</value>
   </data>
@@ -609,9 +558,6 @@ Vil du stadig køre den?</value>
   <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
     <value>Placér det aktive vinduet øverst</value>
   </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>Analysér billede</value>
-  </data>
   <data name="HotkeyType_AnimatedGifTrimmer" xml:space="preserve">
     <value>Beskæring af animerede GIF-filer</value>
   </data>
@@ -636,15 +582,6 @@ Vil du stadig køre den?</value>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Værktøjer</value>
   </data>
-  <data name="HotkeyType_Category_Upload" xml:space="preserve">
-    <value>Upload</value>
-  </data>
-  <data name="HotkeyType_ClipboardUpload" xml:space="preserve">
-    <value>Upload fra udklipsholder</value>
-  </data>
-  <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
-    <value>Upload fra udklipsholder med indholdsvisning</value>
-  </data>
   <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
     <value>Udklipsholdervisning</value>
   </data>
@@ -660,17 +597,8 @@ Vil du stadig køre den?</value>
   <data name="HotkeyType_DisableHotkeys" xml:space="preserve">
     <value>Deaktivér/aktivér genvejstaster</value>
   </data>
-  <data name="HotkeyType_DragDropUpload" xml:space="preserve">
-    <value>Træk-og-slip-upload</value>
-  </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
     <value>Afslut ShareX</value>
-  </data>
-  <data name="HotkeyType_FileUpload" xml:space="preserve">
-    <value>Upload fil</value>
-  </data>
-  <data name="HotkeyType_FolderUpload" xml:space="preserve">
-    <value>Uploadmappe</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Kontrolsumsværktøj</value>
@@ -810,9 +738,6 @@ Vil du stadig køre den?</value>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>Start/stop rullende optagelse</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>Forkort URL</value>
-  </data>
   <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
     <value>Start automatisk optagelse med det senest bruge området</value>
   </data>
@@ -828,9 +753,6 @@ Vil du stadig køre den?</value>
   <data name="HotkeyType_StopScreenRecording" xml:space="preserve">
     <value>Stop skærmoptagelse</value>
   </data>
-  <data name="HotkeyType_StopUploads" xml:space="preserve">
-    <value>Stop alle aktive uploads</value>
-  </data>
   <data name="HotkeyType_StripMetadata" xml:space="preserve">
     <value>Fjern metadata</value>
   </data>
@@ -840,12 +762,6 @@ Vil du stadig køre den?</value>
   <data name="HotkeyType_ToggleTrayMenu" xml:space="preserve">
     <value>Vis/skjul meddelelsesområdets menu</value>
   </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Upload tekst</value>
-  </data>
-  <data name="HotkeyType_UploadURL" xml:space="preserve">
-    <value>Upload fra URL</value>
-  </data>
   <data name="HotkeyType_VideoConverter" xml:space="preserve">
     <value>Videokonvertering</value>
   </data>
@@ -854,12 +770,6 @@ Vil du stadig køre den?</value>
   </data>
   <data name="HotkeyType_VideoTrimmer" xml:space="preserve">
     <value>Video trimmer</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Brugerdefineret billeduploadere</value>
-  </data>
-  <data name="ImageDestination_FileUploader" xml:space="preserve">
-    <value>Filuploadere</value>
   </data>
   <data name="ImageHelpers_Image_files" xml:space="preserve">
     <value>Billedfiler</value>
@@ -1218,12 +1128,6 @@ Vil du stadig køre den?</value>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Automatisk</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Brugerdefineret tekstuploadere</value>
-  </data>
-  <data name="TextDestination_FileUploader" xml:space="preserve">
-    <value>Filuploadere</value>
-  </data>
   <data name="ThumbnailTitleLocation_Bottom" xml:space="preserve">
     <value>Nederste kant</value>
   </data>
@@ -1284,9 +1188,6 @@ Vil du stadig køre den?</value>
   <data name="ToastClickAction_PinToScreen" xml:space="preserve">
     <value>Fastgør på skærmen</value>
   </data>
-  <data name="ToastClickAction_Upload" xml:space="preserve">
-    <value>Upload fil</value>
-  </data>
   <data name="Translator_ASCII" xml:space="preserve">
     <value>ASCII</value>
   </data>
@@ -1304,18 +1205,6 @@ Vil du stadig køre den?</value>
   </data>
   <data name="URLHelpers_Invalid_URL" xml:space="preserve">
     <value>Ugyldig URL.</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Bing visuel søgning</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Brugerdefineret URL-delingstjeneste</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>E-post</value>
-  </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google Lens</value>
   </data>
   <data name="UpdateChannel_Dev" xml:space="preserve">
     <value>Udvikling</value>
@@ -1346,9 +1235,6 @@ Vil du stadig køre den?</value>
   </data>
   <data name="UpdateMessageWindow_View_changelog" xml:space="preserve">
     <value>Vis ændringslog</value>
-  </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Brugerdefineret URL-forkortere</value>
   </data>
   <data name="VideoInfo_Audio_details" xml:space="preserve">
     <value>, lydkodek: {0}</value>

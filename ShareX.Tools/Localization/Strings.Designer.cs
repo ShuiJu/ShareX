@@ -112,473 +112,57 @@ namespace ShareX.Tools.Localization {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized string similar to What is in this image?.
-        /// </summary>
-        public static string AIOptions_What_is_in_this_image {
-            get {
-                return ResourceManager.GetString("AIOptions_What_is_in_this_image", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Loading models....
-        /// </summary>
-        public static string AnalyzeImageOptionsViewModel_Loading_models {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsViewModel_Loading_models", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to {0} models loaded..
-        /// </summary>
-        public static string AnalyzeImageOptionsViewModel_Models_loaded {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsViewModel_Models_loaded", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to No models found..
-        /// </summary>
-        public static string AnalyzeImageOptionsViewModel_No_models_found {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsViewModel_No_models_found", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Testing....
-        /// </summary>
-        public static string AnalyzeImageOptionsViewModel_Testing {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsViewModel_Testing", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Analyze automatically when opened.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Analyze_automatically_when_opened {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Analyze_automatically_when_opened", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to API key.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_API_key {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_API_key", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to API key page....
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_API_key_page {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_API_key_page", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Behavior.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Behavior {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Behavior", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Cancel.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Cancel {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Cancel", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Capture a region when opened without an image.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Capture_a_region_when_opened_without_an_image {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Capture_a_region_when_opened_without_an_image", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Copy result automatically.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Copy_result_automatically {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Copy_result_automatically", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Custom base URL.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Custom_base_URL {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Custom_base_URL", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Get API key.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Get_API_key {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Get_API_key", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Google Gemini.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Google_Gemini {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Google_Gemini", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to https://api.openai.com.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_https_api_openai_com {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_https_api_openai_com", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Load models.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Load_models {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Load_models", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Model.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Model {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Model", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to OpenAI.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_OpenAI {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_OpenAI", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to OpenRouter.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_OpenRouter {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_OpenRouter", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Provider.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Provider {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Provider", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Reasoning.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Reasoning {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Reasoning", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Save.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Save {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Save", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to ShareX - Analyze image options.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_ShareX_Analyze_image_options {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_ShareX_Analyze_image_options", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Test connection.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Test_connection {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Test_connection", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Verbosity.
-        /// </summary>
-        public static string AnalyzeImageOptionsWindow_Verbosity {
-            get {
-                return ResourceManager.GetString("AnalyzeImageOptionsWindow_Verbosity", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Connection OK..
-        /// </summary>
-        public static string AnalyzeImageService_Connection_OK {
-            get {
-                return ResourceManager.GetString("AnalyzeImageService_Connection_OK", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Missing Gemini API key..
-        /// </summary>
-        public static string AnalyzeImageService_Missing_Gemini_API_key {
-            get {
-                return ResourceManager.GetString("AnalyzeImageService_Missing_Gemini_API_key", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Missing OpenAI API key..
-        /// </summary>
-        public static string AnalyzeImageService_Missing_OpenAI_API_key {
-            get {
-                return ResourceManager.GetString("AnalyzeImageService_Missing_OpenAI_API_key", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Missing OpenRouter API key..
-        /// </summary>
-        public static string AnalyzeImageService_Missing_OpenRouter_API_key {
-            get {
-                return ResourceManager.GetString("AnalyzeImageService_Missing_OpenRouter_API_key", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Select a provider first..
-        /// </summary>
-        public static string AnalyzeImageService_Select_provider_first {
-            get {
-                return ResourceManager.GetString("AnalyzeImageService_Select_provider_first", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Unable to create request..
-        /// </summary>
-        public static string AnalyzeImageService_Unable_to_create_request {
-            get {
-                return ResourceManager.GetString("AnalyzeImageService_Unable_to_create_request", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Captured region.
-        /// </summary>
-        public static string AnalyzeImageViewModel_Captured_region {
-            get {
-                return ResourceManager.GetString("AnalyzeImageViewModel_Captured_region", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Configure an API key in Options before analyzing..
-        /// </summary>
-        public static string AnalyzeImageViewModel_Configure_API_key {
-            get {
-                return ResourceManager.GetString("AnalyzeImageViewModel_Configure_API_key", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Thinking....
-        /// </summary>
-        public static string AnalyzeImageViewModel_Thinking {
-            get {
-                return ResourceManager.GetString("AnalyzeImageViewModel_Thinking", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Thoroughly describe this image..
-        /// </summary>
-        public static string AnalyzeImageViewModel_Thoroughly_describe_this_image {
-            get {
-                return ResourceManager.GetString("AnalyzeImageViewModel_Thoroughly_describe_this_image", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Time: {0:N0} ms.
-        /// </summary>
-        public static string AnalyzeImageViewModel_Time_ms {
-            get {
-                return ResourceManager.GetString("AnalyzeImageViewModel_Time_ms", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Transcribe the image&apos;s text. Do not write anything else..
-        /// </summary>
-        public static string AnalyzeImageViewModel_Transcribe_image_text {
-            get {
-                return ResourceManager.GetString("AnalyzeImageViewModel_Transcribe_image_text", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Translate this text into English. Do not write anything else..
-        /// </summary>
-        public static string AnalyzeImageViewModel_Translate_text_into_English {
-            get {
-                return ResourceManager.GetString("AnalyzeImageViewModel_Translate_text_into_English", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to What is in this image?.
-        /// </summary>
-        public static string AnalyzeImageViewModel_What_is_in_this_image {
-            get {
-                return ResourceManager.GetString("AnalyzeImageViewModel_What_is_in_this_image", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Analyze image.
-        /// </summary>
-        public static string AnalyzeImageWindow_Analyze_image {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Analyze_image", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Choose a preset prompt.
-        /// </summary>
-        public static string AnalyzeImageWindow_Choose_a_preset_prompt {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Choose_a_preset_prompt", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Copy all.
-        /// </summary>
-        public static string AnalyzeImageWindow_Copy_all {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Copy_all", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Image.
-        /// </summary>
-        public static string AnalyzeImageWindow_Image {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Image", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Options....
-        /// </summary>
-        public static string AnalyzeImageWindow_Options {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Options", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Prompt.
-        /// </summary>
-        public static string AnalyzeImageWindow_Prompt {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Prompt", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Result.
-        /// </summary>
-        public static string AnalyzeImageWindow_Result {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Result", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Select image....
-        /// </summary>
-        public static string AnalyzeImageWindow_Select_image {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Select_image", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Select image.
-        /// </summary>
-        public static string AnalyzeImageWindow_Select_image_dialog {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Select_image_dialog", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Select or drop an image.
-        /// </summary>
-        public static string AnalyzeImageWindow_Select_or_drop_an_image {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Select_or_drop_an_image", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Select region....
-        /// </summary>
-        public static string AnalyzeImageWindow_Select_region {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_Select_region", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to ShareX - Analyze image.
-        /// </summary>
-        public static string AnalyzeImageWindow_ShareX_Analyze_image {
-            get {
-                return ResourceManager.GetString("AnalyzeImageWindow_ShareX_Analyze_image", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Background removed in {0} ms..
@@ -1059,12 +643,11 @@ namespace ShareX.Tools.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Choose a folder and generate output. Nothing is saved until you use Save as or Upload..
+        ///   Looks up a localized string similar to Choose a folder and generate output. Nothing is saved until you use Save as..
         /// </summary>
-        public static string DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as_or_Upload {
+        public static string DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as {
             get {
-                return ResourceManager.GetString("DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until" +
-                        "_you_use_Save_as_or_Upload", resourceCulture);
+                return ResourceManager.GetString("DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as", resourceCulture);
             }
         }
         
@@ -1215,9 +798,9 @@ namespace ShareX.Tools.Localization {
         /// <summary>
         ///   Looks up a localized string similar to Ready to save or upload.
         /// </summary>
-        public static string DirectoryIndexerWindow_Ready_to_save_or_upload {
+        public static string DirectoryIndexerWindow_Ready_to_save {
             get {
-                return ResourceManager.GetString("DirectoryIndexerWindow_Ready_to_save_or_upload", resourceCulture);
+                return ResourceManager.GetString("DirectoryIndexerWindow_Ready_to_save", resourceCulture);
             }
         }
         
@@ -1312,23 +895,14 @@ namespace ShareX.Tools.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The HTML index was generated successfully. HTML preview is unavailable, but the output is ready to save or upload..
+        ///   Looks up a localized string similar to The HTML index was generated successfully. HTML preview is unavailable, but the output is ready to save..
         /// </summary>
-        public static string DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save_or_upload {
+        public static string DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save {
             get {
-                return ResourceManager.GetString("DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_" +
-                        "unavailable_but_the_output_is_ready_to_save_or_upload", resourceCulture);
+                return ResourceManager.GetString("DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save", resourceCulture);
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Upload.
-        /// </summary>
-        public static string DirectoryIndexerWindow_Upload {
-            get {
-                return ResourceManager.GetString("DirectoryIndexerWindow_Upload", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Use custom CSS file.
@@ -1357,14 +931,6 @@ namespace ShareX.Tools.Localization {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Error from Gemini API: {0}.
-        /// </summary>
-        public static string GeminiProvider_API_error {
-            get {
-                return ResourceManager.GetString("GeminiProvider_API_error", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Calculating hash....
@@ -3472,14 +3038,6 @@ namespace ShareX.Tools.Localization {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Gemini.
-        /// </summary>
-        public static string LocalizedDisplayConverter_Gemini {
-            get {
-                return ResourceManager.GetString("LocalizedDisplayConverter_Gemini", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to GPU.
@@ -3553,32 +3111,8 @@ namespace ShareX.Tools.Localization {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized string similar to OpenAI.
-        /// </summary>
-        public static string LocalizedDisplayConverter_OpenAI {
-            get {
-                return ResourceManager.GetString("LocalizedDisplayConverter_OpenAI", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to OpenAI (legacy).
-        /// </summary>
-        public static string LocalizedDisplayConverter_OpenAI_legacy {
-            get {
-                return ResourceManager.GetString("LocalizedDisplayConverter_OpenAI_legacy", resourceCulture);
-            }
-        }
         
-        /// <summary>
-        ///   Looks up a localized string similar to OpenRouter.
-        /// </summary>
-        public static string LocalizedDisplayConverter_OpenRouter {
-            get {
-                return ResourceManager.GetString("LocalizedDisplayConverter_OpenRouter", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Vertical.
@@ -4274,14 +3808,6 @@ namespace ShareX.Tools.Localization {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Error from OpenRouter API: {0}.
-        /// </summary>
-        public static string OpenRouterProvider_API_error {
-            get {
-                return ResourceManager.GetString("OpenRouterProvider_API_error", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Bottom center.
@@ -4933,14 +4459,6 @@ namespace ShareX.Tools.Localization {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Upload.
-        /// </summary>
-        public static string QRCodeWindow_Upload {
-            get {
-                return ResourceManager.GetString("QRCodeWindow_Upload", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Tolerance: {0}%.
@@ -5545,14 +5063,6 @@ namespace ShareX.Tools.Localization {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Upload created thumbnails.
-        /// </summary>
-        public static string VideoThumbnailerWindow_Upload_created_thumbnails {
-            get {
-                return ResourceManager.GetString("VideoThumbnailerWindow_Upload_created_thumbnails", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Video.

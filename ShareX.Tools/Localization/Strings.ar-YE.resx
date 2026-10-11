@@ -58,162 +58,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AIOptions_What_is_in_this_image" xml:space="preserve">
-    <value>ماذا يوجد في هذه الصورة؟</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Loading_models" xml:space="preserve">
-    <value>جارٍ تحميل النماذج...</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Models_loaded" xml:space="preserve">
-    <value>تم تحميل {0} من النماذج.</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_No_models_found" xml:space="preserve">
-    <value>لم يتم العثور على نماذج.</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Testing" xml:space="preserve">
-    <value>جارٍ الاختبار...</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_API_key" xml:space="preserve">
-    <value>مفتاح API</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_API_key_page" xml:space="preserve">
-    <value>صفحة مفتاح API...</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Analyze_automatically_when_opened" xml:space="preserve">
-    <value>تحليل تلقائي عند الفتح</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Behavior" xml:space="preserve">
-    <value>السلوك</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Cancel" xml:space="preserve">
-    <value>إلغاء</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Capture_a_region_when_opened_without_an_image" xml:space="preserve">
-    <value>التقاط منطقة عند الفتح من دون صورة</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Copy_result_automatically" xml:space="preserve">
-    <value>نسخ النتيجة تلقائيًا</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Custom_base_URL" xml:space="preserve">
-    <value>عنوان URL أساسي مخصص</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Get_API_key" xml:space="preserve">
-    <value>الحصول على مفتاح API</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Google_Gemini" xml:space="preserve">
-    <value>Google Gemini</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Load_models" xml:space="preserve">
-    <value>تحميل النماذج</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Model" xml:space="preserve">
-    <value>النموذج</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_OpenAI" xml:space="preserve">
-    <value>OpenAI</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_OpenRouter" xml:space="preserve">
-    <value>OpenRouter</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Provider" xml:space="preserve">
-    <value>المزوّد</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Reasoning" xml:space="preserve">
-    <value>الاستدلال</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Save" xml:space="preserve">
-    <value>حفظ</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - خيارات تحليل الصورة</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
-    <value>اختبار الاتصال</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Verbosity" xml:space="preserve">
-    <value>مستوى التفصيل</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_https_api_openai_com" xml:space="preserve">
-    <value>https://api.openai.com</value>
-  </data>
-  <data name="AnalyzeImageService_Connection_OK" xml:space="preserve">
-    <value>الاتصال ناجح.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_Gemini_API_key" xml:space="preserve">
-    <value>مفتاح Gemini API مفقود.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_OpenAI_API_key" xml:space="preserve">
-    <value>مفتاح OpenAI API مفقود.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_OpenRouter_API_key" xml:space="preserve">
-    <value>مفتاح OpenRouter API مفقود.</value>
-  </data>
-  <data name="AnalyzeImageService_Select_provider_first" xml:space="preserve">
-    <value>اختر مزوّدًا أولًا.</value>
-  </data>
-  <data name="AnalyzeImageService_Unable_to_create_request" xml:space="preserve">
-    <value>تعذّر إنشاء الطلب.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Captured_region" xml:space="preserve">
-    <value>المنطقة الملتقطة</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Configure_API_key" xml:space="preserve">
-    <value>قم بإعداد مفتاح API في الخيارات قبل التحليل.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Thinking" xml:space="preserve">
-    <value>جارٍ التفكير...</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Thoroughly_describe_this_image" xml:space="preserve">
-    <value>صِف هذه الصورة بالتفصيل.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Time_ms" xml:space="preserve">
-    <value>الوقت: {0:N0} مللي ثانية</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Transcribe_image_text" xml:space="preserve">
-    <value>انسخ نص الصورة. لا تكتب أي شيء آخر.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Translate_text_into_English" xml:space="preserve">
-    <value>ترجم هذا النص إلى الإنجليزية. لا تكتب أي شيء آخر.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_What_is_in_this_image" xml:space="preserve">
-    <value>ماذا يوجد في هذه الصورة؟</value>
-  </data>
-  <data name="AnalyzeImageWindow_Analyze_image" xml:space="preserve">
-    <value>تحليل الصورة</value>
-  </data>
-  <data name="AnalyzeImageWindow_Choose_a_preset_prompt" xml:space="preserve">
-    <value>اختيار مطالبة معدّة مسبقًا</value>
-  </data>
-  <data name="AnalyzeImageWindow_Copy_all" xml:space="preserve">
-    <value>نسخ الكل</value>
-  </data>
-  <data name="AnalyzeImageWindow_Image" xml:space="preserve">
-    <value>الصورة</value>
-  </data>
-  <data name="AnalyzeImageWindow_Options" xml:space="preserve">
-    <value>خيارات...</value>
-  </data>
-  <data name="AnalyzeImageWindow_Prompt" xml:space="preserve">
-    <value>المطالبة</value>
-  </data>
-  <data name="AnalyzeImageWindow_Result" xml:space="preserve">
-    <value>النتيجة</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_image" xml:space="preserve">
-    <value>اختيار صورة...</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_image_dialog" xml:space="preserve">
-    <value>تحديد صورة</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_or_drop_an_image" xml:space="preserve">
-    <value>اختر صورة أو أفلتها</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_region" xml:space="preserve">
-    <value>تحديد منطقة...</value>
-  </data>
-  <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - تحليل الصورة</value>
-  </data>
   <data name="AnimatedGifMakerViewModel_Create_failed" xml:space="preserve">
     <value>تعذر إنشاء ملف GIF: {0}</value>
   </data>
@@ -496,8 +340,8 @@
   <data name="DirectoryIndexerWindow_CSS_files" xml:space="preserve">
     <value>ملفات CSS</value>
   </data>
-  <data name="DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as_or_Upload" xml:space="preserve">
-    <value>اختر مجلدًا وأنشئ المخرجات. لن يتم حفظ أي شيء حتى تستخدم «حفظ باسم» أو «رفع».</value>
+  <data name="DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as" xml:space="preserve">
+    <value>اختر مجلدًا وأنشئ المخرجات. لن يتم حفظ أي شيء حتى تستخدم «حفظ باسم».</value>
   </data>
   <data name="DirectoryIndexerWindow_Create_parseable_structured_JSON" xml:space="preserve">
     <value>إنشاء JSON منظم قابل للتحليل</value>
@@ -544,8 +388,8 @@
   <data name="DirectoryIndexerWindow_Output_format" xml:space="preserve">
     <value>تنسيق المخرجات</value>
   </data>
-  <data name="DirectoryIndexerWindow_Ready_to_save_or_upload" xml:space="preserve">
-    <value>جاهز للحفظ أو الرفع</value>
+  <data name="DirectoryIndexerWindow_Ready_to_save" xml:space="preserve">
+    <value>جاهز للحفظ</value>
   </data>
   <data name="DirectoryIndexerWindow_Save_as" xml:space="preserve">
     <value>حفظ باسم...</value>
@@ -577,11 +421,8 @@
   <data name="DirectoryIndexerWindow_Text_output" xml:space="preserve">
     <value>مخرجات نصية</value>
   </data>
-  <data name="DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save_or_upload" xml:space="preserve">
-    <value>تم إنشاء فهرس HTML بنجاح. معاينة HTML غير متاحة، لكن المخرجات جاهزة للحفظ أو الرفع.</value>
-  </data>
-  <data name="DirectoryIndexerWindow_Upload" xml:space="preserve">
-    <value>رفع</value>
+  <data name="DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save" xml:space="preserve">
+    <value>تم إنشاء فهرس HTML بنجاح. معاينة HTML غير متاحة، لكن المخرجات جاهزة للحفظ.</value>
   </data>
   <data name="DirectoryIndexerWindow_Use_custom_CSS_file" xml:space="preserve">
     <value>استخدام ملف CSS مخصص</value>
@@ -591,9 +432,6 @@
   </data>
   <data name="DirectoryIndexerWindow_XML_output" xml:space="preserve">
     <value>مخرجات XML</value>
-  </data>
-  <data name="GeminiProvider_API_error" xml:space="preserve">
-    <value>خطأ من Gemini API: {0}</value>
   </data>
   <data name="HashCheckerViewModel_Calculating_hash" xml:space="preserve">
     <value>جارٍ حساب التجزئة...</value>
@@ -1252,9 +1090,6 @@
   <data name="LocalizedDisplayConverter_GPU" xml:space="preserve">
     <value>GPU</value>
   </data>
-  <data name="LocalizedDisplayConverter_Gemini" xml:space="preserve">
-    <value>Gemini</value>
-  </data>
   <data name="LocalizedDisplayConverter_High" xml:space="preserve">
     <value>مرتفع</value>
   </data>
@@ -1275,15 +1110,6 @@
   </data>
   <data name="LocalizedDisplayConverter_Minimal" xml:space="preserve">
     <value>أدنى حد</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenAI" xml:space="preserve">
-    <value>OpenAI</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenAI_legacy" xml:space="preserve">
-    <value>OpenAI (قديم)</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenRouter" xml:space="preserve">
-    <value>OpenRouter</value>
   </data>
   <data name="LocalizedDisplayConverter_Vertical" xml:space="preserve">
     <value>عمودي</value>
@@ -1699,9 +1525,6 @@
   <data name="OCRWindow_Use_0_where_the_recognized_text_belongs" xml:space="preserve">
     <value>استخدم {0} في الموضع المخصص للنص المتعرّف عليه</value>
   </data>
-  <data name="OpenRouterProvider_API_error" xml:space="preserve">
-    <value>خطأ من OpenRouter API: {0}</value>
-  </data>
   <data name="PinToScreenOptionsViewModel_Bottom_center" xml:space="preserve">
     <value>أسفل الوسط</value>
   </data>
@@ -1915,119 +1738,8 @@
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
     <value>ShareX - رمز QR</value>
   </data>
-  <data name="QRCodeWindow_Upload" xml:space="preserve">
-    <value>رفع</value>
-  </data>
   <data name="QRCodeWindow_px" xml:space="preserve">
     <value>بكسل</value>
-  </data>
-  <data name="RemoteStorageBrowser_Cancel" xml:space="preserve">
-    <value>إلغاء</value>
-  </data>
-  <data name="RemoteStorageBrowser_CopyUrl" xml:space="preserve">
-    <value>نسخ عنوان URL</value>
-  </data>
-  <data name="RemoteStorageBrowser_CreateFolder" xml:space="preserve">
-    <value>إنشاء مجلد...</value>
-  </data>
-  <data name="RemoteStorageBrowser_CreatedFolder" xml:space="preserve">
-    <value>تم إنشاء المجلد «{0}».</value>
-  </data>
-  <data name="RemoteStorageBrowser_Delete" xml:space="preserve">
-    <value>حذف...</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteFileConfirmation" xml:space="preserve">
-    <value>هل تريد حذف الملف «{0}»؟</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteFolderConfirmation" xml:space="preserve">
-    <value>هل تريد حذف المجلد «{0}»؟</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteNonEmptyFolderConfirmation" xml:space="preserve">
-    <value>المجلد «{0}» غير فارغ. هل تريد حذفه مع جميع محتوياته؟ لا يمكن التراجع عن هذا الإجراء.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Deleted" xml:space="preserve">
-    <value>تم حذف «{0}».</value>
-  </data>
-  <data name="RemoteStorageBrowser_Download" xml:space="preserve">
-    <value>تنزيل...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Downloaded" xml:space="preserve">
-    <value>تم تنزيل «{0}».</value>
-  </data>
-  <data name="RemoteStorageBrowser_DropFilesToUpload" xml:space="preserve">
-    <value>أفلت الملفات لرفعها إلى هذا المجلد</value>
-  </data>
-  <data name="RemoteStorageBrowser_EmptyFolder" xml:space="preserve">
-    <value>هذا المجلد فارغ.</value>
-  </data>
-  <data name="RemoteStorageBrowser_ItemCount" xml:space="preserve">
-    <value>{0} ملف، {1} مجلد • الإجمالي {2}</value>
-  </data>
-  <data name="RemoteStorageBrowser_Loading" xml:space="preserve">
-    <value>جارٍ التحميل...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Location" xml:space="preserve">
-    <value>الموقع:</value>
-  </data>
-  <data name="RemoteStorageBrowser_Modified" xml:space="preserve">
-    <value>تاريخ التعديل</value>
-  </data>
-  <data name="RemoteStorageBrowser_Name" xml:space="preserve">
-    <value>الاسم</value>
-  </data>
-  <data name="RemoteStorageBrowser_NameAlreadyExists" xml:space="preserve">
-    <value>يوجد عنصر باسم «{0}» بالفعل.</value>
-  </data>
-  <data name="RemoteStorageBrowser_NewFolder" xml:space="preserve">
-    <value>مجلد جديد</value>
-  </data>
-  <data name="RemoteStorageBrowser_NoMatchingItems" xml:space="preserve">
-    <value>لا توجد عناصر مطابقة.</value>
-  </data>
-  <data name="RemoteStorageBrowser_OpenUrl" xml:space="preserve">
-    <value>فتح URL</value>
-  </data>
-  <data name="RemoteStorageBrowser_OperationFailed" xml:space="preserve">
-    <value>فشلت عملية التخزين البعيد.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Provider" xml:space="preserve">
-    <value>موفر الخدمة:</value>
-  </data>
-  <data name="RemoteStorageBrowser_Refresh" xml:space="preserve">
-    <value>تحديث</value>
-  </data>
-  <data name="RemoteStorageBrowser_Rename" xml:space="preserve">
-    <value>إعادة تسمية...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Renamed" xml:space="preserve">
-    <value>تمت إعادة تسمية «{0}» إلى «{1}».</value>
-  </data>
-  <data name="RemoteStorageBrowser_SaveDownloadedFile" xml:space="preserve">
-    <value>حفظ الملف الذي تم تنزيله</value>
-  </data>
-  <data name="RemoteStorageBrowser_SearchCurrentFolder" xml:space="preserve">
-    <value>البحث في المجلد الحالي...</value>
-  </data>
-  <data name="RemoteStorageBrowser_SelectFilesToUpload" xml:space="preserve">
-    <value>حدد الملفات المراد رفعها</value>
-  </data>
-  <data name="RemoteStorageBrowser_Size" xml:space="preserve">
-    <value>الحجم</value>
-  </data>
-  <data name="RemoteStorageBrowser_Title" xml:space="preserve">
-    <value>متصفح التخزين البعيد</value>
-  </data>
-  <data name="RemoteStorageBrowser_Up" xml:space="preserve">
-    <value>لأعلى</value>
-  </data>
-  <data name="RemoteStorageBrowser_Upload" xml:space="preserve">
-    <value>رفع...</value>
-  </data>
-  <data name="RemoteStorageBrowser_UploadedFiles" xml:space="preserve">
-    <value>تم رفع {0} ملف.</value>
-  </data>
-  <data name="RemoteStorageBrowser_View" xml:space="preserve">
-    <value>عرض</value>
   </data>
   <data name="RulerOverlayControl_Tolerance" xml:space="preserve">
     <value>التفاوت: {0}٪</value>
@@ -2253,9 +1965,6 @@
   </data>
   <data name="VideoThumbnailerWindow_Thumbnails" xml:space="preserve">
     <value>الصور المصغرة</value>
-  </data>
-  <data name="VideoThumbnailerWindow_Upload_created_thumbnails" xml:space="preserve">
-    <value>رفع الصور المصغرة المنشأة</value>
   </data>
   <data name="VideoThumbnailerWindow_Video" xml:space="preserve">
     <value>الفيديو</value>

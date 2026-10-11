@@ -37,7 +37,6 @@ public sealed partial class VideoThumbnailerViewModel : ViewModelBase
 {
     private readonly string _ffmpegPath;
     private readonly VideoThumbnailOptions _options;
-    private readonly Action<IReadOnlyList<VideoThumbnailInfo>>? _thumbnailsTaken;
 
     public IReadOnlyList<VideoThumbnailOutputChoice> OutputLocations { get; } =
     [
@@ -65,7 +64,6 @@ public sealed partial class VideoThumbnailerViewModel : ViewModelBase
     [ObservableProperty] private string _filenameSuffix;
     [ObservableProperty] private decimal _maxThumbnailWidth;
     [ObservableProperty] private bool _randomFrame;
-    [ObservableProperty] private bool _uploadThumbnails;
     [ObservableProperty] private bool _openDirectory;
 
     [ObservableProperty]
@@ -100,12 +98,10 @@ public sealed partial class VideoThumbnailerViewModel : ViewModelBase
     public bool CombinedOptionsEnabled => CombineScreenshots && !IsBusy;
     public bool HasError => !string.IsNullOrWhiteSpace(ErrorMessage);
 
-    public VideoThumbnailerViewModel(string ffmpegPath, VideoThumbnailOptions options,
-        Action<IReadOnlyList<VideoThumbnailInfo>>? thumbnailsTaken = null)
+    public VideoThumbnailerViewModel(string ffmpegPath, VideoThumbnailOptions options)
     {
         _ffmpegPath = ffmpegPath;
         _options = options;
-        _thumbnailsTaken = thumbnailsTaken;
 
         _videoPath = options.LastVideoPath ?? string.Empty;
         _selectedOutputLocation = OutputLocations.First(x => x.Value == options.OutputLocation);
@@ -115,7 +111,6 @@ public sealed partial class VideoThumbnailerViewModel : ViewModelBase
         _filenameSuffix = options.FilenameSuffix ?? string.Empty;
         _maxThumbnailWidth = Math.Max(options.MaxThumbnailWidth, 0);
         _randomFrame = options.RandomFrame;
-        _uploadThumbnails = options.UploadThumbnails;
         _openDirectory = options.OpenDirectory;
         _combineScreenshots = options.CombineScreenshots;
         _keepScreenshots = options.KeepScreenshots;
@@ -145,7 +140,6 @@ public sealed partial class VideoThumbnailerViewModel : ViewModelBase
     partial void OnFilenameSuffixChanged(string value) => _options.FilenameSuffix = value;
     partial void OnMaxThumbnailWidthChanged(decimal value) => _options.MaxThumbnailWidth = Math.Max((int)value, 0);
     partial void OnRandomFrameChanged(bool value) => _options.RandomFrame = value;
-    partial void OnUploadThumbnailsChanged(bool value) => _options.UploadThumbnails = value;
     partial void OnOpenDirectoryChanged(bool value) => _options.OpenDirectory = value;
     partial void OnCombineScreenshotsChanged(bool value) => _options.CombineScreenshots = value;
     partial void OnKeepScreenshotsChanged(bool value) => _options.KeepScreenshots = value;
@@ -203,11 +197,7 @@ public sealed partial class VideoThumbnailerViewModel : ViewModelBase
                 return thumbnailer.TakeThumbnails(VideoPath) ?? [];
             });
 
-            if (thumbnails.Count > 0)
-            {
-                _thumbnailsTaken?.Invoke(thumbnails);
-            }
-            else
+            if (thumbnails.Count == 0)
             {
                 ErrorMessage = Localization.Strings.VideoThumbnailerViewModel_No_thumbnails;
             }

@@ -478,11 +478,11 @@
   <data name="ScrollingCaptureWindow_Auto_ignore_bottom_edge" xml:space="preserve">
     <value>Alsó szél automatikus figyelmen kívül hagyása</value>
   </data>
+  <data name="ScrollingCaptureWindow_Automatically_save" xml:space="preserve">
+    <value>Automatikus mentés</value>
+  </data>
   <data name="ScrollingCaptureWindow_Automatically_scroll_to_top" xml:space="preserve">
     <value>Automatikus görgetés a tetejére</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Automatically_upload_save" xml:space="preserve">
-    <value>Automatikus feltöltés / mentés</value>
   </data>
   <data name="ScrollingCaptureWindow_Cancel" xml:space="preserve">
     <value>Mégse</value>
@@ -523,6 +523,9 @@
   <data name="ScrollingCaptureWindow_Ready" xml:space="preserve">
     <value>Kész</value>
   </data>
+  <data name="ScrollingCaptureWindow_Save" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
   <data name="ScrollingCaptureWindow_Scroll_amount" xml:space="preserve">
     <value>Görgetések száma:</value>
   </data>
@@ -552,8 +555,5 @@
   </data>
   <data name="ScrollingCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - Görgetéses rögzítés</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Upload_Save" xml:space="preserve">
-    <value>Feltöltés / Mentés</value>
   </data>
 </root>

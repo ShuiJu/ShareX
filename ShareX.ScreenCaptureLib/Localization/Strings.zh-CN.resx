@@ -478,11 +478,11 @@
   <data name="ScrollingCaptureWindow_Auto_ignore_bottom_edge" xml:space="preserve">
     <value>自动忽略底部边缘</value>
   </data>
+  <data name="ScrollingCaptureWindow_Automatically_save" xml:space="preserve">
+    <value>自动保存</value>
+  </data>
   <data name="ScrollingCaptureWindow_Automatically_scroll_to_top" xml:space="preserve">
     <value>自动滚动到顶部</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Automatically_upload_save" xml:space="preserve">
-    <value>自动上传 / 保存</value>
   </data>
   <data name="ScrollingCaptureWindow_Cancel" xml:space="preserve">
     <value>取消</value>
@@ -523,6 +523,9 @@
   <data name="ScrollingCaptureWindow_Ready" xml:space="preserve">
     <value>就绪</value>
   </data>
+  <data name="ScrollingCaptureWindow_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
   <data name="ScrollingCaptureWindow_Scroll_amount" xml:space="preserve">
     <value>滚动次数：</value>
   </data>
@@ -552,8 +555,5 @@
   </data>
   <data name="ScrollingCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - 滚动捕获</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Upload_Save" xml:space="preserve">
-    <value>上传 / 保存</value>
   </data>
 </root>

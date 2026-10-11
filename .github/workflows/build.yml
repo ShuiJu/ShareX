@@ -75,15 +75,6 @@ jobs:
           echo $version
           echo "APP_VERSION=$version" >> $env:GITHUB_ENV
 
-      - name: Create API keys file
-        env:
-          API_KEYS: ${{ secrets.API_KEYS }}
-        if: env.API_KEYS != ''
-        working-directory: ${{ env.GITHUB_WORKSPACE }}
-        run: |
-          $path = "ShareX.UploadersLib\APIKeys\APIKeysLocal.cs"
-          [System.IO.File]::WriteAllText($path, $env:API_KEYS, [System.Text.UTF8Encoding]::new($false))
-
       - name: Restore NuGet packages
         run: |
           dotnet restore --runtime "${{ env.RUNTIME_ID }}" "${{ env.SOLUTION_FILE_PATH }}"

@@ -125,51 +125,6 @@ namespace ShareX.HistoryLib.Localization {
                 return ResourceManager.GetString("HistoryWindows_Text", resourceCulture);
             }
         }
-        public static string HistoryWindows_HTML_link {
-            get {
-                return ResourceManager.GetString("HistoryWindows_HTML_link", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_HTML_image {
-            get {
-                return ResourceManager.GetString("HistoryWindows_HTML_image", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_HTML_linked_image {
-            get {
-                return ResourceManager.GetString("HistoryWindows_HTML_linked_image", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_Forum_BBCode_link {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Forum_BBCode_link", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_Forum_BBCode_image {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Forum_BBCode_image", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_Forum_BBCode_linked_image {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Forum_BBCode_linked_image", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_Markdown_link {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Markdown_link", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_Markdown_image {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Markdown_image", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_Markdown_linked_image {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Markdown_linked_image", resourceCulture);
-            }
-        }
         public static string HistoryWindows_File_path {
             get {
                 return ResourceManager.GetString("HistoryWindows_File_path", resourceCulture);
@@ -215,11 +170,6 @@ namespace ShareX.HistoryLib.Localization {
                 return ResourceManager.GetString("HistoryWindows_Show_image_preview", resourceCulture);
             }
         }
-        public static string HistoryWindows_Upload_file {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Upload_file", resourceCulture);
-            }
-        }
         public static string HistoryWindows_Edit_image {
             get {
                 return ResourceManager.GetString("HistoryWindows_Edit_image", resourceCulture);
@@ -228,11 +178,6 @@ namespace ShareX.HistoryLib.Localization {
         public static string HistoryWindows_Pin_to_screen {
             get {
                 return ResourceManager.GetString("HistoryWindows_Pin_to_screen", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_Analyze_image {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Analyze_image", resourceCulture);
             }
         }
         public static string HistoryWindows_No_history_items {
@@ -383,21 +328,6 @@ namespace ShareX.HistoryLib.Localization {
         public static string HistoryWindows_Open_image {
             get {
                 return ResourceManager.GetString("HistoryWindows_Open_image", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_Forum_link {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Forum_link", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_Forum_image {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Forum_image", resourceCulture);
-            }
-        }
-        public static string HistoryWindows_Forum_linked_image {
-            get {
-                return ResourceManager.GetString("HistoryWindows_Forum_linked_image", resourceCulture);
             }
         }
         public static string HistoryWindows_Toggle_favorite {

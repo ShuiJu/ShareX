@@ -58,162 +58,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AIOptions_What_is_in_this_image" xml:space="preserve">
-    <value>Vad finns i den här bilden?</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Loading_models" xml:space="preserve">
-    <value>Läser in modeller...</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Models_loaded" xml:space="preserve">
-    <value>{0} modeller lästes in.</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_No_models_found" xml:space="preserve">
-    <value>Inga modeller hittades.</value>
-  </data>
-  <data name="AnalyzeImageOptionsViewModel_Testing" xml:space="preserve">
-    <value>Testar...</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_API_key" xml:space="preserve">
-    <value>API-nyckel</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_API_key_page" xml:space="preserve">
-    <value>Sida för API-nyckel...</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Analyze_automatically_when_opened" xml:space="preserve">
-    <value>Analysera automatiskt vid öppning</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Behavior" xml:space="preserve">
-    <value>Beteende</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Cancel" xml:space="preserve">
-    <value>Avbryt</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Capture_a_region_when_opened_without_an_image" xml:space="preserve">
-    <value>Ta en bild av ett område vid öppning utan bild</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Copy_result_automatically" xml:space="preserve">
-    <value>Kopiera resultatet automatiskt</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Custom_base_URL" xml:space="preserve">
-    <value>Anpassad bas-URL</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Get_API_key" xml:space="preserve">
-    <value>Hämta API-nyckel</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Google_Gemini" xml:space="preserve">
-    <value>Google Gemini</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Load_models" xml:space="preserve">
-    <value>Läs in modeller</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Model" xml:space="preserve">
-    <value>Modell</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_OpenAI" xml:space="preserve">
-    <value>OpenAI</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_OpenRouter" xml:space="preserve">
-    <value>OpenRouter</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Provider" xml:space="preserve">
-    <value>Leverantör</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Reasoning" xml:space="preserve">
-    <value>Resonemang</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Save" xml:space="preserve">
-    <value>Spara</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX – Alternativ för bildanalys</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
-    <value>Testa anslutningen</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_Verbosity" xml:space="preserve">
-    <value>Utförlighet</value>
-  </data>
-  <data name="AnalyzeImageOptionsWindow_https_api_openai_com" xml:space="preserve">
-    <value>https://api.openai.com</value>
-  </data>
-  <data name="AnalyzeImageService_Connection_OK" xml:space="preserve">
-    <value>Anslutningen fungerar.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_Gemini_API_key" xml:space="preserve">
-    <value>Gemini API-nyckel saknas.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_OpenAI_API_key" xml:space="preserve">
-    <value>OpenAI API-nyckel saknas.</value>
-  </data>
-  <data name="AnalyzeImageService_Missing_OpenRouter_API_key" xml:space="preserve">
-    <value>OpenRouter API-nyckel saknas.</value>
-  </data>
-  <data name="AnalyzeImageService_Select_provider_first" xml:space="preserve">
-    <value>Välj först en leverantör.</value>
-  </data>
-  <data name="AnalyzeImageService_Unable_to_create_request" xml:space="preserve">
-    <value>Det gick inte att skapa begäran.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Captured_region" xml:space="preserve">
-    <value>Avbildat område</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Configure_API_key" xml:space="preserve">
-    <value>Konfigurera en API-nyckel under Alternativ innan analysen.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Thinking" xml:space="preserve">
-    <value>Tänker...</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Thoroughly_describe_this_image" xml:space="preserve">
-    <value>Beskriv bilden utförligt.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Time_ms" xml:space="preserve">
-    <value>Tid: {0:N0} ms</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Transcribe_image_text" xml:space="preserve">
-    <value>Transkribera texten i bilden. Skriv inget annat.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_Translate_text_into_English" xml:space="preserve">
-    <value>Översätt texten till engelska. Skriv inget annat.</value>
-  </data>
-  <data name="AnalyzeImageViewModel_What_is_in_this_image" xml:space="preserve">
-    <value>Vad finns i den här bilden?</value>
-  </data>
-  <data name="AnalyzeImageWindow_Analyze_image" xml:space="preserve">
-    <value>Analysera bild</value>
-  </data>
-  <data name="AnalyzeImageWindow_Choose_a_preset_prompt" xml:space="preserve">
-    <value>Välj en förinställd instruktion</value>
-  </data>
-  <data name="AnalyzeImageWindow_Copy_all" xml:space="preserve">
-    <value>Kopiera allt</value>
-  </data>
-  <data name="AnalyzeImageWindow_Image" xml:space="preserve">
-    <value>Bild</value>
-  </data>
-  <data name="AnalyzeImageWindow_Options" xml:space="preserve">
-    <value>Alternativ...</value>
-  </data>
-  <data name="AnalyzeImageWindow_Prompt" xml:space="preserve">
-    <value>Instruktion</value>
-  </data>
-  <data name="AnalyzeImageWindow_Result" xml:space="preserve">
-    <value>Resultat</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_image" xml:space="preserve">
-    <value>Välj bild...</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_image_dialog" xml:space="preserve">
-    <value>Välj bild</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_or_drop_an_image" xml:space="preserve">
-    <value>Välj eller släpp en bild</value>
-  </data>
-  <data name="AnalyzeImageWindow_Select_region" xml:space="preserve">
-    <value>Välj område...</value>
-  </data>
-  <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX – Analysera bild</value>
-  </data>
   <data name="AnimatedGifMakerViewModel_Create_failed" xml:space="preserve">
     <value>Det gick inte att skapa GIF: {0}</value>
   </data>
@@ -500,8 +344,8 @@ Filsökväg: {0}</value>
   <data name="DirectoryIndexerWindow_CSS_files" xml:space="preserve">
     <value>CSS-filer</value>
   </data>
-  <data name="DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as_or_Upload" xml:space="preserve">
-    <value>Välj en mapp och generera utdata. Inget sparas förrän du använder Spara som eller Ladda upp.</value>
+  <data name="DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as" xml:space="preserve">
+    <value>Välj en mapp och generera utdata. Inget sparas förrän du använder Spara som.</value>
   </data>
   <data name="DirectoryIndexerWindow_Create_parseable_structured_JSON" xml:space="preserve">
     <value>Skapa strukturerad JSON som kan parsas</value>
@@ -548,8 +392,8 @@ Filsökväg: {0}</value>
   <data name="DirectoryIndexerWindow_Output_format" xml:space="preserve">
     <value>Utdataformat</value>
   </data>
-  <data name="DirectoryIndexerWindow_Ready_to_save_or_upload" xml:space="preserve">
-    <value>Klar att spara eller ladda upp</value>
+  <data name="DirectoryIndexerWindow_Ready_to_save" xml:space="preserve">
+    <value>Klar att spara</value>
   </data>
   <data name="DirectoryIndexerWindow_Save_as" xml:space="preserve">
     <value>Spara som...</value>
@@ -581,11 +425,8 @@ Filsökväg: {0}</value>
   <data name="DirectoryIndexerWindow_Text_output" xml:space="preserve">
     <value>Textutdata</value>
   </data>
-  <data name="DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save_or_upload" xml:space="preserve">
-    <value>HTML-indexet genererades. HTML-förhandsgranskning är inte tillgänglig, men utdatan är klar att sparas eller laddas upp.</value>
-  </data>
-  <data name="DirectoryIndexerWindow_Upload" xml:space="preserve">
-    <value>Ladda upp</value>
+  <data name="DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save" xml:space="preserve">
+    <value>HTML-indexet genererades. HTML-förhandsgranskning är inte tillgänglig, men utdatan är klar att sparas.</value>
   </data>
   <data name="DirectoryIndexerWindow_Use_custom_CSS_file" xml:space="preserve">
     <value>Använd anpassad CSS-fil</value>
@@ -595,9 +436,6 @@ Filsökväg: {0}</value>
   </data>
   <data name="DirectoryIndexerWindow_XML_output" xml:space="preserve">
     <value>XML-utdata</value>
-  </data>
-  <data name="GeminiProvider_API_error" xml:space="preserve">
-    <value>Fel från Gemini API: {0}</value>
   </data>
   <data name="HashCheckerViewModel_Calculating_hash" xml:space="preserve">
     <value>Beräknar kontrollsumma...</value>
@@ -1256,9 +1094,6 @@ Filsökväg: {0}</value>
   <data name="LocalizedDisplayConverter_GPU" xml:space="preserve">
     <value>Grafikprocessor</value>
   </data>
-  <data name="LocalizedDisplayConverter_Gemini" xml:space="preserve">
-    <value>Gemini</value>
-  </data>
   <data name="LocalizedDisplayConverter_High" xml:space="preserve">
     <value>Hög</value>
   </data>
@@ -1279,15 +1114,6 @@ Filsökväg: {0}</value>
   </data>
   <data name="LocalizedDisplayConverter_Minimal" xml:space="preserve">
     <value>Minimal</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenAI" xml:space="preserve">
-    <value>OpenAI</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenAI_legacy" xml:space="preserve">
-    <value>OpenAI (äldre)</value>
-  </data>
-  <data name="LocalizedDisplayConverter_OpenRouter" xml:space="preserve">
-    <value>OpenRouter</value>
   </data>
   <data name="LocalizedDisplayConverter_Vertical" xml:space="preserve">
     <value>Lodrät</value>
@@ -1705,9 +1531,6 @@ Filsökväg: {0}</value>
   <data name="OCRWindow_Use_0_where_the_recognized_text_belongs" xml:space="preserve">
     <value>Använd {0} där den identifierade texten ska vara</value>
   </data>
-  <data name="OpenRouterProvider_API_error" xml:space="preserve">
-    <value>Fel från OpenRouter API: {0}</value>
-  </data>
   <data name="PinToScreenOptionsViewModel_Bottom_center" xml:space="preserve">
     <value>Nederst i mitten</value>
   </data>
@@ -1921,119 +1744,8 @@ Filsökväg: {0}</value>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
     <value>ShareX – QR-kod</value>
   </data>
-  <data name="QRCodeWindow_Upload" xml:space="preserve">
-    <value>Ladda upp</value>
-  </data>
   <data name="QRCodeWindow_px" xml:space="preserve">
     <value>px</value>
-  </data>
-  <data name="RemoteStorageBrowser_Cancel" xml:space="preserve">
-    <value>Avbryt</value>
-  </data>
-  <data name="RemoteStorageBrowser_CopyUrl" xml:space="preserve">
-    <value>Kopiera URL</value>
-  </data>
-  <data name="RemoteStorageBrowser_CreateFolder" xml:space="preserve">
-    <value>Skapa mapp...</value>
-  </data>
-  <data name="RemoteStorageBrowser_CreatedFolder" xml:space="preserve">
-    <value>Mappen ”{0}” har skapats.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Delete" xml:space="preserve">
-    <value>Ta bort...</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteFileConfirmation" xml:space="preserve">
-    <value>Ta bort filen ”{0}”?</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteFolderConfirmation" xml:space="preserve">
-    <value>Ta bort mappen ”{0}”?</value>
-  </data>
-  <data name="RemoteStorageBrowser_DeleteNonEmptyFolderConfirmation" xml:space="preserve">
-    <value>Mappen ”{0}” är inte tom. Vill du ta bort den och allt innehåll? Åtgärden kan inte ångras.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Deleted" xml:space="preserve">
-    <value>”{0}” har tagits bort.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Download" xml:space="preserve">
-    <value>Hämta...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Downloaded" xml:space="preserve">
-    <value>”{0}” har hämtats.</value>
-  </data>
-  <data name="RemoteStorageBrowser_DropFilesToUpload" xml:space="preserve">
-    <value>Släpp filer för att ladda upp dem till den här mappen</value>
-  </data>
-  <data name="RemoteStorageBrowser_EmptyFolder" xml:space="preserve">
-    <value>Den här mappen är tom.</value>
-  </data>
-  <data name="RemoteStorageBrowser_ItemCount" xml:space="preserve">
-    <value>{0} fil(er), {1} mapp(ar) • totalt {2}</value>
-  </data>
-  <data name="RemoteStorageBrowser_Loading" xml:space="preserve">
-    <value>Läser in...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Location" xml:space="preserve">
-    <value>Plats:</value>
-  </data>
-  <data name="RemoteStorageBrowser_Modified" xml:space="preserve">
-    <value>Ändrad</value>
-  </data>
-  <data name="RemoteStorageBrowser_Name" xml:space="preserve">
-    <value>Namn</value>
-  </data>
-  <data name="RemoteStorageBrowser_NameAlreadyExists" xml:space="preserve">
-    <value>Det finns redan ett objekt med namnet ”{0}”.</value>
-  </data>
-  <data name="RemoteStorageBrowser_NewFolder" xml:space="preserve">
-    <value>Ny mapp</value>
-  </data>
-  <data name="RemoteStorageBrowser_NoMatchingItems" xml:space="preserve">
-    <value>Inga matchande objekt.</value>
-  </data>
-  <data name="RemoteStorageBrowser_OpenUrl" xml:space="preserve">
-    <value>Öppna URL</value>
-  </data>
-  <data name="RemoteStorageBrowser_OperationFailed" xml:space="preserve">
-    <value>Fjärrlagringsåtgärden misslyckades.</value>
-  </data>
-  <data name="RemoteStorageBrowser_Provider" xml:space="preserve">
-    <value>Leverantör:</value>
-  </data>
-  <data name="RemoteStorageBrowser_Refresh" xml:space="preserve">
-    <value>Uppdatera</value>
-  </data>
-  <data name="RemoteStorageBrowser_Rename" xml:space="preserve">
-    <value>Byt namn...</value>
-  </data>
-  <data name="RemoteStorageBrowser_Renamed" xml:space="preserve">
-    <value>”{0}” har bytt namn till ”{1}”.</value>
-  </data>
-  <data name="RemoteStorageBrowser_SaveDownloadedFile" xml:space="preserve">
-    <value>Spara hämtad fil</value>
-  </data>
-  <data name="RemoteStorageBrowser_SearchCurrentFolder" xml:space="preserve">
-    <value>Sök i aktuell mapp...</value>
-  </data>
-  <data name="RemoteStorageBrowser_SelectFilesToUpload" xml:space="preserve">
-    <value>Välj filer att ladda upp</value>
-  </data>
-  <data name="RemoteStorageBrowser_Size" xml:space="preserve">
-    <value>Storlek</value>
-  </data>
-  <data name="RemoteStorageBrowser_Title" xml:space="preserve">
-    <value>Webbläsare för fjärrlagring</value>
-  </data>
-  <data name="RemoteStorageBrowser_Up" xml:space="preserve">
-    <value>Upp</value>
-  </data>
-  <data name="RemoteStorageBrowser_Upload" xml:space="preserve">
-    <value>Ladda upp...</value>
-  </data>
-  <data name="RemoteStorageBrowser_UploadedFiles" xml:space="preserve">
-    <value>{0} fil(er) har laddats upp.</value>
-  </data>
-  <data name="RemoteStorageBrowser_View" xml:space="preserve">
-    <value>Visa</value>
   </data>
   <data name="RulerOverlayControl_Tolerance" xml:space="preserve">
     <value>Tolerans: {0}%</value>
@@ -2259,9 +1971,6 @@ Filsökväg: {0}</value>
   </data>
   <data name="VideoThumbnailerWindow_Thumbnails" xml:space="preserve">
     <value>Miniatyrer</value>
-  </data>
-  <data name="VideoThumbnailerWindow_Upload_created_thumbnails" xml:space="preserve">
-    <value>Ladda upp skapade miniatyrer</value>
   </data>
   <data name="VideoThumbnailerWindow_Video" xml:space="preserve">
     <value>Video</value>

@@ -474,6 +474,16 @@
                                 </StackPanel>
                             </StackPanel>
                         </StackPanel>
+                        <Separator Margin="0,16" />
+                        <TextBlock Text="{x:Static res:Strings.OcrWindow_Title}" Margin="0,0,0,8" />
+                        <TextBlock Text="{x:Static res:Strings.OcrEngine_Label}" Margin="0,0,0,4" />
+                        <ComboBox SelectedIndex="{Binding OcrEngineIndex, Mode=TwoWay}" HorizontalAlignment="Stretch" Margin="0,0,0,8">
+                            <ComboBoxItem Content="{x:Static res:Strings.OcrEngine_ShareX}" />
+                            <ComboBoxItem Content="{x:Static res:Strings.OcrEngine_Xiaomi}" />
+                        </ComboBox>
+                        <CheckBox IsChecked="{Binding OcrUseGpu, Mode=TwoWay}" IsEnabled="{Binding IsXiaomiOcr}">
+                            <TextBlock Text="{x:Static res:Strings.MainViewModel_OcrGpuAcceleration}" TextWrapping="Wrap" />
+                        </CheckBox>
                     </StackPanel>
                 </ScrollViewer>
             </Border>

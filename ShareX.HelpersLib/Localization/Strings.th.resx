@@ -67,9 +67,6 @@
   <data name="AfterCaptureTasks_AddImageEffects" xml:space="preserve">
     <value>เพิ่ม เอฟเฟกต์รูปภาพ</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>วิเคราะห์รูปภาพ</value>
-  </data>
   <data name="AfterCaptureTasks_AnnotateImage" xml:space="preserve">
     <value>เปิด ใน ตัวแก้ไขรูปภาพ</value>
   </data>
@@ -118,35 +115,11 @@
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>แสดง "หลังจับภาพ" หน้าต่าง</value>
   </data>
-  <data name="AfterCaptureTasks_ShowBeforeUploadWindow" xml:space="preserve">
-    <value>แสดง "ก่อนอัปโหลด" หน้าต่าง</value>
-  </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>แสดง ไฟล์ ใน ตัวสำรวจไฟล์</value>
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>แสดงเมนูงานด่วน</value>
-  </data>
-  <data name="AfterCaptureTasks_UploadImageToHost" xml:space="preserve">
-    <value>อัปโหลดรูปภาพไปยังโฮสต์</value>
-  </data>
-  <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
-    <value>คัดลอก URL ไปยังคลิปบอร์ด</value>
-  </data>
-  <data name="AfterUploadTasks_OpenURL" xml:space="preserve">
-    <value>เปิด URL</value>
-  </data>
-  <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
-    <value>แชร์ URL</value>
-  </data>
-  <data name="AfterUploadTasks_ShowAfterUploadWindow" xml:space="preserve">
-    <value>แสดง "หลังอัปโหลด" หน้าต่าง</value>
-  </data>
-  <data name="AfterUploadTasks_ShowQRCode" xml:space="preserve">
-    <value>แสดง QR โค้ด หน้าต่าง</value>
-  </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>ย่อ URL</value>
   </data>
   <data name="AppVeyorUpdateChecker_Deployment_file_not_found" xml:space="preserve">
     <value>ไม่สามารถ ค้นหา "{0}" ไฟล์.</value>
@@ -367,21 +340,6 @@
   <data name="ColorPickerWindow_Yellow_percent" xml:space="preserve">
     <value>เหลือง %</value>
   </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>ตัวอัปโหลดไฟล์</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>ตัวอัปโหลดรูปภาพ</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>ตัวอัปโหลดข้อความ</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>บริการแชร์ URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>ตัวย่อ URL</value>
-  </data>
   <data name="CutOutEffectType_None" xml:space="preserve">
     <value>ไม่มี เอฟเฟกต์</value>
   </data>
@@ -510,15 +468,6 @@
   <data name="FFmpegCLIManager_Error_title" xml:space="preserve">
     <value>FFmpeg ข้อผิดพลาด</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>กำหนดเอง ตัวอัปโหลดไฟล์</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>อีเมล</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>ใช้ร่วมกัน โฟลเดอร์</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>ถาม อะไร เพื่อ do</value>
   </data>
@@ -609,9 +558,6 @@
   <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
     <value>Make หน้าต่างที่ใช้งานอยู่ ด้านบน ส่วนใหญ่</value>
   </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>วิเคราะห์รูปภาพ</value>
-  </data>
   <data name="HotkeyType_AnimatedGifTrimmer" xml:space="preserve">
     <value>เครื่องมือตัด GIF แบบเคลื่อนไหว</value>
   </data>
@@ -636,15 +582,6 @@
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>เครื่องมือ</value>
   </data>
-  <data name="HotkeyType_Category_Upload" xml:space="preserve">
-    <value>อัปโหลด</value>
-  </data>
-  <data name="HotkeyType_ClipboardUpload" xml:space="preserve">
-    <value>อัปโหลด จากคลิปบอร์ด</value>
-  </data>
-  <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
-    <value>อัปโหลด จากคลิปบอร์ด ด้วย เนื้อหา ตัวแสดง</value>
-  </data>
   <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
     <value>คลิปบอร์ด ตัวแสดง</value>
   </data>
@@ -660,17 +597,8 @@
   <data name="HotkeyType_DisableHotkeys" xml:space="preserve">
     <value>ปิดใช้งาน/เปิดใช้งาน ปุ่มลัด</value>
   </data>
-  <data name="HotkeyType_DragDropUpload" xml:space="preserve">
-    <value>ลากแล้ววาง อัปโหลด</value>
-  </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
     <value>ออกจาก ShareX</value>
-  </data>
-  <data name="HotkeyType_FileUpload" xml:space="preserve">
-    <value>อัปโหลด ไฟล์</value>
-  </data>
-  <data name="HotkeyType_FolderUpload" xml:space="preserve">
-    <value>อัปโหลด โฟลเดอร์</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>ตัวตรวจสอบแฮช</value>
@@ -810,9 +738,6 @@
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>เริ่ม/หยุด การเลื่อน จับภาพ</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>ย่อ URL</value>
-  </data>
   <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
     <value>เริ่ม อัตโนมัติ จับภาพ กำลังใช้ ล่าสุด พื้นที่</value>
   </data>
@@ -828,9 +753,6 @@
   <data name="HotkeyType_StopScreenRecording" xml:space="preserve">
     <value>หยุดบันทึกหน้าจอ</value>
   </data>
-  <data name="HotkeyType_StopUploads" xml:space="preserve">
-    <value>หยุด ทั้งหมด ที่ใช้งานอยู่ การอัปโหลด</value>
-  </data>
   <data name="HotkeyType_StripMetadata" xml:space="preserve">
     <value>แถบ ข้อมูลเมตา</value>
   </data>
@@ -840,12 +762,6 @@
   <data name="HotkeyType_ToggleTrayMenu" xml:space="preserve">
     <value>สลับ เมนูถาดระบบ</value>
   </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>อัปโหลด ข้อความ</value>
-  </data>
-  <data name="HotkeyType_UploadURL" xml:space="preserve">
-    <value>อัปโหลด จาก URL</value>
-  </data>
   <data name="HotkeyType_VideoConverter" xml:space="preserve">
     <value>ตัวแปลงวิดีโอ</value>
   </data>
@@ -854,12 +770,6 @@
   </data>
   <data name="HotkeyType_VideoTrimmer" xml:space="preserve">
     <value>เครื่องตัดวิดีโอ</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>กำหนดเอง ตัวอัปโหลดรูปภาพ</value>
-  </data>
-  <data name="ImageDestination_FileUploader" xml:space="preserve">
-    <value>ตัวอัปโหลดไฟล์</value>
   </data>
   <data name="ImageHelpers_Image_files" xml:space="preserve">
     <value>ไฟล์รูปภาพ</value>
@@ -1218,12 +1128,6 @@
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>อัตโนมัติ</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>กำหนดเอง ตัวอัปโหลดข้อความ</value>
-  </data>
-  <data name="TextDestination_FileUploader" xml:space="preserve">
-    <value>ตัวอัปโหลดไฟล์</value>
-  </data>
   <data name="ThumbnailTitleLocation_Bottom" xml:space="preserve">
     <value>ด้านล่าง</value>
   </data>
@@ -1284,9 +1188,6 @@
   <data name="ToastClickAction_PinToScreen" xml:space="preserve">
     <value>ปักหมุดบนหน้าจอ</value>
   </data>
-  <data name="ToastClickAction_Upload" xml:space="preserve">
-    <value>อัปโหลด ไฟล์</value>
-  </data>
   <data name="Translator_ASCII" xml:space="preserve">
     <value>ASCII</value>
   </data>
@@ -1304,18 +1205,6 @@
   </data>
   <data name="URLHelpers_Invalid_URL" xml:space="preserve">
     <value>ไม่ถูกต้อง URL.</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Bing ภาพ ค้นหา</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>บริการแชร์ URL กำหนดเอง</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>อีเมล</value>
-  </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google Lens</value>
   </data>
   <data name="UpdateChannel_Dev" xml:space="preserve">
     <value>นักพัฒนา</value>
@@ -1346,9 +1235,6 @@
   </data>
   <data name="UpdateMessageWindow_View_changelog" xml:space="preserve">
     <value>มุมมอง บันทึกการเปลี่ยนแปลง</value>
-  </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>URL กำหนดเอง ตัวย่อ</value>
   </data>
   <data name="VideoInfo_Audio_details" xml:space="preserve">
     <value>, ตัวแปลงสัญญาณเสียง: {0}</value>

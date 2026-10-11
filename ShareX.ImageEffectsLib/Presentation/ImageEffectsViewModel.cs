@@ -346,13 +346,6 @@ public sealed partial class ImageEffectsViewModel : ObservableObject, IDisposabl
         }
     }
 
-    [RelayCommand]
-    private async Task UploadAsync()
-    {
-        if (_callbacks.UploadImage == null) return;
-        SKBitmap? result = await ApplySelectedPresetAsync();
-        if (result != null) _callbacks.UploadImage(result);
-    }
 
     [RelayCommand]
     private void PackagePreset()

@@ -133,9 +133,6 @@
   <data name="ActionsToolbarWindow_Close" xml:space="preserve">
     <value>إغلاق</value>
   </data>
-  <data name="ActionsToolbarWindow_DropToUpload" xml:space="preserve">
-    <value>أفلت للرفع</value>
-  </data>
   <data name="ActionsToolbarWindow_Edit" xml:space="preserve">
     <value>تحرير...</value>
   </data>
@@ -154,9 +151,6 @@
   <data name="ActionsToolbarWindow_Title" xml:space="preserve">
     <value>ShareX - شريط أدوات الإجراءات</value>
   </data>
-  <data name="AfterCaptureWindow_AfterUpload" xml:space="preserve">
-    <value>بعد الرفع</value>
-  </data>
   <data name="AfterCaptureWindow_Cancel" xml:space="preserve">
     <value>إلغاء</value>
   </data>
@@ -168,12 +162,6 @@
   </data>
   <data name="AfterCaptureWindow_CopyPreviewImage" xml:space="preserve">
     <value>نسخ صورة المعاينة</value>
-  </data>
-  <data name="AfterCaptureWindow_CustomUploader" xml:space="preserve">
-    <value>مخصص [{0}]</value>
-  </data>
-  <data name="AfterCaptureWindow_Destinations" xml:space="preserve">
-    <value>الوجهات</value>
   </data>
   <data name="AfterCaptureWindow_FileName" xml:space="preserve">
     <value>اسم الملف</value>
@@ -189,51 +177,6 @@
   </data>
   <data name="AfterCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - بعد الالتقاط</value>
-  </data>
-  <data name="AfterUploadWindow_ClipboardFormats" xml:space="preserve">
-    <value>تنسيقات الحافظة</value>
-  </data>
-  <data name="AfterUploadWindow_Close" xml:space="preserve">
-    <value>إغلاق</value>
-  </data>
-  <data name="AfterUploadWindow_CopyImage" xml:space="preserve">
-    <value>نسخ الصورة</value>
-  </data>
-  <data name="AfterUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>نسخ صورة المعاينة</value>
-  </data>
-  <data name="AfterUploadWindow_CopySelectedFormat" xml:space="preserve">
-    <value>نسخ التنسيق المحدد</value>
-  </data>
-  <data name="AfterUploadWindow_GroupCustom" xml:space="preserve">
-    <value>مخصص</value>
-  </data>
-  <data name="AfterUploadWindow_GroupForums" xml:space="preserve">
-    <value>المنتديات</value>
-  </data>
-  <data name="AfterUploadWindow_GroupLinks" xml:space="preserve">
-    <value>الروابط</value>
-  </data>
-  <data name="AfterUploadWindow_GroupLocal" xml:space="preserve">
-    <value>محلي</value>
-  </data>
-  <data name="AfterUploadWindow_NoPreview" xml:space="preserve">
-    <value>لا تتوفر معاينة للصورة</value>
-  </data>
-  <data name="AfterUploadWindow_OpenContainingFolder" xml:space="preserve">
-    <value>فتح المجلد المحتوي</value>
-  </data>
-  <data name="AfterUploadWindow_OpenFile" xml:space="preserve">
-    <value>فتح الملف</value>
-  </data>
-  <data name="AfterUploadWindow_OpenLink" xml:space="preserve">
-    <value>فتح الرابط</value>
-  </data>
-  <data name="AfterUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - بعد الرفع</value>
-  </data>
-  <data name="AfterUploadWindow_UploadComplete" xml:space="preserve">
-    <value>اكتمل الرفع</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>هل تريد استعادة الإعدادات الافتراضية؟</value>
@@ -259,12 +202,6 @@
   <data name="ApplicationSettingsWindow_AccentColorLabel" xml:space="preserve">
     <value>لون التمييز:</value>
   </data>
-  <data name="ApplicationSettingsWindow_Add" xml:space="preserve">
-    <value>إضافة...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_AddClipboardFormat" xml:space="preserve">
-    <value>إضافة تنسيق للحافظة</value>
-  </data>
   <data name="ApplicationSettingsWindow_Advanced" xml:space="preserve">
     <value>متقدّم</value>
   </data>
@@ -274,9 +211,6 @@
   <data name="ApplicationSettingsWindow_AdvancedClipboard" xml:space="preserve">
     <value>الحافظة</value>
   </data>
-  <data name="ApplicationSettingsWindow_AdvancedDragAndDropWindow" xml:space="preserve">
-    <value>نافذة السحب والإفلات</value>
-  </data>
   <data name="ApplicationSettingsWindow_AdvancedHotkeys" xml:space="preserve">
     <value>اختصارات لوحة المفاتيح</value>
   </data>
@@ -285,9 +219,6 @@
   </data>
   <data name="ApplicationSettingsWindow_AdvancedPaths" xml:space="preserve">
     <value>المسارات</value>
-  </data>
-  <data name="ApplicationSettingsWindow_AdvancedUpload" xml:space="preserve">
-    <value>الرفع</value>
   </data>
   <data name="ApplicationSettingsWindow_Application" xml:space="preserve">
     <value>التطبيق</value>
@@ -319,11 +250,11 @@
   <data name="ApplicationSettingsWindow_BackupImportedFrom" xml:space="preserve">
     <value>تم استيراد النسخة الاحتياطية من {0}</value>
   </data>
+  <data name="ApplicationSettingsWindow_BackupPrivacyWarning" xml:space="preserve">
+    <value>لا تشارك نسخة احتياطية مُصدَّرة. فقد تحتوي على إعدادات خاصة.</value>
+  </data>
   <data name="ApplicationSettingsWindow_BinaryUnits" xml:space="preserve">
     <value>استخدام الوحدات الثنائية</value>
-  </data>
-  <data name="ApplicationSettingsWindow_BottomCenter" xml:space="preserve">
-    <value>أسفل الوسط</value>
   </data>
   <data name="ApplicationSettingsWindow_BottomLeft" xml:space="preserve">
     <value>أسفل اليسار</value>
@@ -337,12 +268,6 @@
   <data name="ApplicationSettingsWindow_BrowserPath" xml:space="preserve">
     <value>مسار المتصفح</value>
   </data>
-  <data name="ApplicationSettingsWindow_BufferSizeLabel" xml:space="preserve">
-    <value>حجم المخزن المؤقت:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Cancel" xml:space="preserve">
-    <value>إلغاء</value>
-  </data>
   <data name="ApplicationSettingsWindow_ChangesToThePersonalFolderAreStoredImmediatelyAndTakeEffectAfterRestart" xml:space="preserve">
     <value>يتم حفظ التغييرات على المجلد الشخصي فورًا وتصبح سارية بعد إعادة التشغيل.</value>
   </data>
@@ -352,23 +277,11 @@
   <data name="ApplicationSettingsWindow_ChooseShareXPersonalFolderPath" xml:space="preserve">
     <value>اختر مسار مجلد ShareX الشخصي</value>
   </data>
-  <data name="ApplicationSettingsWindow_ChromeExtension" xml:space="preserve">
-    <value>إضافة متصفح Chrome</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ClipboardFormats" xml:space="preserve">
-    <value>صيغة الحافظة</value>
-  </data>
   <data name="ApplicationSettingsWindow_CustomHotkeysConfigPath" xml:space="preserve">
     <value>مسار مخصص لإعدادات اختصارات لوحة المفاتيح</value>
   </data>
   <data name="ApplicationSettingsWindow_CustomScreenshotsPath2" xml:space="preserve">
     <value>مسار ثانوي للقطات الشاشة</value>
-  </data>
-  <data name="ApplicationSettingsWindow_CustomUploadersConfigPath" xml:space="preserve">
-    <value>مسار مخصص لإعدادات خدمات الرفع</value>
-  </data>
-  <data name="ApplicationSettingsWindow_CustomizeTheTextCopiedFromCompletedUploads" xml:space="preserve">
-    <value>خصّص النص المنسوخ من عمليات الرفع المكتملة.</value>
   </data>
   <data name="ApplicationSettingsWindow_Dark" xml:space="preserve">
     <value>داكن</value>
@@ -379,9 +292,6 @@
   <data name="ApplicationSettingsWindow_DefaultPrinterOverrideLabel" xml:space="preserve">
     <value>تخصيص الطابعة الافتراضية:</value>
   </data>
-  <data name="ApplicationSettingsWindow_Description" xml:space="preserve">
-    <value>الوصف</value>
-  </data>
   <data name="ApplicationSettingsWindow_DevMode" xml:space="preserve">
     <value>وضع المطور</value>
   </data>
@@ -391,47 +301,14 @@
   <data name="ApplicationSettingsWindow_DisableHotkeysOnFullscreen" xml:space="preserve">
     <value>تعطيل الاختصارات في تطبيقات ملء الشاشة</value>
   </data>
-  <data name="ApplicationSettingsWindow_DisableUpload" xml:space="preserve">
-    <value>تعطيل عمليات الرفع</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DoNotShareAnExportedBackupItCanContainPrivateInformationSuchAsAccountDetailsAndUploadHistory" xml:space="preserve">
-    <value>لا تشارك نسخة احتياطية مُصدَّرة. فقد تحتوي على معلومات خاصة مثل تفاصيل الحساب وسجل الرفع.</value>
-  </data>
   <data name="ApplicationSettingsWindow_DontShowImagePrintSettingsDialog" xml:space="preserve">
     <value>طباعة تلقائية بدون نافذة إعدادات طباعة الصور</value>
   </data>
   <data name="ApplicationSettingsWindow_DontShowWindowsPrintDialog" xml:space="preserve">
     <value>لا تعرض نافذة الطباعة الخاصة بـ Windows</value>
   </data>
-  <data name="ApplicationSettingsWindow_DropAlignment" xml:space="preserve">
-    <value>موضع نافذة الإفلات</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropHoverOpacity" xml:space="preserve">
-    <value>شفافية نافذة الإفلات عند سحب ملف فوقها</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropOffset" xml:space="preserve">
-    <value>إزاحة نافذة الإفلات</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropOpacity" xml:space="preserve">
-    <value>شفافية نافذة الإفلات</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropSize" xml:space="preserve">
-    <value>حجم نافذة الإفلات</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Edit" xml:space="preserve">
-    <value>تعديل...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EditClipboardFormat" xml:space="preserve">
-    <value>تحرير تنسيق الحافظة</value>
-  </data>
   <data name="ApplicationSettingsWindow_EditQuickTaskMenu" xml:space="preserve">
     <value>تعديل قائمة المهام السريعة...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EnableChromeExtensionSupport" xml:space="preserve">
-    <value>تفعيل دعم متصفح Goolge Chrome</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EnableFirefoxAddonSupport" xml:space="preserve">
-    <value>تفعيل دعم متصفح Mozilla Firefox</value>
   </data>
   <data name="ApplicationSettingsWindow_ErrorPrefix" xml:space="preserve">
     <value>خطأ:</value>
@@ -448,17 +325,11 @@
   <data name="ApplicationSettingsWindow_ExportingBackup" xml:space="preserve">
     <value>جارٍ تصدير النسخة الاحتياطية...</value>
   </data>
-  <data name="ApplicationSettingsWindow_FirefoxAddon" xml:space="preserve">
-    <value>إضافة Firefox</value>
-  </data>
   <data name="ApplicationSettingsWindow_FollowSystemAccentColor" xml:space="preserve">
     <value>استخدام لون تمييز النظام</value>
   </data>
   <data name="ApplicationSettingsWindow_FollowSystemTheme" xml:space="preserve">
     <value>استخدام سمة النظام</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Format" xml:space="preserve">
-    <value>الصيغة</value>
   </data>
   <data name="ApplicationSettingsWindow_General" xml:space="preserve">
     <value>عام</value>
@@ -490,12 +361,6 @@
   <data name="ApplicationSettingsWindow_InstallDevBuild" xml:space="preserve">
     <value>تثبيت إصدار التطوير...</value>
   </data>
-  <data name="ApplicationSettingsWindow_InstallShareXChromeExtension" xml:space="preserve">
-    <value>تثبيت إضافة Chrome...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_InstallShareXFirefoxAddon" xml:space="preserve">
-    <value>تثبيت إضافة Firefox...</value>
-  </data>
   <data name="ApplicationSettingsWindow_Integration" xml:space="preserve">
     <value>الاندماج مع النظام</value>
   </data>
@@ -511,23 +376,11 @@
   <data name="ApplicationSettingsWindow_MaximumNumberOfTasksToSaveLabel" xml:space="preserve">
     <value>أقصى عدد للمهام التي سيتم حفظها:</value>
   </data>
-  <data name="ApplicationSettingsWindow_MiddleCenter" xml:space="preserve">
-    <value>الوسط</value>
-  </data>
-  <data name="ApplicationSettingsWindow_MiddleLeft" xml:space="preserve">
-    <value>وسط اليسار</value>
-  </data>
-  <data name="ApplicationSettingsWindow_MiddleRight" xml:space="preserve">
-    <value>وسط اليمين</value>
-  </data>
   <data name="ApplicationSettingsWindow_MinimizeToTrayOnStart" xml:space="preserve">
     <value>تصغير إلى الإشعارات عند البدء</value>
   </data>
   <data name="ApplicationSettingsWindow_NumberOfFilesToKeepLabel" xml:space="preserve">
     <value>عدد الملفات التي سيتم الاحتفاظ بها:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_NumberOfTimesToRetryIfUploadFailsLabel" xml:space="preserve">
-    <value>عدد المحاولات عند فشل الرفع:</value>
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconDoubleLeftClickLabel" xml:space="preserve">
     <value>عند النقر المزدوج على أيقونة الإشعارات:</value>
@@ -537,9 +390,6 @@
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconMiddleClickLabel" xml:space="preserve">
     <value>عند النقر بالزر الأوسط على أيقونة الإشعارات:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_OnlySaveIfUrlIsNotEmpty" xml:space="preserve">
-    <value>حفظ الروابط فقط عندما لا تكون فارغة</value>
   </data>
   <data name="ApplicationSettingsWindow_Open" xml:space="preserve">
     <value>فتح...</value>
@@ -574,9 +424,6 @@
   <data name="ApplicationSettingsWindow_RememberMainWindowSize" xml:space="preserve">
     <value>تذكّر حجم النافذة الرئيسية</value>
   </data>
-  <data name="ApplicationSettingsWindow_Remove" xml:space="preserve">
-    <value>حذف</value>
-  </data>
   <data name="ApplicationSettingsWindow_Reset" xml:space="preserve">
     <value>إعادة تعيين</value>
   </data>
@@ -589,14 +436,8 @@
   <data name="ApplicationSettingsWindow_RestartShareXToApplyThisChange" xml:space="preserve">
     <value>أعد تشغيل ShareX لتطبيق هذا التغيير.</value>
   </data>
-  <data name="ApplicationSettingsWindow_RightClickToInsertAVariable" xml:space="preserve">
-    <value>انقر بزر الماوس الأيمن لإدراج متغير.</value>
-  </data>
   <data name="ApplicationSettingsWindow_RotateImageByExifOrientationData" xml:space="preserve">
     <value>تدوير الصور وفق اتجاه EXIF</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Save" xml:space="preserve">
-    <value>حفظ</value>
   </data>
   <data name="ApplicationSettingsWindow_SaveRecentTasks" xml:space="preserve">
     <value>حفظ المهام الأخيرة</value>
@@ -622,20 +463,11 @@
   <data name="ApplicationSettingsWindow_ShareXPersonalFolder" xml:space="preserve">
     <value>مجلد ShareX الشخصي</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowClipboardContentViewer" xml:space="preserve">
-    <value>عرض عارض محتوى الحافظة</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowEditWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
     <value>عرض الخيار "تعديل باستخدام ShareX" على قائمة خيارات الملفات</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowLargeFileSizeWarning" xml:space="preserve">
-    <value>حد التحذير للملفات الكبيرة (ميغابايت)</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowMostRecentTaskFirst" xml:space="preserve">
     <value>عرض أحدث مهمة أولاً</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ShowMultiUploadWarning" xml:space="preserve">
-    <value>التحذير قبل رفع أكثر من 10 ملفات</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowProgressInTaskbarButton" xml:space="preserve">
     <value>عرض مستوى التقدم في شريط المهام</value>
@@ -649,20 +481,11 @@
   <data name="ApplicationSettingsWindow_ShowRecentTasksInTrayMenu" xml:space="preserve">
     <value>عرض المهام الأخيرة على قائمة أيقونة الإشعارات</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowShareXInSendToMenu" xml:space="preserve">
-    <value>عرض ShareX في قائمة "إرسال إلى"</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowTitle" xml:space="preserve">
     <value>عرض العنوان</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowTrayIcon" xml:space="preserve">
     <value>عرض أيقونة الإشعارات</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ShowUploadWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
-    <value>عرض الخيار "رفع باستخدام ShareX" على قائمة خيارات الملفات</value>
-  </data>
-  <data name="ApplicationSettingsWindow_SimultaneousUploadLimitLabel" xml:space="preserve">
-    <value>عدد المرفوعات في الوقت نفسه:</value>
   </data>
   <data name="ApplicationSettingsWindow_Steam" xml:space="preserve">
     <value>Steam</value>
@@ -679,9 +502,6 @@
   <data name="ApplicationSettingsWindow_ThemeLabel" xml:space="preserve">
     <value>السمة:</value>
   </data>
-  <data name="ApplicationSettingsWindow_TheseFormatsAppearUnderTheCopySubmenuInTheMainWindowContextMenu" xml:space="preserve">
-    <value>تظهر هذه التنسيقات ضمن القائمة الفرعية «نسخ» في قائمة سياق النافذة الرئيسية.</value>
-  </data>
   <data name="ApplicationSettingsWindow_ThumbnailClickActionLabel" xml:space="preserve">
     <value>عند النقر على الصور المصغرة:</value>
   </data>
@@ -693,9 +513,6 @@
   </data>
   <data name="ApplicationSettingsWindow_TitleLocationLabel" xml:space="preserve">
     <value>مكان العنوان:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_TopCenter" xml:space="preserve">
-    <value>أعلى الوسط</value>
   </data>
   <data name="ApplicationSettingsWindow_TopLeft" xml:space="preserve">
     <value>أعلى اليسار</value>
@@ -709,20 +526,11 @@
   <data name="ApplicationSettingsWindow_TrayAutoExpandCaptureMenu" xml:space="preserve">
     <value>توسيع قائمة الالتقاط تلقائياً</value>
   </data>
-  <data name="ApplicationSettingsWindow_URLEncodeIgnoreEmoji" xml:space="preserve">
-    <value>تجاهل الرموز التعبيرية عند ترميز URL</value>
-  </data>
   <data name="ApplicationSettingsWindow_UpdateChannelLabel" xml:space="preserve">
     <value>قناة التحديثات:</value>
   </data>
   <data name="ApplicationSettingsWindow_Updates" xml:space="preserve">
     <value>التحديثات</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Upload" xml:space="preserve">
-    <value>رفع</value>
-  </data>
-  <data name="ApplicationSettingsWindow_UploadResult" xml:space="preserve">
-    <value>نتيجة الرفع</value>
   </data>
   <data name="ApplicationSettingsWindow_UseAlternativeClipboardCopyImage" xml:space="preserve">
     <value>استخدام نسخ بديل للصور</value>
@@ -732,9 +540,6 @@
   </data>
   <data name="ApplicationSettingsWindow_UseCustomScreenshotsFolder" xml:space="preserve">
     <value>استخدام مجلد مخصص للقطات الشاشة</value>
-  </data>
-  <data name="ApplicationSettingsWindow_UseMachineSpecificUploadersConfig" xml:space="preserve">
-    <value>استخدام إعدادات خدمات الرفع الخاصة بالجهاز</value>
   </data>
   <data name="ApplicationSettingsWindow_UseWhiteShareXIcon" xml:space="preserve">
     <value>استخدام أيقونة بيضاء للتطبيق</value>
@@ -753,9 +558,6 @@
   </data>
   <data name="ApplicationSettingsWindow_WorkflowsOnlyShowEdited" xml:space="preserve">
     <value>عرض مهام سير العمل المخصصة فقط</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ZeroDisablesTheLimit" xml:space="preserve">
-    <value>القيمة 0 تعطّل الحد</value>
   </data>
   <data name="AutoCaptureWindow_AutoMinimize" xml:space="preserve">
     <value>التصغير تلقائيًا إلى منطقة الإعلام</value>
@@ -799,368 +601,11 @@
   <data name="AutoCaptureWindow_WaitTasks" xml:space="preserve">
     <value>الانتظار حتى اكتمال المهام</value>
   </data>
-  <data name="BeforeUploadWindow_Cancel" xml:space="preserve">
-    <value>إلغاء</value>
-  </data>
-  <data name="BeforeUploadWindow_ChooseDestination" xml:space="preserve">
-    <value>يرجى اختيار وجهة.</value>
-  </data>
-  <data name="BeforeUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>نسخ صورة المعاينة</value>
-  </data>
-  <data name="BeforeUploadWindow_CustomUploader" xml:space="preserve">
-    <value>مخصص [{0}]</value>
-  </data>
-  <data name="BeforeUploadWindow_Destination" xml:space="preserve">
-    <value>الوجهة</value>
-  </data>
-  <data name="BeforeUploadWindow_Heading" xml:space="preserve">
-    <value>قبل الرفع</value>
-  </data>
-  <data name="BeforeUploadWindow_NoPreview" xml:space="preserve">
-    <value>لا تتوفر معاينة</value>
-  </data>
-  <data name="BeforeUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - قبل الرفع</value>
-  </data>
-  <data name="BeforeUploadWindow_Upload" xml:space="preserve">
-    <value>رفع</value>
-  </data>
-  <data name="BeforeUploadWindow_UploadPrompt" xml:space="preserve">
-    <value>سيتم رفع {0} إلى {1}. يمكنك اختيار وجهة مختلفة.</value>
-  </data>
   <data name="ClipboardDoesNotContainAnImage" xml:space="preserve">
     <value>الحافظة لا تحتوي على صورة.</value>
   </data>
-  <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
-    <value>المتغيرات المدعومة: {0} وبقية المتغيرات، مثل {1} إلخ.</value>
-  </data>
-  <data name="ClipboardUpload" xml:space="preserve">
-    <value>رفع الحافظة</value>
-  </data>
-  <data name="ClipboardUploadWindow_Cancel" xml:space="preserve">
-    <value>إلغاء</value>
-  </data>
-  <data name="ClipboardUploadWindow_ClipboardUpload" xml:space="preserve">
-    <value>الرفع من الحافظة</value>
-  </data>
-  <data name="ClipboardUploadWindow_DontShowAgain" xml:space="preserve">
-    <value>لا تعرض هذه النافذة مرة أخرى</value>
-  </data>
-  <data name="ClipboardUploadWindow_Empty" xml:space="preserve">
-    <value>الحافظة فارغة أو تحتوي على بيانات غير مدعومة.</value>
-  </data>
-  <data name="ClipboardUploadWindow_FileSummary" xml:space="preserve">
-    <value>محتوى الحافظة: ملفات، العدد: {0}</value>
-  </data>
-  <data name="ClipboardUploadWindow_ImageSummary" xml:space="preserve">
-    <value>محتوى الحافظة: صورة، الحجم: {0} × {1}</value>
-  </data>
-  <data name="ClipboardUploadWindow_TextSummary" xml:space="preserve">
-    <value>محتوى الحافظة: نص، الطول: {0}</value>
-  </data>
-  <data name="ClipboardUploadWindow_Upload" xml:space="preserve">
-    <value>رفع</value>
-  </data>
   <data name="Confirmation" xml:space="preserve">
     <value>التأكيد</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Add" xml:space="preserve">
-    <value>إضافة</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Name" xml:space="preserve">
-    <value>الاسم</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Remove" xml:space="preserve">
-    <value>إزالة</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Value" xml:space="preserve">
-    <value>القيمة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_AllRemoved" xml:space="preserve">
-    <value>تمت إزالة جميع أدوات الرفع المخصصة.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Arguments" xml:space="preserve">
-    <value>الوسائط</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Base64Encoding" xml:space="preserve">
-    <value>ترميز Base64</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Beautify" xml:space="preserve">
-    <value>تنسيق</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Body" xml:space="preserve">
-    <value>النص</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_BodyType" xml:space="preserve">
-    <value>نوع المحتوى</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Capabilities" xml:space="preserve">
-    <value>الإمكانات</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ChangesApplied" xml:space="preserve">
-    <value>تُطبق التغييرات فورًا.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ClearAll" xml:space="preserve">
-    <value>مسح الكل...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ClearConfirmation" xml:space="preserve">
-    <value>هل تريد إزالة جميع أدوات الرفع المخصصة؟</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Close" xml:space="preserve">
-    <value>إغلاق</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ConfirmationTitle" xml:space="preserve">
-    <value>ShareX - تأكيد</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_CreateOrImport" xml:space="preserve">
-    <value>أنشئ رافعًا مخصصًا أو استورد ملف .sxcu.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_CustomUploaderFileType" xml:space="preserve">
-    <value>أداة رفع ShareX مخصصة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DeletionURL" xml:space="preserve">
-    <value>رابط الحذف</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DestinationRequired" xml:space="preserve">
-    <value>يجب تحديد نوع وجهة واحد على الأقل قبل التصدير.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DisplayOutputText" xml:space="preserve">
-    <value>عرض نص الإخراج</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Duplicate" xml:space="preserve">
-    <value>تكرار الرافع المحدد</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DuplicateNamesNotAllowed" xml:space="preserve">
-    <value>الأسماء المكررة غير مسموحة.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Duplicated" xml:space="preserve">
-    <value>تم تكرار أداة الرفع المخصصة.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Endpoint" xml:space="preserve">
-    <value>نقطة النهاية</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Error" xml:space="preserve">
-    <value>خطأ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ErrorMessage" xml:space="preserve">
-    <value>رسالة الخطأ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Export" xml:space="preserve">
-    <value>تصدير الرافع المحدد...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportAll" xml:space="preserve">
-    <value>تصدير الكل...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportAllDialogTitle" xml:space="preserve">
-    <value>تصدير جميع أدوات الرفع المخصصة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportDialogTitle" xml:space="preserve">
-    <value>تصدير أداة الرفع المخصصة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportedCount" xml:space="preserve">
-    <value>تم تصدير {0} من أدوات الرفع المخصصة.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportedOne" xml:space="preserve">
-    <value>تم تصدير {0}.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileFormName" xml:space="preserve">
-    <value>اسم نموذج الملف</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileFormNameDescription" xml:space="preserve">
-    <value>اسم حقل multipart المستخدم لإرسال الملف المرفوع.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileUploader" xml:space="preserve">
-    <value>رافع الملفات</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FilteredUploaderCount" xml:space="preserve">
-    <value>{0} من {1}</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Guide" xml:space="preserve">
-    <value>دليل الرافع المخصص...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Headers" xml:space="preserve">
-    <value>الرؤوس</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Identity" xml:space="preserve">
-    <value>الهوية</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImageUploader" xml:space="preserve">
-    <value>رافع الصور</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Import" xml:space="preserve">
-    <value>استيراد...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImportDialogTitle" xml:space="preserve">
-    <value>استيراد أدوات الرفع المخصصة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImportedCount" xml:space="preserve">
-    <value>تم استيراد {0} من أدوات الرفع المخصصة.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_JSONPathResponseValue" xml:space="preserve">
-    <value>قيمة استجابة JSONPath</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Method" xml:space="preserve">
-    <value>الطريقة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Minify" xml:space="preserve">
-    <value>تصغير</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Name" xml:space="preserve">
-    <value>الاسم</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NamePlaceholder" xml:space="preserve">
-    <value>يستخدم مضيف الطلب عند تركه فارغًا</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_New" xml:space="preserve">
-    <value>جديد</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NewCreated" xml:space="preserve">
-    <value>تم إنشاء أداة رفع مخصصة جديدة.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NoAdditionalBodyFields" xml:space="preserve">
-    <value>لا يحتوي نوع المحتوى هذا على حقول إضافية.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NoSearchMatches" xml:space="preserve">
-    <value>لا توجد برامج رفع تطابق هذا البحث.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Overview" xml:space="preserve">
-    <value>نظرة عامة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Parameters" xml:space="preserve">
-    <value>المعلمات</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RandomSelection" xml:space="preserve">
-    <value>اختيار عشوائي</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RegularExpressionResult" xml:space="preserve">
-    <value>نتيجة التعبير النمطي</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Remove" xml:space="preserve">
-    <value>إزالة الرافع المحدد</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Removed" xml:space="preserve">
-    <value>تمت إزالة أداة الرفع المخصصة.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Request" xml:space="preserve">
-    <value>الطلب</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestData" xml:space="preserve">
-    <value>بيانات الطلب</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestURL" xml:space="preserve">
-    <value>رابط الطلب</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestURLRequired" xml:space="preserve">
-    <value>يجب ضبط رابط الطلب قبل التصدير.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Response" xml:space="preserve">
-    <value>الاستجابة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseHeader" xml:space="preserve">
-    <value>رأس الاستجابة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseOrRedirectionURL" xml:space="preserve">
-    <value>رابط الاستجابة أو إعادة التوجيه</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseText" xml:space="preserve">
-    <value>نص الاستجابة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Result" xml:space="preserve">
-    <value>النتيجة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResultURL" xml:space="preserve">
-    <value>رابط النتيجة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SearchUploaders" xml:space="preserve">
-    <value>البحث عن برامج رفع</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SelectToExport" xml:space="preserve">
-    <value>حدد أداة رفع مخصصة لتصديرها.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SelectUploaderToEdit" xml:space="preserve">
-    <value>حدد أداة رفع لتحريرها</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Test" xml:space="preserve">
-    <value>اختبار</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestCancelled" xml:space="preserve">
-    <value>تم إلغاء الاختبار.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestCompleted" xml:space="preserve">
-    <value>اكتمل الاختبار.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestFailed" xml:space="preserve">
-    <value>فشل الاختبار.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestURLSyntax" xml:space="preserve">
-    <value>اختبار صياغة الرابط</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestURLSyntaxButton" xml:space="preserve">
-    <value>اختبار صياغة الرابط...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Testing" xml:space="preserve">
-    <value>جارٍ اختبار {0}...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextOrURLInput" xml:space="preserve">
-    <value>إدخال نص أو رابط</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextUploadSample" xml:space="preserve">
-    <value>اختبار رفع نص ShareX</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextUploader" xml:space="preserve">
-    <value>رافع النصوص</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ThumbnailURL" xml:space="preserve">
-    <value>رابط الصورة المصغرة</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Title" xml:space="preserve">
-    <value>ShareX - إعدادات الرافع المخصص</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLSharingService" xml:space="preserve">
-    <value>خدمة مشاركة عناوين URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLShortener" xml:space="preserve">
-    <value>مختصر عناوين URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLSyntax" xml:space="preserve">
-    <value>صياغة الرابط</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdateFolder" xml:space="preserve">
-    <value>تحديث المجلد...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdateFolderDialogTitle" xml:space="preserve">
-    <value>تحديث مجلد أدوات الرفع</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdatedCount" xml:space="preserve">
-    <value>تم تحديث {0} من ملفات أدوات الرفع.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploadedFile" xml:space="preserve">
-    <value>الملف المرفوع</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploadedFileName" xml:space="preserve">
-    <value>اسم الملف المرفوع</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderCount" xml:space="preserve">
-    <value>{0} أداة رفع</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderCountPlural" xml:space="preserve">
-    <value>{0} أدوات رفع</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderLibrary" xml:space="preserve">
-    <value>مكتبة برامج الرفع</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UserSelection" xml:space="preserve">
-    <value>اختيار المستخدم</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UserTextInput" xml:space="preserve">
-    <value>إدخال نص المستخدم</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_XPathResponseValue" xml:space="preserve">
-    <value>قيمة استجابة XPath</value>
-  </data>
-  <data name="DebugLogWindow_Cancel" xml:space="preserve">
-    <value>إلغاء</value>
   </data>
   <data name="DebugLogWindow_CopyAll" xml:space="preserve">
     <value>نسخ الكل</value>
@@ -1176,21 +621,6 @@
   </data>
   <data name="DebugLogWindow_Title" xml:space="preserve">
     <value>ShareX - سجل تصحيح الأخطاء</value>
-  </data>
-  <data name="DebugLogWindow_Upload" xml:space="preserve">
-    <value>رفع</value>
-  </data>
-  <data name="DebugLogWindow_UploadLog" xml:space="preserve">
-    <value>رفع السجل...</value>
-  </data>
-  <data name="DebugLogWindow_UploadPrompt" xml:space="preserve">
-    <value>هل تريد رفع سجل تصحيح الأخطاء؟</value>
-  </data>
-  <data name="DragDropUploadWindow_DropHere" xml:space="preserve">
-    <value>أفلت هنا</value>
-  </data>
-  <data name="DragDropUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - الرفع بالسحب والإفلات</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>خطأ</value>
@@ -1328,35 +758,26 @@
   <data name="IntegrationHelpers_EditWithShareX" xml:space="preserve">
     <value>تعديل باستخدام ShareX</value>
   </data>
-  <data name="IntegrationHelpers_UploadWithShareX" xml:space="preserve">
-    <value>رفع باستخدام ShareX</value>
+  <data name="LocalTask_Choose_a_folder_to_save" xml:space="preserve">
+    <value>اختيار مجلد للحفظ</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Cancel" xml:space="preserve">
-    <value>إلغاء</value>
+  <data name="LocalTask_Done" xml:space="preserve">
+    <value>تـم</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Continue" xml:space="preserve">
-    <value>متابعة</value>
+  <data name="LocalTask_Prepare_Preparing" xml:space="preserve">
+    <value>ارتباط</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_DontShowAgain" xml:space="preserve">
-    <value>لا تعرض هذه الرسالة مرة أخرى.</value>
+  <data name="LocalTask_Stop_Stopping" xml:space="preserve">
+    <value>جار الإيقاف</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Message" xml:space="preserve">
-    <value>أنت تحاول رفع ملف كبير.</value>
-  </data>
-  <data name="LargeFileUploadWarningWindow_Title" xml:space="preserve">
-    <value>ShareX - رفع ملف كبير</value>
-  </data>
-  <data name="MainForm_UploadDebugLogWarning" xml:space="preserve">
-    <value>سجل التنقيحات قد يحتوي على معلومات حساسة، هل تريد المتابعة؟</value>
+  <data name="LocalTask_Stopped" xml:space="preserve">
+    <value>تم الإيقاف</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_Do_you_really_want_to_delete_this_file_" xml:space="preserve">
     <value>هل تريد حذف هذا الملف؟</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>تأكيد حذف ملف</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>اختبار رفع النصوص</value>
   </data>
   <data name="MainMenuBuilder_About" xml:space="preserve">
     <value>حول...</value>
@@ -1369,12 +790,6 @@
   </data>
   <data name="MainMenuBuilder_AfterCaptureTasks" xml:space="preserve">
     <value>مهام ما بعد الالتقاط</value>
-  </data>
-  <data name="MainMenuBuilder_AfterUploadTasks" xml:space="preserve">
-    <value>مهام ما بعد الرفع</value>
-  </data>
-  <data name="MainMenuBuilder_AnalyzeImage" xml:space="preserve">
-    <value>تحليل الصورة</value>
   </data>
   <data name="MainMenuBuilder_AnimatedGifMaker" xml:space="preserve">
     <value>صانع GIF متحرك...</value>
@@ -1406,17 +821,8 @@
   <data name="MainMenuBuilder_Copy" xml:space="preserve">
     <value>نسخ</value>
   </data>
-  <data name="MainMenuBuilder_CustomUploaderSettings" xml:space="preserve">
-    <value>إعدادات الرافع المخصص...</value>
-  </data>
   <data name="MainMenuBuilder_Debug" xml:space="preserve">
     <value>تصحيح الأخطاء</value>
-  </data>
-  <data name="MainMenuBuilder_DestinationSettings" xml:space="preserve">
-    <value>إعدادات الوجهة...</value>
-  </data>
-  <data name="MainMenuBuilder_Destinations" xml:space="preserve">
-    <value>الوجهات</value>
   </data>
   <data name="MainMenuBuilder_DisableHotkeys" xml:space="preserve">
     <value>تعطيل الاختصارات</value>
@@ -1426,9 +832,6 @@
   </data>
   <data name="MainMenuBuilder_Donate" xml:space="preserve">
     <value>تبرع</value>
-  </data>
-  <data name="MainMenuBuilder_DragAndDropUpload" xml:space="preserve">
-    <value>الرفع بالسحب والإفلات</value>
   </data>
   <data name="MainMenuBuilder_EditTools" xml:space="preserve">
     <value>تحرير</value>
@@ -1544,9 +947,6 @@
   <data name="MainMenuBuilder_Region" xml:space="preserve">
     <value>منطقة...</value>
   </data>
-  <data name="MainMenuBuilder_RemoteStorageBrowser" xml:space="preserve">
-    <value>متصفح التخزين البعيد...</value>
-  </data>
   <data name="MainMenuBuilder_RestartAsAdministrator" xml:space="preserve">
     <value>إعادة التشغيل كمسؤول</value>
   </data>
@@ -1568,9 +968,6 @@
   <data name="MainMenuBuilder_ScrollingCapture" xml:space="preserve">
     <value>التقاط التمرير...</value>
   </data>
-  <data name="MainMenuBuilder_ShortenUrl" xml:space="preserve">
-    <value>اختصار عنوان URL</value>
-  </data>
   <data name="MainMenuBuilder_ShowCursor" xml:space="preserve">
     <value>إظهار المؤشر</value>
   </data>
@@ -1582,21 +979,6 @@
   </data>
   <data name="MainMenuBuilder_TaskSettings" xml:space="preserve">
     <value>إعدادات المهمة</value>
-  </data>
-  <data name="MainMenuBuilder_TestFileUpload" xml:space="preserve">
-    <value>اختبار رفع ملف</value>
-  </data>
-  <data name="MainMenuBuilder_TestImageUpload" xml:space="preserve">
-    <value>اختبار رفع صورة</value>
-  </data>
-  <data name="MainMenuBuilder_TestTextUpload" xml:space="preserve">
-    <value>اختبار رفع نص</value>
-  </data>
-  <data name="MainMenuBuilder_TestUrlSharing" xml:space="preserve">
-    <value>اختبار مشاركة URL</value>
-  </data>
-  <data name="MainMenuBuilder_TestUrlShortener" xml:space="preserve">
-    <value>اختبار مختصر URL</value>
   </data>
   <data name="MainMenuBuilder_ToolCategoryData" xml:space="preserve">
     <value>البيانات والنصوص</value>
@@ -1615,24 +997,6 @@
   </data>
   <data name="MainMenuBuilder_Tools" xml:space="preserve">
     <value>الأدوات</value>
-  </data>
-  <data name="MainMenuBuilder_Upload" xml:space="preserve">
-    <value>رفع</value>
-  </data>
-  <data name="MainMenuBuilder_UploadClipboard" xml:space="preserve">
-    <value>رفع الحافظة...</value>
-  </data>
-  <data name="MainMenuBuilder_UploadFile" xml:space="preserve">
-    <value>رفع الملف</value>
-  </data>
-  <data name="MainMenuBuilder_UploadFolder" xml:space="preserve">
-    <value>رفع المجلد</value>
-  </data>
-  <data name="MainMenuBuilder_UploadText" xml:space="preserve">
-    <value>رفع النص</value>
-  </data>
-  <data name="MainMenuBuilder_UploadUrl" xml:space="preserve">
-    <value>رفع عنوان URL...</value>
   </data>
   <data name="MainMenuBuilder_VideoConverter" xml:space="preserve">
     <value>محوّل صيغ الفيديو</value>
@@ -1658,9 +1022,6 @@
   <data name="MainWindow_AlwaysOnTop" xml:space="preserve">
     <value>دائمًا في المقدمة</value>
   </data>
-  <data name="MainWindow_AnalyzeImage" xml:space="preserve">
-    <value>تحليل الصورة</value>
-  </data>
   <data name="MainWindow_BeautifyImage" xml:space="preserve">
     <value>تحسين صورة</value>
   </data>
@@ -1676,23 +1037,11 @@
   <data name="MainWindow_Copy" xml:space="preserve">
     <value>نسخ</value>
   </data>
-  <data name="MainWindow_DeleteItemRemotely" xml:space="preserve">
-    <value>حذف العنصر عن بُعد...</value>
-  </data>
-  <data name="MainWindow_DeleteItemRemotelyConfirmation" xml:space="preserve">
-    <value>هل تريد حقًا حذف هذا العنصر عن بُعد؟</value>
-  </data>
   <data name="MainWindow_DeleteSelectedFile" xml:space="preserve">
     <value>حذف الملف المحدد...</value>
   </data>
   <data name="MainWindow_DeleteSelectedItem" xml:space="preserve">
     <value>حذف العنصر المحدد</value>
-  </data>
-  <data name="MainWindow_DeletionUrl" xml:space="preserve">
-    <value>عنوان الحذف</value>
-  </data>
-  <data name="MainWindow_DownloadSelectedUrl" xml:space="preserve">
-    <value>تنزيل عنوان URL المحدد</value>
   </data>
   <data name="MainWindow_EditImage" xml:space="preserve">
     <value>تعديل الصورة</value>
@@ -1709,20 +1058,8 @@
   <data name="MainWindow_FilePath" xml:space="preserve">
     <value>مسار الملف</value>
   </data>
-  <data name="MainWindow_FilesDroppedUploadDescription" xml:space="preserve">
-    <value>سيتم رفع الملفات التي تُفلت هنا بواسطة ShareX.</value>
-  </data>
   <data name="MainWindow_Folder" xml:space="preserve">
     <value>المجلد</value>
-  </data>
-  <data name="MainWindow_ForumImage" xml:space="preserve">
-    <value>صورة المنتدى</value>
-  </data>
-  <data name="MainWindow_ForumLink" xml:space="preserve">
-    <value>رابط المنتدى</value>
-  </data>
-  <data name="MainWindow_ForumLinkedImage" xml:space="preserve">
-    <value>صورة المنتدى المرتبطة</value>
   </data>
   <data name="MainWindow_Horizontal" xml:space="preserve">
     <value>أفقي</value>
@@ -1731,31 +1068,13 @@
     <value>أفقياً</value>
   </data>
   <data name="MainWindow_HotkeyHint" xml:space="preserve">
-    <value>استخدم مفتاح اختصار للالتقاط أو الرفع. ستظهر نتائجك هنا كصور مصغرة.</value>
-  </data>
-  <data name="MainWindow_HtmlImage" xml:space="preserve">
-    <value>صورة HTML</value>
-  </data>
-  <data name="MainWindow_HtmlLink" xml:space="preserve">
-    <value>رابط HTML</value>
-  </data>
-  <data name="MainWindow_HtmlLinkedImage" xml:space="preserve">
-    <value>صورة HTML مرتبطة</value>
+    <value>استخدم مفتاح اختصار للالتقاط. ستظهر النتائج هنا كصور مصغرة.</value>
   </data>
   <data name="MainWindow_Image" xml:space="preserve">
     <value>الصورة</value>
   </data>
   <data name="MainWindow_ImageDimensions" xml:space="preserve">
     <value>أبعاد الصورة</value>
-  </data>
-  <data name="MainWindow_MarkdownImage" xml:space="preserve">
-    <value>صورة Markdown</value>
-  </data>
-  <data name="MainWindow_MarkdownLink" xml:space="preserve">
-    <value>رابط Markdown</value>
-  </data>
-  <data name="MainWindow_MarkdownLinkedImage" xml:space="preserve">
-    <value>صورة Markdown مرتبطة</value>
   </data>
   <data name="MainWindow_MaximizeOrRestore" xml:space="preserve">
     <value>تعظيم أو استعادة</value>
@@ -1772,62 +1091,20 @@
   <data name="MainWindow_PinToScreen" xml:space="preserve">
     <value>تثيبت على الشاشة</value>
   </data>
-  <data name="MainWindow_ReleaseToUploadFiles" xml:space="preserve">
-    <value>أفلت لرفع الملفات</value>
-  </data>
-  <data name="MainWindow_ReleaseToUploadText" xml:space="preserve">
-    <value>أفلت لرفع النص</value>
-  </data>
-  <data name="MainWindow_RemoteDeleteFailed" xml:space="preserve">
-    <value>فشل حذف العنصر عن بُعد.</value>
-  </data>
-  <data name="MainWindow_RemoteDeleteSucceeded" xml:space="preserve">
-    <value>تم حذف العنصر عن بُعد.</value>
-  </data>
-  <data name="MainWindow_RemoteDeletion" xml:space="preserve">
-    <value>الحذف عن بُعد</value>
-  </data>
   <data name="MainWindow_ResizeImage" xml:space="preserve">
     <value>تغيير حجم الصورة...</value>
   </data>
   <data name="MainWindow_RunAction" xml:space="preserve">
     <value>تشغيل الإجراء</value>
   </data>
-  <data name="MainWindow_SearchWithBingVisualSearch" xml:space="preserve">
-    <value>البحث باستخدام البحث المرئي من Bing...</value>
-  </data>
-  <data name="MainWindow_SearchWithGoogleLens" xml:space="preserve">
-    <value>البحث باستخدام Google Lens...</value>
-  </data>
-  <data name="MainWindow_ShareSelectedUrl" xml:space="preserve">
-    <value>مشاركة عنوان URL المحدد</value>
-  </data>
   <data name="MainWindow_ShareXHotkeys" xml:space="preserve">
     <value>اختصارات ShareX</value>
-  </data>
-  <data name="MainWindow_ShortenSelectedUrl" xml:space="preserve">
-    <value>اختصار عنوان URL المحدد</value>
-  </data>
-  <data name="MainWindow_ShortenedUrl" xml:space="preserve">
-    <value>عنوان URL المختصر</value>
   </data>
   <data name="MainWindow_ShowErrors" xml:space="preserve">
     <value>إظهار الأخطاء...</value>
   </data>
-  <data name="MainWindow_ShowQRCode" xml:space="preserve">
-    <value>إظهار رمز QR...</value>
-  </data>
-  <data name="MainWindow_ShowResponse" xml:space="preserve">
-    <value>إظهار الاستجابة...</value>
-  </data>
-  <data name="MainWindow_StopUpload" xml:space="preserve">
-    <value>إيقاف الرفع</value>
-  </data>
   <data name="MainWindow_Text" xml:space="preserve">
     <value>النص</value>
-  </data>
-  <data name="MainWindow_TextDroppedUploadDescription" xml:space="preserve">
-    <value>سيتم رفع النص الذي يُفلت هنا بواسطة ShareX.</value>
   </data>
   <data name="MainWindow_ThumbnailFile" xml:space="preserve">
     <value>ملف الصورة المصغرة</value>
@@ -1835,20 +1112,11 @@
   <data name="MainWindow_ThumbnailImage" xml:space="preserve">
     <value>الصورة المصغرة</value>
   </data>
-  <data name="MainWindow_ThumbnailUrl" xml:space="preserve">
-    <value>عنوان URL للصورة المصغرة</value>
-  </data>
   <data name="MainWindow_TrimAnimatedGif" xml:space="preserve">
     <value>قص صورة GIF متحركة...</value>
   </data>
   <data name="MainWindow_TrimVideo" xml:space="preserve">
     <value>قص الفيديو...</value>
-  </data>
-  <data name="MainWindow_UploadSelectedFile" xml:space="preserve">
-    <value>رفع الملف المحدد</value>
-  </data>
-  <data name="MainWindow_Url" xml:space="preserve">
-    <value>عنوان URL</value>
   </data>
   <data name="MainWindow_Vertical" xml:space="preserve">
     <value>عمودي</value>
@@ -1859,20 +1127,14 @@
   <data name="MouseHighlighter" xml:space="preserve">
     <value>تمييز الماوس</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_Cancel" xml:space="preserve">
-    <value>إلغاء</value>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>محرك OCR</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_DontShowAgain" xml:space="preserve">
-    <value>لا تعرض هذه الرسالة مرة أخرى.</value>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_Message" xml:space="preserve">
-    <value>هل أنت متأكد من رغبتك في رفع {0} ملفات؟</value>
-  </data>
-  <data name="MultiUploadConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - رفع الملفات</value>
-  </data>
-  <data name="MultiUploadConfirmationWindow_Upload" xml:space="preserve">
-    <value>رفع</value>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
   </data>
   <data name="PinToScreen" xml:space="preserve">
     <value>تثبيت على الشاشة</value>
@@ -1892,12 +1154,6 @@
   </data>
   <data name="QuickTaskMenuEditorWindow_AfterCaptureTasks" xml:space="preserve">
     <value>مهام بعد الالتقاط</value>
-  </data>
-  <data name="QuickTaskMenuEditorWindow_AfterUploadSummary" xml:space="preserve">
-    <value>{0}  •  بعد الرفع: {1}</value>
-  </data>
-  <data name="QuickTaskMenuEditorWindow_AfterUploadTasks" xml:space="preserve">
-    <value>مهام بعد الرفع</value>
   </data>
   <data name="QuickTaskMenuEditorWindow_Cancel" xml:space="preserve">
     <value>إلغاء</value>
@@ -2059,24 +1315,6 @@
   <data name="ShareXIsUpToDate" xml:space="preserve">
     <value>تطبيق  ShareX محدث بالفعل!</value>
   </data>
-  <data name="ShortenURLWindow_Cancel" xml:space="preserve">
-    <value>إلغاء</value>
-  </data>
-  <data name="ShortenURLWindow_Heading" xml:space="preserve">
-    <value>تقصير عنوان URL</value>
-  </data>
-  <data name="ShortenURLWindow_Shorten" xml:space="preserve">
-    <value>تقصير</value>
-  </data>
-  <data name="ShortenURLWindow_Title" xml:space="preserve">
-    <value>ShareX - تقصير عنوان URL</value>
-  </data>
-  <data name="ShortenURLWindow_URL" xml:space="preserve">
-    <value>عنوان URL</value>
-  </data>
-  <data name="ShortenURLWindow_Validation" xml:space="preserve">
-    <value>أدخل عنوان URL صالحًا من نوع HTTP أو HTTPS أو FTP.</value>
-  </data>
   <data name="StartScreen_GetStarted" xml:space="preserve">
     <value>ابدأ</value>
   </data>
@@ -2098,12 +1336,6 @@
   <data name="StartScreen_WelcomeSubtitle" xml:space="preserve">
     <value>التقط أي شيء وحرّره وشاركه بطريقتك.</value>
   </data>
-  <data name="TaskHelpers_AddCustomUploaderConfirmation" xml:space="preserve">
-    <value>هل تريد إضافة أداة الرفع المخصصة «{0}»؟</value>
-  </data>
-  <data name="TaskHelpers_CustomUploaderConfirmationTitle" xml:space="preserve">
-    <value>ShareX - تأكيد أداة الرفع المخصصة</value>
-  </data>
   <data name="TaskHelpers_FileDoesNotExist" xml:space="preserve">
     <value>الملف غير موجود:
 {0}</value>
@@ -2111,53 +1343,23 @@
   <data name="TaskHelpers_OpenQuickScreenColorPicker_Copied_to_clipboard___0_" xml:space="preserve">
     <value>تم نسخ {0} إلى الحافظة</value>
   </data>
-  <data name="TaskHelpers_RemoteStorageNotConfigured" xml:space="preserve">
-    <value>قم بتكوين برنامج تحميل Amazon S3 أو FTP أو FTPS أو SFTP في إعدادات الوجهة قبل فتح متصفح التخزين البعيد.</value>
-  </data>
-  <data name="TaskHelpers_SetActiveCustomUploaderConfirmation" xml:space="preserve">
-    <value>هل تريد تعيين «{0}» كأداة الرفع المخصصة النشطة لـ {1}؟</value>
-  </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_disabled_" xml:space="preserve">
     <value>تم تعطيل اختصارات لوحة المفاتيح.</value>
   </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_enabled_" xml:space="preserve">
     <value>تم تعطيل اختصارات لوحة المفاتيح.</value>
   </data>
-  <data name="TaskManager_UploadCompletedURL" xml:space="preserve">
-    <value>اكتمل الرفع. الرابط: {0}</value>
-  </data>
-  <data name="TaskManager_task_UploadCompleted_Error" xml:space="preserve">
+  <data name="TaskManager_TaskCompleted_Error" xml:space="preserve">
     <value>خطأ</value>
   </data>
-  <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
+  <data name="TaskManager_TaskCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>انتهت المهمة</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_File_uploader___0_" xml:space="preserve">
-    <value>رافعو الملفات: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_Image_uploader___0_" xml:space="preserve">
-    <value>رافع الصور: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
-    <value>رافع النصوص: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
-    <value>خدمة مشاركة عناوين URL: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>خدمة اختصار عناوين URL: {0}</value>
   </data>
   <data name="TaskSettingsWindow_Actions" xml:space="preserve">
     <value>الإجراءات</value>
   </data>
-  <data name="TaskSettingsWindow_Add" xml:space="preserve">
-    <value>إضافة</value>
-  </data>
   <data name="TaskSettingsWindow_AddAction" xml:space="preserve">
     <value>إضافة إجراء</value>
-  </data>
-  <data name="TaskSettingsWindow_AddWatchFolder" xml:space="preserve">
-    <value>إضافة مجلد مراقبة</value>
   </data>
   <data name="TaskSettingsWindow_AddWithEllipsis" xml:space="preserve">
     <value>إضافة...</value>
@@ -2171,12 +1373,6 @@
   <data name="TaskSettingsWindow_AfterCaptureTasks" xml:space="preserve">
     <value>مهام ما بعد الالتقاط</value>
   </data>
-  <data name="TaskSettingsWindow_AfterUpload" xml:space="preserve">
-    <value>بعد الرفع</value>
-  </data>
-  <data name="TaskSettingsWindow_AfterUploadTasks" xml:space="preserve">
-    <value>مهام ما بعد الرفع</value>
-  </data>
   <data name="TaskSettingsWindow_AlsoDetectControlsInsideWindows" xml:space="preserve">
     <value>اكتشاف عناصر التحكم داخل النوافذ أيضًا</value>
   </data>
@@ -2186,12 +1382,6 @@
   <data name="TaskSettingsWindow_AskForConfirmationWhenAborting" xml:space="preserve">
     <value>طلب التأكيد عند الإلغاء</value>
   </data>
-  <data name="TaskSettingsWindow_AutoClearClipboard" xml:space="preserve">
-    <value>مسح الحافظة تلقائيًا</value>
-  </data>
-  <data name="TaskSettingsWindow_AutoCloseAfterUploadForm" xml:space="preserve">
-    <value>إغلاق نافذة ما بعد الرفع تلقائيًا</value>
-  </data>
   <data name="TaskSettingsWindow_AutoCloseEditorOnTask" xml:space="preserve">
     <value>إغلاق المحرر تلقائيًا بعد المهمة</value>
   </data>
@@ -2200,9 +1390,6 @@
   </data>
   <data name="TaskSettingsWindow_AutoIncrementNumber" xml:space="preserve">
     <value>رقم متزايد تلقائيًا:</value>
-  </data>
-  <data name="TaskSettingsWindow_AutoShortenURLLength" xml:space="preserve">
-    <value>طول الاختصار التلقائي لعناوين URL</value>
   </data>
   <data name="TaskSettingsWindow_AutomaticJPEG" xml:space="preserve">
     <value>JPEG تلقائي</value>
@@ -2222,9 +1409,6 @@
   <data name="TaskSettingsWindow_BackgroundDimStrengthPercent" xml:space="preserve">
     <value>قوة تعتيم الخلفية (%):</value>
   </data>
-  <data name="TaskSettingsWindow_BalloonTipContentFormat" xml:space="preserve">
-    <value>تنسيق محتوى الإشعار</value>
-  </data>
   <data name="TaskSettingsWindow_BrowseWithEllipsis" xml:space="preserve">
     <value>استعراض...</value>
   </data>
@@ -2237,8 +1421,8 @@
   <data name="TaskSettingsWindow_CaptureClientAreaForWindowCaptures" xml:space="preserve">
     <value>التقاط منطقة العميل في التقاط النوافذ</value>
   </data>
-  <data name="TaskSettingsWindow_CaptureOrClipboardUpload" xml:space="preserve">
-    <value>رفع الالتقاط أو الحافظة:</value>
+  <data name="TaskSettingsWindow_CaptureTasks" xml:space="preserve">
+    <value>مهام الالتقاط:</value>
   </data>
   <data name="TaskSettingsWindow_CaptureWindowWithShadow" xml:space="preserve">
     <value>التقاط النافذة مع الظل</value>
@@ -2258,18 +1442,6 @@
   <data name="TaskSettingsWindow_ChooseTheActionsShownAtTheBottomOfAfterCaptureNotifications" xml:space="preserve">
     <value>اختر الإجراءات التي تظهر أسفل إشعارات ما بعد الالتقاط.</value>
   </data>
-  <data name="TaskSettingsWindow_ChooseWatchFolder" xml:space="preserve">
-    <value>اختيار مجلد المراقبة</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardContent" xml:space="preserve">
-    <value>محتوى الحافظة</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardContentFormat" xml:space="preserve">
-    <value>تنسيق محتوى الحافظة</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardUpload" xml:space="preserve">
-    <value>رفع الحافظة</value>
-  </data>
   <data name="TaskSettingsWindow_Close" xml:space="preserve">
     <value>إغلاق</value>
   </data>
@@ -2285,9 +1457,6 @@
   <data name="TaskSettingsWindow_CustomSounds" xml:space="preserve">
     <value>أصوات مخصصة</value>
   </data>
-  <data name="TaskSettingsWindow_CustomUploader" xml:space="preserve">
-    <value>الرافع المخصص:</value>
-  </data>
   <data name="TaskSettingsWindow_CustomizeToolbarWithEllipsis" xml:space="preserve">
     <value>تخصيص شريط الأدوات...</value>
   </data>
@@ -2299,9 +1468,6 @@
   </data>
   <data name="TaskSettingsWindow_Description" xml:space="preserve">
     <value>الوصف:</value>
-  </data>
-  <data name="TaskSettingsWindow_Destinations" xml:space="preserve">
-    <value>الوجهات</value>
   </data>
   <data name="TaskSettingsWindow_DetectWindowRegions" xml:space="preserve">
     <value>اكتشاف مناطق النوافذ</value>
@@ -2315,14 +1481,8 @@
   <data name="TaskSettingsWindow_DurationSeconds" xml:space="preserve">
     <value>المدة (بالثواني):</value>
   </data>
-  <data name="TaskSettingsWindow_EarlyCopyURL" xml:space="preserve">
-    <value>نسخ URL قبل الرفع</value>
-  </data>
   <data name="TaskSettingsWindow_EditAction" xml:space="preserve">
     <value>تحرير الإجراء</value>
-  </data>
-  <data name="TaskSettingsWindow_EditWatchFolder" xml:space="preserve">
-    <value>تحرير مجلد المراقبة</value>
   </data>
   <data name="TaskSettingsWindow_EditWithEllipsis" xml:space="preserve">
     <value>تحرير...</value>
@@ -2336,17 +1496,8 @@
   <data name="TaskSettingsWindow_EncodingAndCapture" xml:space="preserve">
     <value>الترميز والالتقاط</value>
   </data>
-  <data name="TaskSettingsWindow_ExamplePng" xml:space="preserve">
-    <value>مثال: *.png</value>
-  </data>
   <data name="TaskSettingsWindow_ExtensionFilterExampleJpgPngMp4" xml:space="preserve">
     <value>عامل تصفية الامتدادات (مثال: jpg png mp4)</value>
-  </data>
-  <data name="TaskSettingsWindow_Extensions" xml:space="preserve">
-    <value>الامتدادات:</value>
-  </data>
-  <data name="TaskSettingsWindow_FTPAccount" xml:space="preserve">
-    <value>حساب FTP:</value>
   </data>
   <data name="TaskSettingsWindow_FadeDurationSeconds" xml:space="preserve">
     <value>مدة التلاشي (بالثواني):</value>
@@ -2356,15 +1507,6 @@
   </data>
   <data name="TaskSettingsWindow_FilePath" xml:space="preserve">
     <value>مسار الملف</value>
-  </data>
-  <data name="TaskSettingsWindow_Filter" xml:space="preserve">
-    <value>عامل التصفية</value>
-  </data>
-  <data name="TaskSettingsWindow_Filters" xml:space="preserve">
-    <value>عوامل التصفية</value>
-  </data>
-  <data name="TaskSettingsWindow_FolderPath" xml:space="preserve">
-    <value>مسار المجلد</value>
   </data>
   <data name="TaskSettingsWindow_Format" xml:space="preserve">
     <value>التنسيق:</value>
@@ -2396,18 +1538,6 @@
   <data name="TaskSettingsWindow_HighlightMouseWhileRecording" xml:space="preserve">
     <value>بدء تشغيل أداة تمييز الماوس تلقائيًا</value>
   </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAFileURLDownloadAndUploadIt" xml:space="preserve">
-    <value>إذا كانت الحافظة تحتوي على URL لملف، فنزّله وارفعه</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAFolderPathIndexAndUploadIt" xml:space="preserve">
-    <value>إذا كانت الحافظة تحتوي على مسار مجلد، فافهرسه وارفعه</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAURLShareItUsingURLSharingService" xml:space="preserve">
-    <value>إذا كانت الحافظة تحتوي على URL، فشاركه باستخدام خدمة مشاركة URL</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAURLUseURLShortener" xml:space="preserve">
-    <value>إذا كانت الحافظة تحتوي على URL، فاستخدم مختصر URL</value>
-  </data>
   <data name="TaskSettingsWindow_IfFileExists" xml:space="preserve">
     <value>إذا كان الملف موجودًا:</value>
   </data>
@@ -2434,9 +1564,6 @@
   </data>
   <data name="TaskSettingsWindow_ImageQuality" xml:space="preserve">
     <value>جودة الصورة</value>
-  </data>
-  <data name="TaskSettingsWindow_IncludeSubdirectories" xml:space="preserve">
-    <value>تضمين المجلدات الفرعية</value>
   </data>
   <data name="TaskSettingsWindow_InfoText" xml:space="preserve">
     <value>نص المعلومات:</value>
@@ -2491,9 +1618,6 @@
   </data>
   <data name="TaskSettingsWindow_MoveDown" xml:space="preserve">
     <value>نقل إلى أسفل</value>
-  </data>
-  <data name="TaskSettingsWindow_MoveFileToScreenshotsFolder" xml:space="preserve">
-    <value>نقل الملف إلى مجلد لقطات الشاشة</value>
   </data>
   <data name="TaskSettingsWindow_MoveUp" xml:space="preserve">
     <value>نقل إلى أعلى</value>
@@ -2588,9 +1712,6 @@
   <data name="TaskSettingsWindow_NativeRecorderUnavailableSystemAudioDevice" xml:space="preserve">
     <value>جهاز إخراج غير متاح</value>
   </data>
-  <data name="TaskSettingsWindow_No" xml:space="preserve">
-    <value>لا</value>
-  </data>
   <data name="TaskSettingsWindow_NoButtonsConfiguredTheNotificationToolbarWillBeHidden" xml:space="preserve">
     <value>لم يتم إعداد أي أزرار. سيُخفى شريط أدوات الإشعارات.</value>
   </data>
@@ -2615,11 +1736,11 @@
   <data name="TaskSettingsWindow_OCRLanguagesAreUnavailable" xml:space="preserve">
     <value>لغات OCR غير متاحة</value>
   </data>
+  <data name="TaskSettingsWindow_OcrGpuAcceleration" xml:space="preserve">
+    <value>استخدام تسريع الرسومات للتعرف على النص OCR</value>
+  </data>
   <data name="TaskSettingsWindow_OnlyApplyEffectsToRegionCapture" xml:space="preserve">
     <value>تطبيق التأثيرات على التقاط المنطقة فقط</value>
-  </data>
-  <data name="TaskSettingsWindow_OpenURLFormat" xml:space="preserve">
-    <value>تنسيق فتح URL</value>
   </data>
   <data name="TaskSettingsWindow_OpticalCharacterRecognition" xml:space="preserve">
     <value>التعرف البصري على الأحرف</value>
@@ -2636,20 +1757,8 @@
   <data name="TaskSettingsWindow_OverrideAfterCaptureTasks" xml:space="preserve">
     <value>تجاوز مهام ما بعد الالتقاط</value>
   </data>
-  <data name="TaskSettingsWindow_OverrideAfterUploadTasks" xml:space="preserve">
-    <value>تجاوز مهام ما بعد الرفع</value>
-  </data>
   <data name="TaskSettingsWindow_OverrideCaptureSettings" xml:space="preserve">
     <value>تجاوز إعدادات الالتقاط</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDefaultCustomUploader" xml:space="preserve">
-    <value>تجاوز الرافع المخصص الافتراضي</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDefaultFTPAccount" xml:space="preserve">
-    <value>تجاوز حساب FTP الافتراضي</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDestinations" xml:space="preserve">
-    <value>تجاوز الوجهات</value>
   </data>
   <data name="TaskSettingsWindow_OverrideGeneralSettings" xml:space="preserve">
     <value>تجاوز الإعدادات العامة</value>
@@ -2662,9 +1771,6 @@
   </data>
   <data name="TaskSettingsWindow_OverrideToolsSettings" xml:space="preserve">
     <value>تجاوز إعدادات الأدوات</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideUploadSettings" xml:space="preserve">
-    <value>تجاوز إعدادات الرفع</value>
   </data>
   <data name="TaskSettingsWindow_PNGBitDepth" xml:space="preserve">
     <value>عمق بت PNG:</value>
@@ -2696,9 +1802,6 @@
   <data name="TaskSettingsWindow_PNGFilterUp" xml:space="preserve">
     <value>Up (البكسل العلوي)</value>
   </data>
-  <data name="TaskSettingsWindow_Pattern" xml:space="preserve">
-    <value>النمط:</value>
-  </data>
   <data name="TaskSettingsWindow_Placement" xml:space="preserve">
     <value>الموضع:</value>
   </data>
@@ -2719,15 +1822,6 @@
   </data>
   <data name="TaskSettingsWindow_Preview" xml:space="preserve">
     <value>المعاينة:</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringClipboardUpload" xml:space="preserve">
-    <value>معالجة الصور أثناء الرفع من الحافظة</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringExtensionUpload" xml:space="preserve">
-    <value>معالجة الصور أثناء الرفع من الامتداد</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringFileUpload" xml:space="preserve">
-    <value>معالجة الصور أثناء رفع الملفات</value>
   </data>
   <data name="TaskSettingsWindow_ProcessOCRSilently" xml:space="preserve">
     <value>معالجة OCR بصمت</value>
@@ -2756,20 +1850,8 @@
   <data name="TaskSettingsWindow_Remove" xml:space="preserve">
     <value>إزالة</value>
   </data>
-  <data name="TaskSettingsWindow_ReplaceResultURLUsingARegularExpression" xml:space="preserve">
-    <value>استبدال عنوان URL الناتج باستخدام تعبير نمطي</value>
-  </data>
-  <data name="TaskSettingsWindow_ReplaceURLProblematicCharactersWithUnderscores" xml:space="preserve">
-    <value>استبدال الأحرف المسببة للمشكلات في URL بشرطات سفلية</value>
-  </data>
-  <data name="TaskSettingsWindow_Replacement" xml:space="preserve">
-    <value>البديل:</value>
-  </data>
   <data name="TaskSettingsWindow_RestrictCaptureAndCursorToTheActiveMonitor" xml:space="preserve">
     <value>تقييد الالتقاط والمؤشر بالشاشة النشطة</value>
-  </data>
-  <data name="TaskSettingsWindow_ResultForceHTTPS" xml:space="preserve">
-    <value>فرض HTTPS لعناوين URL الناتجة</value>
   </data>
   <data name="TaskSettingsWindow_RightClick" xml:space="preserve">
     <value>النقر الأيمن:</value>
@@ -2812,9 +1894,6 @@
   </data>
   <data name="TaskSettingsWindow_Selection" xml:space="preserve">
     <value>التحديد</value>
-  </data>
-  <data name="TaskSettingsWindow_SeparateExtensionsWithCommasForExamplePngJpgJpeg" xml:space="preserve">
-    <value>افصل الامتدادات بفواصل، مثل: png, jpg, jpeg</value>
   </data>
   <data name="TaskSettingsWindow_ShadowOffset" xml:space="preserve">
     <value>إزاحة الظل:</value>
@@ -2918,33 +1997,6 @@
   <data name="TaskSettingsWindow_Tools" xml:space="preserve">
     <value>الأدوات</value>
   </data>
-  <data name="TaskSettingsWindow_URLReplacement" xml:space="preserve">
-    <value>استبدال URL</value>
-  </data>
-  <data name="TaskSettingsWindow_Update" xml:space="preserve">
-    <value>تحديث</value>
-  </data>
-  <data name="TaskSettingsWindow_Upload" xml:space="preserve">
-    <value>الرفع</value>
-  </data>
-  <data name="TaskSettingsWindow_UploadFilesWhenTheyAreCreatedInThisFolder" xml:space="preserve">
-    <value>رفع الملفات عند إنشائها في هذا المجلد.</value>
-  </data>
-  <data name="TaskSettingsWindow_UploadText" xml:space="preserve">
-    <value>رفع النص</value>
-  </data>
-  <data name="TaskSettingsWindow_Uploader" xml:space="preserve">
-    <value>الرافع:</value>
-  </data>
-  <data name="TaskSettingsWindow_UploaderAccounts" xml:space="preserve">
-    <value>حسابات الرفع</value>
-  </data>
-  <data name="TaskSettingsWindow_UploaderFilters" xml:space="preserve">
-    <value>عوامل تصفية الرافع</value>
-  </data>
-  <data name="TaskSettingsWindow_UseAfterCaptureTasksDuringFileUpload" xml:space="preserve">
-    <value>استخدام مهام ما بعد الالتقاط أثناء رفع الملفات</value>
-  </data>
   <data name="TaskSettingsWindow_UseCustomActionCompletedSound" xml:space="preserve">
     <value>استخدام صوت مخصص لاكتمال الإجراء</value>
   </data>
@@ -2969,9 +2021,6 @@
   <data name="TaskSettingsWindow_UseJPEGIfImageSizeIsBiggerThanTheSpecifiedSize" xml:space="preserve">
     <value>استخدام JPEG إذا كانت الصورة أكبر من الحجم المحدد</value>
   </data>
-  <data name="TaskSettingsWindow_UseNamePatternForFileUploads" xml:space="preserve">
-    <value>استخدام نمط اسم لرفع الملفات</value>
-  </data>
   <data name="TaskSettingsWindow_UseRandomImageEffect" xml:space="preserve">
     <value>استخدام تأثير صورة عشوائي</value>
   </data>
@@ -2980,15 +2029,6 @@
   </data>
   <data name="TaskSettingsWindow_UseStartDelay" xml:space="preserve">
     <value>استخدام تأخير بدء التسجيل</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFolderSummary" xml:space="preserve">
-    <value>{0} — {1} — تضمين المجلدات الفرعية: {2}</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFolders" xml:space="preserve">
-    <value>المجلدات المراقبة</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFoldersAndUploadNewlyCreatedFiles" xml:space="preserve">
-    <value>مراقبة المجلدات ورفع الملفات المنشأة حديثًا</value>
   </data>
   <data name="TaskSettingsWindow_WaveAudio" xml:space="preserve">
     <value>صوت Wave</value>
@@ -3008,9 +2048,6 @@
   <data name="TaskSettingsWindow_Y" xml:space="preserve">
     <value>Y:</value>
   </data>
-  <data name="TaskSettingsWindow_Yes" xml:space="preserve">
-    <value>نعم</value>
-  </data>
   <data name="TaskSettingsWindow_YouCanEnableOrDisableActionsFromAfterCaptureTasksPerformActions" xml:space="preserve">
     <value>يمكنك تمكين الإجراءات أو تعطيلها من مهام ما بعد الالتقاط ← تنفيذ الإجراءات.</value>
   </data>
@@ -3020,103 +2057,21 @@
   <data name="TaskSettingsWindow_ZoomToFitOnOpen" xml:space="preserve">
     <value>الملاءمة للنافذة عند الفتح</value>
   </data>
-  <data name="ThisFeatureWillNotWorkWhenDisableUploadOptionIsEnabled" xml:space="preserve">
-    <value>هذا الميزة لن تعمل عندما يكون الخيار "تعطيل الرفع" مفعلًا!</value>
-  </data>
   <data name="ThumbnailItemViewModel_UntitledTask" xml:space="preserve">
     <value>مهمة بلا عنوان</value>
-  </data>
-  <data name="URLUploadWindow_Cancel" xml:space="preserve">
-    <value>إلغاء</value>
-  </data>
-  <data name="URLUploadWindow_Heading" xml:space="preserve">
-    <value>رفع عنوان URL</value>
-  </data>
-  <data name="URLUploadWindow_Prompt" xml:space="preserve">
-    <value>عنوان URL المطلوب تنزيله ورفعه</value>
-  </data>
-  <data name="URLUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - رفع عنوان URL</value>
-  </data>
-  <data name="URLUploadWindow_URL" xml:space="preserve">
-    <value>عنوان URL</value>
-  </data>
-  <data name="URLUploadWindow_Upload" xml:space="preserve">
-    <value>رفع</value>
-  </data>
-  <data name="URLUploadWindow_Validation" xml:space="preserve">
-    <value>أدخل عنوان URL صالحًا من نوع HTTP أو HTTPS أو FTP.</value>
   </data>
   <data name="UnableToFindAWindowWithSpecifiedWindowTitle" xml:space="preserve">
     <value>لم يتم العثور على نافذة لديها العنوان المحدد.</value>
   </data>
-  <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
-    <value>أخطاء الرفع</value>
-  </data>
-  <data name="UploadManager_DownloadAndUploadFile_Download_failed" xml:space="preserve">
-    <value>فشل التنزيل:
-{0}</value>
-  </data>
-  <data name="UploadManager_UploadFile_File_upload" xml:space="preserve">
-    <value>رفع ملف</value>
-  </data>
-  <data name="UploadManager_UploadFolder_Folder_upload" xml:space="preserve">
-    <value>مجلد الرفع</value>
-  </data>
-  <data name="UploadTask_CreateShareURLTask_Share_URL___0__" xml:space="preserve">
-    <value>مشاركة الـ URL ({0})</value>
-  </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>اختصار عنوان URL ({0})</value>
-  </data>
-  <data name="UploadTask_DoAfterCaptureJobs_Choose_a_folder_to_save" xml:space="preserve">
-    <value>اختيار مجلد للحفظ</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
-    <value>جارٍ الرفع</value>
-  </data>
-  <data name="UploadTask_DownloadAndUpload_Downloading" xml:space="preserve">
-    <value>جارٍ التنزيل</value>
-  </data>
-  <data name="UploadTask_OnUploadCompleted_Done" xml:space="preserve">
-    <value>تـم</value>
-  </data>
-  <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
-    <value>تم الإيقاف</value>
-  </data>
-  <data name="UploadTask_Prepare_Preparing" xml:space="preserve">
-    <value>ارتباط</value>
-  </data>
-  <data name="UploadTask_Prepare_Starting" xml:space="preserve">
-    <value>البدء</value>
-  </data>
-  <data name="UploadTask_Stop_Stopping" xml:space="preserve">
-    <value>جار الإيقاف</value>
-  </data>
-  <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
-    <value>عنوان URL فارغ.</value>
-  </data>
   <data name="WorkerTask_AllFilesFilter" xml:space="preserve">
     <value>كل الملفات (*.*)</value>
-  </data>
-  <data name="WorkerTask_ErrorTitle" xml:space="preserve">
-    <value>خطأ {0}</value>
-  </data>
-  <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
-    <value>{0} من الإعدادات غير صالحة أو مفقودة، قم بإصلاح هذه الإعدادات من نافذة "مجلد الوجهة".</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>هل تريد تفعيل مؤثرات الصور؟
 
 يمكنك إيقاف ذلك من خلال قائمة "مهام ما بعد الاتقاط".</value>
   </data>
-  <data name="WouldYouLikeToRetryClipboardUpload" xml:space="preserve">
-    <value>هل تريد إعادة محاولة رفع الحافظة؟</value>
-  </data>
   <data name="YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX" xml:space="preserve">
     <value>كلًا من مكافح الفيروسات أو خيار التحكم بالمجلدات في نظام التشغيل قد يؤديان لتعطيل التطبيق.</value>
-  </data>
-  <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
-    <value>مسؤول النظام قام بإيقاف وظيفة الرفع.</value>
   </data>
 </root>

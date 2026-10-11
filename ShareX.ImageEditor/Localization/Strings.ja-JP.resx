@@ -390,9 +390,6 @@
   <data name="EditorView_Undo" xml:space="preserve">
     <value>元に戻す</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>画像をアップロード (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>URL が有効な画像を指していません。</value>
   </data>
@@ -1227,9 +1224,6 @@
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>画像を挿入しました。</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>画像をアップロードしています。</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>画像を開きました。</value>
   </data>
@@ -1262,6 +1256,9 @@
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>画像なし</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>OCRにグラフィックスアクセラレーションを使用する</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>キャプチャ後のタスクを実行 (Enter)</value>
@@ -1301,6 +1298,54 @@
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>幅:</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>OCR エンジン</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>このプラットフォームでは ShareX OCR を利用できません。エディターの設定で Xiaomi OCR を選択してください。</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>操作を完了できませんでした。</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>文字認識をキャンセルしました。</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>クリップボードにコピー</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>OCRファイルをダウンロード中…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>文字認識に失敗しました。</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>OCRモデルを読み込み中…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>読み込みを高速化するためにOCRファイルを準備中…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>文字を認識中…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>ファイルに保存</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>テキストファイル</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>文字認識</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>適用</value>

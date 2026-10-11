@@ -1103,7 +1103,4 @@
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>پیش‌تنظیم بی‌نام</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>بارگذاری عکس</value>
-  </data>
 </root>

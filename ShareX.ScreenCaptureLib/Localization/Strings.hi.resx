@@ -482,11 +482,11 @@
   <data name="ScrollingCaptureWindow_Auto_ignore_bottom_edge" xml:space="preserve">
     <value>निचला किनारा स्वतः अनदेखा करें</value>
   </data>
+  <data name="ScrollingCaptureWindow_Automatically_save" xml:space="preserve">
+    <value>स्वतः सहेजें</value>
+  </data>
   <data name="ScrollingCaptureWindow_Automatically_scroll_to_top" xml:space="preserve">
     <value>स्वतः ऊपर तक स्क्रॉल करें</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Automatically_upload_save" xml:space="preserve">
-    <value>स्वतः अपलोड / सहेजें</value>
   </data>
   <data name="ScrollingCaptureWindow_Cancel" xml:space="preserve">
     <value>रद्द करें</value>
@@ -527,6 +527,9 @@
   <data name="ScrollingCaptureWindow_Ready" xml:space="preserve">
     <value>तैयार</value>
   </data>
+  <data name="ScrollingCaptureWindow_Save" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
   <data name="ScrollingCaptureWindow_Scroll_amount" xml:space="preserve">
     <value>स्क्रॉल मात्रा:</value>
   </data>
@@ -556,8 +559,5 @@
   </data>
   <data name="ScrollingCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - स्क्रॉलिंग कैप्चर</value>
-  </data>
-  <data name="ScrollingCaptureWindow_Upload_Save" xml:space="preserve">
-    <value>अपलोड / सहेजें</value>
   </data>
 </root>

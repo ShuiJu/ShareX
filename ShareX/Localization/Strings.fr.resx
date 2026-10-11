@@ -133,9 +133,6 @@
   <data name="ActionsToolbarWindow_Close" xml:space="preserve">
     <value>Fermer</value>
   </data>
-  <data name="ActionsToolbarWindow_DropToUpload" xml:space="preserve">
-    <value>Déposez pour téléverser</value>
-  </data>
   <data name="ActionsToolbarWindow_Edit" xml:space="preserve">
     <value>Modifier...</value>
   </data>
@@ -154,9 +151,6 @@
   <data name="ActionsToolbarWindow_Title" xml:space="preserve">
     <value>ShareX - Barre d’actions</value>
   </data>
-  <data name="AfterCaptureWindow_AfterUpload" xml:space="preserve">
-    <value>Après le téléversement</value>
-  </data>
   <data name="AfterCaptureWindow_Cancel" xml:space="preserve">
     <value>Annuler</value>
   </data>
@@ -168,12 +162,6 @@
   </data>
   <data name="AfterCaptureWindow_CopyPreviewImage" xml:space="preserve">
     <value>Copier l’image d’aperçu</value>
-  </data>
-  <data name="AfterCaptureWindow_CustomUploader" xml:space="preserve">
-    <value>Personnalisé [{0}]</value>
-  </data>
-  <data name="AfterCaptureWindow_Destinations" xml:space="preserve">
-    <value>Destinations</value>
   </data>
   <data name="AfterCaptureWindow_FileName" xml:space="preserve">
     <value>Nom du fichier</value>
@@ -189,51 +177,6 @@
   </data>
   <data name="AfterCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - Après la capture</value>
-  </data>
-  <data name="AfterUploadWindow_ClipboardFormats" xml:space="preserve">
-    <value>Formats du presse-papiers</value>
-  </data>
-  <data name="AfterUploadWindow_Close" xml:space="preserve">
-    <value>Fermer</value>
-  </data>
-  <data name="AfterUploadWindow_CopyImage" xml:space="preserve">
-    <value>Copier l’image</value>
-  </data>
-  <data name="AfterUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>Copier l’image d’aperçu</value>
-  </data>
-  <data name="AfterUploadWindow_CopySelectedFormat" xml:space="preserve">
-    <value>Copier le format sélectionné</value>
-  </data>
-  <data name="AfterUploadWindow_GroupCustom" xml:space="preserve">
-    <value>Personnalisé</value>
-  </data>
-  <data name="AfterUploadWindow_GroupForums" xml:space="preserve">
-    <value>Forums</value>
-  </data>
-  <data name="AfterUploadWindow_GroupLinks" xml:space="preserve">
-    <value>Liens</value>
-  </data>
-  <data name="AfterUploadWindow_GroupLocal" xml:space="preserve">
-    <value>Local</value>
-  </data>
-  <data name="AfterUploadWindow_NoPreview" xml:space="preserve">
-    <value>Aucun aperçu d’image disponible</value>
-  </data>
-  <data name="AfterUploadWindow_OpenContainingFolder" xml:space="preserve">
-    <value>Ouvrir le dossier contenant</value>
-  </data>
-  <data name="AfterUploadWindow_OpenFile" xml:space="preserve">
-    <value>Ouvrir le fichier</value>
-  </data>
-  <data name="AfterUploadWindow_OpenLink" xml:space="preserve">
-    <value>Ouvrir le lien</value>
-  </data>
-  <data name="AfterUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - Après le téléversement</value>
-  </data>
-  <data name="AfterUploadWindow_UploadComplete" xml:space="preserve">
-    <value>Téléversement terminé</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Voulez-vous réinitialiser les paramètres de ShareX ?</value>
@@ -259,12 +202,6 @@
   <data name="ApplicationSettingsWindow_AccentColorLabel" xml:space="preserve">
     <value>Couleur d’accentuation :</value>
   </data>
-  <data name="ApplicationSettingsWindow_Add" xml:space="preserve">
-    <value>Ajouter...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_AddClipboardFormat" xml:space="preserve">
-    <value>Ajouter un format de presse-papiers</value>
-  </data>
   <data name="ApplicationSettingsWindow_Advanced" xml:space="preserve">
     <value>Avancé</value>
   </data>
@@ -274,9 +211,6 @@
   <data name="ApplicationSettingsWindow_AdvancedClipboard" xml:space="preserve">
     <value>Presse-papiers</value>
   </data>
-  <data name="ApplicationSettingsWindow_AdvancedDragAndDropWindow" xml:space="preserve">
-    <value>Fenêtre de glisser-déposer</value>
-  </data>
   <data name="ApplicationSettingsWindow_AdvancedHotkeys" xml:space="preserve">
     <value>Raccourcis clavier</value>
   </data>
@@ -285,9 +219,6 @@
   </data>
   <data name="ApplicationSettingsWindow_AdvancedPaths" xml:space="preserve">
     <value>Chemins</value>
-  </data>
-  <data name="ApplicationSettingsWindow_AdvancedUpload" xml:space="preserve">
-    <value>Téléversement</value>
   </data>
   <data name="ApplicationSettingsWindow_Application" xml:space="preserve">
     <value>Application</value>
@@ -319,11 +250,11 @@
   <data name="ApplicationSettingsWindow_BackupImportedFrom" xml:space="preserve">
     <value>Sauvegarde importée depuis {0}</value>
   </data>
+  <data name="ApplicationSettingsWindow_BackupPrivacyWarning" xml:space="preserve">
+    <value>Ne partagez pas une sauvegarde exportée. Elle peut contenir des paramètres privés.</value>
+  </data>
   <data name="ApplicationSettingsWindow_BinaryUnits" xml:space="preserve">
     <value>Utiliser les unités binaires</value>
-  </data>
-  <data name="ApplicationSettingsWindow_BottomCenter" xml:space="preserve">
-    <value>En bas au centre</value>
   </data>
   <data name="ApplicationSettingsWindow_BottomLeft" xml:space="preserve">
     <value>En bas à gauche</value>
@@ -337,12 +268,6 @@
   <data name="ApplicationSettingsWindow_BrowserPath" xml:space="preserve">
     <value>Chemin du navigateur</value>
   </data>
-  <data name="ApplicationSettingsWindow_BufferSizeLabel" xml:space="preserve">
-    <value>Taille de la mémoire tampon :</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Cancel" xml:space="preserve">
-    <value>Annuler</value>
-  </data>
   <data name="ApplicationSettingsWindow_ChangesToThePersonalFolderAreStoredImmediatelyAndTakeEffectAfterRestart" xml:space="preserve">
     <value>Les modifications du dossier personnel sont enregistrées immédiatement et prennent effet après le redémarrage.</value>
   </data>
@@ -352,23 +277,11 @@
   <data name="ApplicationSettingsWindow_ChooseShareXPersonalFolderPath" xml:space="preserve">
     <value>Choisir le chemin du dossier personnel ShareX</value>
   </data>
-  <data name="ApplicationSettingsWindow_ChromeExtension" xml:space="preserve">
-    <value>Extension Chrome</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ClipboardFormats" xml:space="preserve">
-    <value>Formats du presse-papiers</value>
-  </data>
   <data name="ApplicationSettingsWindow_CustomHotkeysConfigPath" xml:space="preserve">
     <value>Chemin personnalisé de configuration des raccourcis</value>
   </data>
   <data name="ApplicationSettingsWindow_CustomScreenshotsPath2" xml:space="preserve">
     <value>Chemin secondaire des captures d’écran</value>
-  </data>
-  <data name="ApplicationSettingsWindow_CustomUploadersConfigPath" xml:space="preserve">
-    <value>Chemin personnalisé de configuration des services d’hébergement</value>
-  </data>
-  <data name="ApplicationSettingsWindow_CustomizeTheTextCopiedFromCompletedUploads" xml:space="preserve">
-    <value>Personnalisez le texte copié depuis les téléversements terminés.</value>
   </data>
   <data name="ApplicationSettingsWindow_Dark" xml:space="preserve">
     <value>Sombre</value>
@@ -379,9 +292,6 @@
   <data name="ApplicationSettingsWindow_DefaultPrinterOverrideLabel" xml:space="preserve">
     <value>Remplacement de l’imprimante par défaut :</value>
   </data>
-  <data name="ApplicationSettingsWindow_Description" xml:space="preserve">
-    <value>Description</value>
-  </data>
   <data name="ApplicationSettingsWindow_DevMode" xml:space="preserve">
     <value>Mode développeur</value>
   </data>
@@ -391,47 +301,14 @@
   <data name="ApplicationSettingsWindow_DisableHotkeysOnFullscreen" xml:space="preserve">
     <value>Désactiver les raccourcis dans les applications en plein écran</value>
   </data>
-  <data name="ApplicationSettingsWindow_DisableUpload" xml:space="preserve">
-    <value>Désactiver les téléversements</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DoNotShareAnExportedBackupItCanContainPrivateInformationSuchAsAccountDetailsAndUploadHistory" xml:space="preserve">
-    <value>Ne partagez pas une sauvegarde exportée. Elle peut contenir des informations privées, notamment les détails des comptes et l’historique des téléversements.</value>
-  </data>
   <data name="ApplicationSettingsWindow_DontShowImagePrintSettingsDialog" xml:space="preserve">
     <value>Ne pas afficher la boîte de dialogue des paramètres d’impression d’image</value>
   </data>
   <data name="ApplicationSettingsWindow_DontShowWindowsPrintDialog" xml:space="preserve">
     <value>Ne pas afficher la boîte de dialogue d’impression Windows</value>
   </data>
-  <data name="ApplicationSettingsWindow_DropAlignment" xml:space="preserve">
-    <value>Position de la fenêtre de glisser-déposer</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropHoverOpacity" xml:space="preserve">
-    <value>Opacité au survol de la fenêtre de glisser-déposer</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropOffset" xml:space="preserve">
-    <value>Décalage de la fenêtre de glisser-déposer</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropOpacity" xml:space="preserve">
-    <value>Opacité de la fenêtre de glisser-déposer</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropSize" xml:space="preserve">
-    <value>Taille de la fenêtre de glisser-déposer</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Edit" xml:space="preserve">
-    <value>Modifier...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EditClipboardFormat" xml:space="preserve">
-    <value>Modifier le format du presse-papiers</value>
-  </data>
   <data name="ApplicationSettingsWindow_EditQuickTaskMenu" xml:space="preserve">
     <value>Modifier le menu des tâches rapides...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EnableChromeExtensionSupport" xml:space="preserve">
-    <value>Activer la prise en charge de l’extension Chrome</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EnableFirefoxAddonSupport" xml:space="preserve">
-    <value>Activer la prise en charge du module Firefox</value>
   </data>
   <data name="ApplicationSettingsWindow_ErrorPrefix" xml:space="preserve">
     <value>Erreur :</value>
@@ -448,17 +325,11 @@
   <data name="ApplicationSettingsWindow_ExportingBackup" xml:space="preserve">
     <value>Exportation de la sauvegarde...</value>
   </data>
-  <data name="ApplicationSettingsWindow_FirefoxAddon" xml:space="preserve">
-    <value>Module Firefox</value>
-  </data>
   <data name="ApplicationSettingsWindow_FollowSystemAccentColor" xml:space="preserve">
     <value>Suivre la couleur d’accentuation du système</value>
   </data>
   <data name="ApplicationSettingsWindow_FollowSystemTheme" xml:space="preserve">
     <value>Suivre le thème du système</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Format" xml:space="preserve">
-    <value>Format</value>
   </data>
   <data name="ApplicationSettingsWindow_General" xml:space="preserve">
     <value>Général</value>
@@ -490,12 +361,6 @@
   <data name="ApplicationSettingsWindow_InstallDevBuild" xml:space="preserve">
     <value>Installer la version de développement...</value>
   </data>
-  <data name="ApplicationSettingsWindow_InstallShareXChromeExtension" xml:space="preserve">
-    <value>Installer l’extension ShareX pour Chrome...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_InstallShareXFirefoxAddon" xml:space="preserve">
-    <value>Installer le module ShareX pour Firefox...</value>
-  </data>
   <data name="ApplicationSettingsWindow_Integration" xml:space="preserve">
     <value>Intégration</value>
   </data>
@@ -511,23 +376,11 @@
   <data name="ApplicationSettingsWindow_MaximumNumberOfTasksToSaveLabel" xml:space="preserve">
     <value>Nombre maximal de tâches à enregistrer :</value>
   </data>
-  <data name="ApplicationSettingsWindow_MiddleCenter" xml:space="preserve">
-    <value>Centre</value>
-  </data>
-  <data name="ApplicationSettingsWindow_MiddleLeft" xml:space="preserve">
-    <value>Au milieu à gauche</value>
-  </data>
-  <data name="ApplicationSettingsWindow_MiddleRight" xml:space="preserve">
-    <value>Au milieu à droite</value>
-  </data>
   <data name="ApplicationSettingsWindow_MinimizeToTrayOnStart" xml:space="preserve">
     <value>Réduire dans la zone de notification au démarrage</value>
   </data>
   <data name="ApplicationSettingsWindow_NumberOfFilesToKeepLabel" xml:space="preserve">
     <value>Nombre de fichiers à conserver :</value>
-  </data>
-  <data name="ApplicationSettingsWindow_NumberOfTimesToRetryIfUploadFailsLabel" xml:space="preserve">
-    <value>Nombre de tentatives en cas d’échec du téléversement :</value>
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconDoubleLeftClickLabel" xml:space="preserve">
     <value>Lors d’un double-clic gauche sur l’icône :</value>
@@ -537,9 +390,6 @@
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconMiddleClickLabel" xml:space="preserve">
     <value>Lors d’un clic du milieu sur l’icône :</value>
-  </data>
-  <data name="ApplicationSettingsWindow_OnlySaveIfUrlIsNotEmpty" xml:space="preserve">
-    <value>Enregistrer uniquement si l’URL n’est pas vide</value>
   </data>
   <data name="ApplicationSettingsWindow_Open" xml:space="preserve">
     <value>Ouvrir...</value>
@@ -574,9 +424,6 @@
   <data name="ApplicationSettingsWindow_RememberMainWindowSize" xml:space="preserve">
     <value>Mémoriser la taille de la fenêtre principale</value>
   </data>
-  <data name="ApplicationSettingsWindow_Remove" xml:space="preserve">
-    <value>Supprimer</value>
-  </data>
   <data name="ApplicationSettingsWindow_Reset" xml:space="preserve">
     <value>Réinitialiser</value>
   </data>
@@ -589,14 +436,8 @@
   <data name="ApplicationSettingsWindow_RestartShareXToApplyThisChange" xml:space="preserve">
     <value>Redémarrez ShareX pour appliquer cette modification.</value>
   </data>
-  <data name="ApplicationSettingsWindow_RightClickToInsertAVariable" xml:space="preserve">
-    <value>Cliquez avec le bouton droit pour insérer une variable.</value>
-  </data>
   <data name="ApplicationSettingsWindow_RotateImageByExifOrientationData" xml:space="preserve">
     <value>Faire pivoter les images selon l’orientation EXIF</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Save" xml:space="preserve">
-    <value>Enregistrer</value>
   </data>
   <data name="ApplicationSettingsWindow_SaveRecentTasks" xml:space="preserve">
     <value>Enregistrer les tâches récentes</value>
@@ -622,20 +463,11 @@
   <data name="ApplicationSettingsWindow_ShareXPersonalFolder" xml:space="preserve">
     <value>Dossier personnel ShareX</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowClipboardContentViewer" xml:space="preserve">
-    <value>Afficher la visionneuse du contenu du presse-papiers</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowEditWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
     <value>Afficher le bouton « Modifier avec ShareX » dans le menu contextuel de l’Explorateur Windows</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowLargeFileSizeWarning" xml:space="preserve">
-    <value>Seuil d’avertissement pour les fichiers volumineux (Mo)</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowMostRecentTaskFirst" xml:space="preserve">
     <value>Afficher la tâche la plus récente en premier</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ShowMultiUploadWarning" xml:space="preserve">
-    <value>Avertir avant de téléverser plus de 10 fichiers</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowProgressInTaskbarButton" xml:space="preserve">
     <value>Afficher la progression dans le bouton de la barre des tâches</value>
@@ -649,20 +481,11 @@
   <data name="ApplicationSettingsWindow_ShowRecentTasksInTrayMenu" xml:space="preserve">
     <value>Afficher les tâches récentes dans le menu de la zone de notification</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowShareXInSendToMenu" xml:space="preserve">
-    <value>Afficher ShareX dans le menu « Envoyer vers »</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowTitle" xml:space="preserve">
     <value>Afficher le titre</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowTrayIcon" xml:space="preserve">
     <value>Afficher l’icône de la zone de notification</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ShowUploadWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
-    <value>Afficher le bouton « Téléverser avec ShareX » dans le menu contextuel de l’Explorateur Windows</value>
-  </data>
-  <data name="ApplicationSettingsWindow_SimultaneousUploadLimitLabel" xml:space="preserve">
-    <value>Limite de téléversements simultanés :</value>
   </data>
   <data name="ApplicationSettingsWindow_Steam" xml:space="preserve">
     <value>Steam</value>
@@ -679,9 +502,6 @@
   <data name="ApplicationSettingsWindow_ThemeLabel" xml:space="preserve">
     <value>Thème :</value>
   </data>
-  <data name="ApplicationSettingsWindow_TheseFormatsAppearUnderTheCopySubmenuInTheMainWindowContextMenu" xml:space="preserve">
-    <value>Ces formats apparaissent dans le sous-menu Copier du menu contextuel de la fenêtre principale.</value>
-  </data>
   <data name="ApplicationSettingsWindow_ThumbnailClickActionLabel" xml:space="preserve">
     <value>Action lors d’un clic sur une miniature :</value>
   </data>
@@ -693,9 +513,6 @@
   </data>
   <data name="ApplicationSettingsWindow_TitleLocationLabel" xml:space="preserve">
     <value>Emplacement du titre :</value>
-  </data>
-  <data name="ApplicationSettingsWindow_TopCenter" xml:space="preserve">
-    <value>En haut au centre</value>
   </data>
   <data name="ApplicationSettingsWindow_TopLeft" xml:space="preserve">
     <value>En haut à gauche</value>
@@ -709,20 +526,11 @@
   <data name="ApplicationSettingsWindow_TrayAutoExpandCaptureMenu" xml:space="preserve">
     <value>Développer automatiquement le menu de capture</value>
   </data>
-  <data name="ApplicationSettingsWindow_URLEncodeIgnoreEmoji" xml:space="preserve">
-    <value>Ignorer les émojis lors de l’encodage d’URL</value>
-  </data>
   <data name="ApplicationSettingsWindow_UpdateChannelLabel" xml:space="preserve">
     <value>Canal de mise à jour :</value>
   </data>
   <data name="ApplicationSettingsWindow_Updates" xml:space="preserve">
     <value>Mises à jour</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Upload" xml:space="preserve">
-    <value>Téléverser</value>
-  </data>
-  <data name="ApplicationSettingsWindow_UploadResult" xml:space="preserve">
-    <value>Résultat du téléversement</value>
   </data>
   <data name="ApplicationSettingsWindow_UseAlternativeClipboardCopyImage" xml:space="preserve">
     <value>Utiliser une méthode alternative de copie d’image</value>
@@ -732,9 +540,6 @@
   </data>
   <data name="ApplicationSettingsWindow_UseCustomScreenshotsFolder" xml:space="preserve">
     <value>Utiliser un dossier de captures d’écran personnalisé</value>
-  </data>
-  <data name="ApplicationSettingsWindow_UseMachineSpecificUploadersConfig" xml:space="preserve">
-    <value>Utiliser une configuration des services d’hébergement propre à l’ordinateur</value>
   </data>
   <data name="ApplicationSettingsWindow_UseWhiteShareXIcon" xml:space="preserve">
     <value>Utiliser l’icône ShareX blanche</value>
@@ -753,9 +558,6 @@
   </data>
   <data name="ApplicationSettingsWindow_WorkflowsOnlyShowEdited" xml:space="preserve">
     <value>Afficher uniquement les flux de travail personnalisés</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ZeroDisablesTheLimit" xml:space="preserve">
-    <value>0 désactive la limite</value>
   </data>
   <data name="AutoCaptureWindow_AutoMinimize" xml:space="preserve">
     <value>Réduire automatiquement dans la zone de notification</value>
@@ -799,368 +601,11 @@
   <data name="AutoCaptureWindow_WaitTasks" xml:space="preserve">
     <value>Attendre la fin des tâches</value>
   </data>
-  <data name="BeforeUploadWindow_Cancel" xml:space="preserve">
-    <value>Annuler</value>
-  </data>
-  <data name="BeforeUploadWindow_ChooseDestination" xml:space="preserve">
-    <value>Choisissez une destination.</value>
-  </data>
-  <data name="BeforeUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>Copier l’image d’aperçu</value>
-  </data>
-  <data name="BeforeUploadWindow_CustomUploader" xml:space="preserve">
-    <value>Personnalisé [{0}]</value>
-  </data>
-  <data name="BeforeUploadWindow_Destination" xml:space="preserve">
-    <value>Destination</value>
-  </data>
-  <data name="BeforeUploadWindow_Heading" xml:space="preserve">
-    <value>Avant le téléversement</value>
-  </data>
-  <data name="BeforeUploadWindow_NoPreview" xml:space="preserve">
-    <value>Aucun aperçu disponible</value>
-  </data>
-  <data name="BeforeUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - Avant le téléversement</value>
-  </data>
-  <data name="BeforeUploadWindow_Upload" xml:space="preserve">
-    <value>Téléverser</value>
-  </data>
-  <data name="BeforeUploadWindow_UploadPrompt" xml:space="preserve">
-    <value>{0} va être téléversé vers {1}. Vous pouvez choisir une autre destination.</value>
-  </data>
   <data name="ClipboardDoesNotContainAnImage" xml:space="preserve">
     <value>Le presse-papier ne contient pas d'image.</value>
   </data>
-  <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
-    <value>Variables prises en charge : {0} et d'autres variables telles que {1}, etc.</value>
-  </data>
-  <data name="ClipboardUpload" xml:space="preserve">
-    <value>Mise en ligne du presse-papier</value>
-  </data>
-  <data name="ClipboardUploadWindow_Cancel" xml:space="preserve">
-    <value>Annuler</value>
-  </data>
-  <data name="ClipboardUploadWindow_ClipboardUpload" xml:space="preserve">
-    <value>Téléverser le presse-papiers</value>
-  </data>
-  <data name="ClipboardUploadWindow_DontShowAgain" xml:space="preserve">
-    <value>Ne plus afficher cette fenêtre</value>
-  </data>
-  <data name="ClipboardUploadWindow_Empty" xml:space="preserve">
-    <value>Le presse-papiers est vide ou contient des données non prises en charge.</value>
-  </data>
-  <data name="ClipboardUploadWindow_FileSummary" xml:space="preserve">
-    <value>Contenu du presse-papiers : fichiers, nombre : {0}</value>
-  </data>
-  <data name="ClipboardUploadWindow_ImageSummary" xml:space="preserve">
-    <value>Contenu du presse-papiers : image, taille : {0} × {1}</value>
-  </data>
-  <data name="ClipboardUploadWindow_TextSummary" xml:space="preserve">
-    <value>Contenu du presse-papiers : texte, longueur : {0}</value>
-  </data>
-  <data name="ClipboardUploadWindow_Upload" xml:space="preserve">
-    <value>Téléverser</value>
-  </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Confirmation</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Add" xml:space="preserve">
-    <value>Ajouter</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Name" xml:space="preserve">
-    <value>Nom</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Remove" xml:space="preserve">
-    <value>Supprimer</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Value" xml:space="preserve">
-    <value>Valeur</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_AllRemoved" xml:space="preserve">
-    <value>Tous les modules d’envoi personnalisés ont été supprimés.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Arguments" xml:space="preserve">
-    <value>Arguments</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Base64Encoding" xml:space="preserve">
-    <value>Encodage Base64</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Beautify" xml:space="preserve">
-    <value>Embellir</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Body" xml:space="preserve">
-    <value>Corps</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_BodyType" xml:space="preserve">
-    <value>Type de corps</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Capabilities" xml:space="preserve">
-    <value>Fonctionnalités</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ChangesApplied" xml:space="preserve">
-    <value>Les modifications sont appliquées immédiatement.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ClearAll" xml:space="preserve">
-    <value>Tout effacer...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ClearConfirmation" xml:space="preserve">
-    <value>Supprimer tous les modules d’envoi personnalisés ?</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Close" xml:space="preserve">
-    <value>Fermer</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ConfirmationTitle" xml:space="preserve">
-    <value>ShareX - Confirmation</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_CreateOrImport" xml:space="preserve">
-    <value>Créez un outil personnalisé ou importez un fichier .sxcu.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_CustomUploaderFileType" xml:space="preserve">
-    <value>Module d’envoi personnalisé ShareX</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DeletionURL" xml:space="preserve">
-    <value>URL de suppression</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DestinationRequired" xml:space="preserve">
-    <value>Au moins un type de destination doit être sélectionné avant l’exportation.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DisplayOutputText" xml:space="preserve">
-    <value>Afficher le texte de sortie</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Duplicate" xml:space="preserve">
-    <value>Dupliquer l’outil sélectionné</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DuplicateNamesNotAllowed" xml:space="preserve">
-    <value>Les noms en double ne sont pas autorisés.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Duplicated" xml:space="preserve">
-    <value>Le module d’envoi personnalisé a été dupliqué.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Endpoint" xml:space="preserve">
-    <value>Point de terminaison</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Error" xml:space="preserve">
-    <value>Erreur</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ErrorMessage" xml:space="preserve">
-    <value>Message d’erreur</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Export" xml:space="preserve">
-    <value>Exporter l’outil sélectionné...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportAll" xml:space="preserve">
-    <value>Tout exporter...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportAllDialogTitle" xml:space="preserve">
-    <value>Exporter tous les modules d’envoi personnalisés</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportDialogTitle" xml:space="preserve">
-    <value>Exporter le module d’envoi personnalisé</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportedCount" xml:space="preserve">
-    <value>{0} module(s) d’envoi personnalisé(s) exporté(s).</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportedOne" xml:space="preserve">
-    <value>{0} a été exporté.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileFormName" xml:space="preserve">
-    <value>Nom de formulaire du fichier</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileFormNameDescription" xml:space="preserve">
-    <value>Nom du champ multipart utilisé pour envoyer le fichier.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileUploader" xml:space="preserve">
-    <value>Téléverseur de fichiers</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FilteredUploaderCount" xml:space="preserve">
-    <value>{0} sur {1}</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Guide" xml:space="preserve">
-    <value>Guide des outils personnalisés...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Headers" xml:space="preserve">
-    <value>En-têtes</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Identity" xml:space="preserve">
-    <value>Identité</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImageUploader" xml:space="preserve">
-    <value>Téléverseur d’images</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Import" xml:space="preserve">
-    <value>Importer...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImportDialogTitle" xml:space="preserve">
-    <value>Importer des modules d’envoi personnalisés</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImportedCount" xml:space="preserve">
-    <value>{0} module(s) d’envoi personnalisé(s) importé(s).</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_JSONPathResponseValue" xml:space="preserve">
-    <value>Valeur de réponse JSONPath</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Method" xml:space="preserve">
-    <value>Méthode</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Minify" xml:space="preserve">
-    <value>Réduire</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Name" xml:space="preserve">
-    <value>Nom</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NamePlaceholder" xml:space="preserve">
-    <value>Utilise l’hôte de la requête si ce champ est vide</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_New" xml:space="preserve">
-    <value>Nouveau</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NewCreated" xml:space="preserve">
-    <value>Un nouveau module d’envoi personnalisé a été créé.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NoAdditionalBodyFields" xml:space="preserve">
-    <value>Ce type de corps ne comporte aucun champ supplémentaire.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NoSearchMatches" xml:space="preserve">
-    <value>Aucun outil ne correspond à cette recherche.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Overview" xml:space="preserve">
-    <value>Vue d’ensemble</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Parameters" xml:space="preserve">
-    <value>Paramètres</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RandomSelection" xml:space="preserve">
-    <value>Sélection aléatoire</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RegularExpressionResult" xml:space="preserve">
-    <value>Résultat d’expression régulière</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Remove" xml:space="preserve">
-    <value>Supprimer l’outil sélectionné</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Removed" xml:space="preserve">
-    <value>Le module d’envoi personnalisé a été supprimé.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Request" xml:space="preserve">
-    <value>Requête</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestData" xml:space="preserve">
-    <value>Données de requête</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestURL" xml:space="preserve">
-    <value>URL de requête</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestURLRequired" xml:space="preserve">
-    <value>L’URL de requête doit être configurée avant l’exportation.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Response" xml:space="preserve">
-    <value>Réponse</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseHeader" xml:space="preserve">
-    <value>En-tête de réponse</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseOrRedirectionURL" xml:space="preserve">
-    <value>URL de réponse ou de redirection</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseText" xml:space="preserve">
-    <value>Texte de réponse</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Result" xml:space="preserve">
-    <value>Résultat</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResultURL" xml:space="preserve">
-    <value>URL de résultat</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SearchUploaders" xml:space="preserve">
-    <value>Rechercher des outils</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SelectToExport" xml:space="preserve">
-    <value>Sélectionnez un module d’envoi personnalisé à exporter.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SelectUploaderToEdit" xml:space="preserve">
-    <value>Sélectionnez un module d’envoi à modifier</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Test" xml:space="preserve">
-    <value>Test</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestCancelled" xml:space="preserve">
-    <value>Test annulé.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestCompleted" xml:space="preserve">
-    <value>Test terminé.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestFailed" xml:space="preserve">
-    <value>Échec du test.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestURLSyntax" xml:space="preserve">
-    <value>Tester la syntaxe de l’URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestURLSyntaxButton" xml:space="preserve">
-    <value>Tester la syntaxe de l’URL...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Testing" xml:space="preserve">
-    <value>Test de {0}...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextOrURLInput" xml:space="preserve">
-    <value>Entrée de texte ou d’URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextUploadSample" xml:space="preserve">
-    <value>Test d’envoi de texte ShareX</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextUploader" xml:space="preserve">
-    <value>Téléverseur de texte</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ThumbnailURL" xml:space="preserve">
-    <value>URL de miniature</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Title" xml:space="preserve">
-    <value>ShareX - Paramètres des outils de téléversement personnalisés</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLSharingService" xml:space="preserve">
-    <value>Service de partage d’URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLShortener" xml:space="preserve">
-    <value>Raccourcisseur d’URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLSyntax" xml:space="preserve">
-    <value>Syntaxe de l’URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdateFolder" xml:space="preserve">
-    <value>Mettre à jour le dossier...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdateFolderDialogTitle" xml:space="preserve">
-    <value>Mettre à jour le dossier des modules d’envoi personnalisés</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdatedCount" xml:space="preserve">
-    <value>{0} fichier(s) de module d’envoi personnalisé mis à jour.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploadedFile" xml:space="preserve">
-    <value>Fichier envoyé</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploadedFileName" xml:space="preserve">
-    <value>Nom du fichier envoyé</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderCount" xml:space="preserve">
-    <value>{0} module d’envoi</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderCountPlural" xml:space="preserve">
-    <value>{0} modules d’envoi</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderLibrary" xml:space="preserve">
-    <value>Bibliothèque d’outils</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UserSelection" xml:space="preserve">
-    <value>Sélection de l’utilisateur</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UserTextInput" xml:space="preserve">
-    <value>Saisie de texte par l’utilisateur</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_XPathResponseValue" xml:space="preserve">
-    <value>Valeur de réponse XPath</value>
-  </data>
-  <data name="DebugLogWindow_Cancel" xml:space="preserve">
-    <value>Annuler</value>
   </data>
   <data name="DebugLogWindow_CopyAll" xml:space="preserve">
     <value>Tout copier</value>
@@ -1176,21 +621,6 @@
   </data>
   <data name="DebugLogWindow_Title" xml:space="preserve">
     <value>ShareX - Journal de débogage</value>
-  </data>
-  <data name="DebugLogWindow_Upload" xml:space="preserve">
-    <value>Téléverser</value>
-  </data>
-  <data name="DebugLogWindow_UploadLog" xml:space="preserve">
-    <value>Téléverser le journal...</value>
-  </data>
-  <data name="DebugLogWindow_UploadPrompt" xml:space="preserve">
-    <value>Téléverser le journal de débogage ?</value>
-  </data>
-  <data name="DragDropUploadWindow_DropHere" xml:space="preserve">
-    <value>Déposez ici</value>
-  </data>
-  <data name="DragDropUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - Téléversement par glisser-déposer</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Erreur</value>
@@ -1328,35 +758,26 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   <data name="IntegrationHelpers_EditWithShareX" xml:space="preserve">
     <value>Modifier avec ShareX</value>
   </data>
-  <data name="IntegrationHelpers_UploadWithShareX" xml:space="preserve">
-    <value>Mettre en ligne avec ShareX</value>
+  <data name="LocalTask_Choose_a_folder_to_save" xml:space="preserve">
+    <value>Choisir un dossier pour sauvegarde</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Cancel" xml:space="preserve">
-    <value>Annuler</value>
+  <data name="LocalTask_Done" xml:space="preserve">
+    <value>Terminé</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Continue" xml:space="preserve">
-    <value>Continuer</value>
+  <data name="LocalTask_Prepare_Preparing" xml:space="preserve">
+    <value>Préparation en cours</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_DontShowAgain" xml:space="preserve">
-    <value>Ne plus afficher ce message.</value>
+  <data name="LocalTask_Stop_Stopping" xml:space="preserve">
+    <value>Arrêt en cours</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Message" xml:space="preserve">
-    <value>Vous tentez de téléverser un fichier volumineux.</value>
-  </data>
-  <data name="LargeFileUploadWarningWindow_Title" xml:space="preserve">
-    <value>ShareX - Téléversement d’un fichier volumineux</value>
-  </data>
-  <data name="MainForm_UploadDebugLogWarning" xml:space="preserve">
-    <value>Le journal de déboggage peut contenir des informations sensibles. Êtes-vous sûr de vouloir continuer ?</value>
+  <data name="LocalTask_Stopped" xml:space="preserve">
+    <value>Arrêté</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_Do_you_really_want_to_delete_this_file_" xml:space="preserve">
     <value>Voulez-vous vraiment supprimer ce fichier ?</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>Confirmation de la suppression d'un fichier</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Test de mise en ligne d'un texte</value>
   </data>
   <data name="MainMenuBuilder_About" xml:space="preserve">
     <value>À propos...</value>
@@ -1369,12 +790,6 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   </data>
   <data name="MainMenuBuilder_AfterCaptureTasks" xml:space="preserve">
     <value>Tâches après capture</value>
-  </data>
-  <data name="MainMenuBuilder_AfterUploadTasks" xml:space="preserve">
-    <value>Tâches après téléversement</value>
-  </data>
-  <data name="MainMenuBuilder_AnalyzeImage" xml:space="preserve">
-    <value>Analyser l’image</value>
   </data>
   <data name="MainMenuBuilder_AnimatedGifMaker" xml:space="preserve">
     <value>Créateur de GIF animés...</value>
@@ -1406,17 +821,8 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   <data name="MainMenuBuilder_Copy" xml:space="preserve">
     <value>Copier</value>
   </data>
-  <data name="MainMenuBuilder_CustomUploaderSettings" xml:space="preserve">
-    <value>Paramètres des services d’hébergement personnalisés...</value>
-  </data>
   <data name="MainMenuBuilder_Debug" xml:space="preserve">
     <value>Débogage</value>
-  </data>
-  <data name="MainMenuBuilder_DestinationSettings" xml:space="preserve">
-    <value>Paramètres des destinations...</value>
-  </data>
-  <data name="MainMenuBuilder_Destinations" xml:space="preserve">
-    <value>Destinations</value>
   </data>
   <data name="MainMenuBuilder_DisableHotkeys" xml:space="preserve">
     <value>Désactiver les raccourcis clavier</value>
@@ -1426,9 +832,6 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   </data>
   <data name="MainMenuBuilder_Donate" xml:space="preserve">
     <value>Faire un don</value>
-  </data>
-  <data name="MainMenuBuilder_DragAndDropUpload" xml:space="preserve">
-    <value>Mise en ligne par glisser-déposer</value>
   </data>
   <data name="MainMenuBuilder_EditTools" xml:space="preserve">
     <value>Modifier</value>
@@ -1544,9 +947,6 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   <data name="MainMenuBuilder_Region" xml:space="preserve">
     <value>Région...</value>
   </data>
-  <data name="MainMenuBuilder_RemoteStorageBrowser" xml:space="preserve">
-    <value>Navigateur de stockage distant...</value>
-  </data>
   <data name="MainMenuBuilder_RestartAsAdministrator" xml:space="preserve">
     <value>Redémarrer en tant qu’administrateur</value>
   </data>
@@ -1568,9 +968,6 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   <data name="MainMenuBuilder_ScrollingCapture" xml:space="preserve">
     <value>Capture avec défilement...</value>
   </data>
-  <data name="MainMenuBuilder_ShortenUrl" xml:space="preserve">
-    <value>Raccourcir l'URL</value>
-  </data>
   <data name="MainMenuBuilder_ShowCursor" xml:space="preserve">
     <value>Afficher le curseur</value>
   </data>
@@ -1582,21 +979,6 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   </data>
   <data name="MainMenuBuilder_TaskSettings" xml:space="preserve">
     <value>Paramètres des tâches</value>
-  </data>
-  <data name="MainMenuBuilder_TestFileUpload" xml:space="preserve">
-    <value>Tester le téléversement de fichier</value>
-  </data>
-  <data name="MainMenuBuilder_TestImageUpload" xml:space="preserve">
-    <value>Tester le téléversement d’image</value>
-  </data>
-  <data name="MainMenuBuilder_TestTextUpload" xml:space="preserve">
-    <value>Tester le téléversement de texte</value>
-  </data>
-  <data name="MainMenuBuilder_TestUrlSharing" xml:space="preserve">
-    <value>Tester le partage d’URL</value>
-  </data>
-  <data name="MainMenuBuilder_TestUrlShortener" xml:space="preserve">
-    <value>Tester le raccourcisseur d’URL</value>
   </data>
   <data name="MainMenuBuilder_ToolCategoryData" xml:space="preserve">
     <value>Données et texte</value>
@@ -1615,24 +997,6 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   </data>
   <data name="MainMenuBuilder_Tools" xml:space="preserve">
     <value>Outils</value>
-  </data>
-  <data name="MainMenuBuilder_Upload" xml:space="preserve">
-    <value>Mise en ligne</value>
-  </data>
-  <data name="MainMenuBuilder_UploadClipboard" xml:space="preserve">
-    <value>Téléverser le presse-papiers...</value>
-  </data>
-  <data name="MainMenuBuilder_UploadFile" xml:space="preserve">
-    <value>Téléverser le fichier</value>
-  </data>
-  <data name="MainMenuBuilder_UploadFolder" xml:space="preserve">
-    <value>Mise en ligne d'un dossier</value>
-  </data>
-  <data name="MainMenuBuilder_UploadText" xml:space="preserve">
-    <value>Mettre en ligne un texte</value>
-  </data>
-  <data name="MainMenuBuilder_UploadUrl" xml:space="preserve">
-    <value>Téléverser l’URL...</value>
   </data>
   <data name="MainMenuBuilder_VideoConverter" xml:space="preserve">
     <value>Convertisseur vidéo</value>
@@ -1658,9 +1022,6 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   <data name="MainWindow_AlwaysOnTop" xml:space="preserve">
     <value>Toujours au premier plan</value>
   </data>
-  <data name="MainWindow_AnalyzeImage" xml:space="preserve">
-    <value>Analyser l’image</value>
-  </data>
   <data name="MainWindow_BeautifyImage" xml:space="preserve">
     <value>Embellir l’image</value>
   </data>
@@ -1676,23 +1037,11 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   <data name="MainWindow_Copy" xml:space="preserve">
     <value>Copier</value>
   </data>
-  <data name="MainWindow_DeleteItemRemotely" xml:space="preserve">
-    <value>Supprimer l’élément à distance...</value>
-  </data>
-  <data name="MainWindow_DeleteItemRemotelyConfirmation" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer cet élément à distance ?</value>
-  </data>
   <data name="MainWindow_DeleteSelectedFile" xml:space="preserve">
     <value>Supprimer le fichier sélectionné...</value>
   </data>
   <data name="MainWindow_DeleteSelectedItem" xml:space="preserve">
     <value>Supprimer l’élément sélectionné</value>
-  </data>
-  <data name="MainWindow_DeletionUrl" xml:space="preserve">
-    <value>URL de suppression</value>
-  </data>
-  <data name="MainWindow_DownloadSelectedUrl" xml:space="preserve">
-    <value>Télécharger l’URL sélectionnée</value>
   </data>
   <data name="MainWindow_EditImage" xml:space="preserve">
     <value>Modifier l’image</value>
@@ -1709,20 +1058,8 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   <data name="MainWindow_FilePath" xml:space="preserve">
     <value>Chemin du fichier</value>
   </data>
-  <data name="MainWindow_FilesDroppedUploadDescription" xml:space="preserve">
-    <value>Les fichiers déposés ici seront téléversés par ShareX.</value>
-  </data>
   <data name="MainWindow_Folder" xml:space="preserve">
     <value>Dossier</value>
-  </data>
-  <data name="MainWindow_ForumImage" xml:space="preserve">
-    <value>Image de forum</value>
-  </data>
-  <data name="MainWindow_ForumLink" xml:space="preserve">
-    <value>Lien de forum</value>
-  </data>
-  <data name="MainWindow_ForumLinkedImage" xml:space="preserve">
-    <value>Image liée de forum</value>
   </data>
   <data name="MainWindow_Horizontal" xml:space="preserve">
     <value>Horizontal</value>
@@ -1731,31 +1068,13 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
     <value>Horizontalement</value>
   </data>
   <data name="MainWindow_HotkeyHint" xml:space="preserve">
-    <value>Utilisez un raccourci clavier pour capturer ou téléverser. Vos résultats apparaîtront ici sous forme de miniatures.</value>
-  </data>
-  <data name="MainWindow_HtmlImage" xml:space="preserve">
-    <value>Image HTML</value>
-  </data>
-  <data name="MainWindow_HtmlLink" xml:space="preserve">
-    <value>Lien HTML</value>
-  </data>
-  <data name="MainWindow_HtmlLinkedImage" xml:space="preserve">
-    <value>Image liée HTML</value>
+    <value>Utilisez un raccourci clavier pour capturer. Vos résultats apparaîtront ici sous forme de miniatures.</value>
   </data>
   <data name="MainWindow_Image" xml:space="preserve">
     <value>Image</value>
   </data>
   <data name="MainWindow_ImageDimensions" xml:space="preserve">
     <value>Dimensions de l’image</value>
-  </data>
-  <data name="MainWindow_MarkdownImage" xml:space="preserve">
-    <value>Image Markdown</value>
-  </data>
-  <data name="MainWindow_MarkdownLink" xml:space="preserve">
-    <value>Lien Markdown</value>
-  </data>
-  <data name="MainWindow_MarkdownLinkedImage" xml:space="preserve">
-    <value>Image liée Markdown</value>
   </data>
   <data name="MainWindow_MaximizeOrRestore" xml:space="preserve">
     <value>Maximiser ou restaurer</value>
@@ -1772,62 +1091,20 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   <data name="MainWindow_PinToScreen" xml:space="preserve">
     <value>Epingler à l'écran</value>
   </data>
-  <data name="MainWindow_ReleaseToUploadFiles" xml:space="preserve">
-    <value>Relâcher pour téléverser les fichiers</value>
-  </data>
-  <data name="MainWindow_ReleaseToUploadText" xml:space="preserve">
-    <value>Relâcher pour téléverser le texte</value>
-  </data>
-  <data name="MainWindow_RemoteDeleteFailed" xml:space="preserve">
-    <value>Échec de la suppression de l’élément à distance.</value>
-  </data>
-  <data name="MainWindow_RemoteDeleteSucceeded" xml:space="preserve">
-    <value>L’élément a été supprimé à distance.</value>
-  </data>
-  <data name="MainWindow_RemoteDeletion" xml:space="preserve">
-    <value>Suppression à distance</value>
-  </data>
   <data name="MainWindow_ResizeImage" xml:space="preserve">
     <value>Redimensionner l’image...</value>
   </data>
   <data name="MainWindow_RunAction" xml:space="preserve">
     <value>Exécuter l’action</value>
   </data>
-  <data name="MainWindow_SearchWithBingVisualSearch" xml:space="preserve">
-    <value>Rechercher avec Recherche visuelle Bing...</value>
-  </data>
-  <data name="MainWindow_SearchWithGoogleLens" xml:space="preserve">
-    <value>Rechercher avec Google Lens...</value>
-  </data>
-  <data name="MainWindow_ShareSelectedUrl" xml:space="preserve">
-    <value>Partager l’URL sélectionnée</value>
-  </data>
   <data name="MainWindow_ShareXHotkeys" xml:space="preserve">
     <value>Raccourcis clavier ShareX</value>
-  </data>
-  <data name="MainWindow_ShortenSelectedUrl" xml:space="preserve">
-    <value>Raccourcir l’URL sélectionnée</value>
-  </data>
-  <data name="MainWindow_ShortenedUrl" xml:space="preserve">
-    <value>URL raccourci</value>
   </data>
   <data name="MainWindow_ShowErrors" xml:space="preserve">
     <value>Afficher les erreurs...</value>
   </data>
-  <data name="MainWindow_ShowQRCode" xml:space="preserve">
-    <value>Afficher le code QR...</value>
-  </data>
-  <data name="MainWindow_ShowResponse" xml:space="preserve">
-    <value>Afficher la réponse...</value>
-  </data>
-  <data name="MainWindow_StopUpload" xml:space="preserve">
-    <value>Arrêter le téléversement</value>
-  </data>
   <data name="MainWindow_Text" xml:space="preserve">
     <value>Texte</value>
-  </data>
-  <data name="MainWindow_TextDroppedUploadDescription" xml:space="preserve">
-    <value>Le texte déposé ici sera téléversé par ShareX.</value>
   </data>
   <data name="MainWindow_ThumbnailFile" xml:space="preserve">
     <value>Fichier miniature</value>
@@ -1835,20 +1112,11 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   <data name="MainWindow_ThumbnailImage" xml:space="preserve">
     <value>Image miniature</value>
   </data>
-  <data name="MainWindow_ThumbnailUrl" xml:space="preserve">
-    <value>URL de la miniature</value>
-  </data>
   <data name="MainWindow_TrimAnimatedGif" xml:space="preserve">
     <value>Découper un GIF animé...</value>
   </data>
   <data name="MainWindow_TrimVideo" xml:space="preserve">
     <value>Découper la vidéo...</value>
-  </data>
-  <data name="MainWindow_UploadSelectedFile" xml:space="preserve">
-    <value>Téléverser le fichier sélectionné</value>
-  </data>
-  <data name="MainWindow_Url" xml:space="preserve">
-    <value>URL</value>
   </data>
   <data name="MainWindow_Vertical" xml:space="preserve">
     <value>Verticale</value>
@@ -1859,20 +1127,14 @@ Veuillez sélectionner un raccourci différent ou quitter l'application en confl
   <data name="MouseHighlighter" xml:space="preserve">
     <value>Surligneur de souris</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_Cancel" xml:space="preserve">
-    <value>Annuler</value>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>Moteur OCR</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_DontShowAgain" xml:space="preserve">
-    <value>Ne plus afficher ce message.</value>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_Message" xml:space="preserve">
-    <value>Voulez-vous vraiment téléverser {0} fichiers ?</value>
-  </data>
-  <data name="MultiUploadConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - Téléverser des fichiers</value>
-  </data>
-  <data name="MultiUploadConfirmationWindow_Upload" xml:space="preserve">
-    <value>Téléverser</value>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
   </data>
   <data name="PinToScreen" xml:space="preserve">
     <value>Epingler à l'écran</value>
@@ -1892,12 +1154,6 @@ Veuillez exécuter ShareX en tant qu'administrateur pour changer le chemin du do
   </data>
   <data name="QuickTaskMenuEditorWindow_AfterCaptureTasks" xml:space="preserve">
     <value>Tâches après capture</value>
-  </data>
-  <data name="QuickTaskMenuEditorWindow_AfterUploadSummary" xml:space="preserve">
-    <value>{0}  •  Après le téléversement : {1}</value>
-  </data>
-  <data name="QuickTaskMenuEditorWindow_AfterUploadTasks" xml:space="preserve">
-    <value>Tâches après téléversement</value>
   </data>
   <data name="QuickTaskMenuEditorWindow_Cancel" xml:space="preserve">
     <value>Annuler</value>
@@ -2059,24 +1315,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="ShareXIsUpToDate" xml:space="preserve">
     <value>ShareX est à jour !</value>
   </data>
-  <data name="ShortenURLWindow_Cancel" xml:space="preserve">
-    <value>Annuler</value>
-  </data>
-  <data name="ShortenURLWindow_Heading" xml:space="preserve">
-    <value>Raccourcir une URL</value>
-  </data>
-  <data name="ShortenURLWindow_Shorten" xml:space="preserve">
-    <value>Raccourcir</value>
-  </data>
-  <data name="ShortenURLWindow_Title" xml:space="preserve">
-    <value>ShareX - Raccourcir une URL</value>
-  </data>
-  <data name="ShortenURLWindow_URL" xml:space="preserve">
-    <value>URL</value>
-  </data>
-  <data name="ShortenURLWindow_Validation" xml:space="preserve">
-    <value>Saisissez une URL HTTP, HTTPS ou FTP valide.</value>
-  </data>
   <data name="StartScreen_GetStarted" xml:space="preserve">
     <value>Commencer</value>
   </data>
@@ -2098,12 +1336,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="StartScreen_WelcomeSubtitle" xml:space="preserve">
     <value>Capturez, modifiez et partagez tout ce que vous voulez, à votre façon.</value>
   </data>
-  <data name="TaskHelpers_AddCustomUploaderConfirmation" xml:space="preserve">
-    <value>Voulez-vous ajouter le module d’envoi personnalisé « {0} » ?</value>
-  </data>
-  <data name="TaskHelpers_CustomUploaderConfirmationTitle" xml:space="preserve">
-    <value>ShareX - Confirmation du module d’envoi personnalisé</value>
-  </data>
   <data name="TaskHelpers_FileDoesNotExist" xml:space="preserve">
     <value>Le fichier n’existe pas :
 {0}</value>
@@ -2111,53 +1343,23 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskHelpers_OpenQuickScreenColorPicker_Copied_to_clipboard___0_" xml:space="preserve">
     <value>Copié dans le presse-papier : {0}</value>
   </data>
-  <data name="TaskHelpers_RemoteStorageNotConfigured" xml:space="preserve">
-    <value>Configurez un programme de téléchargement Amazon S3, FTP, FTPS ou SFTP dans les paramètres de destination avant d'ouvrir le navigateur de stockage distant.</value>
-  </data>
-  <data name="TaskHelpers_SetActiveCustomUploaderConfirmation" xml:space="preserve">
-    <value>Voulez-vous définir « {0} » comme module d’envoi personnalisé actif pour {1} ?</value>
-  </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_disabled_" xml:space="preserve">
     <value>Raccourcis clavier désactivés.</value>
   </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_enabled_" xml:space="preserve">
     <value>Raccourcis clavier activés.</value>
   </data>
-  <data name="TaskManager_UploadCompletedURL" xml:space="preserve">
-    <value>Envoi terminé. URL : {0}</value>
-  </data>
-  <data name="TaskManager_task_UploadCompleted_Error" xml:space="preserve">
+  <data name="TaskManager_TaskCompleted_Error" xml:space="preserve">
     <value>Erreur</value>
   </data>
-  <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
+  <data name="TaskManager_TaskCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>Tâche terminée</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_File_uploader___0_" xml:space="preserve">
-    <value>Mise en ligne de fichiers : {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_Image_uploader___0_" xml:space="preserve">
-    <value>Mise en ligne d'images : {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
-    <value>Mise en ligne de textes : {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
-    <value>Service de partage d'URL : {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>Raccourcisseur d'URL : {0}</value>
   </data>
   <data name="TaskSettingsWindow_Actions" xml:space="preserve">
     <value>Actions</value>
   </data>
-  <data name="TaskSettingsWindow_Add" xml:space="preserve">
-    <value>Ajouter</value>
-  </data>
   <data name="TaskSettingsWindow_AddAction" xml:space="preserve">
     <value>Ajouter une action</value>
-  </data>
-  <data name="TaskSettingsWindow_AddWatchFolder" xml:space="preserve">
-    <value>Ajouter un dossier surveillé</value>
   </data>
   <data name="TaskSettingsWindow_AddWithEllipsis" xml:space="preserve">
     <value>Ajouter...</value>
@@ -2171,12 +1373,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_AfterCaptureTasks" xml:space="preserve">
     <value>Tâches après la capture</value>
   </data>
-  <data name="TaskSettingsWindow_AfterUpload" xml:space="preserve">
-    <value>Après l’envoi</value>
-  </data>
-  <data name="TaskSettingsWindow_AfterUploadTasks" xml:space="preserve">
-    <value>Tâches après l’envoi</value>
-  </data>
   <data name="TaskSettingsWindow_AlsoDetectControlsInsideWindows" xml:space="preserve">
     <value>Détecter également les contrôles dans les fenêtres</value>
   </data>
@@ -2186,12 +1382,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_AskForConfirmationWhenAborting" xml:space="preserve">
     <value>Demander confirmation lors de l’abandon</value>
   </data>
-  <data name="TaskSettingsWindow_AutoClearClipboard" xml:space="preserve">
-    <value>Effacer automatiquement le presse-papiers</value>
-  </data>
-  <data name="TaskSettingsWindow_AutoCloseAfterUploadForm" xml:space="preserve">
-    <value>Fermer automatiquement la fenêtre après l’envoi</value>
-  </data>
   <data name="TaskSettingsWindow_AutoCloseEditorOnTask" xml:space="preserve">
     <value>Fermer automatiquement l’éditeur après la tâche</value>
   </data>
@@ -2200,9 +1390,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   </data>
   <data name="TaskSettingsWindow_AutoIncrementNumber" xml:space="preserve">
     <value>Numéro auto-incrémenté :</value>
-  </data>
-  <data name="TaskSettingsWindow_AutoShortenURLLength" xml:space="preserve">
-    <value>Longueur de raccourcissement automatique des URL</value>
   </data>
   <data name="TaskSettingsWindow_AutomaticJPEG" xml:space="preserve">
     <value>JPEG automatique</value>
@@ -2222,9 +1409,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_BackgroundDimStrengthPercent" xml:space="preserve">
     <value>Intensité d’assombrissement de l’arrière-plan (%) :</value>
   </data>
-  <data name="TaskSettingsWindow_BalloonTipContentFormat" xml:space="preserve">
-    <value>Format du contenu de la notification</value>
-  </data>
   <data name="TaskSettingsWindow_BrowseWithEllipsis" xml:space="preserve">
     <value>Parcourir...</value>
   </data>
@@ -2237,8 +1421,8 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_CaptureClientAreaForWindowCaptures" xml:space="preserve">
     <value>Capturer la zone cliente lors des captures de fenêtre</value>
   </data>
-  <data name="TaskSettingsWindow_CaptureOrClipboardUpload" xml:space="preserve">
-    <value>Envoi de capture ou du presse-papiers :</value>
+  <data name="TaskSettingsWindow_CaptureTasks" xml:space="preserve">
+    <value>Tâches de capture :</value>
   </data>
   <data name="TaskSettingsWindow_CaptureWindowWithShadow" xml:space="preserve">
     <value>Capturer la fenêtre avec son ombre</value>
@@ -2258,18 +1442,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_ChooseTheActionsShownAtTheBottomOfAfterCaptureNotifications" xml:space="preserve">
     <value>Choisissez les actions affichées en bas des notifications après capture.</value>
   </data>
-  <data name="TaskSettingsWindow_ChooseWatchFolder" xml:space="preserve">
-    <value>Choisir un dossier surveillé</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardContent" xml:space="preserve">
-    <value>Contenu du presse-papiers</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardContentFormat" xml:space="preserve">
-    <value>Format du contenu du presse-papiers</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardUpload" xml:space="preserve">
-    <value>Envoi du presse-papiers</value>
-  </data>
   <data name="TaskSettingsWindow_Close" xml:space="preserve">
     <value>Fermer</value>
   </data>
@@ -2285,9 +1457,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_CustomSounds" xml:space="preserve">
     <value>Sons personnalisés</value>
   </data>
-  <data name="TaskSettingsWindow_CustomUploader" xml:space="preserve">
-    <value>Hébergeur personnalisé :</value>
-  </data>
   <data name="TaskSettingsWindow_CustomizeToolbarWithEllipsis" xml:space="preserve">
     <value>Personnaliser la barre d’outils...</value>
   </data>
@@ -2299,9 +1468,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   </data>
   <data name="TaskSettingsWindow_Description" xml:space="preserve">
     <value>Description :</value>
-  </data>
-  <data name="TaskSettingsWindow_Destinations" xml:space="preserve">
-    <value>Destinations</value>
   </data>
   <data name="TaskSettingsWindow_DetectWindowRegions" xml:space="preserve">
     <value>Détecter les régions de fenêtre</value>
@@ -2315,14 +1481,8 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_DurationSeconds" xml:space="preserve">
     <value>Durée (secondes) :</value>
   </data>
-  <data name="TaskSettingsWindow_EarlyCopyURL" xml:space="preserve">
-    <value>Copier l’URL avant l’envoi</value>
-  </data>
   <data name="TaskSettingsWindow_EditAction" xml:space="preserve">
     <value>Modifier l’action</value>
-  </data>
-  <data name="TaskSettingsWindow_EditWatchFolder" xml:space="preserve">
-    <value>Modifier le dossier surveillé</value>
   </data>
   <data name="TaskSettingsWindow_EditWithEllipsis" xml:space="preserve">
     <value>Modifier...</value>
@@ -2336,17 +1496,8 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_EncodingAndCapture" xml:space="preserve">
     <value>Encodage et capture</value>
   </data>
-  <data name="TaskSettingsWindow_ExamplePng" xml:space="preserve">
-    <value>Exemple : *.png</value>
-  </data>
   <data name="TaskSettingsWindow_ExtensionFilterExampleJpgPngMp4" xml:space="preserve">
     <value>Filtre d’extensions (exemple : jpg png mp4)</value>
-  </data>
-  <data name="TaskSettingsWindow_Extensions" xml:space="preserve">
-    <value>Extensions :</value>
-  </data>
-  <data name="TaskSettingsWindow_FTPAccount" xml:space="preserve">
-    <value>Compte FTP :</value>
   </data>
   <data name="TaskSettingsWindow_FadeDurationSeconds" xml:space="preserve">
     <value>Durée du fondu (secondes) :</value>
@@ -2356,15 +1507,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   </data>
   <data name="TaskSettingsWindow_FilePath" xml:space="preserve">
     <value>Chemin du fichier</value>
-  </data>
-  <data name="TaskSettingsWindow_Filter" xml:space="preserve">
-    <value>Filtre</value>
-  </data>
-  <data name="TaskSettingsWindow_Filters" xml:space="preserve">
-    <value>Filtres</value>
-  </data>
-  <data name="TaskSettingsWindow_FolderPath" xml:space="preserve">
-    <value>Chemin du dossier</value>
   </data>
   <data name="TaskSettingsWindow_Format" xml:space="preserve">
     <value>Format :</value>
@@ -2396,18 +1538,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_HighlightMouseWhileRecording" xml:space="preserve">
     <value>Démarrer automatiquement le surligneur de la souris</value>
   </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAFileURLDownloadAndUploadIt" xml:space="preserve">
-    <value>Si le presse-papiers contient une URL de fichier, le télécharger et l’envoyer</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAFolderPathIndexAndUploadIt" xml:space="preserve">
-    <value>Si le presse-papiers contient un chemin de dossier, l’indexer et l’envoyer</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAURLShareItUsingURLSharingService" xml:space="preserve">
-    <value>Si le presse-papiers contient une URL, la partager avec le service de partage d’URL</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAURLUseURLShortener" xml:space="preserve">
-    <value>Si le presse-papiers contient une URL, utiliser le raccourcisseur d’URL</value>
-  </data>
   <data name="TaskSettingsWindow_IfFileExists" xml:space="preserve">
     <value>Si le fichier existe :</value>
   </data>
@@ -2434,9 +1564,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   </data>
   <data name="TaskSettingsWindow_ImageQuality" xml:space="preserve">
     <value>Qualité d’image</value>
-  </data>
-  <data name="TaskSettingsWindow_IncludeSubdirectories" xml:space="preserve">
-    <value>Inclure les sous-dossiers</value>
   </data>
   <data name="TaskSettingsWindow_InfoText" xml:space="preserve">
     <value>Texte d’information :</value>
@@ -2491,9 +1618,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   </data>
   <data name="TaskSettingsWindow_MoveDown" xml:space="preserve">
     <value>Descendre</value>
-  </data>
-  <data name="TaskSettingsWindow_MoveFileToScreenshotsFolder" xml:space="preserve">
-    <value>Déplacer le fichier vers le dossier des captures</value>
   </data>
   <data name="TaskSettingsWindow_MoveUp" xml:space="preserve">
     <value>Monter</value>
@@ -2588,9 +1712,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_NativeRecorderUnavailableSystemAudioDevice" xml:space="preserve">
     <value>Périphérique de sortie indisponible</value>
   </data>
-  <data name="TaskSettingsWindow_No" xml:space="preserve">
-    <value>Non</value>
-  </data>
   <data name="TaskSettingsWindow_NoButtonsConfiguredTheNotificationToolbarWillBeHidden" xml:space="preserve">
     <value>Aucun bouton configuré. La barre de notification sera masquée.</value>
   </data>
@@ -2615,11 +1736,11 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_OCRLanguagesAreUnavailable" xml:space="preserve">
     <value>Les langues OCR ne sont pas disponibles</value>
   </data>
+  <data name="TaskSettingsWindow_OcrGpuAcceleration" xml:space="preserve">
+    <value>Utiliser l’accélération graphique pour l’OCR</value>
+  </data>
   <data name="TaskSettingsWindow_OnlyApplyEffectsToRegionCapture" xml:space="preserve">
     <value>Appliquer les effets uniquement aux captures de région</value>
-  </data>
-  <data name="TaskSettingsWindow_OpenURLFormat" xml:space="preserve">
-    <value>Format d’ouverture d’URL</value>
   </data>
   <data name="TaskSettingsWindow_OpticalCharacterRecognition" xml:space="preserve">
     <value>Reconnaissance optique de caractères</value>
@@ -2636,20 +1757,8 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_OverrideAfterCaptureTasks" xml:space="preserve">
     <value>Remplacer les tâches après la capture</value>
   </data>
-  <data name="TaskSettingsWindow_OverrideAfterUploadTasks" xml:space="preserve">
-    <value>Remplacer les tâches après l’envoi</value>
-  </data>
   <data name="TaskSettingsWindow_OverrideCaptureSettings" xml:space="preserve">
     <value>Remplacer les paramètres de capture</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDefaultCustomUploader" xml:space="preserve">
-    <value>Remplacer l’hébergeur personnalisé par défaut</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDefaultFTPAccount" xml:space="preserve">
-    <value>Remplacer le compte FTP par défaut</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDestinations" xml:space="preserve">
-    <value>Remplacer les destinations</value>
   </data>
   <data name="TaskSettingsWindow_OverrideGeneralSettings" xml:space="preserve">
     <value>Remplacer les paramètres généraux</value>
@@ -2662,9 +1771,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   </data>
   <data name="TaskSettingsWindow_OverrideToolsSettings" xml:space="preserve">
     <value>Remplacer les paramètres des outils</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideUploadSettings" xml:space="preserve">
-    <value>Remplacer les paramètres d’envoi</value>
   </data>
   <data name="TaskSettingsWindow_PNGBitDepth" xml:space="preserve">
     <value>Profondeur de bits PNG :</value>
@@ -2696,9 +1802,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_PNGFilterUp" xml:space="preserve">
     <value>Up (pixel du dessus)</value>
   </data>
-  <data name="TaskSettingsWindow_Pattern" xml:space="preserve">
-    <value>Modèle :</value>
-  </data>
   <data name="TaskSettingsWindow_Placement" xml:space="preserve">
     <value>Position :</value>
   </data>
@@ -2719,15 +1822,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   </data>
   <data name="TaskSettingsWindow_Preview" xml:space="preserve">
     <value>Aperçu :</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringClipboardUpload" xml:space="preserve">
-    <value>Traiter les images pendant l’envoi depuis le presse-papiers</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringExtensionUpload" xml:space="preserve">
-    <value>Traiter les images pendant l’envoi depuis une extension</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringFileUpload" xml:space="preserve">
-    <value>Traiter les images pendant l’envoi de fichiers</value>
   </data>
   <data name="TaskSettingsWindow_ProcessOCRSilently" xml:space="preserve">
     <value>Traiter l’OCR silencieusement</value>
@@ -2756,20 +1850,8 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_Remove" xml:space="preserve">
     <value>Supprimer</value>
   </data>
-  <data name="TaskSettingsWindow_ReplaceResultURLUsingARegularExpression" xml:space="preserve">
-    <value>Remplacer l’URL résultante à l’aide d’une expression régulière</value>
-  </data>
-  <data name="TaskSettingsWindow_ReplaceURLProblematicCharactersWithUnderscores" xml:space="preserve">
-    <value>Remplacer les caractères problématiques des URL par des traits de soulignement</value>
-  </data>
-  <data name="TaskSettingsWindow_Replacement" xml:space="preserve">
-    <value>Remplacement :</value>
-  </data>
   <data name="TaskSettingsWindow_RestrictCaptureAndCursorToTheActiveMonitor" xml:space="preserve">
     <value>Limiter la capture et le curseur au moniteur actif</value>
-  </data>
-  <data name="TaskSettingsWindow_ResultForceHTTPS" xml:space="preserve">
-    <value>Forcer HTTPS pour les URL résultantes</value>
   </data>
   <data name="TaskSettingsWindow_RightClick" xml:space="preserve">
     <value>Clic droit :</value>
@@ -2812,9 +1894,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   </data>
   <data name="TaskSettingsWindow_Selection" xml:space="preserve">
     <value>Sélection</value>
-  </data>
-  <data name="TaskSettingsWindow_SeparateExtensionsWithCommasForExamplePngJpgJpeg" xml:space="preserve">
-    <value>Séparez les extensions par des virgules, par exemple : png, jpg, jpeg</value>
   </data>
   <data name="TaskSettingsWindow_ShadowOffset" xml:space="preserve">
     <value>Décalage de l’ombre :</value>
@@ -2918,33 +1997,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_Tools" xml:space="preserve">
     <value>Outils</value>
   </data>
-  <data name="TaskSettingsWindow_URLReplacement" xml:space="preserve">
-    <value>Remplacement d’URL</value>
-  </data>
-  <data name="TaskSettingsWindow_Update" xml:space="preserve">
-    <value>Mettre à jour</value>
-  </data>
-  <data name="TaskSettingsWindow_Upload" xml:space="preserve">
-    <value>Envoi</value>
-  </data>
-  <data name="TaskSettingsWindow_UploadFilesWhenTheyAreCreatedInThisFolder" xml:space="preserve">
-    <value>Téléversez les fichiers lorsqu’ils sont créés dans ce dossier.</value>
-  </data>
-  <data name="TaskSettingsWindow_UploadText" xml:space="preserve">
-    <value>Envoi de texte</value>
-  </data>
-  <data name="TaskSettingsWindow_Uploader" xml:space="preserve">
-    <value>Hébergeur :</value>
-  </data>
-  <data name="TaskSettingsWindow_UploaderAccounts" xml:space="preserve">
-    <value>Comptes d’hébergement</value>
-  </data>
-  <data name="TaskSettingsWindow_UploaderFilters" xml:space="preserve">
-    <value>Filtres d’hébergeur</value>
-  </data>
-  <data name="TaskSettingsWindow_UseAfterCaptureTasksDuringFileUpload" xml:space="preserve">
-    <value>Utiliser les tâches après la capture pendant l’envoi de fichiers</value>
-  </data>
   <data name="TaskSettingsWindow_UseCustomActionCompletedSound" xml:space="preserve">
     <value>Utiliser un son personnalisé d’action terminée</value>
   </data>
@@ -2969,9 +2021,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_UseJPEGIfImageSizeIsBiggerThanTheSpecifiedSize" xml:space="preserve">
     <value>Utiliser JPEG si l’image dépasse la taille indiquée</value>
   </data>
-  <data name="TaskSettingsWindow_UseNamePatternForFileUploads" xml:space="preserve">
-    <value>Utiliser un modèle de nom pour l’envoi de fichiers</value>
-  </data>
   <data name="TaskSettingsWindow_UseRandomImageEffect" xml:space="preserve">
     <value>Utiliser un effet d’image aléatoire</value>
   </data>
@@ -2980,15 +2029,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   </data>
   <data name="TaskSettingsWindow_UseStartDelay" xml:space="preserve">
     <value>Utiliser un délai avant le démarrage</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFolderSummary" xml:space="preserve">
-    <value>{0} — {1} — Inclure les sous-dossiers : {2}</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFolders" xml:space="preserve">
-    <value>Dossiers surveillés</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFoldersAndUploadNewlyCreatedFiles" xml:space="preserve">
-    <value>Surveiller les dossiers et envoyer les nouveaux fichiers</value>
   </data>
   <data name="TaskSettingsWindow_WaveAudio" xml:space="preserve">
     <value>Audio Wave</value>
@@ -3008,9 +2048,6 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_Y" xml:space="preserve">
     <value>Y :</value>
   </data>
-  <data name="TaskSettingsWindow_Yes" xml:space="preserve">
-    <value>Oui</value>
-  </data>
   <data name="TaskSettingsWindow_YouCanEnableOrDisableActionsFromAfterCaptureTasksPerformActions" xml:space="preserve">
     <value>Vous pouvez activer ou désactiver les actions dans Tâches après la capture → Exécuter des actions.</value>
   </data>
@@ -3020,103 +2057,21 @@ Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   <data name="TaskSettingsWindow_ZoomToFitOnOpen" xml:space="preserve">
     <value>Ajuster à la fenêtre à l’ouverture</value>
   </data>
-  <data name="ThisFeatureWillNotWorkWhenDisableUploadOptionIsEnabled" xml:space="preserve">
-    <value>Cette fonctionnalité n'est pas opérationnelle quand l'option "DisableUpload" est activée !</value>
-  </data>
   <data name="ThumbnailItemViewModel_UntitledTask" xml:space="preserve">
     <value>Tâche sans titre</value>
-  </data>
-  <data name="URLUploadWindow_Cancel" xml:space="preserve">
-    <value>Annuler</value>
-  </data>
-  <data name="URLUploadWindow_Heading" xml:space="preserve">
-    <value>Téléverser une URL</value>
-  </data>
-  <data name="URLUploadWindow_Prompt" xml:space="preserve">
-    <value>URL à télécharger puis téléverser</value>
-  </data>
-  <data name="URLUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - Téléverser une URL</value>
-  </data>
-  <data name="URLUploadWindow_URL" xml:space="preserve">
-    <value>URL</value>
-  </data>
-  <data name="URLUploadWindow_Upload" xml:space="preserve">
-    <value>Téléverser</value>
-  </data>
-  <data name="URLUploadWindow_Validation" xml:space="preserve">
-    <value>Saisissez une URL HTTP, HTTPS ou FTP valide.</value>
   </data>
   <data name="UnableToFindAWindowWithSpecifiedWindowTitle" xml:space="preserve">
     <value>Impossible de trouver une fenêtre correspondant au titre indiqué.</value>
   </data>
-  <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
-    <value>Erreurs de mise en ligne</value>
-  </data>
-  <data name="UploadManager_DownloadAndUploadFile_Download_failed" xml:space="preserve">
-    <value>Échec du téléchargement :
-{0}</value>
-  </data>
-  <data name="UploadManager_UploadFile_File_upload" xml:space="preserve">
-    <value>Mise en ligne de fichiers</value>
-  </data>
-  <data name="UploadManager_UploadFolder_Folder_upload" xml:space="preserve">
-    <value>Dossier mis en ligne</value>
-  </data>
-  <data name="UploadTask_CreateShareURLTask_Share_URL___0__" xml:space="preserve">
-    <value>Partage d'URL ({0})</value>
-  </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>Raccourcisseur d'URL ({0})</value>
-  </data>
-  <data name="UploadTask_DoAfterCaptureJobs_Choose_a_folder_to_save" xml:space="preserve">
-    <value>Choisir un dossier pour sauvegarde</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
-    <value>Mise en ligne en cours</value>
-  </data>
-  <data name="UploadTask_DownloadAndUpload_Downloading" xml:space="preserve">
-    <value>Téléchargement</value>
-  </data>
-  <data name="UploadTask_OnUploadCompleted_Done" xml:space="preserve">
-    <value>Terminé</value>
-  </data>
-  <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
-    <value>Arrêté</value>
-  </data>
-  <data name="UploadTask_Prepare_Preparing" xml:space="preserve">
-    <value>Préparation en cours</value>
-  </data>
-  <data name="UploadTask_Prepare_Starting" xml:space="preserve">
-    <value>Démarrage</value>
-  </data>
-  <data name="UploadTask_Stop_Stopping" xml:space="preserve">
-    <value>Arrêt en cours</value>
-  </data>
-  <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
-    <value>L'URL est vide.</value>
-  </data>
   <data name="WorkerTask_AllFilesFilter" xml:space="preserve">
     <value>Tous les fichiers (*.*)</value>
-  </data>
-  <data name="WorkerTask_ErrorTitle" xml:space="preserve">
-    <value>Erreur {0}</value>
-  </data>
-  <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
-    <value>La configuration {0} est invalide ou manquante. Merci de vérifier les "Paramètres de destination".</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Voulez-vous activer les effets d'image ?
 
 Vous pourrez les désactiver plus tard depuis le manu "Tâches après la capture".</value>
   </data>
-  <data name="WouldYouLikeToRetryClipboardUpload" xml:space="preserve">
-    <value>Voulez-vous réessayer la mise en ligne depuis le presse-papier ?</value>
-  </data>
   <data name="YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX" xml:space="preserve">
     <value>Votre logiciel anti-virus ou le control des répertoires Windows pourrait bloquer ShareX.</value>
-  </data>
-  <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
-    <value>Votre administrateur système a désactivé la fonctionnalité de mise en ligne.</value>
   </data>
 </root>

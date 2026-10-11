@@ -118,7 +118,7 @@ public sealed partial class ImageWatermarkViewModel : ViewModelBase, IDisposable
     public IReadOnlyList<string> WatermarkTypeOptions { get; } =
     [
         Localization.Strings.DirectoryIndexerViewModel_Text,
-        Localization.Strings.AnalyzeImageWindow_Image
+        Localization.Strings.BackgroundRemoverWindow_Image
     ];
 
     public IReadOnlyList<string> PositionOptions { get; } =

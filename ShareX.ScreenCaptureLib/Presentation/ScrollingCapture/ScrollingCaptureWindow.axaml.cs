@@ -45,7 +45,7 @@ public partial class ScrollingCaptureWindow : Window
     private static readonly Cursor PanCursor = new(StandardCursorType.SizeAll);
 
     private readonly ScrollingCaptureService _service;
-    private readonly Action<DrawingBitmap>? _uploadRequested;
+    private readonly Action<DrawingBitmap>? _saveRequested;
     private readonly Action? _playNotificationSound;
     private AvaloniaBitmap? _previewBitmap;
     private bool _captureOperation;
@@ -61,11 +61,11 @@ public partial class ScrollingCaptureWindow : Window
 
     public ScrollingCaptureWindow(
         ScrollingCaptureOptions options,
-        Action<DrawingBitmap>? uploadRequested,
+        Action<DrawingBitmap>? saveRequested,
         Action? playNotificationSound)
     {
         _service = new ScrollingCaptureService(options);
-        _uploadRequested = uploadRequested;
+        _saveRequested = saveRequested;
         _playNotificationSound = playNotificationSound;
 
         InitializeComponent();
@@ -188,9 +188,9 @@ public partial class ScrollingCaptureWindow : Window
             RestoreAndActivate();
         }
 
-        if (_service.Options.AutoUpload)
+        if (_service.Options.AutoSave)
         {
-            UploadResult();
+            SaveResult();
         }
 
         if (_closeRequested)
@@ -203,7 +203,7 @@ public partial class ScrollingCaptureWindow : Window
     {
         CaptureButton.IsEnabled = enabled;
         OptionsButton.IsEnabled = enabled;
-        UploadButton.IsEnabled = enabled && _service.Result != null;
+        SaveButton.IsEnabled = enabled && _service.Result != null;
         CopyButton.IsEnabled = enabled && _service.Result != null;
     }
 
@@ -247,7 +247,7 @@ public partial class ScrollingCaptureWindow : Window
         PreviewScrollViewer.Offset = default;
         EmptyState.IsVisible = false;
         ResultSizeText.Text = $"{bitmap.Width}x{bitmap.Height}";
-        UploadButton.IsEnabled = true;
+        SaveButton.IsEnabled = true;
         CopyButton.IsEnabled = true;
     }
 
@@ -257,7 +257,7 @@ public partial class ScrollingCaptureWindow : Window
         _previewBitmap?.Dispose();
         _previewBitmap = null;
         EmptyState.IsVisible = true;
-        UploadButton.IsEnabled = false;
+        SaveButton.IsEnabled = false;
         CopyButton.IsEnabled = false;
     }
 
@@ -273,11 +273,11 @@ public partial class ScrollingCaptureWindow : Window
         Activate();
     }
 
-    private void UploadResult()
+    private void SaveResult()
     {
         if (_service.Result != null)
         {
-            _uploadRequested?.Invoke((DrawingBitmap)_service.Result.Copy());
+            _saveRequested?.Invoke((DrawingBitmap)_service.Result.Copy());
         }
     }
 
@@ -291,7 +291,7 @@ public partial class ScrollingCaptureWindow : Window
 
     private async void OnCaptureClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e) => await StartStopAsync();
 
-    private void OnUploadClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e) => UploadResult();
+    private void OnSaveClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e) => SaveResult();
 
     private void OnCopyClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e) => CopyResult();
 
@@ -316,7 +316,7 @@ public partial class ScrollingCaptureWindow : Window
         options.ScrollDelay = Value(ScrollDelayInput);
         options.ScrollMethod = (ScrollMethod)Math.Max(0, ScrollMethodInput.SelectedIndex);
         options.ScrollAmount = Value(ScrollAmountInput);
-        options.AutoUpload = AutoUploadInput.IsChecked == true;
+        options.AutoSave = AutoSaveInput.IsChecked == true;
         options.ShowRegion = ShowRegionInput.IsChecked == true;
         options.AutoIgnoreBottomEdge = AutoIgnoreBottomEdgeInput.IsChecked == true;
         OptionsOverlay.IsVisible = false;
@@ -330,7 +330,7 @@ public partial class ScrollingCaptureWindow : Window
         ScrollDelayInput.Value = options.ScrollDelay;
         ScrollMethodInput.SelectedIndex = (int)options.ScrollMethod;
         ScrollAmountInput.Value = options.ScrollAmount;
-        AutoUploadInput.IsChecked = options.AutoUpload;
+        AutoSaveInput.IsChecked = options.AutoSave;
         ShowRegionInput.IsChecked = options.ShowRegion;
         AutoIgnoreBottomEdgeInput.IsChecked = options.AutoIgnoreBottomEdge;
         UpdateScrollAmountVisibility();

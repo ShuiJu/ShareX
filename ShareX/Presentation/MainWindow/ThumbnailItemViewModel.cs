@@ -50,8 +50,6 @@ internal sealed class ThumbnailItemViewModel : INotifyPropertyChanged, IDisposab
     private string _status = string.Empty;
     private string _details = string.Empty;
     private string _placeholderIcon = LucideIcons.file;
-    private double _progress;
-    private bool _isProgressVisible;
     private bool _isFailed;
     private bool _isCombineTarget;
 
@@ -100,7 +98,6 @@ internal sealed class ThumbnailItemViewModel : INotifyPropertyChanged, IDisposab
                     File.Exists(filePath) && FileHelpers.IsImageFile(filePath),
                 ThumbnailViewClickAction.OpenFile => !string.IsNullOrEmpty(filePath) && File.Exists(filePath),
                 ThumbnailViewClickAction.OpenFolder => !string.IsNullOrEmpty(filePath),
-                ThumbnailViewClickAction.OpenURL => !string.IsNullOrWhiteSpace(info?.Result?.ToString()),
                 ThumbnailViewClickAction.EditImage => !string.IsNullOrEmpty(filePath) &&
                     File.Exists(filePath) && FileHelpers.IsImageFile(filePath),
                 _ => false
@@ -145,17 +142,7 @@ internal sealed class ThumbnailItemViewModel : INotifyPropertyChanged, IDisposab
         private set => SetField(ref _placeholderIcon, value);
     }
 
-    public double Progress
-    {
-        get => _progress;
-        private set => SetField(ref _progress, value);
-    }
 
-    public bool IsProgressVisible
-    {
-        get => _isProgressVisible;
-        private set => SetField(ref _isProgressVisible, value);
-    }
 
     public bool IsFailed
     {
@@ -201,8 +188,6 @@ internal sealed class ThumbnailItemViewModel : INotifyPropertyChanged, IDisposab
         Title = !string.IsNullOrEmpty(info?.FileName) ? info.FileName : Path.GetFileName(info?.FilePath) ?? Strings.ThumbnailItemViewModel_UntitledTask;
         Status = !string.IsNullOrEmpty(info?.Status) ? info.Status : Task.Status.ToString();
         Details = info?.ToString() ?? string.Empty;
-        Progress = info?.Progress?.Percentage ?? 0;
-        IsProgressVisible = Task.IsWorking && info?.Progress != null;
         IsFailed = Task.Status == TaskStatus.Failed;
         PlaceholderIcon = GetPlaceholderIcon(info?.FilePath ?? info?.FileName);
         OnPropertyChanged(nameof(IsVideo));

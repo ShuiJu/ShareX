@@ -161,19 +161,6 @@
                                FontWeight="Normal"/>
                 </Button>
 
-                <Button Command="{Binding UploadCommand}"
-                        IsEnabled="{Binding HasPreviewImage}"
-                        Width="40"
-                        Padding="0"
-                        IsVisible="{Binding ShowBottomToolbar}"
-                        ToolTip.Tip="{x:Static res:Strings.EditorView_UploadimageCtrlU}"
-                        ToolTip.Placement="Top"
-                        ToolTip.VerticalOffset="-5">
-                    <TextBlock Text="{x:Static editorTheming:EditorIcons.ActionUpload}"
-                               FontSize="18"
-                               FontFamily="{DynamicResource ShareX.FontFamily.Icon}"
-                               FontWeight="Normal"/>
-                </Button>
             </StackPanel>
         </Border>
     </Grid>

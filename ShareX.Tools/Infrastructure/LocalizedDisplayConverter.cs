@@ -34,10 +34,6 @@ public sealed class LocalizedDisplayConverter : IValueConverter
     {
         return value switch
         {
-            AIProvider.OpenAI => Localization.Strings.LocalizedDisplayConverter_OpenAI,
-            AIProvider.Gemini => Localization.Strings.LocalizedDisplayConverter_Gemini,
-            AIProvider.OpenRouter => Localization.Strings.LocalizedDisplayConverter_OpenRouter,
-            AIProvider.OpenAILegacy => Localization.Strings.LocalizedDisplayConverter_OpenAI_legacy,
             BackgroundRemovalDevice.Auto => Localization.Strings.LocalizedDisplayConverter_Automatic,
             BackgroundRemovalDevice.GPU => Localization.Strings.LocalizedDisplayConverter_GPU,
             BackgroundRemovalDevice.CPU => Localization.Strings.LocalizedDisplayConverter_CPU,

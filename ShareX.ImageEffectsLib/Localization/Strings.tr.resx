@@ -1103,7 +1103,4 @@ Değer 1 ile 100 arasında olmalıdır.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Adsız ön ayar</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Yükle Görsel</value>
-  </data>
 </root>

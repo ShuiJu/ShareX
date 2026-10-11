@@ -39,14 +39,14 @@
                                 <TextBlock Text="{x:Static localization:Strings.ScrollingCaptureWindow_Capture}"/>
                             </StackPanel>
                         </Button>
-                        <Button x:Name="UploadButton"
+                        <Button x:Name="SaveButton"
                                 Grid.Column="1"
                                 Classes="compact"
                                 IsEnabled="False"
-                                Click="OnUploadClick">
+                                Click="OnSaveClick">
                             <StackPanel Orientation="Horizontal" Spacing="7">
-                                <TextBlock Classes="icon" Text="{x:Static theming:LucideIcons.upload}"/>
-                                <TextBlock Text="{x:Static localization:Strings.ScrollingCaptureWindow_Upload_Save}"/>
+                                <TextBlock Classes="icon" Text="{x:Static theming:LucideIcons.save}"/>
+                                <TextBlock Text="{x:Static localization:Strings.ScrollingCaptureWindow_Save}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="CopyButton"
@@ -208,7 +208,7 @@
                                 <CheckBox x:Name="AutoScrollTopInput" Content="{x:Static localization:Strings.ScrollingCaptureWindow_Automatically_scroll_to_top}"/>
                                 <CheckBox x:Name="AutoIgnoreBottomEdgeInput" Content="{x:Static localization:Strings.ScrollingCaptureWindow_Auto_ignore_bottom_edge}"/>
                                 <CheckBox x:Name="ShowRegionInput" Content="{x:Static localization:Strings.ScrollingCaptureWindow_Show_capture_region}"/>
-                                <CheckBox x:Name="AutoUploadInput" Content="{x:Static localization:Strings.ScrollingCaptureWindow_Automatically_upload_save}"/>
+                                <CheckBox x:Name="AutoSaveInput" Content="{x:Static localization:Strings.ScrollingCaptureWindow_Automatically_save}"/>
                             </StackPanel>
 
                             <StackPanel Grid.Row="3"

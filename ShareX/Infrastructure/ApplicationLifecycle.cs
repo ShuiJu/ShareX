@@ -84,8 +84,6 @@ internal static class ApplicationLifecycle
         }
 
         DebugHelper.WriteLine("ShareX closing.");
-        ApplicationState.WatchFolderManager?.Dispose();
-        ApplicationState.WatchFolderManager = null;
         SettingManager.HistoryClose();
         SettingManager.SaveAllSettings();
         DebugHelper.WriteLine("ShareX closed.");

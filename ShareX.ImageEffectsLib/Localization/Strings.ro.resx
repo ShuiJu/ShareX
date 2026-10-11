@@ -1103,7 +1103,4 @@ Valoarea trebuie să fie între 1 și 100.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Presetare fără nume</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Încarcă Imagine</value>
-  </data>
 </root>

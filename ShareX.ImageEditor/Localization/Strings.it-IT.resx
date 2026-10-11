@@ -390,9 +390,6 @@ Gli appunti non contengono un’immagine.</value>
   <data name="EditorView_Undo" xml:space="preserve">
     <value>Annulla</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>Carica immagine (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>L’URL non punta a un’immagine valida.</value>
   </data>
@@ -1227,9 +1224,6 @@ Gli appunti non contengono un’immagine.</value>
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>Immagine inserita.</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>Caricamento immagine in corso.</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>Immagine aperta.</value>
   </data>
@@ -1262,6 +1256,9 @@ Gli appunti non contengono un’immagine.</value>
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>Nessuna immagine</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>Usa l’accelerazione grafica per OCR</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Esegui attività dopo la cattura (Invio)</value>
@@ -1301,6 +1298,54 @@ Gli appunti non contengono un’immagine.</value>
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>Larghezza:</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>Motore OCR</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>ShareX OCR non è disponibile su questa piattaforma. Seleziona Xiaomi OCR nelle impostazioni dell’editor.</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>Impossibile completare l’azione.</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>Riconoscimento del testo annullato.</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>Copia negli appunti</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>Download dei file OCR…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>Riconoscimento del testo non riuscito.</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>Caricamento del modello OCR…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>Preparazione dei file OCR per un caricamento più rapido…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>Riconoscimento del testo…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>Salva su file</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>File di testo</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>Riconoscimento del testo</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>Applica</value>

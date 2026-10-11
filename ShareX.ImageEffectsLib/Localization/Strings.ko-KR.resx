@@ -1103,7 +1103,4 @@
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>이름 없는 프리셋</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>업로드이미지</value>
-  </data>
 </root>

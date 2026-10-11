@@ -390,9 +390,6 @@ Le presse-papiers ne contient aucune image.</value>
   <data name="EditorView_Undo" xml:space="preserve">
     <value>Annuler</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>Téléverser l’image (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>L’URL ne pointe pas vers une image valide.</value>
   </data>
@@ -1227,9 +1224,6 @@ Le presse-papiers ne contient aucune image.</value>
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>Image insérée.</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>Téléversement de l’image.</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>Image ouverte.</value>
   </data>
@@ -1262,6 +1256,9 @@ Le presse-papiers ne contient aucune image.</value>
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>Aucune image</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>Utiliser l’accélération graphique pour l’OCR</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Exécuter les tâches après capture (Entrée)</value>
@@ -1301,6 +1298,54 @@ Le presse-papiers ne contient aucune image.</value>
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>Largeur :</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>Moteur OCR</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>ShareX OCR est indisponible sur cette plateforme. Sélectionnez Xiaomi OCR dans les paramètres de l’éditeur.</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>L’action n’a pas pu être terminée.</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>Reconnaissance de texte annulée.</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>Copier dans le presse-papiers</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>Téléchargement des fichiers OCR…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>La reconnaissance de texte a échoué.</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>Chargement du modèle OCR…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>Préparation des fichiers OCR pour un chargement plus rapide…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>Reconnaissance du texte…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>Enregistrer dans un fichier</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>Fichier texte</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>Reconnaissance de texte</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>Appliquer</value>

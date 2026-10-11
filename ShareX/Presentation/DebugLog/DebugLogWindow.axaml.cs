@@ -41,7 +41,6 @@ namespace ShareX;
 public partial class DebugLogWindow : Window
 {
     private readonly Logger _logger;
-    private readonly Action<string>? _uploadRequested;
     private readonly string _startupPath;
 
     public DebugLogWindow()
@@ -53,17 +52,14 @@ public partial class DebugLogWindow : Window
         RequestedThemeVariant = ThemeManager.GetCurrentTheme();
     }
 
-    public DebugLogWindow(Logger logger, Action<string>? uploadRequested, string uploadWarning) : this()
+    public DebugLogWindow(Logger logger) : this()
     {
         _logger = logger;
-        _uploadRequested = uploadRequested;
 
         LogTextBox.Text = _logger.ToString() ?? string.Empty;
         LogTextBox.CaretIndex = LogTextBox.Text.Length;
         OpenLogFileButton.IsEnabled = !string.IsNullOrEmpty(_logger.LogFilePath);
-        UploadLogButton.IsVisible = _uploadRequested != null;
         RunningFromButton.Content = _startupPath;
-        UploadWarningText.Text = uploadWarning;
 
         _logger.MessageAdded += OnLoggerMessageAdded;
         Closed += OnClosed;
@@ -136,29 +132,6 @@ public partial class DebugLogWindow : Window
         DebugHelper.WriteLine($"Loaded assemblies:\r\n{builder.ToString().Trim()}");
     }
 
-    private void OnUploadLogClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
-    {
-        if (_uploadRequested != null && !string.IsNullOrEmpty(LogTextBox.Text))
-        {
-            UploadConfirmationOverlay.IsVisible = true;
-        }
-    }
-
-    private void OnCancelUploadClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
-    {
-        UploadConfirmationOverlay.IsVisible = false;
-    }
-
-    private void OnConfirmUploadClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
-    {
-        string text = LogTextBox.Text ?? string.Empty;
-        UploadConfirmationOverlay.IsVisible = false;
-
-        if (!string.IsNullOrEmpty(text))
-        {
-            _uploadRequested?.Invoke(text);
-        }
-    }
 
     private void OnRunningFromClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {

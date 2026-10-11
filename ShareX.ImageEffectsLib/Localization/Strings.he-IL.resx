@@ -1103,7 +1103,4 @@
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>הגדרה קבועה מראש ללא שם</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>העלאה תמונה</value>
-  </data>
 </root>

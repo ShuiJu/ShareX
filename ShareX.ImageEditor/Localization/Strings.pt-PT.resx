@@ -390,9 +390,6 @@ A área de transferência não contém uma imagem.</value>
   <data name="EditorView_Undo" xml:space="preserve">
     <value>Reverter</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>Enviar imagem (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>O URL não aponta para uma imagem válida.</value>
   </data>
@@ -1227,9 +1224,6 @@ A área de transferência não contém uma imagem.</value>
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>Imagem inserida.</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>A imagem está sendo enviada.</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>Imagem aberta.</value>
   </data>
@@ -1262,6 +1256,9 @@ A área de transferência não contém uma imagem.</value>
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>Sem imagem</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>Utilizar aceleração gráfica para OCR</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Executar tarefas após captura (Enter)</value>
@@ -1301,6 +1298,54 @@ A área de transferência não contém uma imagem.</value>
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>Largura:</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>Motor de OCR</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>O ShareX OCR não está disponível nesta plataforma. Selecione Xiaomi OCR nas definições do editor.</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>Não foi possível concluir a ação.</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>Reconhecimento de texto cancelado.</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>Copiar para a área de transferência</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>A transferir ficheiros de OCR…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>Falha no reconhecimento de texto.</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>A carregar o modelo de OCR…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>A preparar ficheiros de OCR para um carregamento mais rápido…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>A reconhecer texto…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>Guardar num ficheiro</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>Ficheiro de texto</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>Reconhecimento de texto</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>Aplicar</value>

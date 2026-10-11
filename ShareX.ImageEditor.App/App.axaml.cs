@@ -27,7 +27,9 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using ShareX.AvaloniaUI.Theming;
+using Newtonsoft.Json;
 using ShareX.ImageEditor.Integration;
+using ShareX.ImageEditor.Core.OCR;
 using ShareX.ImageEditor.Presentation.ViewModels;
 using ShareX.ImageEditor.Presentation.Views;
 using SkiaSharp;
@@ -39,6 +41,9 @@ namespace ShareX.ImageEditor.App
     public partial class App : Application
     {
         private static readonly string[] ImageExtensions = [".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp", ".ico"];
+        private static readonly string SettingsPath = Path.Combine(
+            Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+            "ShareX", "ImageEditor", "settings.json");
 
         public override void Initialize()
         {
@@ -48,10 +53,14 @@ namespace ShareX.ImageEditor.App
         public override void OnFrameworkInitializationCompleted()
         {
             ThemeManager.Configure(new ApplicationThemeOptions());
+#if WINDOWS
+            EditorServices.BuiltInOcr = new WindowsOcrService((image, cancellationToken) =>
+                ShareX.Tools.OCRHelper.OCR(image, cancellationToken: cancellationToken));
+#endif
 
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
-                ImageEditorOptions options = new ImageEditorOptions();
+                ImageEditorOptions options = LoadOptions();
 
 #if DEBUG
                 options.ShowExitConfirmation = false;
@@ -59,6 +68,7 @@ namespace ShareX.ImageEditor.App
 
                 EditorWindow window = new EditorWindow(options);
                 desktop.MainWindow = window;
+                window.Closed += (_, _) => SaveOptions(options);
 
                 if (window.DataContext is MainViewModel vm)
                 {
@@ -89,6 +99,47 @@ namespace ShareX.ImageEditor.App
             }
 
             base.OnFrameworkInitializationCompleted();
+        }
+
+        private static ImageEditorOptions LoadOptions()
+        {
+            try
+            {
+                if (File.Exists(SettingsPath))
+                {
+                    return JsonConvert.DeserializeObject<ImageEditorOptions>(File.ReadAllText(SettingsPath))
+                        ?? new ImageEditorOptions();
+                }
+            }
+            catch (Exception ex) when (ex is IOException or UnauthorizedAccessException or JsonException)
+            {
+                EditorServices.ReportWarning(nameof(App), "Failed to load editor settings.", ex);
+            }
+
+            return new ImageEditorOptions();
+        }
+
+        private static void SaveOptions(ImageEditorOptions options)
+        {
+            string temporaryPath = SettingsPath + "." + Guid.NewGuid().ToString("N") + ".tmp";
+            try
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(SettingsPath)!);
+                File.WriteAllText(temporaryPath, JsonConvert.SerializeObject(options, Formatting.Indented));
+                File.Move(temporaryPath, SettingsPath, overwrite: true);
+            }
+            catch (Exception ex) when (ex is IOException or UnauthorizedAccessException or JsonException)
+            {
+                EditorServices.ReportWarning(nameof(App), "Failed to save editor settings.", ex);
+            }
+            finally
+            {
+                try { File.Delete(temporaryPath); }
+                catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
+                {
+                    EditorServices.ReportWarning(nameof(App), "Failed to remove temporary editor settings.", ex);
+                }
+            }
         }
 
         private string? GetImagePathFromArgs(string[]? args)

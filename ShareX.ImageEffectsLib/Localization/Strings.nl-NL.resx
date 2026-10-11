@@ -1103,7 +1103,4 @@ De waarde moet tussen 1 en 100 liggen.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Naamloze voorinstelling</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Uploaden Afbeelding</value>
-  </data>
 </root>

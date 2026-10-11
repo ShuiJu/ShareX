@@ -179,7 +179,6 @@
                                                 <MenuItem x:Name="OpenUrlMenu" Header="{x:Static localization:Strings.HistoryWindows_URL}" Click="OnOpenUrlClick" InputGesture="Enter"/>
                                                 <MenuItem x:Name="OpenShortUrlMenu" Header="{x:Static localization:Strings.HistoryWindows_Shortened_URL}" Click="OnOpenShortUrlClick"/>
                                                 <MenuItem x:Name="OpenThumbnailUrlMenu" Header="{x:Static localization:Strings.HistoryWindows_Thumbnail_URL}" Click="OnOpenThumbnailUrlClick"/>
-                                                <MenuItem x:Name="OpenDeletionUrlMenu" Header="{x:Static localization:Strings.HistoryWindows_Deletion_URL}" Click="OnOpenDeletionUrlClick"/>
                                                 <Separator/>
                                                 <MenuItem x:Name="OpenFileMenu" Header="{x:Static localization:Strings.HistoryWindows_File}" Click="OnOpenFileClick" InputGesture="Ctrl+Enter"/>
                                                 <MenuItem x:Name="OpenFolderMenu" Header="{x:Static localization:Strings.HistoryWindows_Folder}" Click="OnOpenFolderClick" InputGesture="Shift+Enter"/>
@@ -191,23 +190,10 @@
                                                 <MenuItem x:Name="CopyUrlMenu" Header="{x:Static localization:Strings.HistoryWindows_URL}" Click="OnCopyUrlClick" InputGesture="Ctrl+C"/>
                                                 <MenuItem x:Name="CopyShortUrlMenu" Header="{x:Static localization:Strings.HistoryWindows_Shortened_URL}" Click="OnCopyShortUrlClick"/>
                                                 <MenuItem x:Name="CopyThumbnailUrlMenu" Header="{x:Static localization:Strings.HistoryWindows_Thumbnail_URL}" Click="OnCopyThumbnailUrlClick"/>
-                                                <MenuItem x:Name="CopyDeletionUrlMenu" Header="{x:Static localization:Strings.HistoryWindows_Deletion_URL}" Click="OnCopyDeletionUrlClick"/>
                                                 <Separator/>
                                                 <MenuItem x:Name="CopyFileMenu" Header="{x:Static localization:Strings.HistoryWindows_File}" Click="OnCopyFileClick" InputGesture="Shift+C"/>
                                                 <MenuItem x:Name="CopyImageMenu" Header="{x:Static localization:Strings.HistoryWindows_Image}" Click="OnCopyImageClick" InputGesture="Alt+C"/>
                                                 <MenuItem x:Name="CopyTextMenu" Header="{x:Static localization:Strings.HistoryWindows_Text}" Click="OnCopyTextClick"/>
-                                                <Separator/>
-                                                <MenuItem x:Name="CopyHtmlLinkMenu" Header="{x:Static localization:Strings.HistoryWindows_HTML_link}" Click="OnCopyHtmlLinkClick"/>
-                                                <MenuItem x:Name="CopyHtmlImageMenu" Header="{x:Static localization:Strings.HistoryWindows_HTML_image}" Click="OnCopyHtmlImageClick"/>
-                                                <MenuItem x:Name="CopyHtmlLinkedImageMenu" Header="{x:Static localization:Strings.HistoryWindows_HTML_linked_image}" Click="OnCopyHtmlLinkedImageClick"/>
-                                                <Separator/>
-                                                <MenuItem x:Name="CopyForumLinkMenu" Header="{x:Static localization:Strings.HistoryWindows_Forum_BBCode_link}" Click="OnCopyForumLinkClick"/>
-                                                <MenuItem x:Name="CopyForumImageMenu" Header="{x:Static localization:Strings.HistoryWindows_Forum_BBCode_image}" Click="OnCopyForumImageClick"/>
-                                                <MenuItem x:Name="CopyForumLinkedImageMenu" Header="{x:Static localization:Strings.HistoryWindows_Forum_BBCode_linked_image}" Click="OnCopyForumLinkedImageClick"/>
-                                                <Separator/>
-                                                <MenuItem x:Name="CopyMarkdownLinkMenu" Header="{x:Static localization:Strings.HistoryWindows_Markdown_link}" Click="OnCopyMarkdownLinkClick"/>
-                                                <MenuItem x:Name="CopyMarkdownImageMenu" Header="{x:Static localization:Strings.HistoryWindows_Markdown_image}" Click="OnCopyMarkdownImageClick"/>
-                                                <MenuItem x:Name="CopyMarkdownLinkedImageMenu" Header="{x:Static localization:Strings.HistoryWindows_Markdown_linked_image}" Click="OnCopyMarkdownLinkedImageClick"/>
                                                 <Separator/>
                                                 <MenuItem x:Name="CopyFilePathMenu" Header="{x:Static localization:Strings.HistoryWindows_File_path}" Click="OnCopyFilePathClick" InputGesture="Ctrl+Shift+C"/>
                                                 <MenuItem x:Name="CopyFileNameMenu" Header="{x:Static localization:Strings.HistoryWindows_File_name}" Click="OnCopyFileNameClick"/>
@@ -251,11 +237,6 @@
                                                     <TextBlock Classes="icon" Text="{x:Static theming:LucideIcons.eye}"/>
                                                 </MenuItem.Icon>
                                             </MenuItem>
-                                            <MenuItem x:Name="UploadMenu" Header="{x:Static localization:Strings.HistoryWindows_Upload_file}" Click="OnUploadFileClick" InputGesture="Ctrl+U">
-                                                <MenuItem.Icon>
-                                                    <TextBlock Classes="icon" Text="{x:Static theming:LucideIcons.upload}"/>
-                                                </MenuItem.Icon>
-                                            </MenuItem>
                                             <MenuItem x:Name="EditImageMenu" Header="{x:Static localization:Strings.HistoryWindows_Edit_image}" Click="OnEditImageClick" InputGesture="Ctrl+E">
                                                 <MenuItem.Icon>
                                                     <TextBlock Classes="icon" Text="{x:Static theming:LucideIcons.wand_sparkles}"/>
@@ -274,11 +255,6 @@
                                             <MenuItem x:Name="PinMenu" Header="{x:Static localization:Strings.HistoryWindows_Pin_to_screen}" Click="OnPinToScreenClick" InputGesture="Ctrl+P">
                                                 <MenuItem.Icon>
                                                     <TextBlock Classes="icon" Text="{x:Static theming:LucideIcons.pin}"/>
-                                                </MenuItem.Icon>
-                                            </MenuItem>
-                                            <MenuItem x:Name="AnalyzeMenu" Header="{x:Static localization:Strings.HistoryWindows_Analyze_image}" Click="OnAnalyzeImageClick">
-                                                <MenuItem.Icon>
-                                                    <TextBlock Classes="icon" Text="{x:Static theming:LucideIcons.scan_search}"/>
                                                 </MenuItem.Icon>
                                             </MenuItem>
                                         </ContextMenu>

@@ -57,6 +57,7 @@ namespace ShareX.ImageEditor.Presentation.Views
             vm.LoadFromUrlRequested += OnLoadFromUrlRequested;
             vm.LoadRecentFileRequested += OnLoadRecentFileRequested;
             vm.CopyRequested += OnCopyImageRequested;
+            vm.OcrRequested += OnOcrRequested;
             vm.SaveRequested += OnSaveRequested;
             vm.SaveAsRequested += OnSaveAsRequested;
             vm.FileMenuRequested += OnFileMenuRequested;
@@ -89,6 +90,7 @@ namespace ShareX.ImageEditor.Presentation.Views
             vm.LoadFromUrlRequested -= OnLoadFromUrlRequested;
             vm.LoadRecentFileRequested -= OnLoadRecentFileRequested;
             vm.CopyRequested -= OnCopyImageRequested;
+            vm.OcrRequested -= OnOcrRequested;
             vm.SaveRequested -= OnSaveRequested;
             vm.SaveAsRequested -= OnSaveAsRequested;
             vm.FileMenuRequested -= OnFileMenuRequested;

@@ -30,6 +30,71 @@ namespace ShareX.ImageEditor.Localization {
             get { return resourceCulture; }
             set { resourceCulture = value; }
         }
+        public static string OcrWindow_Title {
+            get {
+                return ResourceManager.GetString("OcrWindow_Title", resourceCulture);
+            }
+        }
+        public static string OcrWindow_Loading {
+            get {
+                return ResourceManager.GetString("OcrWindow_Loading", resourceCulture);
+            }
+        }
+        public static string OcrWindow_Recognizing {
+            get {
+                return ResourceManager.GetString("OcrWindow_Recognizing", resourceCulture);
+            }
+        }
+        public static string OcrWindow_Save {
+            get {
+                return ResourceManager.GetString("OcrWindow_Save", resourceCulture);
+            }
+        }
+        public static string OcrWindow_Copy {
+            get {
+                return ResourceManager.GetString("OcrWindow_Copy", resourceCulture);
+            }
+        }
+        public static string OcrWindow_Close {
+            get {
+                return ResourceManager.GetString("OcrWindow_Close", resourceCulture);
+            }
+        }
+        public static string OcrWindow_Failed {
+            get {
+                return ResourceManager.GetString("OcrWindow_Failed", resourceCulture);
+            }
+        }
+        public static string OcrWindow_ActionFailed {
+            get {
+                return ResourceManager.GetString("OcrWindow_ActionFailed", resourceCulture);
+            }
+        }
+        public static string OcrWindow_TextFile {
+            get {
+                return ResourceManager.GetString("OcrWindow_TextFile", resourceCulture);
+            }
+        }
+        public static string OcrWindow_Download {
+            get {
+                return ResourceManager.GetString("OcrWindow_Download", resourceCulture);
+            }
+        }
+        public static string OcrWindow_Preparing {
+            get {
+                return ResourceManager.GetString("OcrWindow_Preparing", resourceCulture);
+            }
+        }
+        public static string OcrWindow_Cancelled {
+            get {
+                return ResourceManager.GetString("OcrWindow_Cancelled", resourceCulture);
+            }
+        }
+        public static string MainViewModel_OcrGpuAcceleration {
+            get {
+                return ResourceManager.GetString("MainViewModel_OcrGpuAcceleration", resourceCulture);
+            }
+        }
         public static string ConfirmationDialogView_Title {
             get {
                 return ResourceManager.GetString("ConfirmationDialogView_Title", resourceCulture);
@@ -588,11 +653,6 @@ namespace ShareX.ImageEditor.Localization {
         public static string EditorView_Undo {
             get {
                 return ResourceManager.GetString("EditorView_Undo", resourceCulture);
-            }
-        }
-        public static string EditorView_UploadimageCtrlU {
-            get {
-                return ResourceManager.GetString("EditorView_UploadimageCtrlU", resourceCulture);
             }
         }
         public static string EditorView_ZoomCtrlWheel {
@@ -1183,11 +1243,6 @@ namespace ShareX.ImageEditor.Localization {
         public static string MainViewModel_ImagePinnedToScreen {
             get {
                 return ResourceManager.GetString("MainViewModel_ImagePinnedToScreen", resourceCulture);
-            }
-        }
-        public static string MainViewModel_ImageIsUploading {
-            get {
-                return ResourceManager.GetString("MainViewModel_ImageIsUploading", resourceCulture);
             }
         }
         public static string ToolbarCustomizationDialogView_DuplicateHotkey {
@@ -2435,5 +2490,9 @@ namespace ShareX.ImageEditor.Localization {
                 return ResourceManager.GetString("EffectBrowserPanel_Effect_wave_distortion", resourceCulture);
             }
         }
+        public static string OcrEngine_Label => ResourceManager.GetString("OcrEngine_Label", resourceCulture);
+        public static string OcrEngine_ShareX => ResourceManager.GetString("OcrEngine_ShareX", resourceCulture);
+        public static string OcrEngine_Xiaomi => ResourceManager.GetString("OcrEngine_Xiaomi", resourceCulture);
+        public static string OcrEngine_Unavailable => ResourceManager.GetString("OcrEngine_Unavailable", resourceCulture);
     }
 }

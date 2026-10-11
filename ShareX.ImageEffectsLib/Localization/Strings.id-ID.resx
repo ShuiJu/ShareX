@@ -1103,7 +1103,4 @@ Nilai harus antara 1 dan 100.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Prasetel tanpa nama</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Unggah Gambar</value>
-  </data>
 </root>

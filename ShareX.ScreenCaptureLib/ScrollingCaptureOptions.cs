@@ -33,7 +33,7 @@ namespace ShareX.ScreenCaptureLib
         public ScrollMethod ScrollMethod { get; set; } = ScrollMethod.MouseWheel;
         public int ScrollAmount { get; set; } = 2;
         public bool AutoIgnoreBottomEdge { get; set; } = true;
-        public bool AutoUpload { get; set; } = false;
+        public bool AutoSave { get; set; } = false;
         public bool ShowRegion { get; set; } = true;
     }
 }

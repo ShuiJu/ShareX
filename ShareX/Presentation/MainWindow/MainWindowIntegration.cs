@@ -30,7 +30,6 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Threading;
 using ShareX.HelpersLib;
 using ShareX.Localization;
-using ShareX.UploadersLib;
 using System;
 
 namespace ShareX;
@@ -154,12 +153,6 @@ public static class MainWindowIntegration
             case MainFormCommand.HotkeySettings:
                 OpenHotkeySettings();
                 break;
-            case MainFormCommand.DestinationSettings:
-                TaskHelpers.OpenUploadersConfigWindow();
-                break;
-            case MainFormCommand.CustomUploaderSettings:
-                TaskHelpers.OpenCustomUploaderSettingsWindow();
-                break;
             case MainFormCommand.ScreenshotsFolder:
                 TaskHelpers.OpenScreenshotsFolder();
                 break;
@@ -171,21 +164,6 @@ public static class MainWindowIntegration
                 break;
             case MainFormCommand.DebugLog:
                 TaskHelpers.OpenDebugLog();
-                break;
-            case MainFormCommand.TestImageUpload:
-                UploadManager.UploadImage(ShareXResources.Logo);
-                break;
-            case MainFormCommand.TestTextUpload:
-                UploadManager.UploadText(Strings.MainForm_tsmiTestTextUpload_Click_Text_upload_test);
-                break;
-            case MainFormCommand.TestFileUpload:
-                UploadManager.UploadImage(ShareXResources.Logo, ImageDestination.FileUploader, ApplicationState.DefaultTaskSettings.FileDestination);
-                break;
-            case MainFormCommand.TestUrlShortener:
-                UploadManager.ShortenURL(Links.Website);
-                break;
-            case MainFormCommand.TestUrlSharing:
-                UploadManager.ShareURL(Links.Website);
                 break;
             case MainFormCommand.Donate:
 #if STEAM

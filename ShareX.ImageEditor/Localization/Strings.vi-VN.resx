@@ -390,9 +390,6 @@ Bảng nhớ tạm không chứa ảnh.</value>
   <data name="EditorView_Undo" xml:space="preserve">
     <value>Hoàn tác</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>Tải hình ảnh lên (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>URL không trỏ đến ảnh hợp lệ.</value>
   </data>
@@ -1227,9 +1224,6 @@ Bảng nhớ tạm không chứa ảnh.</value>
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>Đã chèn hình ảnh.</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>Đang tải hình ảnh lên.</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>Đã mở hình ảnh.</value>
   </data>
@@ -1262,6 +1256,9 @@ Bảng nhớ tạm không chứa ảnh.</value>
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>Không có hình ảnh</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>Sử dụng tăng tốc đồ họa cho OCR</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Chạy tác vụ sau khi chụp (Enter)</value>
@@ -1301,6 +1298,54 @@ Bảng nhớ tạm không chứa ảnh.</value>
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>Chiều rộng:</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>Công cụ OCR</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>ShareX OCR không khả dụng trên nền tảng này. Chọn Xiaomi OCR trong cài đặt trình chỉnh sửa.</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>Không thể hoàn tất thao tác.</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>Đã hủy nhận dạng văn bản.</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>Sao chép vào bảng nhớ tạm</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>Đang tải xuống các tệp OCR…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>Nhận dạng văn bản thất bại.</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>Đang tải mô hình OCR…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>Đang chuẩn bị các tệp OCR để tải nhanh hơn…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>Đang nhận dạng văn bản…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>Lưu vào tệp</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>Tệp văn bản</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>Nhận dạng văn bản</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>Áp dụng</value>

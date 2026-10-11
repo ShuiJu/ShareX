@@ -1103,7 +1103,4 @@ O valor deve estar entre 1 e 100.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Predefinição sem nome</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Carregar Imagem</value>
-  </data>
 </root>

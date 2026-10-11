@@ -572,7 +572,6 @@ public partial class HistoryWindow : Window
         bool url = !string.IsNullOrWhiteSpace(item.URL);
         bool shortUrl = !string.IsNullOrWhiteSpace(item.ShortenedURL);
         bool thumbnailUrl = !string.IsNullOrWhiteSpace(item.ThumbnailURL);
-        bool deletionUrl = !string.IsNullOrWhiteSpace(item.DeletionURL);
         bool validPath = !string.IsNullOrWhiteSpace(item.FilePath) && Path.HasExtension(item.FilePath);
         bool file = validPath && File.Exists(item.FilePath);
         bool imageFile = file && FileHelpers.IsImageFile(item.FilePath);
@@ -582,14 +581,12 @@ public partial class HistoryWindow : Window
         OpenUrlMenu.IsEnabled = single && url;
         OpenShortUrlMenu.IsEnabled = single && shortUrl;
         OpenThumbnailUrlMenu.IsEnabled = single && thumbnailUrl;
-        OpenDeletionUrlMenu.IsEnabled = single && deletionUrl;
         OpenFileMenu.IsEnabled = single && file;
         OpenFolderMenu.IsEnabled = single && file;
         CopyMenu.IsEnabled = true;
         CopyUrlMenu.IsEnabled = !single || url;
         CopyShortUrlMenu.IsEnabled = !single || shortUrl;
         CopyThumbnailUrlMenu.IsEnabled = !single || thumbnailUrl;
-        CopyDeletionUrlMenu.IsEnabled = !single || deletionUrl;
         CopyFileMenu.IsEnabled = !single || file;
         CopyImageMenu.IsEnabled = single && imageFile;
         CopyTextMenu.IsEnabled = single && textFile;
@@ -597,15 +594,6 @@ public partial class HistoryWindow : Window
         CopyFileNameMenu.IsEnabled = !single || validPath;
         CopyFileNameExtensionMenu.IsEnabled = !single || validPath;
         CopyFolderMenu.IsEnabled = !single || validPath;
-        CopyHtmlLinkMenu.IsEnabled = !single || url;
-        CopyHtmlImageMenu.IsEnabled = !single || (url && FileHelpers.IsImageFile(item.URL));
-        CopyHtmlLinkedImageMenu.IsEnabled = !single || (url && FileHelpers.IsImageFile(item.URL) && thumbnailUrl);
-        CopyForumLinkMenu.IsEnabled = CopyHtmlLinkMenu.IsEnabled;
-        CopyForumImageMenu.IsEnabled = CopyHtmlImageMenu.IsEnabled;
-        CopyForumLinkedImageMenu.IsEnabled = CopyHtmlLinkedImageMenu.IsEnabled;
-        CopyMarkdownLinkMenu.IsEnabled = CopyHtmlLinkMenu.IsEnabled;
-        CopyMarkdownImageMenu.IsEnabled = CopyHtmlImageMenu.IsEnabled;
-        CopyMarkdownLinkedImageMenu.IsEnabled = CopyHtmlLinkedImageMenu.IsEnabled;
         FavoriteMenu.Header = item.Favorite
             ? Strings.HistoryWindow_Unfavorite
             : Strings.HistoryWindows_Favorite;
@@ -613,14 +601,12 @@ public partial class HistoryWindow : Window
         EditMenu.IsEnabled = single;
         RenameMenu.IsEnabled = single && validPath;
         PreviewMenu.IsEnabled = single && imageFile;
-        UploadMenu.IsEnabled = single && file && _services.UploadFile != null;
         EditImageMenu.IsEnabled = single && imageFile && _services.EditImage != null;
         TrimVideoMenu.IsVisible = single && file && FileHelpers.IsVideoFile(item.FilePath) && _services.TrimVideo != null;
         TrimAnimatedGifMenu.IsVisible = single && file &&
             string.Equals(Path.GetExtension(item.FilePath), ".gif", StringComparison.OrdinalIgnoreCase) &&
             _services.TrimAnimatedGif != null;
         PinMenu.IsEnabled = single && imageFile && _services.PinToScreen != null;
-        AnalyzeMenu.IsEnabled = single && imageFile && _services.AnalyzeImage != null;
     }
 
     private void OnAdvancedClick(object? sender, RoutedEventArgs e)
@@ -978,7 +964,6 @@ public partial class HistoryWindow : Window
     private void OnOpenUrlClick(object? sender, RoutedEventArgs e) => OpenUrl(item => item.URL);
     private void OnOpenShortUrlClick(object? sender, RoutedEventArgs e) => OpenUrl(item => item.ShortenedURL);
     private void OnOpenThumbnailUrlClick(object? sender, RoutedEventArgs e) => OpenUrl(item => item.ThumbnailURL);
-    private void OnOpenDeletionUrlClick(object? sender, RoutedEventArgs e) => OpenUrl(item => item.DeletionURL);
     private void OpenUrl(Func<HistoryItem, string?> selector)
     {
         HistoryItem? item = GetPrimaryItem();
@@ -1008,19 +993,6 @@ public partial class HistoryWindow : Window
     private void OnCopyUrlClick(object? sender, RoutedEventArgs e) => CopyValues(item => item.URL);
     private void OnCopyShortUrlClick(object? sender, RoutedEventArgs e) => CopyValues(item => item.ShortenedURL);
     private void OnCopyThumbnailUrlClick(object? sender, RoutedEventArgs e) => CopyValues(item => item.ThumbnailURL);
-    private void OnCopyDeletionUrlClick(object? sender, RoutedEventArgs e) => CopyValues(item => item.DeletionURL);
-    private void OnCopyHtmlLinkClick(object? sender, RoutedEventArgs e) => CopyValues(item => $"<a href=\"{item.URL}\">{item.URL}</a>", HasUrl);
-    private void OnCopyHtmlImageClick(object? sender, RoutedEventArgs e) => CopyValues(item => $"<img src=\"{item.URL}\"/>", HasImageUrl);
-    private void OnCopyHtmlLinkedImageClick(object? sender, RoutedEventArgs e) => CopyValues(item => $"<a href=\"{item.URL}\"><img src=\"{item.ThumbnailURL}\"/></a>", HasLinkedImage);
-    private void OnCopyForumLinkClick(object? sender, RoutedEventArgs e) => CopyValues(item => $"[url]{item.URL}[/url]", HasUrl);
-    private void OnCopyForumImageClick(object? sender, RoutedEventArgs e) => CopyValues(item => $"[img]{item.URL}[/img]", HasImageUrl);
-    private void OnCopyForumLinkedImageClick(object? sender, RoutedEventArgs e) => CopyValues(item => $"[url={item.URL}][img]{item.ThumbnailURL}[/img][/url]", HasLinkedImage);
-    private void OnCopyMarkdownLinkClick(object? sender, RoutedEventArgs e) => CopyValues(item => $"[{item.FileName}]({item.URL})", HasUrl);
-    private void OnCopyMarkdownImageClick(object? sender, RoutedEventArgs e) => CopyValues(item => $"![{item.FileName}]({item.URL})", HasImageUrl);
-    private void OnCopyMarkdownLinkedImageClick(object? sender, RoutedEventArgs e) => CopyValues(item => $"[![{item.FileName}]({item.ThumbnailURL})]({item.URL})", HasLinkedImage);
-    private static bool HasUrl(HistoryItem item) => !string.IsNullOrWhiteSpace(item.URL);
-    private static bool HasImageUrl(HistoryItem item) => HasUrl(item) && FileHelpers.IsImageFile(item.URL);
-    private static bool HasLinkedImage(HistoryItem item) => HasImageUrl(item) && !string.IsNullOrWhiteSpace(item.ThumbnailURL);
 
     private void OnCopyFileClick(object? sender, RoutedEventArgs e)
     {
@@ -1070,7 +1042,6 @@ public partial class HistoryWindow : Window
         else _services.ShowImage?.Invoke(item.FilePath);
     }
 
-    private void OnUploadFileClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.UploadFile, false);
     private void OnEditImageClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.EditImage, true);
     private void OnTrimVideoClick(object? sender, RoutedEventArgs e)
     {
@@ -1086,7 +1057,6 @@ public partial class HistoryWindow : Window
             _services.TrimAnimatedGif?.Invoke(items[0].FilePath);
     }
     private void OnPinToScreenClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.PinToScreen, true);
-    private void OnAnalyzeImageClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.AnalyzeImage, true);
     private void InvokeFileService(Action<string>? action, bool imageOnly)
     {
         HistoryItem? item = GetPrimaryItem();
@@ -1105,7 +1075,6 @@ public partial class HistoryWindow : Window
         else if (e.Key == Key.C && modifiers.HasFlag(KeyModifiers.Control) && modifiers.HasFlag(KeyModifiers.Shift)) OnCopyFilePathClick(sender, e);
         else if (e.Key == Key.Delete && modifiers.HasFlag(KeyModifiers.Shift)) OnDeleteFileClick(sender, e);
         else if (e.Key == Key.Delete) OnDeleteClick(sender, e);
-        else if (e.Key == Key.U && modifiers.HasFlag(KeyModifiers.Control)) OnUploadFileClick(sender, e);
         else if (e.Key == Key.E && modifiers.HasFlag(KeyModifiers.Control)) OnEditImageClick(sender, e);
         else if (e.Key == Key.P && modifiers.HasFlag(KeyModifiers.Control)) OnPinToScreenClick(sender, e);
         else return;

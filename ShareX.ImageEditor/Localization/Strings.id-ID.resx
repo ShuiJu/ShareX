@@ -390,9 +390,6 @@ Papan klip tidak berisi gambar.</value>
   <data name="EditorView_Undo" xml:space="preserve">
     <value>Urungkan</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>Unggah gambar (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>URL tidak mengarah ke gambar yang valid.</value>
   </data>
@@ -1227,9 +1224,6 @@ Papan klip tidak berisi gambar.</value>
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>Gambar disisipkan.</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>Gambar sedang diunggah.</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>Gambar dibuka.</value>
   </data>
@@ -1262,6 +1256,9 @@ Papan klip tidak berisi gambar.</value>
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>Tidak ada gambar</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>Gunakan akselerasi grafis untuk OCR</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Jalankan tugas setelah tangkapan (Enter)</value>
@@ -1301,6 +1298,54 @@ Papan klip tidak berisi gambar.</value>
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>Lebar:</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>Mesin OCR</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>ShareX OCR tidak tersedia di platform ini. Pilih Xiaomi OCR di pengaturan editor.</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>Tindakan tidak dapat diselesaikan.</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>Pengenalan teks dibatalkan.</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>Salin ke papan klip</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>Mengunduh berkas OCR…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>Pengenalan teks gagal.</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>Memuat model OCR…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>Menyiapkan berkas OCR agar lebih cepat dimuat…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>Mengenali teks…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>Simpan ke berkas</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>Berkas teks</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>Pengenalan teks</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>Terapkan</value>

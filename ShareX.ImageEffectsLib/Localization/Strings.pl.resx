@@ -1103,7 +1103,4 @@ Wartość musi mieścić się w zakresie od 1 do 100.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Ustawienie bez nazwy</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Prześlij Obraz</value>
-  </data>
 </root>

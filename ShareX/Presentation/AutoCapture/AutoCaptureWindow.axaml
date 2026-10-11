@@ -79,9 +79,9 @@
                             <CheckBox x:Name="AutoMinimizeInput"
                                       Content="{x:Static res:Strings.AutoCaptureWindow_AutoMinimize}"
                                       IsCheckedChanged="OnAutoMinimizeChanged"/>
-                            <CheckBox x:Name="WaitUploadsInput"
+                            <CheckBox x:Name="WaitTasksInput"
                                       Content="{x:Static res:Strings.AutoCaptureWindow_WaitTasks}"
-                                      IsCheckedChanged="OnWaitUploadsChanged"/>
+                                      IsCheckedChanged="OnWaitTasksChanged"/>
                         </StackPanel>
                     </Grid>
                 </Border>

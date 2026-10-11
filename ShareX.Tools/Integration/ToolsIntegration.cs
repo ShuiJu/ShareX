@@ -33,20 +33,11 @@ public static class ToolsIntegration
 {
     private static NetworkMonitorWindow? _networkMonitorWindow;
 
-    public static void ShowDirectoryIndexerWindow(IndexerSettings settings,
-        Func<string, IndexerOutput, Task>? uploadRequested = null)
+    public static void ShowDirectoryIndexerWindow(IndexerSettings settings)
     {
-        Show(() => new DirectoryIndexerWindow(settings, uploadRequested));
+        Show(() => new DirectoryIndexerWindow(settings));
     }
 
-    public static void ShowAnalyzeImageWindow(
-        string? imagePath,
-        AIOptions options,
-        AnalyzeImageRegionCaptureHandler captureRegion,
-        Action? playNotificationSound = null)
-    {
-        Show(() => new AnalyzeImageWindow(imagePath, options, captureRegion, playNotificationSound));
-    }
 
     public static void ShowBackgroundRemoverWindow(string? modelsFolder, BackgroundRemoverOptions options)
     {
@@ -135,11 +126,6 @@ public static class ToolsIntegration
         });
     }
 
-    public static void ShowRemoteStorageBrowserWindow(IEnumerable<IRemoteStorageProvider> providers,
-        RemoteStorageBrowserServices? services = null)
-    {
-        Show(() => new RemoteStorageBrowserWindow(providers, services));
-    }
 
     public static void ShowPinToScreenWindow(PinToScreenServices services, PinToScreenOptions options)
     {
@@ -259,10 +245,9 @@ public static class ToolsIntegration
         Show(() => new VideoTrimmerWindow(ffmpegPath, inputFilePath, playNotificationSound, resolveFFmpegPath));
     }
 
-    public static void ShowVideoThumbnailerWindow(string ffmpegPath, VideoThumbnailOptions options,
-        Action<IReadOnlyList<VideoThumbnailInfo>>? thumbnailsTaken = null)
+    public static void ShowVideoThumbnailerWindow(string ffmpegPath, VideoThumbnailOptions options)
     {
-        Show(() => new VideoThumbnailerWindow(ffmpegPath, options, thumbnailsTaken));
+        Show(() => new VideoThumbnailerWindow(ffmpegPath, options));
     }
 
     private static void Show(Func<Avalonia.Controls.Window> windowFactory)

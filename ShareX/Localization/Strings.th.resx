@@ -133,9 +133,6 @@
   <data name="ActionsToolbarWindow_Close" xml:space="preserve">
     <value>ปิด</value>
   </data>
-  <data name="ActionsToolbarWindow_DropToUpload" xml:space="preserve">
-    <value>วาง เพื่อ อัปโหลด</value>
-  </data>
   <data name="ActionsToolbarWindow_Edit" xml:space="preserve">
     <value>แก้ไข...</value>
   </data>
@@ -154,9 +151,6 @@
   <data name="ActionsToolbarWindow_Title" xml:space="preserve">
     <value>ShareX - แถบการดำเนินการ</value>
   </data>
-  <data name="AfterCaptureWindow_AfterUpload" xml:space="preserve">
-    <value>หลังอัปโหลด</value>
-  </data>
   <data name="AfterCaptureWindow_Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
   </data>
@@ -168,12 +162,6 @@
   </data>
   <data name="AfterCaptureWindow_CopyPreviewImage" xml:space="preserve">
     <value>คัดลอก รูปภาพตัวอย่าง</value>
-  </data>
-  <data name="AfterCaptureWindow_CustomUploader" xml:space="preserve">
-    <value>กำหนดเอง [{0}]</value>
-  </data>
-  <data name="AfterCaptureWindow_Destinations" xml:space="preserve">
-    <value>ปลายทาง</value>
   </data>
   <data name="AfterCaptureWindow_FileName" xml:space="preserve">
     <value>ชื่อไฟล์</value>
@@ -189,51 +177,6 @@
   </data>
   <data name="AfterCaptureWindow_Title" xml:space="preserve">
     <value>ShareX - หลังจับภาพ</value>
-  </data>
-  <data name="AfterUploadWindow_ClipboardFormats" xml:space="preserve">
-    <value>คลิปบอร์ด รูปแบบ</value>
-  </data>
-  <data name="AfterUploadWindow_Close" xml:space="preserve">
-    <value>ปิด</value>
-  </data>
-  <data name="AfterUploadWindow_CopyImage" xml:space="preserve">
-    <value>คัดลอกรูปภาพ</value>
-  </data>
-  <data name="AfterUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>คัดลอก รูปภาพตัวอย่าง</value>
-  </data>
-  <data name="AfterUploadWindow_CopySelectedFormat" xml:space="preserve">
-    <value>คัดลอก ที่เลือก รูปแบบ</value>
-  </data>
-  <data name="AfterUploadWindow_GroupCustom" xml:space="preserve">
-    <value>กำหนดเอง</value>
-  </data>
-  <data name="AfterUploadWindow_GroupForums" xml:space="preserve">
-    <value>ฟอรัม</value>
-  </data>
-  <data name="AfterUploadWindow_GroupLinks" xml:space="preserve">
-    <value>ลิงก์</value>
-  </data>
-  <data name="AfterUploadWindow_GroupLocal" xml:space="preserve">
-    <value>ภายในเครื่อง</value>
-  </data>
-  <data name="AfterUploadWindow_NoPreview" xml:space="preserve">
-    <value>ไม่มี ตัวอย่างรูปภาพ พร้อมใช้งาน</value>
-  </data>
-  <data name="AfterUploadWindow_OpenContainingFolder" xml:space="preserve">
-    <value>เปิดโฟลเดอร์ที่มีไฟล์</value>
-  </data>
-  <data name="AfterUploadWindow_OpenFile" xml:space="preserve">
-    <value>เปิดไฟล์</value>
-  </data>
-  <data name="AfterUploadWindow_OpenLink" xml:space="preserve">
-    <value>เปิด ลิงก์</value>
-  </data>
-  <data name="AfterUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - หลังอัปโหลด</value>
-  </data>
-  <data name="AfterUploadWindow_UploadComplete" xml:space="preserve">
-    <value>อัปโหลด เสร็จสมบูรณ์</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>คุณต้องการ รีเซ็ต ShareX การตั้งค่า?</value>
@@ -259,12 +202,6 @@
   <data name="ApplicationSettingsWindow_AccentColorLabel" xml:space="preserve">
     <value>เน้นสี สี:</value>
   </data>
-  <data name="ApplicationSettingsWindow_Add" xml:space="preserve">
-    <value>เพิ่ม...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_AddClipboardFormat" xml:space="preserve">
-    <value>เพิ่มรูปแบบคลิปบอร์ด</value>
-  </data>
   <data name="ApplicationSettingsWindow_Advanced" xml:space="preserve">
     <value>ขั้นสูง</value>
   </data>
@@ -274,9 +211,6 @@
   <data name="ApplicationSettingsWindow_AdvancedClipboard" xml:space="preserve">
     <value>คลิปบอร์ด</value>
   </data>
-  <data name="ApplicationSettingsWindow_AdvancedDragAndDropWindow" xml:space="preserve">
-    <value>ลากแล้ววาง หน้าต่าง</value>
-  </data>
   <data name="ApplicationSettingsWindow_AdvancedHotkeys" xml:space="preserve">
     <value>ปุ่มลัด</value>
   </data>
@@ -285,9 +219,6 @@
   </data>
   <data name="ApplicationSettingsWindow_AdvancedPaths" xml:space="preserve">
     <value>เส้นทาง</value>
-  </data>
-  <data name="ApplicationSettingsWindow_AdvancedUpload" xml:space="preserve">
-    <value>อัปโหลด</value>
   </data>
   <data name="ApplicationSettingsWindow_Application" xml:space="preserve">
     <value>แอปพลิเคชัน</value>
@@ -319,11 +250,11 @@
   <data name="ApplicationSettingsWindow_BackupImportedFrom" xml:space="preserve">
     <value>นำเข้าข้อมูลสำรองจาก {0} แล้ว</value>
   </data>
+  <data name="ApplicationSettingsWindow_BackupPrivacyWarning" xml:space="preserve">
+    <value>อย่าแชร์ข้อมูลสำรองที่ส่งออก เพราะอาจมีการตั้งค่าส่วนตัว</value>
+  </data>
   <data name="ApplicationSettingsWindow_BinaryUnits" xml:space="preserve">
     <value>ใช้หน่วยไบนารี</value>
-  </data>
-  <data name="ApplicationSettingsWindow_BottomCenter" xml:space="preserve">
-    <value>ล่างกึ่งกลาง</value>
   </data>
   <data name="ApplicationSettingsWindow_BottomLeft" xml:space="preserve">
     <value>ล่างซ้าย</value>
@@ -337,12 +268,6 @@
   <data name="ApplicationSettingsWindow_BrowserPath" xml:space="preserve">
     <value>เบราว์เซอร์ เส้นทาง</value>
   </data>
-  <data name="ApplicationSettingsWindow_BufferSizeLabel" xml:space="preserve">
-    <value>ขนาดบัฟเฟอร์:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Cancel" xml:space="preserve">
-    <value>ยกเลิก</value>
-  </data>
   <data name="ApplicationSettingsWindow_ChangesToThePersonalFolderAreStoredImmediatelyAndTakeEffectAfterRestart" xml:space="preserve">
     <value>การเปลี่ยนแปลงโฟลเดอร์ส่วนบุคคลจะถูกบันทึกทันทีและมีผลหลังเริ่มโปรแกรมใหม่</value>
   </data>
@@ -352,23 +277,11 @@
   <data name="ApplicationSettingsWindow_ChooseShareXPersonalFolderPath" xml:space="preserve">
     <value>เลือก ShareX โฟลเดอร์ส่วนบุคคล เส้นทาง</value>
   </data>
-  <data name="ApplicationSettingsWindow_ChromeExtension" xml:space="preserve">
-    <value>Chrome นามสกุล</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ClipboardFormats" xml:space="preserve">
-    <value>คลิปบอร์ด รูปแบบ</value>
-  </data>
   <data name="ApplicationSettingsWindow_CustomHotkeysConfigPath" xml:space="preserve">
     <value>กำหนดเอง ปุ่มลัด การกำหนดค่า เส้นทาง</value>
   </data>
   <data name="ApplicationSettingsWindow_CustomScreenshotsPath2" xml:space="preserve">
     <value>รอง ภาพหน้าจอ เส้นทาง</value>
-  </data>
-  <data name="ApplicationSettingsWindow_CustomUploadersConfigPath" xml:space="preserve">
-    <value>เส้นทางการกำหนดค่าตัวอัปโหลดกำหนดเอง</value>
-  </data>
-  <data name="ApplicationSettingsWindow_CustomizeTheTextCopiedFromCompletedUploads" xml:space="preserve">
-    <value>ปรับแต่งข้อความที่คัดลอกจากการอัปโหลดที่เสร็จสมบูรณ์</value>
   </data>
   <data name="ApplicationSettingsWindow_Dark" xml:space="preserve">
     <value>มืด</value>
@@ -379,9 +292,6 @@
   <data name="ApplicationSettingsWindow_DefaultPrinterOverrideLabel" xml:space="preserve">
     <value>ค่าเริ่มต้น เครื่องพิมพ์ เขียนทับ:</value>
   </data>
-  <data name="ApplicationSettingsWindow_Description" xml:space="preserve">
-    <value>คำอธิบาย</value>
-  </data>
   <data name="ApplicationSettingsWindow_DevMode" xml:space="preserve">
     <value>โหมดนักพัฒนา</value>
   </data>
@@ -391,47 +301,14 @@
   <data name="ApplicationSettingsWindow_DisableHotkeysOnFullscreen" xml:space="preserve">
     <value>ปิดใช้งานปุ่มลัดในแอปพลิเคชันเต็มหน้าจอ</value>
   </data>
-  <data name="ApplicationSettingsWindow_DisableUpload" xml:space="preserve">
-    <value>ปิดใช้งาน การอัปโหลด</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DoNotShareAnExportedBackupItCanContainPrivateInformationSuchAsAccountDetailsAndUploadHistory" xml:space="preserve">
-    <value>อย่าแชร์ข้อมูลสำรองที่ส่งออก เพราะอาจมีข้อมูลส่วนตัว เช่น รายละเอียดบัญชีและประวัติการอัปโหลด</value>
-  </data>
   <data name="ApplicationSettingsWindow_DontShowImagePrintSettingsDialog" xml:space="preserve">
     <value>ไม่ต้องแสดงกล่องโต้ตอบการตั้งค่าพิมพ์รูปภาพ</value>
   </data>
   <data name="ApplicationSettingsWindow_DontShowWindowsPrintDialog" xml:space="preserve">
     <value>ไม่ต้องแสดงกล่องโต้ตอบการพิมพ์ของ Windows</value>
   </data>
-  <data name="ApplicationSettingsWindow_DropAlignment" xml:space="preserve">
-    <value>ตำแหน่งหน้าต่างวางไฟล์</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropHoverOpacity" xml:space="preserve">
-    <value>ความทึบเมื่อวางเมาส์เหนือหน้าต่างวางไฟล์</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropOffset" xml:space="preserve">
-    <value>วาง หน้าต่าง ระยะเยื้อง</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropOpacity" xml:space="preserve">
-    <value>วาง หน้าต่าง ความทึบ</value>
-  </data>
-  <data name="ApplicationSettingsWindow_DropSize" xml:space="preserve">
-    <value>วาง ขนาดหน้าต่าง</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Edit" xml:space="preserve">
-    <value>แก้ไข...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EditClipboardFormat" xml:space="preserve">
-    <value>แก้ไข คลิปบอร์ด รูปแบบ</value>
-  </data>
   <data name="ApplicationSettingsWindow_EditQuickTaskMenu" xml:space="preserve">
     <value>แก้ไข งานด่วน เมนู...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EnableChromeExtensionSupport" xml:space="preserve">
-    <value>เปิดใช้งาน Chrome นามสกุล การรองรับ</value>
-  </data>
-  <data name="ApplicationSettingsWindow_EnableFirefoxAddonSupport" xml:space="preserve">
-    <value>เปิดการรองรับส่วนเสริม Firefox</value>
   </data>
   <data name="ApplicationSettingsWindow_ErrorPrefix" xml:space="preserve">
     <value>ข้อผิดพลาด:</value>
@@ -448,17 +325,11 @@
   <data name="ApplicationSettingsWindow_ExportingBackup" xml:space="preserve">
     <value>กำลังส่งออก สำรองข้อมูล...</value>
   </data>
-  <data name="ApplicationSettingsWindow_FirefoxAddon" xml:space="preserve">
-    <value>Firefox ส่วนเสริม</value>
-  </data>
   <data name="ApplicationSettingsWindow_FollowSystemAccentColor" xml:space="preserve">
     <value>ใช้สีเน้นของระบบ</value>
   </data>
   <data name="ApplicationSettingsWindow_FollowSystemTheme" xml:space="preserve">
     <value>ติดตาม ระบบ ธีม</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Format" xml:space="preserve">
-    <value>รูปแบบ</value>
   </data>
   <data name="ApplicationSettingsWindow_General" xml:space="preserve">
     <value>ทั่วไป</value>
@@ -490,12 +361,6 @@
   <data name="ApplicationSettingsWindow_InstallDevBuild" xml:space="preserve">
     <value>ติดตั้ง dev รุ่น...</value>
   </data>
-  <data name="ApplicationSettingsWindow_InstallShareXChromeExtension" xml:space="preserve">
-    <value>ติดตั้ง ShareX Chrome นามสกุล...</value>
-  </data>
-  <data name="ApplicationSettingsWindow_InstallShareXFirefoxAddon" xml:space="preserve">
-    <value>ติดตั้ง ShareX Firefox ส่วนเสริม...</value>
-  </data>
   <data name="ApplicationSettingsWindow_Integration" xml:space="preserve">
     <value>การผสานรวม</value>
   </data>
@@ -511,23 +376,11 @@
   <data name="ApplicationSettingsWindow_MaximumNumberOfTasksToSaveLabel" xml:space="preserve">
     <value>จำนวนงานสูงสุดที่จะบันทึก:</value>
   </data>
-  <data name="ApplicationSettingsWindow_MiddleCenter" xml:space="preserve">
-    <value>กึ่งกลาง</value>
-  </data>
-  <data name="ApplicationSettingsWindow_MiddleLeft" xml:space="preserve">
-    <value>กึ่งกลางซ้าย</value>
-  </data>
-  <data name="ApplicationSettingsWindow_MiddleRight" xml:space="preserve">
-    <value>กึ่งกลางขวา</value>
-  </data>
   <data name="ApplicationSettingsWindow_MinimizeToTrayOnStart" xml:space="preserve">
     <value>ย่อไปยังถาดระบบเมื่อเริ่ม</value>
   </data>
   <data name="ApplicationSettingsWindow_NumberOfFilesToKeepLabel" xml:space="preserve">
     <value>จำนวนไฟล์ที่จะเก็บไว้:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_NumberOfTimesToRetryIfUploadFailsLabel" xml:space="preserve">
-    <value>จำนวนครั้งที่จะลองใหม่หากอัปโหลดล้มเหลว:</value>
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconDoubleLeftClickLabel" xml:space="preserve">
     <value>เมื่อดับเบิลคลิกซ้ายไอคอนถาดระบบ:</value>
@@ -537,9 +390,6 @@
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconMiddleClickLabel" xml:space="preserve">
     <value>เมื่อคลิกกลางไอคอนถาดระบบ:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_OnlySaveIfUrlIsNotEmpty" xml:space="preserve">
-    <value>บันทึกเฉพาะเมื่อ URL ไม่ว่างเปล่า</value>
   </data>
   <data name="ApplicationSettingsWindow_Open" xml:space="preserve">
     <value>เปิด...</value>
@@ -574,9 +424,6 @@
   <data name="ApplicationSettingsWindow_RememberMainWindowSize" xml:space="preserve">
     <value>จดจำ หน้าต่างหลัก ขนาด</value>
   </data>
-  <data name="ApplicationSettingsWindow_Remove" xml:space="preserve">
-    <value>เอาออก</value>
-  </data>
   <data name="ApplicationSettingsWindow_Reset" xml:space="preserve">
     <value>รีเซ็ต</value>
   </data>
@@ -589,14 +436,8 @@
   <data name="ApplicationSettingsWindow_RestartShareXToApplyThisChange" xml:space="preserve">
     <value>เริ่ม ShareX ใหม่เพื่อใช้การเปลี่ยนแปลงนี้</value>
   </data>
-  <data name="ApplicationSettingsWindow_RightClickToInsertAVariable" xml:space="preserve">
-    <value>ขวา-คลิกเพื่อ แทรก ตัวแปร.</value>
-  </data>
   <data name="ApplicationSettingsWindow_RotateImageByExifOrientationData" xml:space="preserve">
     <value>หมุนรูปภาพตามข้อมูลการวางแนว EXIF</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Save" xml:space="preserve">
-    <value>บันทึก</value>
   </data>
   <data name="ApplicationSettingsWindow_SaveRecentTasks" xml:space="preserve">
     <value>บันทึกงานล่าสุด</value>
@@ -622,20 +463,11 @@
   <data name="ApplicationSettingsWindow_ShareXPersonalFolder" xml:space="preserve">
     <value>ShareX โฟลเดอร์ส่วนบุคคล</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowClipboardContentViewer" xml:space="preserve">
-    <value>แสดง คลิปบอร์ด เนื้อหา ตัวแสดง</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowEditWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
     <value>แสดงปุ่ม "แก้ไขด้วย ShareX" ในเมนูบริบทของ Windows Explorer</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowLargeFileSizeWarning" xml:space="preserve">
-    <value>ใหญ่-ไฟล์ คำเตือน เกณฑ์ (MB)</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowMostRecentTaskFirst" xml:space="preserve">
     <value>แสดงงานล่าสุดก่อน</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ShowMultiUploadWarning" xml:space="preserve">
-    <value>เตือนก่อนอัปโหลดมากกว่า 10 ไฟล์</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowProgressInTaskbarButton" xml:space="preserve">
     <value>แสดงความคืบหน้าบนปุ่มแถบงาน</value>
@@ -649,20 +481,11 @@
   <data name="ApplicationSettingsWindow_ShowRecentTasksInTrayMenu" xml:space="preserve">
     <value>แสดงงานล่าสุดในเมนูถาดระบบ</value>
   </data>
-  <data name="ApplicationSettingsWindow_ShowShareXInSendToMenu" xml:space="preserve">
-    <value>แสดง ShareX ในเมนู "ส่งไปยัง"</value>
-  </data>
   <data name="ApplicationSettingsWindow_ShowTitle" xml:space="preserve">
     <value>แสดง ชื่อเรื่อง</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowTrayIcon" xml:space="preserve">
     <value>แสดง ไอคอนถาดระบบ</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ShowUploadWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
-    <value>แสดงปุ่ม "อัปโหลดด้วย ShareX" ในเมนูบริบทของ Windows Explorer</value>
-  </data>
-  <data name="ApplicationSettingsWindow_SimultaneousUploadLimitLabel" xml:space="preserve">
-    <value>พร้อมกัน ขีดจำกัดการอัปโหลด:</value>
   </data>
   <data name="ApplicationSettingsWindow_Steam" xml:space="preserve">
     <value>Steam</value>
@@ -679,9 +502,6 @@
   <data name="ApplicationSettingsWindow_ThemeLabel" xml:space="preserve">
     <value>ธีม:</value>
   </data>
-  <data name="ApplicationSettingsWindow_TheseFormatsAppearUnderTheCopySubmenuInTheMainWindowContextMenu" xml:space="preserve">
-    <value>รูปแบบเหล่านี้จะแสดงในเมนูย่อยคัดลอกของเมนูบริบทหน้าต่างหลัก</value>
-  </data>
   <data name="ApplicationSettingsWindow_ThumbnailClickActionLabel" xml:space="preserve">
     <value>ภาพขนาดย่อ การทำงานเมื่อคลิก:</value>
   </data>
@@ -693,9 +513,6 @@
   </data>
   <data name="ApplicationSettingsWindow_TitleLocationLabel" xml:space="preserve">
     <value>ชื่อเรื่อง ตำแหน่ง:</value>
-  </data>
-  <data name="ApplicationSettingsWindow_TopCenter" xml:space="preserve">
-    <value>บนกึ่งกลาง</value>
   </data>
   <data name="ApplicationSettingsWindow_TopLeft" xml:space="preserve">
     <value>บนซ้าย</value>
@@ -709,20 +526,11 @@
   <data name="ApplicationSettingsWindow_TrayAutoExpandCaptureMenu" xml:space="preserve">
     <value>โดยอัตโนมัติ ขยาย จับภาพ เมนู</value>
   </data>
-  <data name="ApplicationSettingsWindow_URLEncodeIgnoreEmoji" xml:space="preserve">
-    <value>ละเว้นอีโมจิเมื่อเข้ารหัส URL</value>
-  </data>
   <data name="ApplicationSettingsWindow_UpdateChannelLabel" xml:space="preserve">
     <value>อัปเดต ช่อง:</value>
   </data>
   <data name="ApplicationSettingsWindow_Updates" xml:space="preserve">
     <value>การอัปเดต</value>
-  </data>
-  <data name="ApplicationSettingsWindow_Upload" xml:space="preserve">
-    <value>อัปโหลด</value>
-  </data>
-  <data name="ApplicationSettingsWindow_UploadResult" xml:space="preserve">
-    <value>ผลการอัปโหลด</value>
   </data>
   <data name="ApplicationSettingsWindow_UseAlternativeClipboardCopyImage" xml:space="preserve">
     <value>ใช้วิธีคัดลอกรูปภาพแบบอื่น</value>
@@ -732,9 +540,6 @@
   </data>
   <data name="ApplicationSettingsWindow_UseCustomScreenshotsFolder" xml:space="preserve">
     <value>ใช้โฟลเดอร์ภาพหน้าจอกำหนดเอง</value>
-  </data>
-  <data name="ApplicationSettingsWindow_UseMachineSpecificUploadersConfig" xml:space="preserve">
-    <value>ใช้ เครื่อง-เฉพาะ ตัวอัปโหลด การกำหนดค่า</value>
   </data>
   <data name="ApplicationSettingsWindow_UseWhiteShareXIcon" xml:space="preserve">
     <value>ใช้ไอคอน ShareX สีขาว</value>
@@ -753,9 +558,6 @@
   </data>
   <data name="ApplicationSettingsWindow_WorkflowsOnlyShowEdited" xml:space="preserve">
     <value>แสดง เท่านั้น ปรับแต่งแล้ว เวิร์กโฟลว์</value>
-  </data>
-  <data name="ApplicationSettingsWindow_ZeroDisablesTheLimit" xml:space="preserve">
-    <value>0 ปิดใช้งาน ขีดจำกัด</value>
   </data>
   <data name="AutoCaptureWindow_AutoMinimize" xml:space="preserve">
     <value>โดยอัตโนมัติ ย่อเล็กสุด เพื่อ ถาดระบบ</value>
@@ -799,368 +601,11 @@
   <data name="AutoCaptureWindow_WaitTasks" xml:space="preserve">
     <value>รอจนกว่างานจะเสร็จสมบูรณ์</value>
   </data>
-  <data name="BeforeUploadWindow_Cancel" xml:space="preserve">
-    <value>ยกเลิก</value>
-  </data>
-  <data name="BeforeUploadWindow_ChooseDestination" xml:space="preserve">
-    <value>โปรดเลือก ปลายทาง.</value>
-  </data>
-  <data name="BeforeUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>คัดลอก รูปภาพตัวอย่าง</value>
-  </data>
-  <data name="BeforeUploadWindow_CustomUploader" xml:space="preserve">
-    <value>กำหนดเอง [{0}]</value>
-  </data>
-  <data name="BeforeUploadWindow_Destination" xml:space="preserve">
-    <value>ปลายทาง</value>
-  </data>
-  <data name="BeforeUploadWindow_Heading" xml:space="preserve">
-    <value>ก่อนอัปโหลด</value>
-  </data>
-  <data name="BeforeUploadWindow_NoPreview" xml:space="preserve">
-    <value>ไม่มี ตัวอย่าง พร้อมใช้งาน</value>
-  </data>
-  <data name="BeforeUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - ก่อนอัปโหลด</value>
-  </data>
-  <data name="BeforeUploadWindow_Upload" xml:space="preserve">
-    <value>อัปโหลด</value>
-  </data>
-  <data name="BeforeUploadWindow_UploadPrompt" xml:space="preserve">
-    <value>กำลังจะอัปโหลด {0} ไปยัง {1} คุณสามารถเลือกปลายทางอื่นได้</value>
-  </data>
   <data name="ClipboardDoesNotContainAnImage" xml:space="preserve">
     <value>คลิปบอร์ด ไม่ มี รูปภาพ.</value>
   </data>
-  <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
-    <value>ตัวแปรที่รองรับ: {0} และตัวแปรอื่น เช่น {1} เป็นต้น</value>
-  </data>
-  <data name="ClipboardUpload" xml:space="preserve">
-    <value>การอัปโหลดคลิปบอร์ด</value>
-  </data>
-  <data name="ClipboardUploadWindow_Cancel" xml:space="preserve">
-    <value>ยกเลิก</value>
-  </data>
-  <data name="ClipboardUploadWindow_ClipboardUpload" xml:space="preserve">
-    <value>การอัปโหลดคลิปบอร์ด</value>
-  </data>
-  <data name="ClipboardUploadWindow_DontShowAgain" xml:space="preserve">
-    <value>ไม่ต้องแสดงหน้าต่างนี้อีก</value>
-  </data>
-  <data name="ClipboardUploadWindow_Empty" xml:space="preserve">
-    <value>คลิปบอร์ดว่างเปล่าหรือมีข้อมูลที่ไม่รองรับ</value>
-  </data>
-  <data name="ClipboardUploadWindow_FileSummary" xml:space="preserve">
-    <value>เนื้อหาคลิปบอร์ด: ไฟล์, จำนวน: {0}</value>
-  </data>
-  <data name="ClipboardUploadWindow_ImageSummary" xml:space="preserve">
-    <value>เนื้อหาคลิปบอร์ด: รูปภาพ, ขนาด: {0} × {1}</value>
-  </data>
-  <data name="ClipboardUploadWindow_TextSummary" xml:space="preserve">
-    <value>เนื้อหาคลิปบอร์ด: ข้อความ, ความยาว: {0}</value>
-  </data>
-  <data name="ClipboardUploadWindow_Upload" xml:space="preserve">
-    <value>อัปโหลด</value>
-  </data>
   <data name="Confirmation" xml:space="preserve">
     <value>การยืนยัน</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Add" xml:space="preserve">
-    <value>เพิ่ม</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Name" xml:space="preserve">
-    <value>ชื่อ</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Remove" xml:space="preserve">
-    <value>เอาออก</value>
-  </data>
-  <data name="CustomUploaderKeyValueEditor_Value" xml:space="preserve">
-    <value>ค่า</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_AllRemoved" xml:space="preserve">
-    <value>ทั้งหมด ตัวอัปโหลดกำหนดเอง เอาออกแล้ว.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Arguments" xml:space="preserve">
-    <value>อาร์กิวเมนต์</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Base64Encoding" xml:space="preserve">
-    <value>ฐาน64 การเข้ารหัส</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Beautify" xml:space="preserve">
-    <value>ตกแต่ง</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Body" xml:space="preserve">
-    <value>เนื้อหา</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_BodyType" xml:space="preserve">
-    <value>เนื้อหา ชนิด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Capabilities" xml:space="preserve">
-    <value>ความสามารถ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ChangesApplied" xml:space="preserve">
-    <value>การเปลี่ยนแปลง นำไปใช้แล้ว ทันที.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ClearAll" xml:space="preserve">
-    <value>ล้าง ทั้งหมด...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ClearConfirmation" xml:space="preserve">
-    <value>เอาออก ทั้งหมด ตัวอัปโหลดกำหนดเอง?</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Close" xml:space="preserve">
-    <value>ปิด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ConfirmationTitle" xml:space="preserve">
-    <value>ShareX - การยืนยัน</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_CreateOrImport" xml:space="preserve">
-    <value>สร้างตัวอัปโหลดกำหนดเองหรือนำเข้าไฟล์ .sxcu</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_CustomUploaderFileType" xml:space="preserve">
-    <value>ShareX ตัวอัปโหลดกำหนดเอง</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DeletionURL" xml:space="preserve">
-    <value>URL สำหรับลบ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DestinationRequired" xml:space="preserve">
-    <value>ต้องเลือกชนิดปลายทางอย่างน้อยหนึ่งชนิดก่อนส่งออก</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DisplayOutputText" xml:space="preserve">
-    <value>แสดงผล ผลลัพธ์ ข้อความ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Duplicate" xml:space="preserve">
-    <value>ทำสำเนา ที่เลือก ตัวอัปโหลด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_DuplicateNamesNotAllowed" xml:space="preserve">
-    <value>ทำสำเนา ชื่อ ไม่ใช่ อนุญาต.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Duplicated" xml:space="preserve">
-    <value>ตัวอัปโหลดกำหนดเอง duplicated.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Endpoint" xml:space="preserve">
-    <value>ปลายทาง</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Error" xml:space="preserve">
-    <value>ข้อผิดพลาด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ErrorMessage" xml:space="preserve">
-    <value>ข้อความข้อผิดพลาด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Export" xml:space="preserve">
-    <value>ส่งออกตัวอัปโหลดที่เลือก...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportAll" xml:space="preserve">
-    <value>ส่งออกทั้งหมด...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportAllDialogTitle" xml:space="preserve">
-    <value>ส่งออก ทั้งหมด ตัวอัปโหลดกำหนดเอง</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportDialogTitle" xml:space="preserve">
-    <value>ส่งออก ตัวอัปโหลดกำหนดเอง</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportedCount" xml:space="preserve">
-    <value>ส่งออกแล้ว {0} ตัวอัปโหลดกำหนดเอง(s).</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ExportedOne" xml:space="preserve">
-    <value>ส่งออกแล้ว {0}.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileFormName" xml:space="preserve">
-    <value>ไฟล์ แบบฟอร์ม ชื่อ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileFormNameDescription" xml:space="preserve">
-    <value>ชื่อเขตข้อมูล multipart ที่ใช้ส่งไฟล์ที่อัปโหลด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FileUploader" xml:space="preserve">
-    <value>ตัวอัปโหลดไฟล์</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_FilteredUploaderCount" xml:space="preserve">
-    <value>{0} ของ {1}</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Guide" xml:space="preserve">
-    <value>ตัวอัปโหลดกำหนดเอง คำแนะนำ...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Headers" xml:space="preserve">
-    <value>ส่วนหัว</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Identity" xml:space="preserve">
-    <value>ข้อมูลประจำตัว</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImageUploader" xml:space="preserve">
-    <value>ตัวอัปโหลดรูปภาพ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Import" xml:space="preserve">
-    <value>นำเข้า...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImportDialogTitle" xml:space="preserve">
-    <value>นำเข้า ตัวอัปโหลดกำหนดเอง</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ImportedCount" xml:space="preserve">
-    <value>นำเข้าแล้ว {0} ตัวอัปโหลดกำหนดเอง(s).</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_JSONPathResponseValue" xml:space="preserve">
-    <value>JSONPath การตอบกลับ ค่า</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Method" xml:space="preserve">
-    <value>วิธี</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Minify" xml:space="preserve">
-    <value>ย่อขนาด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Name" xml:space="preserve">
-    <value>ชื่อ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NamePlaceholder" xml:space="preserve">
-    <value>ใช้โฮสต์ของคำขอเมื่อเว้นว่าง</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_New" xml:space="preserve">
-    <value>ใหม่</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NewCreated" xml:space="preserve">
-    <value>สร้างตัวอัปโหลดกำหนดเองใหม่แล้ว</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NoAdditionalBodyFields" xml:space="preserve">
-    <value>ชนิดเนื้อหานี้ไม่มีเขตข้อมูลเพิ่มเติม</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_NoSearchMatches" xml:space="preserve">
-    <value>ไม่มีตัวอัปโหลดที่ตรงกับการค้นหานี้</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Overview" xml:space="preserve">
-    <value>ภาพรวม</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Parameters" xml:space="preserve">
-    <value>พารามิเตอร์</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RandomSelection" xml:space="preserve">
-    <value>สุ่ม การเลือก</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RegularExpressionResult" xml:space="preserve">
-    <value>นิพจน์ทั่วไป ผลลัพธ์</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Remove" xml:space="preserve">
-    <value>เอาออก ที่เลือก ตัวอัปโหลด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Removed" xml:space="preserve">
-    <value>ลบตัวอัปโหลดกำหนดเองแล้ว</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Request" xml:space="preserve">
-    <value>คำขอ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestData" xml:space="preserve">
-    <value>คำขอ ข้อมูล</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestURL" xml:space="preserve">
-    <value>URL คำขอ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_RequestURLRequired" xml:space="preserve">
-    <value>ต้องกำหนดค่า URL คำขอก่อนส่งออก</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Response" xml:space="preserve">
-    <value>การตอบกลับ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseHeader" xml:space="preserve">
-    <value>ส่วนหัวการตอบกลับ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseOrRedirectionURL" xml:space="preserve">
-    <value>URL การตอบกลับหรือเปลี่ยนเส้นทาง</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResponseText" xml:space="preserve">
-    <value>การตอบกลับ ข้อความ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Result" xml:space="preserve">
-    <value>ผลลัพธ์</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ResultURL" xml:space="preserve">
-    <value>ผลลัพธ์ URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SearchUploaders" xml:space="preserve">
-    <value>ค้นหา ตัวอัปโหลด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SelectToExport" xml:space="preserve">
-    <value>เลือก ตัวอัปโหลดกำหนดเอง เพื่อ ส่งออก.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_SelectUploaderToEdit" xml:space="preserve">
-    <value>เลือกตัวอัปโหลดเพื่อแก้ไข</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Test" xml:space="preserve">
-    <value>ทดสอบ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestCancelled" xml:space="preserve">
-    <value>ทดสอบ ยกเลิกแล้ว.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestCompleted" xml:space="preserve">
-    <value>ทดสอบ เสร็จสมบูรณ์.</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestFailed" xml:space="preserve">
-    <value>การทดสอบล้มเหลว</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestURLSyntax" xml:space="preserve">
-    <value>ทดสอบ URL ไวยากรณ์</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TestURLSyntaxButton" xml:space="preserve">
-    <value>ทดสอบ URL ไวยากรณ์...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Testing" xml:space="preserve">
-    <value>กำลังทดสอบ {0}...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextOrURLInput" xml:space="preserve">
-    <value>อินพุตข้อความหรือ URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextUploadSample" xml:space="preserve">
-    <value>ShareX การอัปโหลดข้อความ ทดสอบ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_TextUploader" xml:space="preserve">
-    <value>ตัวอัปโหลดข้อความ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_ThumbnailURL" xml:space="preserve">
-    <value>URL ภาพขนาดย่อ</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_Title" xml:space="preserve">
-    <value>ShareX - ตัวอัปโหลดกำหนดเอง การตั้งค่า</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLSharingService" xml:space="preserve">
-    <value>บริการแชร์ URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLShortener" xml:space="preserve">
-    <value>ตัวย่อ URL</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_URLSyntax" xml:space="preserve">
-    <value>URL ไวยากรณ์</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdateFolder" xml:space="preserve">
-    <value>อัปเดต โฟลเดอร์...</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdateFolderDialogTitle" xml:space="preserve">
-    <value>อัปเดต ตัวอัปโหลดกำหนดเอง โฟลเดอร์</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UpdatedCount" xml:space="preserve">
-    <value>อัปเดตแล้ว {0} ตัวอัปโหลดกำหนดเอง ไฟล์(s).</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploadedFile" xml:space="preserve">
-    <value>อัปโหลดแล้ว ไฟล์</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploadedFileName" xml:space="preserve">
-    <value>อัปโหลดแล้ว ชื่อไฟล์</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderCount" xml:space="preserve">
-    <value>{0} ตัวอัปโหลด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderCountPlural" xml:space="preserve">
-    <value>{0} ตัวอัปโหลด</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UploaderLibrary" xml:space="preserve">
-    <value>ตัวอัปโหลด ไลบรารี</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UserSelection" xml:space="preserve">
-    <value>ผู้ใช้ การเลือก</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_UserTextInput" xml:space="preserve">
-    <value>ผู้ใช้ ข้อความ อินพุต</value>
-  </data>
-  <data name="CustomUploaderSettingsWindow_XPathResponseValue" xml:space="preserve">
-    <value>XPath การตอบกลับ ค่า</value>
-  </data>
-  <data name="DebugLogWindow_Cancel" xml:space="preserve">
-    <value>ยกเลิก</value>
   </data>
   <data name="DebugLogWindow_CopyAll" xml:space="preserve">
     <value>คัดลอกทั้งหมด</value>
@@ -1176,21 +621,6 @@
   </data>
   <data name="DebugLogWindow_Title" xml:space="preserve">
     <value>ShareX - บันทึกการดีบัก</value>
-  </data>
-  <data name="DebugLogWindow_Upload" xml:space="preserve">
-    <value>อัปโหลด</value>
-  </data>
-  <data name="DebugLogWindow_UploadLog" xml:space="preserve">
-    <value>อัปโหลด บันทึก...</value>
-  </data>
-  <data name="DebugLogWindow_UploadPrompt" xml:space="preserve">
-    <value>อัปโหลด บันทึกการดีบัก?</value>
-  </data>
-  <data name="DragDropUploadWindow_DropHere" xml:space="preserve">
-    <value>วาง ที่นี่</value>
-  </data>
-  <data name="DragDropUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - อัปโหลดด้วยการลากแล้ววาง</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>ข้อผิดพลาด</value>
@@ -1328,35 +758,26 @@
   <data name="IntegrationHelpers_EditWithShareX" xml:space="preserve">
     <value>แก้ไข ด้วย ShareX</value>
   </data>
-  <data name="IntegrationHelpers_UploadWithShareX" xml:space="preserve">
-    <value>อัปโหลด ด้วย ShareX</value>
+  <data name="LocalTask_Choose_a_folder_to_save" xml:space="preserve">
+    <value>เลือกโฟลเดอร์ที่จะบันทึก</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Cancel" xml:space="preserve">
-    <value>ยกเลิก</value>
+  <data name="LocalTask_Done" xml:space="preserve">
+    <value>เสร็จแล้ว</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Continue" xml:space="preserve">
-    <value>ดำเนินการต่อ</value>
+  <data name="LocalTask_Prepare_Preparing" xml:space="preserve">
+    <value>กำลังเตรียม</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_DontShowAgain" xml:space="preserve">
-    <value>ไม่ต้องแสดงข้อความนี้อีก</value>
+  <data name="LocalTask_Stop_Stopping" xml:space="preserve">
+    <value>กำลังหยุด</value>
   </data>
-  <data name="LargeFileUploadWarningWindow_Message" xml:space="preserve">
-    <value>คุณกำลังพยายามอัปโหลดไฟล์ขนาดใหญ่</value>
-  </data>
-  <data name="LargeFileUploadWarningWindow_Title" xml:space="preserve">
-    <value>ShareX - อัปโหลดไฟล์ขนาดใหญ่</value>
-  </data>
-  <data name="MainForm_UploadDebugLogWarning" xml:space="preserve">
-    <value>บันทึกการดีบักอาจมีข้อมูลที่ละเอียดอ่อน คุณแน่ใจหรือไม่ว่าต้องการดำเนินการต่อ</value>
+  <data name="LocalTask_Stopped" xml:space="preserve">
+    <value>หยุดแล้ว</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_Do_you_really_want_to_delete_this_file_" xml:space="preserve">
     <value>คุณต้องการลบไฟล์นี้จริงหรือไม่</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>ไฟล์ ลบ การยืนยัน</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>การอัปโหลดข้อความ ทดสอบ</value>
   </data>
   <data name="MainMenuBuilder_About" xml:space="preserve">
     <value>เกี่ยวกับ...</value>
@@ -1369,12 +790,6 @@
   </data>
   <data name="MainMenuBuilder_AfterCaptureTasks" xml:space="preserve">
     <value>หลังจับภาพ งาน</value>
-  </data>
-  <data name="MainMenuBuilder_AfterUploadTasks" xml:space="preserve">
-    <value>หลังอัปโหลด งาน</value>
-  </data>
-  <data name="MainMenuBuilder_AnalyzeImage" xml:space="preserve">
-    <value>วิเคราะห์รูปภาพ...</value>
   </data>
   <data name="MainMenuBuilder_AnimatedGifMaker" xml:space="preserve">
     <value>เครื่องมือสร้าง GIF เคลื่อนไหว...</value>
@@ -1406,17 +821,8 @@
   <data name="MainMenuBuilder_Copy" xml:space="preserve">
     <value>คัดลอก</value>
   </data>
-  <data name="MainMenuBuilder_CustomUploaderSettings" xml:space="preserve">
-    <value>ตัวอัปโหลดกำหนดเอง การตั้งค่า...</value>
-  </data>
   <data name="MainMenuBuilder_Debug" xml:space="preserve">
     <value>ดีบัก</value>
-  </data>
-  <data name="MainMenuBuilder_DestinationSettings" xml:space="preserve">
-    <value>การตั้งค่าปลายทาง...</value>
-  </data>
-  <data name="MainMenuBuilder_Destinations" xml:space="preserve">
-    <value>ปลายทาง</value>
   </data>
   <data name="MainMenuBuilder_DisableHotkeys" xml:space="preserve">
     <value>ปิดใช้งานปุ่มลัด</value>
@@ -1426,9 +832,6 @@
   </data>
   <data name="MainMenuBuilder_Donate" xml:space="preserve">
     <value>บริจาค...</value>
-  </data>
-  <data name="MainMenuBuilder_DragAndDropUpload" xml:space="preserve">
-    <value>อัปโหลดด้วยการลากแล้ววาง...</value>
   </data>
   <data name="MainMenuBuilder_EditTools" xml:space="preserve">
     <value>แก้ไข</value>
@@ -1544,9 +947,6 @@
   <data name="MainMenuBuilder_Region" xml:space="preserve">
     <value>พื้นที่...</value>
   </data>
-  <data name="MainMenuBuilder_RemoteStorageBrowser" xml:space="preserve">
-    <value>เบราว์เซอร์จัดเก็บข้อมูลระยะไกล...</value>
-  </data>
   <data name="MainMenuBuilder_RestartAsAdministrator" xml:space="preserve">
     <value>เริ่มใหม่ในฐานะผู้ดูแลระบบ</value>
   </data>
@@ -1568,9 +968,6 @@
   <data name="MainMenuBuilder_ScrollingCapture" xml:space="preserve">
     <value>การเลื่อน จับภาพ...</value>
   </data>
-  <data name="MainMenuBuilder_ShortenUrl" xml:space="preserve">
-    <value>ย่อ URL...</value>
-  </data>
   <data name="MainMenuBuilder_ShowCursor" xml:space="preserve">
     <value>แสดง เคอร์เซอร์</value>
   </data>
@@ -1582,21 +979,6 @@
   </data>
   <data name="MainMenuBuilder_TaskSettings" xml:space="preserve">
     <value>การตั้งค่างาน...</value>
-  </data>
-  <data name="MainMenuBuilder_TestFileUpload" xml:space="preserve">
-    <value>ทดสอบ การอัปโหลดไฟล์</value>
-  </data>
-  <data name="MainMenuBuilder_TestImageUpload" xml:space="preserve">
-    <value>ทดสอบ การอัปโหลดรูปภาพ</value>
-  </data>
-  <data name="MainMenuBuilder_TestTextUpload" xml:space="preserve">
-    <value>ทดสอบ การอัปโหลดข้อความ</value>
-  </data>
-  <data name="MainMenuBuilder_TestUrlSharing" xml:space="preserve">
-    <value>ทดสอบ URL การแชร์</value>
-  </data>
-  <data name="MainMenuBuilder_TestUrlShortener" xml:space="preserve">
-    <value>ทดสอบ ตัวย่อ URL</value>
   </data>
   <data name="MainMenuBuilder_ToolCategoryData" xml:space="preserve">
     <value>ข้อมูลและข้อความ</value>
@@ -1615,24 +997,6 @@
   </data>
   <data name="MainMenuBuilder_Tools" xml:space="preserve">
     <value>เครื่องมือ</value>
-  </data>
-  <data name="MainMenuBuilder_Upload" xml:space="preserve">
-    <value>อัปโหลด</value>
-  </data>
-  <data name="MainMenuBuilder_UploadClipboard" xml:space="preserve">
-    <value>อัปโหลดคลิปบอร์ด...</value>
-  </data>
-  <data name="MainMenuBuilder_UploadFile" xml:space="preserve">
-    <value>อัปโหลดไฟล์...</value>
-  </data>
-  <data name="MainMenuBuilder_UploadFolder" xml:space="preserve">
-    <value>อัปโหลด โฟลเดอร์...</value>
-  </data>
-  <data name="MainMenuBuilder_UploadText" xml:space="preserve">
-    <value>อัปโหลดข้อความ...</value>
-  </data>
-  <data name="MainMenuBuilder_UploadUrl" xml:space="preserve">
-    <value>อัปโหลด URL...</value>
   </data>
   <data name="MainMenuBuilder_VideoConverter" xml:space="preserve">
     <value>วิดีโอ ตัวแปลง...</value>
@@ -1658,9 +1022,6 @@
   <data name="MainWindow_AlwaysOnTop" xml:space="preserve">
     <value>เสมอ บน ด้านบน</value>
   </data>
-  <data name="MainWindow_AnalyzeImage" xml:space="preserve">
-    <value>วิเคราะห์รูปภาพ...</value>
-  </data>
   <data name="MainWindow_BeautifyImage" xml:space="preserve">
     <value>ตกแต่ง รูปภาพ...</value>
   </data>
@@ -1676,23 +1037,11 @@
   <data name="MainWindow_Copy" xml:space="preserve">
     <value>คัดลอก</value>
   </data>
-  <data name="MainWindow_DeleteItemRemotely" xml:space="preserve">
-    <value>ลบรายการจากระยะไกล...</value>
-  </data>
-  <data name="MainWindow_DeleteItemRemotelyConfirmation" xml:space="preserve">
-    <value>คุณต้องการลบรายการนี้จากระยะไกลจริงหรือไม่?</value>
-  </data>
   <data name="MainWindow_DeleteSelectedFile" xml:space="preserve">
     <value>ลบ ไฟล์ที่เลือก...</value>
   </data>
   <data name="MainWindow_DeleteSelectedItem" xml:space="preserve">
     <value>ลบ รายการที่เลือก</value>
-  </data>
-  <data name="MainWindow_DeletionUrl" xml:space="preserve">
-    <value>URL สำหรับลบ</value>
-  </data>
-  <data name="MainWindow_DownloadSelectedUrl" xml:space="preserve">
-    <value>ดาวน์โหลด ที่เลือก URL</value>
   </data>
   <data name="MainWindow_EditImage" xml:space="preserve">
     <value>แก้ไข รูปภาพ...</value>
@@ -1709,20 +1058,8 @@
   <data name="MainWindow_FilePath" xml:space="preserve">
     <value>เส้นทางไฟล์</value>
   </data>
-  <data name="MainWindow_FilesDroppedUploadDescription" xml:space="preserve">
-    <value>ไฟล์ที่วางที่นี่จะถูกอัปโหลดโดย ShareX</value>
-  </data>
   <data name="MainWindow_Folder" xml:space="preserve">
     <value>โฟลเดอร์</value>
-  </data>
-  <data name="MainWindow_ForumImage" xml:space="preserve">
-    <value>Forum รูปภาพ</value>
-  </data>
-  <data name="MainWindow_ForumLink" xml:space="preserve">
-    <value>Forum ลิงก์</value>
-  </data>
-  <data name="MainWindow_ForumLinkedImage" xml:space="preserve">
-    <value>รูปภาพเชื่อมโยงสำหรับฟอรัม</value>
   </data>
   <data name="MainWindow_Horizontal" xml:space="preserve">
     <value>แนวนอน</value>
@@ -1731,31 +1068,13 @@
     <value>ในแนวนอน</value>
   </data>
   <data name="MainWindow_HotkeyHint" xml:space="preserve">
-    <value>ใช้ปุ่มลัดเพื่อจับภาพหรืออัปโหลด ผลลัพธ์ของคุณจะแสดงเป็นภาพขนาดย่อที่นี่</value>
-  </data>
-  <data name="MainWindow_HtmlImage" xml:space="preserve">
-    <value>HTML รูปภาพ</value>
-  </data>
-  <data name="MainWindow_HtmlLink" xml:space="preserve">
-    <value>HTML ลิงก์</value>
-  </data>
-  <data name="MainWindow_HtmlLinkedImage" xml:space="preserve">
-    <value>รูปภาพเชื่อมโยง HTML</value>
+    <value>ใช้ปุ่มลัดเพื่อจับภาพ ผลลัพธ์ของคุณจะปรากฏที่นี่เป็นภาพขนาดย่อ</value>
   </data>
   <data name="MainWindow_Image" xml:space="preserve">
     <value>รูปภาพ</value>
   </data>
   <data name="MainWindow_ImageDimensions" xml:space="preserve">
     <value>รูปภาพ มิติ</value>
-  </data>
-  <data name="MainWindow_MarkdownImage" xml:space="preserve">
-    <value>มาร์กดาวน์ รูปภาพ</value>
-  </data>
-  <data name="MainWindow_MarkdownLink" xml:space="preserve">
-    <value>มาร์กดาวน์ ลิงก์</value>
-  </data>
-  <data name="MainWindow_MarkdownLinkedImage" xml:space="preserve">
-    <value>มาร์กดาวน์ รูปภาพเชื่อมโยง</value>
   </data>
   <data name="MainWindow_MaximizeOrRestore" xml:space="preserve">
     <value>ขยายใหญ่สุดหรือคืนค่า</value>
@@ -1772,62 +1091,20 @@
   <data name="MainWindow_PinToScreen" xml:space="preserve">
     <value>ปักหมุดบนหน้าจอ</value>
   </data>
-  <data name="MainWindow_ReleaseToUploadFiles" xml:space="preserve">
-    <value>ปล่อยเพื่ออัปโหลดไฟล์</value>
-  </data>
-  <data name="MainWindow_ReleaseToUploadText" xml:space="preserve">
-    <value>ปล่อยเพื่ออัปโหลดข้อความ</value>
-  </data>
-  <data name="MainWindow_RemoteDeleteFailed" xml:space="preserve">
-    <value>ไม่สามารถลบรายการจากระยะไกลได้</value>
-  </data>
-  <data name="MainWindow_RemoteDeleteSucceeded" xml:space="preserve">
-    <value>ลบรายการจากระยะไกลแล้ว</value>
-  </data>
-  <data name="MainWindow_RemoteDeletion" xml:space="preserve">
-    <value>การลบจากระยะไกล</value>
-  </data>
   <data name="MainWindow_ResizeImage" xml:space="preserve">
     <value>ปรับขนาดรูปภาพ...</value>
   </data>
   <data name="MainWindow_RunAction" xml:space="preserve">
     <value>เรียกใช้ การดำเนินการ</value>
   </data>
-  <data name="MainWindow_SearchWithBingVisualSearch" xml:space="preserve">
-    <value>ค้นหาด้วย Bing Visual Search...</value>
-  </data>
-  <data name="MainWindow_SearchWithGoogleLens" xml:space="preserve">
-    <value>ค้นหา ด้วย Google Lens...</value>
-  </data>
-  <data name="MainWindow_ShareSelectedUrl" xml:space="preserve">
-    <value>แชร์ ที่เลือก URL</value>
-  </data>
   <data name="MainWindow_ShareXHotkeys" xml:space="preserve">
     <value>ปุ่มลัด ShareX</value>
-  </data>
-  <data name="MainWindow_ShortenSelectedUrl" xml:space="preserve">
-    <value>ย่อ ที่เลือก URL</value>
-  </data>
-  <data name="MainWindow_ShortenedUrl" xml:space="preserve">
-    <value>URL แบบย่อ</value>
   </data>
   <data name="MainWindow_ShowErrors" xml:space="preserve">
     <value>แสดง ข้อผิดพลาด...</value>
   </data>
-  <data name="MainWindow_ShowQRCode" xml:space="preserve">
-    <value>แสดง QR โค้ด...</value>
-  </data>
-  <data name="MainWindow_ShowResponse" xml:space="preserve">
-    <value>แสดง การตอบกลับ...</value>
-  </data>
-  <data name="MainWindow_StopUpload" xml:space="preserve">
-    <value>หยุด อัปโหลด</value>
-  </data>
   <data name="MainWindow_Text" xml:space="preserve">
     <value>ข้อความ</value>
-  </data>
-  <data name="MainWindow_TextDroppedUploadDescription" xml:space="preserve">
-    <value>ข้อความที่วางที่นี่จะถูกอัปโหลดโดย ShareX</value>
   </data>
   <data name="MainWindow_ThumbnailFile" xml:space="preserve">
     <value>ภาพขนาดย่อ ไฟล์</value>
@@ -1835,20 +1112,11 @@
   <data name="MainWindow_ThumbnailImage" xml:space="preserve">
     <value>ภาพขนาดย่อ รูปภาพ</value>
   </data>
-  <data name="MainWindow_ThumbnailUrl" xml:space="preserve">
-    <value>URL ภาพขนาดย่อ</value>
-  </data>
   <data name="MainWindow_TrimAnimatedGif" xml:space="preserve">
     <value>ตัด GIF แบบเคลื่อนไหว...</value>
   </data>
   <data name="MainWindow_TrimVideo" xml:space="preserve">
     <value>ตัดวิดีโอ...</value>
-  </data>
-  <data name="MainWindow_UploadSelectedFile" xml:space="preserve">
-    <value>อัปโหลด ไฟล์ที่เลือก</value>
-  </data>
-  <data name="MainWindow_Url" xml:space="preserve">
-    <value>URL</value>
   </data>
   <data name="MainWindow_Vertical" xml:space="preserve">
     <value>แนวตั้ง</value>
@@ -1859,20 +1127,14 @@
   <data name="MouseHighlighter" xml:space="preserve">
     <value>ปากกาเน้นข้อความเมาส์</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_Cancel" xml:space="preserve">
-    <value>ยกเลิก</value>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>เอนจิน OCR</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_DontShowAgain" xml:space="preserve">
-    <value>ไม่ต้องแสดงข้อความนี้อีก</value>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
   </data>
-  <data name="MultiUploadConfirmationWindow_Message" xml:space="preserve">
-    <value>คุณแน่ใจหรือไม่ว่าต้องการ อัปโหลด {0} ไฟล์?</value>
-  </data>
-  <data name="MultiUploadConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - อัปโหลดไฟล์</value>
-  </data>
-  <data name="MultiUploadConfirmationWindow_Upload" xml:space="preserve">
-    <value>อัปโหลด</value>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
   </data>
   <data name="PinToScreen" xml:space="preserve">
     <value>ปักหมุดบนหน้าจอ</value>
@@ -1892,12 +1154,6 @@
   </data>
   <data name="QuickTaskMenuEditorWindow_AfterCaptureTasks" xml:space="preserve">
     <value>หลังจับภาพ งาน</value>
-  </data>
-  <data name="QuickTaskMenuEditorWindow_AfterUploadSummary" xml:space="preserve">
-    <value>{0} • หลังอัปโหลด: {1}</value>
-  </data>
-  <data name="QuickTaskMenuEditorWindow_AfterUploadTasks" xml:space="preserve">
-    <value>หลังอัปโหลด งาน</value>
   </data>
   <data name="QuickTaskMenuEditorWindow_Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
@@ -2059,24 +1315,6 @@
   <data name="ShareXIsUpToDate" xml:space="preserve">
     <value>ShareX เป็นเวอร์ชันล่าสุดแล้ว</value>
   </data>
-  <data name="ShortenURLWindow_Cancel" xml:space="preserve">
-    <value>ยกเลิก</value>
-  </data>
-  <data name="ShortenURLWindow_Heading" xml:space="preserve">
-    <value>ย่อ URL</value>
-  </data>
-  <data name="ShortenURLWindow_Shorten" xml:space="preserve">
-    <value>ย่อ</value>
-  </data>
-  <data name="ShortenURLWindow_Title" xml:space="preserve">
-    <value>ShareX - ย่อ URL</value>
-  </data>
-  <data name="ShortenURLWindow_URL" xml:space="preserve">
-    <value>URL</value>
-  </data>
-  <data name="ShortenURLWindow_Validation" xml:space="preserve">
-    <value>ป้อน URL แบบ HTTP, HTTPS หรือ FTP ที่ถูกต้อง</value>
-  </data>
   <data name="StartScreen_GetStarted" xml:space="preserve">
     <value>เริ่มต้นใช้งาน</value>
   </data>
@@ -2098,12 +1336,6 @@
   <data name="StartScreen_WelcomeSubtitle" xml:space="preserve">
     <value>จับภาพ แก้ไข และแชร์ทุกอย่างในแบบของคุณ</value>
   </data>
-  <data name="TaskHelpers_AddCustomUploaderConfirmation" xml:space="preserve">
-    <value>คุณต้องการ เพิ่ม "{0}" ตัวอัปโหลดกำหนดเอง?</value>
-  </data>
-  <data name="TaskHelpers_CustomUploaderConfirmationTitle" xml:space="preserve">
-    <value>ShareX - ตัวอัปโหลดกำหนดเอง การยืนยัน</value>
-  </data>
   <data name="TaskHelpers_FileDoesNotExist" xml:space="preserve">
     <value>ไม่มีไฟล์:
 {0}</value>
@@ -2111,53 +1343,23 @@
   <data name="TaskHelpers_OpenQuickScreenColorPicker_Copied_to_clipboard___0_" xml:space="preserve">
     <value>คัดลอกแล้ว ไปยังคลิปบอร์ด: {0}</value>
   </data>
-  <data name="TaskHelpers_RemoteStorageNotConfigured" xml:space="preserve">
-    <value>กำหนดค่าตัวอัปโหลด Amazon S3, FTP, FTPS หรือ SFTP ในการตั้งค่าปลายทางก่อนเปิดเบราว์เซอร์ที่จัดเก็บข้อมูลระยะไกล</value>
-  </data>
-  <data name="TaskHelpers_SetActiveCustomUploaderConfirmation" xml:space="preserve">
-    <value>ต้องการตั้ง "{0}" เป็นตัวอัปโหลดกำหนดเองที่ใช้งานสำหรับ {1} หรือไม่</value>
-  </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_disabled_" xml:space="preserve">
     <value>ปุ่มลัด ปิดใช้งานแล้ว.</value>
   </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_enabled_" xml:space="preserve">
     <value>เปิดใช้งานปุ่มลัดแล้ว</value>
   </data>
-  <data name="TaskManager_UploadCompletedURL" xml:space="preserve">
-    <value>อัปโหลดเสร็จสมบูรณ์ URL: {0}</value>
-  </data>
-  <data name="TaskManager_task_UploadCompleted_Error" xml:space="preserve">
+  <data name="TaskManager_TaskCompleted_Error" xml:space="preserve">
     <value>ข้อผิดพลาด</value>
   </data>
-  <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
+  <data name="TaskManager_TaskCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>งานเสร็จสมบูรณ์</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_File_uploader___0_" xml:space="preserve">
-    <value>ตัวอัปโหลดไฟล์: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_Image_uploader___0_" xml:space="preserve">
-    <value>ตัวอัปโหลดรูปภาพ: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
-    <value>ตัวอัปโหลดข้อความ: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
-    <value>บริการแชร์ URL: {0}</value>
-  </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>ตัวย่อ URL: {0}</value>
   </data>
   <data name="TaskSettingsWindow_Actions" xml:space="preserve">
     <value>การดำเนินการ</value>
   </data>
-  <data name="TaskSettingsWindow_Add" xml:space="preserve">
-    <value>เพิ่ม</value>
-  </data>
   <data name="TaskSettingsWindow_AddAction" xml:space="preserve">
     <value>เพิ่ม การดำเนินการ</value>
-  </data>
-  <data name="TaskSettingsWindow_AddWatchFolder" xml:space="preserve">
-    <value>เพิ่มโฟลเดอร์ที่เฝ้าดู</value>
   </data>
   <data name="TaskSettingsWindow_AddWithEllipsis" xml:space="preserve">
     <value>เพิ่ม...</value>
@@ -2171,12 +1373,6 @@
   <data name="TaskSettingsWindow_AfterCaptureTasks" xml:space="preserve">
     <value>หลังจับภาพ งาน</value>
   </data>
-  <data name="TaskSettingsWindow_AfterUpload" xml:space="preserve">
-    <value>หลังอัปโหลด</value>
-  </data>
-  <data name="TaskSettingsWindow_AfterUploadTasks" xml:space="preserve">
-    <value>หลังอัปโหลด งาน</value>
-  </data>
   <data name="TaskSettingsWindow_AlsoDetectControlsInsideWindows" xml:space="preserve">
     <value>ตรวจจับตัวควบคุมภายในหน้าต่างด้วย</value>
   </data>
@@ -2186,12 +1382,6 @@
   <data name="TaskSettingsWindow_AskForConfirmationWhenAborting" xml:space="preserve">
     <value>ขอการยืนยันเมื่อยกเลิก</value>
   </data>
-  <data name="TaskSettingsWindow_AutoClearClipboard" xml:space="preserve">
-    <value>โดยอัตโนมัติ ล้าง คลิปบอร์ด</value>
-  </data>
-  <data name="TaskSettingsWindow_AutoCloseAfterUploadForm" xml:space="preserve">
-    <value>โดยอัตโนมัติ ปิด หลัง-อัปโหลด หน้าต่าง</value>
-  </data>
   <data name="TaskSettingsWindow_AutoCloseEditorOnTask" xml:space="preserve">
     <value>ปิดตัวแก้ไขอัตโนมัติเมื่อทำงาน</value>
   </data>
@@ -2200,9 +1390,6 @@
   </data>
   <data name="TaskSettingsWindow_AutoIncrementNumber" xml:space="preserve">
     <value>หมายเลขเพิ่มอัตโนมัติ:</value>
-  </data>
-  <data name="TaskSettingsWindow_AutoShortenURLLength" xml:space="preserve">
-    <value>อัตโนมัติ URL กำลังย่อ ความยาว</value>
   </data>
   <data name="TaskSettingsWindow_AutomaticJPEG" xml:space="preserve">
     <value>อัตโนมัติ JPEG</value>
@@ -2222,9 +1409,6 @@
   <data name="TaskSettingsWindow_BackgroundDimStrengthPercent" xml:space="preserve">
     <value>ความแรงการหรี่พื้นหลัง (%):</value>
   </data>
-  <data name="TaskSettingsWindow_BalloonTipContentFormat" xml:space="preserve">
-    <value>การแจ้งเตือน เนื้อหา รูปแบบ</value>
-  </data>
   <data name="TaskSettingsWindow_BrowseWithEllipsis" xml:space="preserve">
     <value>เรียกดู...</value>
   </data>
@@ -2237,8 +1421,8 @@
   <data name="TaskSettingsWindow_CaptureClientAreaForWindowCaptures" xml:space="preserve">
     <value>จับภาพพื้นที่ไคลเอ็นต์สำหรับการจับภาพหน้าต่าง</value>
   </data>
-  <data name="TaskSettingsWindow_CaptureOrClipboardUpload" xml:space="preserve">
-    <value>จับภาพ หรือ การอัปโหลดคลิปบอร์ด:</value>
+  <data name="TaskSettingsWindow_CaptureTasks" xml:space="preserve">
+    <value>งานจับภาพ:</value>
   </data>
   <data name="TaskSettingsWindow_CaptureWindowWithShadow" xml:space="preserve">
     <value>จับภาพหน้าต่างพร้อมเงา</value>
@@ -2258,18 +1442,6 @@
   <data name="TaskSettingsWindow_ChooseTheActionsShownAtTheBottomOfAfterCaptureNotifications" xml:space="preserve">
     <value>เลือกการดำเนินการที่จะแสดงด้านล่างการแจ้งเตือนหลังจับภาพ</value>
   </data>
-  <data name="TaskSettingsWindow_ChooseWatchFolder" xml:space="preserve">
-    <value>เลือก เฝ้าดู โฟลเดอร์</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardContent" xml:space="preserve">
-    <value>เนื้อหาคลิปบอร์ด</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardContentFormat" xml:space="preserve">
-    <value>คลิปบอร์ด เนื้อหา รูปแบบ</value>
-  </data>
-  <data name="TaskSettingsWindow_ClipboardUpload" xml:space="preserve">
-    <value>การอัปโหลดคลิปบอร์ด</value>
-  </data>
   <data name="TaskSettingsWindow_Close" xml:space="preserve">
     <value>ปิด</value>
   </data>
@@ -2285,9 +1457,6 @@
   <data name="TaskSettingsWindow_CustomSounds" xml:space="preserve">
     <value>กำหนดเอง เสียง</value>
   </data>
-  <data name="TaskSettingsWindow_CustomUploader" xml:space="preserve">
-    <value>ตัวอัปโหลดกำหนดเอง:</value>
-  </data>
   <data name="TaskSettingsWindow_CustomizeToolbarWithEllipsis" xml:space="preserve">
     <value>ปรับแต่ง แถบเครื่องมือ...</value>
   </data>
@@ -2299,9 +1468,6 @@
   </data>
   <data name="TaskSettingsWindow_Description" xml:space="preserve">
     <value>คำอธิบาย:</value>
-  </data>
-  <data name="TaskSettingsWindow_Destinations" xml:space="preserve">
-    <value>ปลายทาง</value>
   </data>
   <data name="TaskSettingsWindow_DetectWindowRegions" xml:space="preserve">
     <value>ตรวจจับพื้นที่หน้าต่าง</value>
@@ -2315,14 +1481,8 @@
   <data name="TaskSettingsWindow_DurationSeconds" xml:space="preserve">
     <value>ระยะเวลา (วินาที):</value>
   </data>
-  <data name="TaskSettingsWindow_EarlyCopyURL" xml:space="preserve">
-    <value>คัดลอก URL ก่อนอัปโหลด</value>
-  </data>
   <data name="TaskSettingsWindow_EditAction" xml:space="preserve">
     <value>แก้ไขการดำเนินการ</value>
-  </data>
-  <data name="TaskSettingsWindow_EditWatchFolder" xml:space="preserve">
-    <value>แก้ไข เฝ้าดู โฟลเดอร์</value>
   </data>
   <data name="TaskSettingsWindow_EditWithEllipsis" xml:space="preserve">
     <value>แก้ไข...</value>
@@ -2336,17 +1496,8 @@
   <data name="TaskSettingsWindow_EncodingAndCapture" xml:space="preserve">
     <value>การเข้ารหัส และ จับภาพ</value>
   </data>
-  <data name="TaskSettingsWindow_ExamplePng" xml:space="preserve">
-    <value>ตัวอย่าง: *.png</value>
-  </data>
   <data name="TaskSettingsWindow_ExtensionFilterExampleJpgPngMp4" xml:space="preserve">
     <value>ตัวกรองนามสกุล (ตัวอย่าง: jpg png mp4)</value>
-  </data>
-  <data name="TaskSettingsWindow_Extensions" xml:space="preserve">
-    <value>นามสกุล:</value>
-  </data>
-  <data name="TaskSettingsWindow_FTPAccount" xml:space="preserve">
-    <value>บัญชี FTP:</value>
   </data>
   <data name="TaskSettingsWindow_FadeDurationSeconds" xml:space="preserve">
     <value>ระยะเวลาการจาง (วินาที):</value>
@@ -2356,15 +1507,6 @@
   </data>
   <data name="TaskSettingsWindow_FilePath" xml:space="preserve">
     <value>เส้นทางไฟล์</value>
-  </data>
-  <data name="TaskSettingsWindow_Filter" xml:space="preserve">
-    <value>ตัวกรอง</value>
-  </data>
-  <data name="TaskSettingsWindow_Filters" xml:space="preserve">
-    <value>ตัวกรอง</value>
-  </data>
-  <data name="TaskSettingsWindow_FolderPath" xml:space="preserve">
-    <value>เส้นทางโฟลเดอร์</value>
   </data>
   <data name="TaskSettingsWindow_Format" xml:space="preserve">
     <value>รูปแบบ:</value>
@@ -2396,18 +1538,6 @@
   <data name="TaskSettingsWindow_HighlightMouseWhileRecording" xml:space="preserve">
     <value>เริ่มปากกาเน้นข้อความเมาส์โดยอัตโนมัติ</value>
   </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAFileURLDownloadAndUploadIt" xml:space="preserve">
-    <value>หากคลิปบอร์ดมี URL ไฟล์ ให้ดาวน์โหลดและอัปโหลด</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAFolderPathIndexAndUploadIt" xml:space="preserve">
-    <value>หากคลิปบอร์ดมีเส้นทางโฟลเดอร์ ให้สร้างดัชนีและอัปโหลด</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAURLShareItUsingURLSharingService" xml:space="preserve">
-    <value>หากคลิปบอร์ดมี URL ให้แชร์ผ่านบริการแชร์ URL</value>
-  </data>
-  <data name="TaskSettingsWindow_IfClipboardContainsAURLUseURLShortener" xml:space="preserve">
-    <value>หากคลิปบอร์ดมี URL ให้ใช้ตัวย่อ URL</value>
-  </data>
   <data name="TaskSettingsWindow_IfFileExists" xml:space="preserve">
     <value>หาก ไฟล์ มีอยู่:</value>
   </data>
@@ -2434,9 +1564,6 @@
   </data>
   <data name="TaskSettingsWindow_ImageQuality" xml:space="preserve">
     <value>คุณภาพรูปภาพ</value>
-  </data>
-  <data name="TaskSettingsWindow_IncludeSubdirectories" xml:space="preserve">
-    <value>รวม ไดเรกทอรีย่อย</value>
   </data>
   <data name="TaskSettingsWindow_InfoText" xml:space="preserve">
     <value>ข้อมูล ข้อความ:</value>
@@ -2491,9 +1618,6 @@
   </data>
   <data name="TaskSettingsWindow_MoveDown" xml:space="preserve">
     <value>ย้ายลง</value>
-  </data>
-  <data name="TaskSettingsWindow_MoveFileToScreenshotsFolder" xml:space="preserve">
-    <value>ย้ายไฟล์ไปยังโฟลเดอร์ภาพหน้าจอ</value>
   </data>
   <data name="TaskSettingsWindow_MoveUp" xml:space="preserve">
     <value>ย้ายขึ้น</value>
@@ -2588,9 +1712,6 @@
   <data name="TaskSettingsWindow_NativeRecorderUnavailableSystemAudioDevice" xml:space="preserve">
     <value>อุปกรณ์ส่งออกเสียงไม่พร้อมใช้งาน</value>
   </data>
-  <data name="TaskSettingsWindow_No" xml:space="preserve">
-    <value>ไม่</value>
-  </data>
   <data name="TaskSettingsWindow_NoButtonsConfiguredTheNotificationToolbarWillBeHidden" xml:space="preserve">
     <value>ยังไม่ได้กำหนดค่าปุ่ม แถบเครื่องมือการแจ้งเตือนจะถูกซ่อน</value>
   </data>
@@ -2615,11 +1736,11 @@
   <data name="TaskSettingsWindow_OCRLanguagesAreUnavailable" xml:space="preserve">
     <value>OCR ภาษา ไม่พร้อมใช้งาน</value>
   </data>
+  <data name="TaskSettingsWindow_OcrGpuAcceleration" xml:space="preserve">
+    <value>ใช้การเร่งด้วยกราฟิกสำหรับ OCR</value>
+  </data>
   <data name="TaskSettingsWindow_OnlyApplyEffectsToRegionCapture" xml:space="preserve">
     <value>ใช้เอฟเฟกต์เฉพาะกับการจับภาพพื้นที่</value>
-  </data>
-  <data name="TaskSettingsWindow_OpenURLFormat" xml:space="preserve">
-    <value>เปิด URL รูปแบบ</value>
   </data>
   <data name="TaskSettingsWindow_OpticalCharacterRecognition" xml:space="preserve">
     <value>การรู้จำอักขระด้วยแสง</value>
@@ -2636,20 +1757,8 @@
   <data name="TaskSettingsWindow_OverrideAfterCaptureTasks" xml:space="preserve">
     <value>เขียนทับ หลังจับภาพ งาน</value>
   </data>
-  <data name="TaskSettingsWindow_OverrideAfterUploadTasks" xml:space="preserve">
-    <value>เขียนทับ หลังอัปโหลด งาน</value>
-  </data>
   <data name="TaskSettingsWindow_OverrideCaptureSettings" xml:space="preserve">
     <value>เขียนทับ จับภาพ การตั้งค่า</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDefaultCustomUploader" xml:space="preserve">
-    <value>เขียนทับ ค่าเริ่มต้น ตัวอัปโหลดกำหนดเอง</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDefaultFTPAccount" xml:space="preserve">
-    <value>แทนที่บัญชี FTP เริ่มต้น</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideDestinations" xml:space="preserve">
-    <value>เขียนทับ ปลายทาง</value>
   </data>
   <data name="TaskSettingsWindow_OverrideGeneralSettings" xml:space="preserve">
     <value>แทนที่การตั้งค่าทั่วไป</value>
@@ -2662,9 +1771,6 @@
   </data>
   <data name="TaskSettingsWindow_OverrideToolsSettings" xml:space="preserve">
     <value>เขียนทับ เครื่องมือ การตั้งค่า</value>
-  </data>
-  <data name="TaskSettingsWindow_OverrideUploadSettings" xml:space="preserve">
-    <value>แทนที่การตั้งค่าการอัปโหลด</value>
   </data>
   <data name="TaskSettingsWindow_PNGBitDepth" xml:space="preserve">
     <value>PNG ความลึกบิต:</value>
@@ -2696,9 +1802,6 @@
   <data name="TaskSettingsWindow_PNGFilterUp" xml:space="preserve">
     <value>Up (พิกเซลด้านบน)</value>
   </data>
-  <data name="TaskSettingsWindow_Pattern" xml:space="preserve">
-    <value>รูปแบบ:</value>
-  </data>
   <data name="TaskSettingsWindow_Placement" xml:space="preserve">
     <value>การจัดวาง:</value>
   </data>
@@ -2719,15 +1822,6 @@
   </data>
   <data name="TaskSettingsWindow_Preview" xml:space="preserve">
     <value>ตัวอย่าง:</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringClipboardUpload" xml:space="preserve">
-    <value>ประมวลผลรูปภาพระหว่างอัปโหลดคลิปบอร์ด</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringExtensionUpload" xml:space="preserve">
-    <value>ประมวลผลรูปภาพระหว่างอัปโหลดจากส่วนขยาย</value>
-  </data>
-  <data name="TaskSettingsWindow_ProcessImagesDuringFileUpload" xml:space="preserve">
-    <value>ประมวลผลรูปภาพระหว่างอัปโหลดไฟล์</value>
   </data>
   <data name="TaskSettingsWindow_ProcessOCRSilently" xml:space="preserve">
     <value>ประมวลผล OCR โดยไม่แจ้ง</value>
@@ -2756,20 +1850,8 @@
   <data name="TaskSettingsWindow_Remove" xml:space="preserve">
     <value>เอาออก</value>
   </data>
-  <data name="TaskSettingsWindow_ReplaceResultURLUsingARegularExpression" xml:space="preserve">
-    <value>แทนที่ URL ผลลัพธ์ด้วยนิพจน์ทั่วไป</value>
-  </data>
-  <data name="TaskSettingsWindow_ReplaceURLProblematicCharactersWithUnderscores" xml:space="preserve">
-    <value>แทนอักขระที่มีปัญหาใน URL ด้วยขีดล่าง</value>
-  </data>
-  <data name="TaskSettingsWindow_Replacement" xml:space="preserve">
-    <value>การแทนที่:</value>
-  </data>
   <data name="TaskSettingsWindow_RestrictCaptureAndCursorToTheActiveMonitor" xml:space="preserve">
     <value>จำกัดการจับภาพและเคอร์เซอร์ไว้ที่จอภาพที่ใช้งานอยู่</value>
-  </data>
-  <data name="TaskSettingsWindow_ResultForceHTTPS" xml:space="preserve">
-    <value>บังคับใช้ HTTPS สำหรับ URL ผลลัพธ์</value>
   </data>
   <data name="TaskSettingsWindow_RightClick" xml:space="preserve">
     <value>คลิกขวา:</value>
@@ -2812,9 +1894,6 @@
   </data>
   <data name="TaskSettingsWindow_Selection" xml:space="preserve">
     <value>การเลือก</value>
-  </data>
-  <data name="TaskSettingsWindow_SeparateExtensionsWithCommasForExamplePngJpgJpeg" xml:space="preserve">
-    <value>คั่นนามสกุลด้วยจุลภาค ตัวอย่าง: png, jpg, jpeg</value>
   </data>
   <data name="TaskSettingsWindow_ShadowOffset" xml:space="preserve">
     <value>เงา ระยะเยื้อง:</value>
@@ -2918,33 +1997,6 @@
   <data name="TaskSettingsWindow_Tools" xml:space="preserve">
     <value>เครื่องมือ</value>
   </data>
-  <data name="TaskSettingsWindow_URLReplacement" xml:space="preserve">
-    <value>URL การแทนที่</value>
-  </data>
-  <data name="TaskSettingsWindow_Update" xml:space="preserve">
-    <value>อัปเดต</value>
-  </data>
-  <data name="TaskSettingsWindow_Upload" xml:space="preserve">
-    <value>อัปโหลด</value>
-  </data>
-  <data name="TaskSettingsWindow_UploadFilesWhenTheyAreCreatedInThisFolder" xml:space="preserve">
-    <value>อัปโหลดไฟล์เมื่อถูกสร้างในโฟลเดอร์นี้</value>
-  </data>
-  <data name="TaskSettingsWindow_UploadText" xml:space="preserve">
-    <value>อัปโหลด ข้อความ</value>
-  </data>
-  <data name="TaskSettingsWindow_Uploader" xml:space="preserve">
-    <value>ตัวอัปโหลด:</value>
-  </data>
-  <data name="TaskSettingsWindow_UploaderAccounts" xml:space="preserve">
-    <value>ตัวอัปโหลด บัญชี</value>
-  </data>
-  <data name="TaskSettingsWindow_UploaderFilters" xml:space="preserve">
-    <value>ตัวอัปโหลด ตัวกรอง</value>
-  </data>
-  <data name="TaskSettingsWindow_UseAfterCaptureTasksDuringFileUpload" xml:space="preserve">
-    <value>ใช้งานหลังจับภาพระหว่างอัปโหลดไฟล์</value>
-  </data>
   <data name="TaskSettingsWindow_UseCustomActionCompletedSound" xml:space="preserve">
     <value>ใช้เสียงการดำเนินการเสร็จสมบูรณ์กำหนดเอง</value>
   </data>
@@ -2969,9 +2021,6 @@
   <data name="TaskSettingsWindow_UseJPEGIfImageSizeIsBiggerThanTheSpecifiedSize" xml:space="preserve">
     <value>ใช้ JPEG หากรูปภาพใหญ่กว่าขนาดที่ระบุ</value>
   </data>
-  <data name="TaskSettingsWindow_UseNamePatternForFileUploads" xml:space="preserve">
-    <value>ใช้รูปแบบชื่อสำหรับการอัปโหลดไฟล์</value>
-  </data>
   <data name="TaskSettingsWindow_UseRandomImageEffect" xml:space="preserve">
     <value>ใช้เอฟเฟกต์รูปภาพแบบสุ่ม</value>
   </data>
@@ -2980,15 +2029,6 @@
   </data>
   <data name="TaskSettingsWindow_UseStartDelay" xml:space="preserve">
     <value>ใช้การหน่วงเวลาก่อนเริ่ม</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFolderSummary" xml:space="preserve">
-    <value>{0} — {1} — รวมโฟลเดอร์ย่อย: {2}</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFolders" xml:space="preserve">
-    <value>เฝ้าดู โฟลเดอร์</value>
-  </data>
-  <data name="TaskSettingsWindow_WatchFoldersAndUploadNewlyCreatedFiles" xml:space="preserve">
-    <value>เฝ้าดูโฟลเดอร์และอัปโหลดไฟล์ที่สร้างใหม่</value>
   </data>
   <data name="TaskSettingsWindow_WaveAudio" xml:space="preserve">
     <value>คลื่น เสียง</value>
@@ -3008,9 +2048,6 @@
   <data name="TaskSettingsWindow_Y" xml:space="preserve">
     <value>Y:</value>
   </data>
-  <data name="TaskSettingsWindow_Yes" xml:space="preserve">
-    <value>ใช่</value>
-  </data>
   <data name="TaskSettingsWindow_YouCanEnableOrDisableActionsFromAfterCaptureTasksPerformActions" xml:space="preserve">
     <value>คุณสามารถเปิดหรือปิดการดำเนินการได้จาก งานหลังจับภาพ → ดำเนินการ</value>
   </data>
@@ -3020,103 +2057,21 @@
   <data name="TaskSettingsWindow_ZoomToFitOnOpen" xml:space="preserve">
     <value>ซูมให้พอดีเมื่อเปิด</value>
   </data>
-  <data name="ThisFeatureWillNotWorkWhenDisableUploadOptionIsEnabled" xml:space="preserve">
-    <value>คุณลักษณะนี้จะไม่ทำงานเมื่อเปิดตัวเลือก "DisableUpload"</value>
-  </data>
   <data name="ThumbnailItemViewModel_UntitledTask" xml:space="preserve">
     <value>ไม่มีชื่อ งาน</value>
-  </data>
-  <data name="URLUploadWindow_Cancel" xml:space="preserve">
-    <value>ยกเลิก</value>
-  </data>
-  <data name="URLUploadWindow_Heading" xml:space="preserve">
-    <value>URL อัปโหลด</value>
-  </data>
-  <data name="URLUploadWindow_Prompt" xml:space="preserve">
-    <value>URL สำหรับดาวน์โหลดและอัปโหลด</value>
-  </data>
-  <data name="URLUploadWindow_Title" xml:space="preserve">
-    <value>ShareX - อัปโหลด URL</value>
-  </data>
-  <data name="URLUploadWindow_URL" xml:space="preserve">
-    <value>URL</value>
-  </data>
-  <data name="URLUploadWindow_Upload" xml:space="preserve">
-    <value>อัปโหลด</value>
-  </data>
-  <data name="URLUploadWindow_Validation" xml:space="preserve">
-    <value>ป้อน URL แบบ HTTP, HTTPS หรือ FTP ที่ถูกต้อง</value>
   </data>
   <data name="UnableToFindAWindowWithSpecifiedWindowTitle" xml:space="preserve">
     <value>ไม่พบหน้าต่างที่มีชื่อหน้าต่างตามที่ระบุ</value>
   </data>
-  <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
-    <value>ข้อผิดพลาดการอัปโหลด</value>
-  </data>
-  <data name="UploadManager_DownloadAndUploadFile_Download_failed" xml:space="preserve">
-    <value>ดาวน์โหลด ล้มเหลว:
-{0}</value>
-  </data>
-  <data name="UploadManager_UploadFile_File_upload" xml:space="preserve">
-    <value>การอัปโหลดไฟล์</value>
-  </data>
-  <data name="UploadManager_UploadFolder_Folder_upload" xml:space="preserve">
-    <value>โฟลเดอร์ อัปโหลด</value>
-  </data>
-  <data name="UploadTask_CreateShareURLTask_Share_URL___0__" xml:space="preserve">
-    <value>แชร์ URL ({0})</value>
-  </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>ย่อ URL ({0})</value>
-  </data>
-  <data name="UploadTask_DoAfterCaptureJobs_Choose_a_folder_to_save" xml:space="preserve">
-    <value>เลือกโฟลเดอร์ที่จะบันทึก</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
-    <value>กำลังอัปโหลด</value>
-  </data>
-  <data name="UploadTask_DownloadAndUpload_Downloading" xml:space="preserve">
-    <value>กำลังดาวน์โหลด</value>
-  </data>
-  <data name="UploadTask_OnUploadCompleted_Done" xml:space="preserve">
-    <value>เสร็จแล้ว</value>
-  </data>
-  <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
-    <value>หยุดแล้ว</value>
-  </data>
-  <data name="UploadTask_Prepare_Preparing" xml:space="preserve">
-    <value>กำลังเตรียม</value>
-  </data>
-  <data name="UploadTask_Prepare_Starting" xml:space="preserve">
-    <value>กำลังเริ่ม</value>
-  </data>
-  <data name="UploadTask_Stop_Stopping" xml:space="preserve">
-    <value>กำลังหยุด</value>
-  </data>
-  <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
-    <value>URL ว่าง.</value>
-  </data>
   <data name="WorkerTask_AllFilesFilter" xml:space="preserve">
     <value>ไฟล์ทั้งหมด (*.*)</value>
-  </data>
-  <data name="WorkerTask_ErrorTitle" xml:space="preserve">
-    <value>{0} ข้อผิดพลาด</value>
-  </data>
-  <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
-    <value>การกำหนดค่า {0} ไม่ถูกต้องหรือหายไป โปรดตรวจสอบหน้าต่าง "การตั้งค่าปลายทาง" เพื่อกำหนดค่า</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>ต้องการเปิดใช้งานเอฟเฟกต์รูปภาพหรือไม่
 
 คุณสามารถปิดได้ภายหลังจากเมนู "งานหลังจับภาพ"</value>
   </data>
-  <data name="WouldYouLikeToRetryClipboardUpload" xml:space="preserve">
-    <value>คุณต้องการ ลองอีกครั้ง การอัปโหลดคลิปบอร์ด?</value>
-  </data>
   <data name="YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX" xml:space="preserve">
     <value>ซอฟต์แวร์ป้องกันไวรัสหรือคุณลักษณะการควบคุมการเข้าถึงโฟลเดอร์ใน Windows อาจกำลังบล็อก ShareX</value>
-  </data>
-  <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
-    <value>ผู้ดูแลระบบของคุณปิดใช้งานคุณลักษณะการอัปโหลด</value>
   </data>
 </root>

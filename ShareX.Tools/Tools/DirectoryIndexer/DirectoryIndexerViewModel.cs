@@ -88,7 +88,6 @@ public sealed partial class DirectoryIndexerViewModel : ViewModelBase
     public Func<Task<string?>>? SelectFolderRequested { get; set; }
     public Func<Task<string?>>? SelectCSSFileRequested { get; set; }
     public Func<string, string, string, Task<bool>>? SaveRequested { get; set; }
-    public Func<string, IndexerOutput, Task>? UploadRequested { get; set; }
     public Action? CloseRequested { get; set; }
 
     public bool IsIdle => !IsBusy;
@@ -196,15 +195,6 @@ public sealed partial class DirectoryIndexerViewModel : ViewModelBase
         }
     }
 
-    [RelayCommand]
-    private async Task UploadAsync()
-    {
-        if (HasSource && UploadRequested != null)
-        {
-            await UploadRequested(Source, SelectedOutput.Value);
-            CloseRequested?.Invoke();
-        }
-    }
 
     partial void OnSelectedOutputChanged(IndexerOutputChoice value)
     {

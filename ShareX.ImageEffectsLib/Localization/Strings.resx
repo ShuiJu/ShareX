@@ -1103,7 +1103,4 @@ Value need to be between 1 to 100.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Unnamed preset</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Upload image</value>
-  </data>
 </root>

@@ -1103,7 +1103,4 @@
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>ไม่มีชื่อ ค่าที่ตั้งไว้</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Upโหลดรูปภาพ</value>
-  </data>
 </root>

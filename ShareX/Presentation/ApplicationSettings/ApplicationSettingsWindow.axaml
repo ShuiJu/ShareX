@@ -267,29 +267,9 @@
                                 <StackPanel Spacing="4">
                                     <TextBlock Classes="section-title" Text="{x:Static res:Strings.ApplicationSettingsWindow_Windows}"/>
                                     <CheckBox Classes="setting" Content="{Binding StartWithWindowsText}" IsEnabled="{Binding StartWithWindowsEnabled}" IsChecked="{Binding StartWithWindows, Mode=TwoWay}"/>
-                                    <CheckBox Classes="setting" IsVisible="{Binding WindowsIntegrationVisible}" Content="{x:Static res:Strings.ApplicationSettingsWindow_ShowUploadWithShareXButtonInWindowsExplorerContextMenu}" IsChecked="{Binding ShellContextMenu, Mode=TwoWay}"/>
                                     <CheckBox Classes="setting" IsVisible="{Binding WindowsIntegrationVisible}" Content="{x:Static res:Strings.ApplicationSettingsWindow_ShowEditWithShareXButtonInWindowsExplorerContextMenu}" IsChecked="{Binding EditWithShareX, Mode=TwoWay}"/>
-                                    <CheckBox Classes="setting" IsVisible="{Binding WindowsIntegrationVisible}" Content="{x:Static res:Strings.ApplicationSettingsWindow_ShowShareXInSendToMenu}" IsChecked="{Binding SendToMenu, Mode=TwoWay}"/>
                                 </StackPanel>
                             </Border>
-                            <StackPanel controls:SettingsSearch.IsAvailabilityContainer="True" IsVisible="{Binding WindowsIntegrationVisible}">
-                                <Border Classes="section-card" controls:SettingsSearch.IsPanel="True">
-                                    <StackPanel Spacing="4">
-                                        <TextBlock Classes="section-title" Text="{x:Static res:Strings.ApplicationSettingsWindow_ChromeExtension}"/>
-                                        <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_EnableChromeExtensionSupport}" IsChecked="{Binding ChromeExtensionSupport, Mode=TwoWay}"/>
-                                        <Button Classes="compact" HorizontalAlignment="Left" Content="{x:Static res:Strings.ApplicationSettingsWindow_InstallShareXChromeExtension}" IsEnabled="{Binding ChromeExtensionSupport}" Click="OnOpenChromeExtensionClick"/>
-                                    </StackPanel>
-                                </Border>
-                            </StackPanel>
-                            <StackPanel controls:SettingsSearch.IsAvailabilityContainer="True" IsVisible="{Binding WindowsIntegrationVisible}">
-                                <Border Classes="section-card" controls:SettingsSearch.IsPanel="True">
-                                    <StackPanel Spacing="4">
-                                        <TextBlock Classes="section-title" Text="{x:Static res:Strings.ApplicationSettingsWindow_FirefoxAddon}"/>
-                                        <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_EnableFirefoxAddonSupport}" IsChecked="{Binding FirefoxAddonSupport, Mode=TwoWay}"/>
-                                        <Button Classes="compact" HorizontalAlignment="Left" Content="{x:Static res:Strings.ApplicationSettingsWindow_InstallShareXFirefoxAddon}" IsEnabled="{Binding FirefoxAddonSupport}" Click="OnOpenFirefoxAddonClick"/>
-                                    </StackPanel>
-                                </Border>
-                            </StackPanel>
                             <StackPanel controls:SettingsSearch.IsAvailabilityContainer="True" IsVisible="{Binding SteamIntegrationVisible}">
                                 <Border Classes="section-card" controls:SettingsSearch.IsPanel="True">
                                     <StackPanel Spacing="4">
@@ -355,7 +335,7 @@
                             <Border Classes="section-card" controls:SettingsSearch.IsPanel="True">
                                 <StackPanel Spacing="6">
                                     <TextBlock Classes="section-title" Text="{x:Static res:Strings.ApplicationSettingsWindow_ExportAndImport}"/>
-                                    <TextBlock Classes="hint" Text="{x:Static res:Strings.ApplicationSettingsWindow_DoNotShareAnExportedBackupItCanContainPrivateInformationSuchAsAccountDetailsAndUploadHistory}"/>
+                                    <TextBlock Classes="hint" Text="{x:Static res:Strings.ApplicationSettingsWindow_BackupPrivacyWarning}"/>
                                     <StackPanel Orientation="Horizontal" Spacing="8">
                                         <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_Settings}" IsChecked="{Binding ExportSettings, Mode=TwoWay}"/>
                                         <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_History}" IsChecked="{Binding ExportHistory, Mode=TwoWay}"/>
@@ -412,67 +392,7 @@
                         </StackPanel>
                     </ScrollViewer>
 
-                    <!-- Clipboard formats -->
-                    <ScrollViewer controls:SettingsSearch.PageId="clipboard-formats" IsVisible="{Binding IsClipboardFormatsPage}" HorizontalContentAlignment="Stretch" HorizontalScrollBarVisibility="Disabled">
-                        <StackPanel Margin="28,24,28,32" HorizontalAlignment="Stretch">
-                            <Grid Classes="page-title" controls:SettingsSearch.IsPageTitle="True" ColumnDefinitions="Auto,*" ColumnSpacing="9">
-                                <TextBlock Classes="icon page-title-icon" Text="{x:Static theming:LucideIcons.clipboard_list}"/>
-                                <TextBlock Grid.Column="1" Classes="page-title-text" Text="{x:Static res:Strings.ApplicationSettingsWindow_ClipboardFormats}"/>
-                            </Grid>
-                            <TextBlock Classes="hint" Margin="0,0,0,8" Text="{x:Static res:Strings.ApplicationSettingsWindow_TheseFormatsAppearUnderTheCopySubmenuInTheMainWindowContextMenu}"/>
-                            <Border Classes="section-card" controls:SettingsSearch.IsPanel="True">
-                                <StackPanel Spacing="5">
-                                    <ListBox Classes="settings-list"
-                                             MinHeight="260"
-                                             ItemsSource="{Binding ClipboardFormats}"
-                                             SelectedItem="{Binding SelectedClipboardFormat, Mode=TwoWay}">
-                                        <ListBox.ItemTemplate>
-                                            <DataTemplate x:DataType="local:ClipboardFormatItem">
-                                                <StackPanel Margin="4,2">
-                                                    <TextBlock Text="{Binding Description}" Foreground="{DynamicResource ShareX.Brush.Text}" FontWeight="Normal"/>
-                                                    <TextBlock Classes="hint" Text="{Binding Format}" TextTrimming="CharacterEllipsis"/>
-                                                </StackPanel>
-                                            </DataTemplate>
-                                        </ListBox.ItemTemplate>
-                                    </ListBox>
-                                    <StackPanel Orientation="Horizontal" Spacing="5">
-                                        <Button Classes="compact" Content="{x:Static res:Strings.ApplicationSettingsWindow_Add}" Click="OnAddClipboardFormatClick"/>
-                                        <Button Classes="compact" Content="{x:Static res:Strings.ApplicationSettingsWindow_Edit}" IsEnabled="{Binding HasSelectedClipboardFormat}" Click="OnEditClipboardFormatClick"/>
-                                        <Button Classes="compact" Content="{x:Static res:Strings.ApplicationSettingsWindow_Remove}" IsEnabled="{Binding HasSelectedClipboardFormat}" Click="OnRemoveClipboardFormatClick"/>
-                                    </StackPanel>
-                                </StackPanel>
-                            </Border>
-                        </StackPanel>
-                    </ScrollViewer>
 
-                    <!-- Upload -->
-                    <ScrollViewer controls:SettingsSearch.PageId="upload" IsVisible="{Binding IsUploadPage}" HorizontalContentAlignment="Stretch" HorizontalScrollBarVisibility="Disabled">
-                        <StackPanel Margin="28,24,28,32" HorizontalAlignment="Stretch">
-                            <Grid Classes="page-title" controls:SettingsSearch.IsPageTitle="True" ColumnDefinitions="Auto,*" ColumnSpacing="9">
-                                <TextBlock Classes="icon page-title-icon" Text="{x:Static theming:LucideIcons.upload}"/>
-                                <TextBlock Grid.Column="1" Classes="page-title-text" Text="{x:Static res:Strings.ApplicationSettingsWindow_Upload}"/>
-                            </Grid>
-                            <Border Classes="section-card" controls:SettingsSearch.IsPanel="True">
-                                <StackPanel Spacing="6">
-                                    <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
-                                        <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_SimultaneousUploadLimitLabel}" VerticalAlignment="Center" FontWeight="Normal"/>
-                                        <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="5">
-                                            <NumericUpDown Classes="form-control" Minimum="0" Maximum="25" Value="{Binding UploadLimit, Mode=TwoWay}"/>
-                                            <TextBlock Classes="hint" Text="{x:Static res:Strings.ApplicationSettingsWindow_ZeroDisablesTheLimit}" VerticalAlignment="Center"/>
-                                        </StackPanel>
-                                    </Grid>
-                                    <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
-                                        <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_BufferSizeLabel}" VerticalAlignment="Center" FontWeight="Normal"/>
-                                        <ComboBox Grid.Column="1" Classes="form-control" ItemsSource="{Binding BufferSizeOptions}" SelectedItem="{Binding SelectedBufferSize, Mode=TwoWay}"/>
-                                    </Grid>
-                                    <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
-                                        <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_NumberOfTimesToRetryIfUploadFailsLabel}" VerticalAlignment="Center" FontWeight="Normal"/>
-                                        <NumericUpDown Grid.Column="1" Classes="form-control" Minimum="0" Maximum="5" Value="{Binding MaxUploadFailRetry, Mode=TwoWay}"/>
-                                    </Grid>
-                                </StackPanel>
-                            </Border>
-                        </StackPanel>
-                    </ScrollViewer>
 
                     <!-- History -->
                     <ScrollViewer controls:SettingsSearch.PageId="history" IsVisible="{Binding IsHistoryPage}" HorizontalContentAlignment="Stretch" HorizontalScrollBarVisibility="Disabled">
@@ -485,7 +405,6 @@
                                 <StackPanel Spacing="4">
                                     <TextBlock Classes="section-title" Text="{x:Static res:Strings.ApplicationSettingsWindow_History}"/>
                                     <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_SaveTasksToHistory}" IsChecked="{Binding HistorySaveTasks, Mode=TwoWay}"/>
-                                    <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_OnlySaveIfUrlIsNotEmpty}" IsChecked="{Binding HistoryCheckURL, Mode=TwoWay}"/>
                                 </StackPanel>
                             </Border>
                             <Border Classes="section-card" controls:SettingsSearch.IsPanel="True">
@@ -618,9 +537,6 @@
                                 <StackPanel Spacing="6">
                                     <TextBlock Classes="section-title" Text="{x:Static res:Strings.ApplicationSettingsWindow_AdvancedClipboard}"/>
                                     <StackPanel>
-                                        <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_ShowClipboardContentViewer}" IsChecked="{Binding ShowClipboardContentViewer, Mode=TwoWay}"/>
-                                    </StackPanel>
-                                    <StackPanel>
                                         <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_DefaultClipboardCopyImageFillBackground}" IsChecked="{Binding DefaultClipboardCopyImageFillBackground, Mode=TwoWay}"/>
                                     </StackPanel>
                                     <StackPanel>
@@ -644,39 +560,10 @@
                                 </StackPanel>
                             </Border>
 
-                            <Border Classes="section-card" controls:SettingsSearch.IsPanel="True">
-                                <StackPanel Spacing="6">
-                                    <TextBlock Classes="section-title" Text="{x:Static res:Strings.ApplicationSettingsWindow_AdvancedUpload}"/>
-                                    <StackPanel>
-                                        <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_DisableUpload}" IsChecked="{Binding DisableUpload, Mode=TwoWay}"/>
-                                    </StackPanel>
-                                    <StackPanel>
-                                        <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_URLEncodeIgnoreEmoji}" IsChecked="{Binding URLEncodeIgnoreEmoji, Mode=TwoWay}"/>
-                                    </StackPanel>
-                                    <StackPanel>
-                                        <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_ShowMultiUploadWarning}" IsChecked="{Binding ShowMultiUploadWarning, Mode=TwoWay}"/>
-                                    </StackPanel>
-                                    <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_ShowLargeFileSizeWarning}" FontWeight="Normal"/>
-                                        </StackPanel>
-                                        <NumericUpDown Grid.Column="1" Classes="form-control" Minimum="0" Maximum="2147483647" Value="{Binding ShowLargeFileSizeWarning, Mode=TwoWay}"/>
-                                    </Grid>
-                                </StackPanel>
-                            </Border>
 
                             <Border Classes="section-card" controls:SettingsSearch.IsPanel="True">
                                 <StackPanel Spacing="6">
                                     <TextBlock Classes="section-title" Text="{x:Static res:Strings.ApplicationSettingsWindow_AdvancedPaths}"/>
-                                    <StackPanel>
-                                        <CheckBox Classes="setting" Content="{x:Static res:Strings.ApplicationSettingsWindow_UseMachineSpecificUploadersConfig}" IsChecked="{Binding UseMachineSpecificUploadersConfig, Mode=TwoWay}"/>
-                                    </StackPanel>
-                                    <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_CustomUploadersConfigPath}" FontWeight="Normal"/>
-                                        </StackPanel>
-                                        <TextBox Grid.Column="1" Classes="form-control" Text="{Binding CustomUploadersConfigPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-                                    </Grid>
                                     <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
                                         <StackPanel VerticalAlignment="Center">
                                             <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_CustomHotkeysConfigPath}" FontWeight="Normal"/>
@@ -692,116 +579,11 @@
                                 </StackPanel>
                             </Border>
 
-                            <Border Classes="section-card" controls:SettingsSearch.IsPanel="True">
-                                <StackPanel Spacing="6">
-                                    <TextBlock Classes="section-title" Text="{x:Static res:Strings.ApplicationSettingsWindow_AdvancedDragAndDropWindow}"/>
-                                    <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_DropSize}" FontWeight="Normal"/>
-                                        </StackPanel>
-                                        <NumericUpDown Grid.Column="1" Classes="form-control" Minimum="1" Maximum="2147483647" Value="{Binding DropSize, Mode=TwoWay}"/>
-                                    </Grid>
-                                    <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_DropOffset}" FontWeight="Normal"/>
-                                        </StackPanel>
-                                        <NumericUpDown Grid.Column="1" Classes="form-control" Minimum="-2147483648" Maximum="2147483647" Value="{Binding DropOffset, Mode=TwoWay}"/>
-                                    </Grid>
-                                    <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_DropAlignment}" FontWeight="Normal"/>
-                                        </StackPanel>
-                                        <ComboBox Grid.Column="1" Classes="form-control" ItemsSource="{Binding DropAlignmentOptions}" SelectedItem="{Binding SelectedDropAlignment, Mode=TwoWay}"/>
-                                    </Grid>
-                                    <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_DropOpacity}" FontWeight="Normal"/>
-                                        </StackPanel>
-                                        <NumericUpDown Grid.Column="1" Classes="form-control" Minimum="0" Maximum="255" Value="{Binding DropOpacity, Mode=TwoWay}"/>
-                                    </Grid>
-                                    <Grid ColumnDefinitions="240,*" ColumnSpacing="8">
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_DropHoverOpacity}" FontWeight="Normal"/>
-                                        </StackPanel>
-                                        <NumericUpDown Grid.Column="1" Classes="form-control" Minimum="0" Maximum="255" Value="{Binding DropHoverOpacity, Mode=TwoWay}"/>
-                                    </Grid>
-                                </StackPanel>
-                            </Border>
                         </StackPanel>
                     </ScrollViewer>
                 </Grid>
             </Grid>
 
-            <Border x:Name="ClipboardFormatEditorOverlay"
-                    Grid.ColumnSpan="2"
-                    ZIndex="100"
-                    IsVisible="False"
-                    Background="{DynamicResource ShareX.Brush.Overlay.Modal}">
-                <Border Width="640"
-                        MaxHeight="560"
-                        Padding="16"
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Background="{DynamicResource ShareX.Brush.Background.Panel}"
-                        BorderBrush="{DynamicResource ShareX.Brush.Border}"
-                        BorderThickness="1"
-                        CornerRadius="8">
-                    <Grid RowDefinitions="Auto,*,Auto" RowSpacing="12">
-                        <Grid ColumnDefinitions="Auto,*" ColumnSpacing="9">
-                            <TextBlock Classes="icon"
-                                       Text="{x:Static theming:LucideIcons.clipboard_list}"
-                                       FontSize="21"
-                                       Foreground="{DynamicResource ShareX.Brush.Accent}"
-                                       VerticalAlignment="Center"/>
-                            <StackPanel Grid.Column="1" Spacing="1">
-                                <TextBlock x:Name="ClipboardFormatEditorTitle"
-                                           Text="{x:Static res:Strings.ApplicationSettingsWindow_AddClipboardFormat}"
-                                           FontSize="19"
-                                           FontWeight="SemiBold"/>
-                                <TextBlock Classes="hint"
-                                           Text="{x:Static res:Strings.ApplicationSettingsWindow_CustomizeTheTextCopiedFromCompletedUploads}"/>
-                            </StackPanel>
-                        </Grid>
-
-                        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
-                            <StackPanel Spacing="8" Margin="0,0,4,0">
-                                <StackPanel Spacing="3">
-                                    <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_Description}" FontWeight="Normal"/>
-                                    <TextBox x:Name="ClipboardFormatDescriptionBox" Classes="form-control"/>
-                                </StackPanel>
-                                <StackPanel Spacing="3">
-                                    <TextBlock Text="{x:Static res:Strings.ApplicationSettingsWindow_Format}" FontWeight="Normal"/>
-                                    <TextBox x:Name="ClipboardFormatTextBox"
-                                             Classes="form-control"
-                                             Height="150"
-                                             AcceptsReturn="True"
-                                             VerticalContentAlignment="Top"
-                                             TextWrapping="Wrap"
-                                             ScrollViewer.VerticalScrollBarVisibility="Auto"/>
-                                    <TextBlock Classes="hint" Text="{x:Static res:Strings.ApplicationSettingsWindow_RightClickToInsertAVariable}"/>
-                                </StackPanel>
-                                <TextBlock x:Name="ClipboardFormatSupportedVariablesText"
-                                           Classes="hint"
-                                           TextWrapping="Wrap"/>
-                            </StackPanel>
-                        </ScrollViewer>
-
-                        <StackPanel Grid.Row="2"
-                                    Orientation="Horizontal"
-                                    Spacing="8"
-                                    HorizontalAlignment="Right">
-                            <Button Classes="compact"
-                                    MinWidth="84"
-                                    Content="{x:Static res:Strings.ApplicationSettingsWindow_Save}"
-                                    Click="OnSaveClipboardFormatClick"/>
-                            <Button Classes="compact"
-                                    MinWidth="84"
-                                    Content="{x:Static res:Strings.ApplicationSettingsWindow_Cancel}"
-                                    Click="OnCancelClipboardFormatClick"/>
-                        </StackPanel>
-                    </Grid>
-                </Border>
-            </Border>
         </Grid>
     </ThemeVariantScope>
 </Window>

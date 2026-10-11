@@ -390,9 +390,6 @@
   <data name="EditorView_Undo" xml:space="preserve">
     <value>เลิกทำ</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>Upโหลดรูปภาพ (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>URL ไม่ได้ชี้ไปยังรูปภาพที่ถูกต้อง</value>
   </data>
@@ -1227,9 +1224,6 @@
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>รูปภาพ แทรกแล้ว.</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>กำลังอัปโหลดรูปภาพ</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>รูปภาพ เปิดแล้ว.</value>
   </data>
@@ -1262,6 +1256,9 @@
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>ไม่มี รูปภาพ</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>ใช้การเร่งด้วยกราฟิกสำหรับ OCR</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>เรียกใช้ หลังจับภาพ งาน (ป้อน)</value>
@@ -1301,6 +1298,54 @@
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>ความกว้าง:</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>เอนจิน OCR</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>ShareX OCR ไม่พร้อมใช้งานบนแพลตฟอร์มนี้ เลือก Xiaomi OCR ในการตั้งค่าตัวแก้ไข</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>ไม่สามารถดำเนินการให้เสร็จสมบูรณ์ได้</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>ยกเลิกการรู้จำข้อความแล้ว</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>คัดลอกไปยังคลิปบอร์ด</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>กำลังดาวน์โหลดไฟล์ OCR…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>การรู้จำข้อความล้มเหลว</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>กำลังโหลดโมเดล OCR…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>กำลังเตรียมไฟล์ OCR เพื่อให้โหลดได้เร็วขึ้น…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>กำลังรู้จำข้อความ…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>บันทึกลงไฟล์</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>ไฟล์ข้อความ</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>การรู้จำข้อความ</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>นำไปใช้</value>

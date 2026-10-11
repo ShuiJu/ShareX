@@ -48,7 +48,6 @@ namespace ShareX
                     {
                         CleanupFolder(SettingManager.BackupFolder, "ApplicationConfig-*.json", keepFileCount);
                         CleanupFolder(SettingManager.BackupFolder, "HotkeysConfig-*.json", keepFileCount);
-                        CleanupFolder(SettingManager.BackupFolder, "UploadersConfig-*.json", keepFileCount);
                         CleanupFolder(SettingManager.BackupFolder, "History-*.json", keepFileCount);
                     }
 

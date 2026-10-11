@@ -390,9 +390,6 @@
   <data name="EditorView_Undo" xml:space="preserve">
     <value>Отменить</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>Загрузить изображение (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>URL-адрес не указывает на допустимое изображение.</value>
   </data>
@@ -1227,9 +1224,6 @@
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>Изображение вставлено.</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>Изображение загружается.</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>Изображение открыто.</value>
   </data>
@@ -1262,6 +1256,9 @@
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>Нет изображения</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>Использовать графическое ускорение для OCR</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Выполнить задачи после захвата (Enter)</value>
@@ -1301,6 +1298,54 @@
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>Ширина:</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>Движок OCR</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>ShareX OCR недоступен на этой платформе. Выберите Xiaomi OCR в настройках редактора.</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>Не удалось завершить действие.</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>Распознавание текста отменено.</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>Копировать в буфер обмена</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>Загрузка файлов OCR…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>Не удалось распознать текст.</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>Загрузка модели OCR…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>Подготовка файлов OCR для ускорения загрузки…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>Распознавание текста…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>Сохранить в файл</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>Текстовый файл</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>Распознавание текста</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>Применить</value>

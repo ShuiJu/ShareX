@@ -1410,13 +1410,6 @@ namespace ShareX.ImageEditor.Presentation.Views
                                 e.Handled = true;
                             }
                             break;
-                        case Key.U:
-                            if (vm.UploadCommand.CanExecute(null))
-                            {
-                                vm.UploadCommand.Execute(null);
-                                e.Handled = true;
-                            }
-                            break;
                     }
                 }
                 else if (e.KeyModifiers == KeyModifiers.None || e.KeyModifiers == KeyModifiers.Shift)

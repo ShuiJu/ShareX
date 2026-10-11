@@ -150,7 +150,7 @@
                             <Grid ColumnDefinitions="*,Auto" Margin="12">
                                 <TextBlock Classes="section-heading" Text="{x:Static localization:Strings.DirectoryIndexerWindow_Generated_output}" Margin="0" VerticalAlignment="Center"/>
                                 <TextBlock Grid.Column="1"
-                                           Text="{x:Static localization:Strings.DirectoryIndexerWindow_Ready_to_save_or_upload}"
+                                           Text="{x:Static localization:Strings.DirectoryIndexerWindow_Ready_to_save}"
                                            IsVisible="{Binding HasSource}"
                                            FontWeight="Normal"
                                            Foreground="{DynamicResource ShareX.Brush.Accent.Start}"
@@ -178,7 +178,7 @@
                                                FontSize="44"
                                                Foreground="{DynamicResource ShareX.Brush.Text.Secondary}"
                                                HorizontalAlignment="Center"/>
-                                    <TextBlock Text="{x:Static localization:Strings.DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save_or_upload}"
+                                    <TextBlock Text="{x:Static localization:Strings.DirectoryIndexerWindow_The_HTML_index_was_generated_successfully_HTML_preview_is_unavailable_but_the_output_is_ready_to_save}"
                                                FontWeight="Normal"
                                                Foreground="{DynamicResource ShareX.Brush.Text.Secondary}"
                                                TextAlignment="Center"
@@ -195,7 +195,7 @@
                                                FontSize="44"
                                                Foreground="{DynamicResource ShareX.Brush.Text.Secondary}"
                                                HorizontalAlignment="Center"/>
-                                    <TextBlock Text="{x:Static localization:Strings.DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as_or_Upload}"
+                                    <TextBlock Text="{x:Static localization:Strings.DirectoryIndexerWindow_Choose_a_folder_and_generate_output_Nothing_is_saved_until_you_use_Save_as}"
                                                FontWeight="Normal"
                                                Foreground="{DynamicResource ShareX.Brush.Text.Secondary}"
                                                TextAlignment="Center"
@@ -217,12 +217,6 @@
                         <StackPanel Orientation="Horizontal" Spacing="8">
                             <TextBlock Classes="icon" Text="{x:Static theming:LucideIcons.save}"/>
                             <TextBlock Text="{x:Static localization:Strings.DirectoryIndexerWindow_Save_as}"/>
-                        </StackPanel>
-                    </Button>
-                    <Button Grid.Column="2" Command="{Binding UploadCommand}" IsEnabled="{Binding HasSource}">
-                        <StackPanel Orientation="Horizontal" Spacing="8">
-                            <TextBlock Classes="icon" Text="{x:Static theming:LucideIcons.upload}"/>
-                            <TextBlock Text="{x:Static localization:Strings.DirectoryIndexerWindow_Upload}"/>
                         </StackPanel>
                     </Button>
                 </Grid>

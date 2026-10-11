@@ -121,13 +121,6 @@
                             <TextBlock Text="{x:Static localization:Strings.QRCodeWindow_Save}"/>
                         </StackPanel>
                     </Button>
-                    <Button Grid.Column="2" Command="{Binding UploadImageCommand}" IsEnabled="{Binding HasQRCode}">
-                        <StackPanel Orientation="Horizontal" Spacing="8">
-                            <TextBlock Text="{x:Static theming:LucideIcons.upload}"
-                                       Classes="icon"/>
-                            <TextBlock Text="{x:Static localization:Strings.QRCodeWindow_Upload}"/>
-                        </StackPanel>
-                    </Button>
                 </Grid>
             </Grid>
         </Grid>

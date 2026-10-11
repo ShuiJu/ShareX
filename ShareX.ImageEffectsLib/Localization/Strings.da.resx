@@ -1103,7 +1103,4 @@ Værdien skal være mellem 1 og 100.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Unavngiven forudindstilling</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Upload billede</value>
-  </data>
 </root>

@@ -424,9 +424,6 @@ namespace ShareX.HelpersLib.Localization {
         public static string AfterCaptureTasks_AddImageEffects {
             get { return ResourceManager.GetString("AfterCaptureTasks_AddImageEffects", resourceCulture); }
         }
-        public static string AfterCaptureTasks_AnalyzeImage {
-            get { return ResourceManager.GetString("AfterCaptureTasks_AnalyzeImage", resourceCulture); }
-        }
         public static string AfterCaptureTasks_AnnotateImage {
             get { return ResourceManager.GetString("AfterCaptureTasks_AnnotateImage", resourceCulture); }
         }
@@ -475,35 +472,11 @@ namespace ShareX.HelpersLib.Localization {
         public static string AfterCaptureTasks_ShowAfterCaptureWindow {
             get { return ResourceManager.GetString("AfterCaptureTasks_ShowAfterCaptureWindow", resourceCulture); }
         }
-        public static string AfterCaptureTasks_ShowBeforeUploadWindow {
-            get { return ResourceManager.GetString("AfterCaptureTasks_ShowBeforeUploadWindow", resourceCulture); }
-        }
         public static string AfterCaptureTasks_ShowInExplorer {
             get { return ResourceManager.GetString("AfterCaptureTasks_ShowInExplorer", resourceCulture); }
         }
         public static string AfterCaptureTasks_ShowQuickTaskMenu {
             get { return ResourceManager.GetString("AfterCaptureTasks_ShowQuickTaskMenu", resourceCulture); }
-        }
-        public static string AfterCaptureTasks_UploadImageToHost {
-            get { return ResourceManager.GetString("AfterCaptureTasks_UploadImageToHost", resourceCulture); }
-        }
-        public static string AfterUploadTasks_CopyURLToClipboard {
-            get { return ResourceManager.GetString("AfterUploadTasks_CopyURLToClipboard", resourceCulture); }
-        }
-        public static string AfterUploadTasks_OpenURL {
-            get { return ResourceManager.GetString("AfterUploadTasks_OpenURL", resourceCulture); }
-        }
-        public static string AfterUploadTasks_ShareURL {
-            get { return ResourceManager.GetString("AfterUploadTasks_ShareURL", resourceCulture); }
-        }
-        public static string AfterUploadTasks_ShowAfterUploadWindow {
-            get { return ResourceManager.GetString("AfterUploadTasks_ShowAfterUploadWindow", resourceCulture); }
-        }
-        public static string AfterUploadTasks_ShowQRCode {
-            get { return ResourceManager.GetString("AfterUploadTasks_ShowQRCode", resourceCulture); }
-        }
-        public static string AfterUploadTasks_UseURLShortener {
-            get { return ResourceManager.GetString("AfterUploadTasks_UseURLShortener", resourceCulture); }
         }
         public static string ArrowHeadDirection_Both {
             get { return ResourceManager.GetString("ArrowHeadDirection_Both", resourceCulture); }
@@ -537,21 +510,6 @@ namespace ShareX.HelpersLib.Localization {
         }
         public static string CodeMenuEntryFilename_RandomAnimal {
             get { return ResourceManager.GetString("CodeMenuEntryFilename_RandomAnimal", resourceCulture); }
-        }
-        public static string CustomUploaderDestinationType_FileUploader {
-            get { return ResourceManager.GetString("CustomUploaderDestinationType_FileUploader", resourceCulture); }
-        }
-        public static string CustomUploaderDestinationType_ImageUploader {
-            get { return ResourceManager.GetString("CustomUploaderDestinationType_ImageUploader", resourceCulture); }
-        }
-        public static string CustomUploaderDestinationType_TextUploader {
-            get { return ResourceManager.GetString("CustomUploaderDestinationType_TextUploader", resourceCulture); }
-        }
-        public static string CustomUploaderDestinationType_URLSharingService {
-            get { return ResourceManager.GetString("CustomUploaderDestinationType_URLSharingService", resourceCulture); }
-        }
-        public static string CustomUploaderDestinationType_URLShortener {
-            get { return ResourceManager.GetString("CustomUploaderDestinationType_URLShortener", resourceCulture); }
         }
         public static string CutOutEffectType_None {
             get { return ResourceManager.GetString("CutOutEffectType_None", resourceCulture); }
@@ -628,15 +586,6 @@ namespace ShareX.HelpersLib.Localization {
         public static string Error {
             get { return ResourceManager.GetString("Error", resourceCulture); }
         }
-        public static string FileDestination_CustomFileUploader {
-            get { return ResourceManager.GetString("FileDestination_CustomFileUploader", resourceCulture); }
-        }
-        public static string FileDestination_Email {
-            get { return ResourceManager.GetString("FileDestination_Email", resourceCulture); }
-        }
-        public static string FileDestination_SharedFolder {
-            get { return ResourceManager.GetString("FileDestination_SharedFolder", resourceCulture); }
-        }
         public static string FileExistAction_Ask {
             get { return ResourceManager.GetString("FileExistAction_Ask", resourceCulture); }
         }
@@ -688,9 +637,6 @@ namespace ShareX.HelpersLib.Localization {
         public static string HotkeyType_ActiveWindowTopMost {
             get { return ResourceManager.GetString("HotkeyType_ActiveWindowTopMost", resourceCulture); }
         }
-        public static string HotkeyType_AnalyzeImage {
-            get { return ResourceManager.GetString("HotkeyType_AnalyzeImage", resourceCulture); }
-        }
         public static string HotkeyType_AutoCapture {
             get { return ResourceManager.GetString("HotkeyType_AutoCapture", resourceCulture); }
         }
@@ -712,15 +658,6 @@ namespace ShareX.HelpersLib.Localization {
         public static string HotkeyType_Category_Tools {
             get { return ResourceManager.GetString("HotkeyType_Category_Tools", resourceCulture); }
         }
-        public static string HotkeyType_Category_Upload {
-            get { return ResourceManager.GetString("HotkeyType_Category_Upload", resourceCulture); }
-        }
-        public static string HotkeyType_ClipboardUpload {
-            get { return ResourceManager.GetString("HotkeyType_ClipboardUpload", resourceCulture); }
-        }
-        public static string HotkeyType_ClipboardUploadWithContentViewer {
-            get { return ResourceManager.GetString("HotkeyType_ClipboardUploadWithContentViewer", resourceCulture); }
-        }
         public static string HotkeyType_ClipboardViewer {
             get { return ResourceManager.GetString("HotkeyType_ClipboardViewer", resourceCulture); }
         }
@@ -736,17 +673,8 @@ namespace ShareX.HelpersLib.Localization {
         public static string HotkeyType_DisableHotkeys {
             get { return ResourceManager.GetString("HotkeyType_DisableHotkeys", resourceCulture); }
         }
-        public static string HotkeyType_DragDropUpload {
-            get { return ResourceManager.GetString("HotkeyType_DragDropUpload", resourceCulture); }
-        }
         public static string HotkeyType_ExitShareX {
             get { return ResourceManager.GetString("HotkeyType_ExitShareX", resourceCulture); }
-        }
-        public static string HotkeyType_FileUpload {
-            get { return ResourceManager.GetString("HotkeyType_FileUpload", resourceCulture); }
-        }
-        public static string HotkeyType_FolderUpload {
-            get { return ResourceManager.GetString("HotkeyType_FolderUpload", resourceCulture); }
         }
         public static string HotkeyType_HashCheck {
             get { return ResourceManager.GetString("HotkeyType_HashCheck", resourceCulture); }
@@ -883,9 +811,6 @@ namespace ShareX.HelpersLib.Localization {
         public static string HotkeyType_ScrollingCapture {
             get { return ResourceManager.GetString("HotkeyType_ScrollingCapture", resourceCulture); }
         }
-        public static string HotkeyType_ShortenURL {
-            get { return ResourceManager.GetString("HotkeyType_ShortenURL", resourceCulture); }
-        }
         public static string HotkeyType_StartAutoCapture {
             get { return ResourceManager.GetString("HotkeyType_StartAutoCapture", resourceCulture); }
         }
@@ -901,9 +826,6 @@ namespace ShareX.HelpersLib.Localization {
         public static string HotkeyType_StopScreenRecording {
             get { return ResourceManager.GetString("HotkeyType_StopScreenRecording", resourceCulture); }
         }
-        public static string HotkeyType_StopUploads {
-            get { return ResourceManager.GetString("HotkeyType_StopUploads", resourceCulture); }
-        }
         public static string HotkeyType_StripMetadata {
             get { return ResourceManager.GetString("HotkeyType_StripMetadata", resourceCulture); }
         }
@@ -913,12 +835,6 @@ namespace ShareX.HelpersLib.Localization {
         public static string HotkeyType_ToggleTrayMenu {
             get { return ResourceManager.GetString("HotkeyType_ToggleTrayMenu", resourceCulture); }
         }
-        public static string HotkeyType_UploadText {
-            get { return ResourceManager.GetString("HotkeyType_UploadText", resourceCulture); }
-        }
-        public static string HotkeyType_UploadURL {
-            get { return ResourceManager.GetString("HotkeyType_UploadURL", resourceCulture); }
-        }
         public static string HotkeyType_VideoConverter {
             get { return ResourceManager.GetString("HotkeyType_VideoConverter", resourceCulture); }
         }
@@ -927,12 +843,6 @@ namespace ShareX.HelpersLib.Localization {
         }
         public static string HSB_ToString_ {
             get { return ResourceManager.GetString("HSB_ToString_", resourceCulture); }
-        }
-        public static string ImageDestination_CustomImageUploader {
-            get { return ResourceManager.GetString("ImageDestination_CustomImageUploader", resourceCulture); }
-        }
-        public static string ImageDestination_FileUploader {
-            get { return ResourceManager.GetString("ImageDestination_FileUploader", resourceCulture); }
         }
         public static string ImgurThumbnailType_Big_Square {
             get { return ResourceManager.GetString("ImgurThumbnailType_Big_Square", resourceCulture); }
@@ -1222,12 +1132,6 @@ namespace ShareX.HelpersLib.Localization {
         public static string SupportedLanguage_Automatic {
             get { return ResourceManager.GetString("SupportedLanguage_Automatic", resourceCulture); }
         }
-        public static string TextDestination_CustomTextUploader {
-            get { return ResourceManager.GetString("TextDestination_CustomTextUploader", resourceCulture); }
-        }
-        public static string TextDestination_FileUploader {
-            get { return ResourceManager.GetString("TextDestination_FileUploader", resourceCulture); }
-        }
         public static string ThumbnailTitleLocation_Bottom {
             get { return ResourceManager.GetString("ThumbnailTitleLocation_Bottom", resourceCulture); }
         }
@@ -1288,9 +1192,6 @@ namespace ShareX.HelpersLib.Localization {
         public static string ToastClickAction_PinToScreen {
             get { return ResourceManager.GetString("ToastClickAction_PinToScreen", resourceCulture); }
         }
-        public static string ToastClickAction_Upload {
-            get { return ResourceManager.GetString("ToastClickAction_Upload", resourceCulture); }
-        }
         public static string UpdateChannel_Dev {
             get { return ResourceManager.GetString("UpdateChannel_Dev", resourceCulture); }
         }
@@ -1314,21 +1215,6 @@ namespace ShareX.HelpersLib.Localization {
         }
         public static string UpdateMessageBox_UpdateMessageBox_update_is_available {
             get { return ResourceManager.GetString("UpdateMessageBox_UpdateMessageBox_update_is_available", resourceCulture); }
-        }
-        public static string URLSharingServices_BingVisualSearch {
-            get { return ResourceManager.GetString("URLSharingServices_BingVisualSearch", resourceCulture); }
-        }
-        public static string URLSharingServices_CustomURLSharingService {
-            get { return ResourceManager.GetString("URLSharingServices_CustomURLSharingService", resourceCulture); }
-        }
-        public static string URLSharingServices_Email {
-            get { return ResourceManager.GetString("URLSharingServices_Email", resourceCulture); }
-        }
-        public static string URLSharingServices_GoogleImageSearch {
-            get { return ResourceManager.GetString("URLSharingServices_GoogleImageSearch", resourceCulture); }
-        }
-        public static string UrlShortenerType_CustomURLShortener {
-            get { return ResourceManager.GetString("UrlShortenerType_CustomURLShortener", resourceCulture); }
         }
         public static string YouTubeVideoPrivacy_Private {
             get { return ResourceManager.GetString("YouTubeVideoPrivacy_Private", resourceCulture); }

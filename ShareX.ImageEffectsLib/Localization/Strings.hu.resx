@@ -1103,7 +1103,4 @@ Az értéknek 1 és 100 között kell lennie.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Névtelen előbeállítás</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Feltöltés Kép</value>
-  </data>
 </root>

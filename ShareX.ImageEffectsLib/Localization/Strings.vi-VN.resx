@@ -1103,7 +1103,4 @@ Giá trị phải nằm trong khoảng từ 1 đến 100.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Thiết lập sẵn chưa đặt tên</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Tải lên Ảnh</value>
-  </data>
 </root>

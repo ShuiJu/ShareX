@@ -390,9 +390,6 @@ Clipboard does not contain an image.</value>
   <data name="EditorView_Undo" xml:space="preserve">
     <value>Undo</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>Upload image (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>The URL does not point to a valid image.</value>
   </data>
@@ -1227,9 +1224,6 @@ Clipboard does not contain an image.</value>
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>Image inserted.</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>Image is uploading.</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>Image opened.</value>
   </data>
@@ -1262,6 +1256,9 @@ Clipboard does not contain an image.</value>
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>No image</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>Use graphics acceleration for OCR</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Run after capture tasks (Enter)</value>
@@ -1301,6 +1298,54 @@ Clipboard does not contain an image.</value>
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>Width:</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>OCR engine</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>ShareX OCR is unavailable on this platform. Select Xiaomi OCR in the editor settings.</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>The action could not be completed.</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>Text recognition cancelled.</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>Downloading OCR files…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>Text recognition failed.</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>Loading OCR model…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>Preparing OCR files for faster loading…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>Recognizing text…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>Save to file</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>Text file</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>Text recognition</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>Apply</value>

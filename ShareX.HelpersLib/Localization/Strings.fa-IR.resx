@@ -67,9 +67,6 @@
   <data name="AfterCaptureTasks_AddImageEffects" xml:space="preserve">
     <value>اضافه کردن افکت های عکس / واترمارک</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>تحلیل تصویر</value>
-  </data>
   <data name="AfterCaptureTasks_AnnotateImage" xml:space="preserve">
     <value>بازکردن در ویرایشگر عکس</value>
   </data>
@@ -118,35 +115,11 @@
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>نشان دادن پنجره "بعد از ضبط"</value>
   </data>
-  <data name="AfterCaptureTasks_ShowBeforeUploadWindow" xml:space="preserve">
-    <value>نشان دادن پنجره "قبل آپلود"</value>
-  </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>نشان دادن فایل در Explorer</value>
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>نمایش منوی وظایف سریع</value>
-  </data>
-  <data name="AfterCaptureTasks_UploadImageToHost" xml:space="preserve">
-    <value>آپلودکردن عکس به هاست</value>
-  </data>
-  <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
-    <value>کپی کردن آدرس به کلیپ بورد</value>
-  </data>
-  <data name="AfterUploadTasks_OpenURL" xml:space="preserve">
-    <value>بازکردن آدرس</value>
-  </data>
-  <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
-    <value>اشتراک گذاری آدرس</value>
-  </data>
-  <data name="AfterUploadTasks_ShowAfterUploadWindow" xml:space="preserve">
-    <value>نشان دادن پنجره "بعد آپلود"</value>
-  </data>
-  <data name="AfterUploadTasks_ShowQRCode" xml:space="preserve">
-    <value>نمایش پنجره کد QR</value>
-  </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>کوتاه کردن آدرس</value>
   </data>
   <data name="AppVeyorUpdateChecker_Deployment_file_not_found" xml:space="preserve">
     <value>فایل «{0}» پیدا نشد.</value>
@@ -367,21 +340,6 @@
   <data name="ColorPickerWindow_Yellow_percent" xml:space="preserve">
     <value>زرد %</value>
   </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>آپلود کننده فایل</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>آپلود کننده عکس</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>آپلود کننده های متن</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>سرویس اشتراک گذاری لینک</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>کوتاه کننده لینک</value>
-  </data>
   <data name="CutOutEffectType_None" xml:space="preserve">
     <value>بدون جلوه</value>
   </data>
@@ -510,15 +468,6 @@
   <data name="FFmpegCLIManager_Error_title" xml:space="preserve">
     <value>خطای FFmpeg</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>سفارشی فایل بارگذاریer</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>ایمیل:</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>پوشه به اشتراک گذاری شده</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>پرسیدن اینکه چه کاری انجام شود</value>
   </data>
@@ -609,9 +558,6 @@
   <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
     <value>Make active پنجره بالا most</value>
   </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>تحلیل تصویر</value>
-  </data>
   <data name="HotkeyType_AnimatedGifTrimmer" xml:space="preserve">
     <value>برش‌دهندهٔ GIF متحرک</value>
   </data>
@@ -636,15 +582,6 @@
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>ابزار</value>
   </data>
-  <data name="HotkeyType_Category_Upload" xml:space="preserve">
-    <value>آپلود</value>
-  </data>
-  <data name="HotkeyType_ClipboardUpload" xml:space="preserve">
-    <value>آپلود از کلیپ بورد</value>
-  </data>
-  <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
-    <value>بارگذاری from کلیپ‌بورد with content viewer</value>
-  </data>
   <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
     <value>نمایشگر کلیپ‌بورد</value>
   </data>
@@ -660,17 +597,8 @@
   <data name="HotkeyType_DisableHotkeys" xml:space="preserve">
     <value>غیرفعال/فعال کردن کلیدهای میانبر</value>
   </data>
-  <data name="HotkeyType_DragDropUpload" xml:space="preserve">
-    <value>آپلود با کشیدن و رهاکردن</value>
-  </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
     <value>خروج از برنامه</value>
-  </data>
-  <data name="HotkeyType_FileUpload" xml:space="preserve">
-    <value>آپلود فایل</value>
-  </data>
-  <data name="HotkeyType_FolderUpload" xml:space="preserve">
-    <value>آپلود پوشه</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>چک کردن Hash</value>
@@ -810,9 +738,6 @@
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>ضبط تصویر با اسکرول...</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>کوتاه کردن آدرس</value>
-  </data>
   <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
     <value>شروع auto ضبط using last ناحیه</value>
   </data>
@@ -828,9 +753,6 @@
   <data name="HotkeyType_StopScreenRecording" xml:space="preserve">
     <value>توقف ضبط صفحه</value>
   </data>
-  <data name="HotkeyType_StopUploads" xml:space="preserve">
-    <value>توقف تمام آپلودهای جاری</value>
-  </data>
   <data name="HotkeyType_StripMetadata" xml:space="preserve">
     <value>حذف فراداده</value>
   </data>
@@ -840,12 +762,6 @@
   <data name="HotkeyType_ToggleTrayMenu" xml:space="preserve">
     <value>Toggle tray منو</value>
   </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>آپلود متن</value>
-  </data>
-  <data name="HotkeyType_UploadURL" xml:space="preserve">
-    <value>بارگذاری from URL</value>
-  </data>
   <data name="HotkeyType_VideoConverter" xml:space="preserve">
     <value>مبدل ویدئو</value>
   </data>
@@ -854,12 +770,6 @@
   </data>
   <data name="HotkeyType_VideoTrimmer" xml:space="preserve">
     <value>دستگاه اصلاح تصویری</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>آپلود کننده عکس سفارشی</value>
-  </data>
-  <data name="ImageDestination_FileUploader" xml:space="preserve">
-    <value>آپلودکننده فایل</value>
   </data>
   <data name="ImageHelpers_Image_files" xml:space="preserve">
     <value>فایل‌های تصویری</value>
@@ -1218,12 +1128,6 @@
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>خودکار</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>آپلود کننده متن سفارشی</value>
-  </data>
-  <data name="TextDestination_FileUploader" xml:space="preserve">
-    <value>آپلود کننده فایل</value>
-  </data>
   <data name="ThumbnailTitleLocation_Bottom" xml:space="preserve">
     <value>پایین</value>
   </data>
@@ -1284,9 +1188,6 @@
   <data name="ToastClickAction_PinToScreen" xml:space="preserve">
     <value>سنجاق به صفحه</value>
   </data>
-  <data name="ToastClickAction_Upload" xml:space="preserve">
-    <value>بارگذاری فایل</value>
-  </data>
   <data name="Translator_ASCII" xml:space="preserve">
     <value>ASCII</value>
   </data>
@@ -1304,18 +1205,6 @@
   </data>
   <data name="URLHelpers_Invalid_URL" xml:space="preserve">
     <value>نشانی اینترنتی نامعتبر است.</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>جستجوی تصویری Bing</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>سفارشی URL sharing سرویس</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>ایمیل:</value>
-  </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google Lens</value>
   </data>
   <data name="UpdateChannel_Dev" xml:space="preserve">
     <value>توسعه</value>
@@ -1346,9 +1235,6 @@
   </data>
   <data name="UpdateMessageWindow_View_changelog" xml:space="preserve">
     <value>مشاهده فهرست تغییرات</value>
-  </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>سفارشی URL shortener</value>
   </data>
   <data name="VideoInfo_Audio_details" xml:space="preserve">
     <value>، کدک صدا: {0}</value>

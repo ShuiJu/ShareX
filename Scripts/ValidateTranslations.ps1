@@ -140,32 +140,6 @@ $projects = @(
         ResourceBaseName = 'ShareX.Tools.Localization.Strings'
         DynamicPrefixes = @()
     }
-    [pscustomobject]@{
-        Name = 'ShareX.UploadersLib'
-        ResourceBaseName = 'ShareX.UploadersLib.Localization.Strings'
-        DynamicPrefixes = @(
-            'AccountType_'
-            'AmazonS3StorageClass_'
-            'BoxShareAccessLevel_'
-            'BrowserProtocol_'
-            'CustomUploaderBody_'
-            'CustomUploaderDestinationType_'
-            'DestinationSettings_Field_'
-            'FileDestination_'
-            'FTPProtocol_'
-            'ImageDestination_'
-            'ImgurThumbnailType_'
-            'LinkFormatEnum_'
-            'PastebinExpiration_'
-            'PastebinPrivacy_'
-            'PrivateBinExpiration_'
-            'PrivateBinFormat_'
-            'TextDestination_'
-            'URLSharingServices_'
-            'UrlShortenerType_'
-            'YouTubeVideoPrivacy_'
-        )
-    }
 )
 
 function Add-ValidationError([string]$message)
@@ -678,17 +652,6 @@ foreach ($project in $projects)
                 -not $sourceText.Contains('GetLocalizedCategory(Localization.Strings.ResourceManager)'))
             {
                 Add-ValidationError "$($project.Name): data-driven enum localization lookup is missing."
-            }
-        }
-        elseif ($project.Name -eq 'ShareX.UploadersLib')
-        {
-            if (-not $sourceText.Contains('GetLocalizedDescription(Localization.Strings.ResourceManager)'))
-            {
-                Add-ValidationError "$($project.Name): data-driven enum localization lookup is missing."
-            }
-            if (-not $sourceText.Contains('"DestinationSettings_Field_" +') -or -not $sourceText.Contains('ResourceManager.GetString(resourceName)'))
-            {
-                Add-ValidationError "$($project.Name): data-driven destination-field localization lookup is missing."
             }
         }
 

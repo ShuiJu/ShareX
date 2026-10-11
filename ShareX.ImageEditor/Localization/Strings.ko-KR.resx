@@ -390,9 +390,6 @@
   <data name="EditorView_Undo" xml:space="preserve">
     <value>되돌리기</value>
   </data>
-  <data name="EditorView_UploadimageCtrlU" xml:space="preserve">
-    <value>이미지 업로드 (Ctrl+U)</value>
-  </data>
   <data name="EditorView_UrlDoesNotPointToValidImage" xml:space="preserve">
     <value>URL이 올바른 이미지를 가리키지 않습니다.</value>
   </data>
@@ -1227,9 +1224,6 @@
   <data name="MainViewModel_ImageInserted" xml:space="preserve">
     <value>이미지를 삽입했습니다.</value>
   </data>
-  <data name="MainViewModel_ImageIsUploading" xml:space="preserve">
-    <value>이미지를 업로드하고 있습니다.</value>
-  </data>
   <data name="MainViewModel_ImageOpened" xml:space="preserve">
     <value>이미지를 열었습니다.</value>
   </data>
@@ -1262,6 +1256,9 @@
   </data>
   <data name="MainViewModel_NoImage" xml:space="preserve">
     <value>이미지 없음</value>
+  </data>
+  <data name="MainViewModel_OcrGpuAcceleration" xml:space="preserve">
+    <value>OCR에 그래픽 가속 사용</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>캡처 후 작업 실행 (Enter)</value>
@@ -1301,6 +1298,54 @@
   </data>
   <data name="NewImageDialogView_Width" xml:space="preserve">
     <value>너비:</value>
+  </data>
+  <data name="OcrEngine_Label" xml:space="preserve">
+    <value>OCR 엔진</value>
+  </data>
+  <data name="OcrEngine_ShareX" xml:space="preserve">
+    <value>ShareX OCR</value>
+  </data>
+  <data name="OcrEngine_Unavailable" xml:space="preserve">
+    <value>이 플랫폼에서는 ShareX OCR을 사용할 수 없습니다. 편집기 설정에서 Xiaomi OCR을 선택하세요.</value>
+  </data>
+  <data name="OcrEngine_Xiaomi" xml:space="preserve">
+    <value>Xiaomi OCR</value>
+  </data>
+  <data name="OcrWindow_ActionFailed" xml:space="preserve">
+    <value>작업을 완료할 수 없습니다.</value>
+  </data>
+  <data name="OcrWindow_Cancelled" xml:space="preserve">
+    <value>텍스트 인식이 취소되었습니다.</value>
+  </data>
+  <data name="OcrWindow_Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="OcrWindow_Copy" xml:space="preserve">
+    <value>클립보드에 복사</value>
+  </data>
+  <data name="OcrWindow_Download" xml:space="preserve">
+    <value>OCR 파일 다운로드 중…</value>
+  </data>
+  <data name="OcrWindow_Failed" xml:space="preserve">
+    <value>텍스트 인식에 실패했습니다.</value>
+  </data>
+  <data name="OcrWindow_Loading" xml:space="preserve">
+    <value>OCR 모델 불러오는 중…</value>
+  </data>
+  <data name="OcrWindow_Preparing" xml:space="preserve">
+    <value>더 빠른 로딩을 위해 OCR 파일 준비 중…</value>
+  </data>
+  <data name="OcrWindow_Recognizing" xml:space="preserve">
+    <value>텍스트 인식 중…</value>
+  </data>
+  <data name="OcrWindow_Save" xml:space="preserve">
+    <value>파일로 저장</value>
+  </data>
+  <data name="OcrWindow_TextFile" xml:space="preserve">
+    <value>텍스트 파일</value>
+  </data>
+  <data name="OcrWindow_Title" xml:space="preserve">
+    <value>텍스트 인식</value>
   </data>
   <data name="SchemaDrivenEffectDialog_Apply" xml:space="preserve">
     <value>적용</value>

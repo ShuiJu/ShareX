@@ -125,6 +125,12 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
                 case ToolbarCustomizationItemViewModel.FileItemId:
                     FileMenuRequested?.Invoke(this, EventArgs.Empty);
                     break;
+                case ToolbarCustomizationItemViewModel.OcrItemId:
+                    if (RecognizeTextCommand.CanExecute(null))
+                    {
+                        RecognizeTextCommand.Execute(null);
+                    }
+                    break;
                 case ToolbarCustomizationItemViewModel.BackgroundItemId:
                     ToggleSettingsPanelCommand.Execute(null);
                     break;

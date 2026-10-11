@@ -1103,7 +1103,4 @@ Hodnota musí být od 1 do 100.</value>
   <data name="ImageEffectsWindow_Unnamed_preset" xml:space="preserve">
     <value>Nepojmenovaná předvolba</value>
   </data>
-  <data name="ImageEffectsWindow_Upload_image" xml:space="preserve">
-    <value>Nahrát obrázek</value>
-  </data>
 </root>

@@ -24,6 +24,7 @@
 #endregion License Information (GPL v3)
 
 using ShareX.ImageEditor.Integration.Diagnostics;
+using ShareX.ImageEditor.Core.OCR;
 using System.Diagnostics;
 
 namespace ShareX.ImageEditor.Integration;
@@ -47,6 +48,13 @@ public static class EditorServices
     /// Optional diagnostics sink for exception/messages emitted by ImageEditor.
     /// </summary>
     public static IEditorDiagnosticsSink? Diagnostics { get; set; }
+
+    public static string OcrModelDirectory { get; set; } = Path.Combine(
+        Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+        "ShareX", "ImageEditor", "Models", "XiaomiOCR");
+
+    public static IOcrService BuiltInOcr { get; set; } = new WindowsOcrService(null);
+    public static IOcrService XiaomiOcr { get; set; } = new XiaomiOcrService();
 
     /// <summary>
     /// Optional service for resolving the current desktop wallpaper path.

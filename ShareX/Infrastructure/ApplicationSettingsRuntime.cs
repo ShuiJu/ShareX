@@ -65,7 +65,6 @@ internal static class ApplicationSettingsRuntime
         ApplicationConfig settings = ApplicationState.Settings;
 
         HelpersOptions.CurrentProxy = settings.ProxySettings;
-        HelpersOptions.URLEncodeIgnoreEmoji = settings.URLEncodeIgnoreEmoji;
         HelpersOptions.DefaultCopyImageFillBackground = settings.DefaultClipboardCopyImageFillBackground;
         HelpersOptions.UseAlternativeClipboardCopyImage = settings.UseAlternativeClipboardCopyImage;
         HelpersOptions.UseAlternativeClipboardGetImage = settings.UseAlternativeClipboardGetImage;
@@ -108,9 +107,6 @@ internal static class ApplicationSettingsRuntime
             ApplyCore(refreshMenus: false);
             await hotkeyHost.UpdateHotkeysAsync();
 
-            ApplicationState.WatchFolderManager ??= new WatchFolderManager();
-            ApplicationState.WatchFolderManager.UpdateWatchFolders();
-            DebugHelper.WriteLine("WatchFolderManager started.");
 
             MainWindowIntegration.RefreshMenus();
         }

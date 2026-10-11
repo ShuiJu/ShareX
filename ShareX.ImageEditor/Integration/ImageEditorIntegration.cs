@@ -38,7 +38,6 @@ namespace ShareX.ImageEditor.Integration
         public Func<SKBitmap, string?, string?>? SaveImageAsRequested { get; set; }
         public Action<SKBitmap>? PrintImageRequested { get; set; }
         public Action<SKBitmap>? PinImageRequested { get; set; }
-        public Action<SKBitmap>? UploadImageRequested { get; set; }
         public string? ImageFilePath { get; set; }
     }
 
@@ -244,18 +243,6 @@ namespace ShareX.ImageEditor.Integration
                 };
             }
 
-            if (events.UploadImageRequested != null)
-            {
-                vm.UploadRequested += () =>
-                {
-                    using SKBitmap? skBitmap = window.GetResultBitmap();
-
-                    if (skBitmap != null)
-                    {
-                        events.UploadImageRequested(skBitmap);
-                    }
-                };
-            }
         }
     }
 }
